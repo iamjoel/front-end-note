@@ -29,3 +29,4 @@ Sublime是最性感的浏览器。
 * [前端入行必看](http://www.hunger-train.com/faq.html)
 * [sublime的使用](https://github.com/iamjoel/be-grace-front-end-developer/blob/master/learn/software-use/sublime.md)
 * [啥是浏览器](http://whatbrowser.org/#top)
+* [Chrome调试面板详解](https://app.yinxiang.com/shard/s5/sh/41673470-0a75-4578-be07-7ab57aac9c27/5ce567a0309e091727ba345625ff6cf4)
