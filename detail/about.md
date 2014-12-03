@@ -1,10 +1,18 @@
 # 了解前端
 ## 前端攻城狮介绍
+即页面仔。
+
 ## 互联网公司的工作流程
+* 产品经理（PM或者叫PD）根据可行性调研后提需求
+* 视觉（UE）确定交互视觉稿
+* 前端和后端进行开发
+
 ## 前端具体工作
 ## 前端需要学习的
 近阶段需要学的: html,css,js
+
 ## 浏览器
+
 ## 软件介绍
 ### [Sublime](http://www.sublimetext.com/)
 Sublime是最性感的浏览器。
@@ -13,6 +21,7 @@ Sublime是最性感的浏览器。
     *  SideBarEnhancements 增强右侧边栏菜单的功能
     *  html-css-js prettify 格式化html,css,js代码
     *  Emmet
+
 ### [Chrome官网](http://www.google.cn/intl/zh-CN/chrome/?）
 浏览器
 ### 作业
