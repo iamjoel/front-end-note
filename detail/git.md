@@ -31,3 +31,4 @@ Git是目前世界上最先进的分布式版本控制系统（没有之一）
 ## 拓展阅读
 * [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [史上最浅显易懂的Git教程！](http://rogerdudler.github.io/git-guide/index.zh.html)
+* [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
