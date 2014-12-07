@@ -24,21 +24,19 @@
 ## <a name='work'>前端的具体工作</a>
 1. 与PM，设计师，后端攻城狮沟通
 1. coding
-1. 自测
+1. 将做好的页面在需要兼容的浏览器中查看，测试
 
 ## <a name='softwork'>前端常用软件介绍</a>
 ### [Sublime](http://www.sublimetext.com/)
-最性感的浏览器~
+最性感的编辑器~    
+为了让coding更快乐，安装如下的插件    
+*  BracketHighlighter 高亮匹配的各种括号
+*  SideBarEnhancements 增强右侧边栏菜单的功能
+*  html-css-js prettify 格式化html,css,js代码
+*  Emmet
 
-* 常用插件
-    *  BracketHighlighter 高亮匹配的各种括号
-    *  SideBarEnhancements 增强右侧边栏菜单的功能
-    *  html-css-js prettify 格式化html,css,js代码
-    *  Emmet
-
-### [Chrome官网](http://www.google.cn/intl/zh-CN/chrome/?)
-* 打开Chrome的控制台 F12
-
+### [Chrome](http://www.google.cn/intl/zh-CN/chrome/?)
+> Chrome浏览器是一款专为现代互联网开发的网络浏览器，高速、简约而且安全。
 
 ### <a name='homework'>作业</a>
 * 安装 Sublime以及上面提到的常用插件
@@ -54,4 +52,4 @@
 * [前端入行必看](http://www.hunger-train.com/faq.html)
 * [sublime的使用](https://github.com/iamjoel/be-grace-front-end-developer/blob/master/learn/software-use/sublime.md)
 * [啥是浏览器](http://whatbrowser.org/#top)
-* [Chrome调试面板详解](https://app.yinxiang.com/shard/s5/sh/41673470-0a75-4578-be07-7ab57aac9c27/5ce567a0309e091727ba345625ff6cf4)
+* [Chrome调试工具介绍](http://www.cnblogs.com/wukenaihe/archive/2013/01/27/javascript%E8%B0%83%E8%AF%95.html)
