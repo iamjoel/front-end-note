@@ -5,8 +5,10 @@
 * `ppt` 存放ppt
 
 ## 大纲
-* [了解前端](detail/about.md)  ppt: `ppt/about.html` 完善中
-* [HTML](detail/html.md) 未完成
+* 了解前端 [详细内容](detail/about.md) [ppt](ppt/about.html)
+* HTML
+    * HTML介绍 [详细内容](detail/html/intro) [ppt](ppt/html/intro) 
+    * HTML的常见标签及属性
 
 ## 参考
 * [饥饿谷](http://kejian.sinaapp.com/)
