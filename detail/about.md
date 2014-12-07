@@ -36,7 +36,7 @@
     *  html-css-js prettify 格式化html,css,js代码
     *  Emmet
 
-### [Chrome官网](http://www.google.cn/intl/zh-CN/chrome/?）
+### [Chrome官网](http://www.google.cn/intl/zh-CN/chrome/?)
 * 打开Chrome的控制台 F12
 
 
