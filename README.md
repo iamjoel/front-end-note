@@ -7,6 +7,7 @@
 ## 大纲
 * 了解前端 [详细内容](detail/about.md) [ppt](ppt/about.html)
 * GIT [详细内容](detail/git.md)
+* 给新手的建议 [详细内容](detail/suggest.md)
 * HTML
     * HTML介绍 [详细内容](detail/html/intro.md) [ppt](ppt/html/intro)
     * HTML的常见标签及属性
