@@ -6,6 +6,7 @@
 * [图片](#pic)
 * [列表](#list)
 * [强调](#strong)
+* [斜体](#italic)
 * [删除线](#del-line)
 * [分割线](#split-line)
 * [行内代码](#inline-code)
@@ -15,6 +16,7 @@
 * [块级元素](#block)
 * [复选框](#checkbox)
 * [参考](#reference)
+* [拓展阅读](#reading)
 
 ## <a name="headers">标题</a>
 # h1
@@ -26,7 +28,8 @@
 
 ## <a name="anchor">链接</a>
 跳至[落网](http://www.luoo.net/)    
-新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>
+新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>    
+带title的链接 [落网](http://www.luoo.net/ '落网')    
 
 ## <a name="pic">图片</a>
 ![头像](https://avatars0.githubusercontent.com/u/2120155?v=3&s=40)
@@ -49,6 +52,9 @@
 
 ## <a name="strong">强调</a>
 **强调内容**
+
+## <a name="italic">斜体</a>
+*斜体内容*
 
 ## <a name="del-line">删除线</a>
 ~~这种理解是有问题的~~
@@ -98,4 +104,7 @@ function say(str){
 
 ## <a name="reference">参考</a>
 * [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## <a name="reading">拓展阅读</a>
+* [Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/)
 
