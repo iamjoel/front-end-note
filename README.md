@@ -12,6 +12,9 @@
     * HTML介绍 [详细内容](detail/html/intro.md) [ppt](ppt/html/intro)
     * HTML的常见标签及属性
 
+## 其他
+* [Markdown使用参考](others/markdown.md)
+
 ## 参考
 * [饥饿谷](http://kejian.sinaapp.com/)
 
