@@ -11,8 +11,10 @@
 * [行内代码](#inline-code)
 * [块级代码](#block-code)
 * [表格](#table)
-* [引用](#ref)
+* [引用](#blockquote)
+* [块级元素](#block)
 * [复选框](#checkbox)
+* [参考](#reference)
 
 ## <a name="headers">标题</a>
 # h1
@@ -45,7 +47,7 @@
 * 梨
 
 
-## <a name="strong">强调内容</a>
+## <a name="strong">强调</a>
 **强调内容**
 
 ## <a name="del-line">删除线</a>
@@ -78,9 +80,10 @@ function say(str){
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-## <a name="ref">引用</a>
+## <a name="blockquote">引用</a>
 > 天才就是99%的努力加上1%的灵感。-爱迪生
 
+## <a name="block">块状元素</a>
     天才就是99%的努力加上1%的灵感。
     1%的灵感是很重要的。
                             -爱迪生
@@ -92,3 +95,7 @@ function say(str){
   - [ ] Buy ingredients
   - [ ] Cook recipe
 - [ ] Sleep
+
+## <a name="reference">参考</a>
+* [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
