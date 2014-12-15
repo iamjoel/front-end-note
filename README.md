@@ -9,9 +9,14 @@
 * GIT [详细内容](detail/git.md)
 * 给新手的建议 [详细内容](detail/suggest.md)
 * HTML
-    * HTML介绍 [详细内容](detail/html/intro.md) [ppt](ppt/html/intro)
+    * 介绍 [详细内容](detail/html/intro.md)
     	* [DOCTYPE和浏览器渲染模式](quirks-mode-and-standards-mode.md) 只需了解
-    * HTML的常见标签及属性
+    * 常见标签及属性 [详细内容](detail/html/tag-and-attr.md)
+    * 行内元素与块级元素
+    * 标签语义化
+    * 常用的meta标签 只需了解
+    * 字符实体
+    * 网页无障碍 只需了解
 
 ## 其他
 * [Markdown使用参考](others/markdown.md)

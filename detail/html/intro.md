@@ -53,4 +53,5 @@ HTML文件的拓展名为`html`。
 如 `<br/>`, `<input type="text" />`
 
 ## <a name="reading">拓展阅读</a>
+* [什么是超文本？](http://w3school.com.cn/tags/tag_term_hypertext.asp)
 * [DOCTYPE和浏览器渲染模式](quirks-mode-and-standards-mode.md)
