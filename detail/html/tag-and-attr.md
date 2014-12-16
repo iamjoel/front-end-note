@@ -128,27 +128,28 @@
 注意：为了能让后台辨别不同的表单元素，表单元素输入必须加`name`属性
 
 ## <a name="div">div</a>
-通用容器
+`<div>`组合文档中的块级元素
 
 ## <a name="span">span</a>
+`<span>`组合文档中的行内元素
 
 ## <a name="comment">注释</a>
 注释由`<!-- 注释内容 -->`
 
 ## <a name="more">更多标签</a>
-* strong
-* pre
-* code
-* blockquote
-* dl
-	* dt
-	* dd
+* `strong` 表示
+* `pre`
+* `code`
+* `blockquote`
+* `dl`
+	* `dt`
+	* `dd`
 
 ## <a name="reading">拓展阅读</a>
+* [HTML 参考手册](http://www.w3school.com.cn/tags/index.asp)
 
 ## <a name="homework">作业</a>
 * 学习页面 http://kejian.sinaapp.com/load.php?page=%E8%AF%BE%E4%BB%B6/04-HTML%E5%9F%BA%E7%A1%801 的HTML标签使用
-* 用table元素做一个课程表
 * 用户调查的页面。调查的内容包括：
 	* 姓名
 	* 性别 (单选按钮)
@@ -156,6 +157,5 @@
 	* 年龄　
 	* 爱好 可多选 (复选框)
 	* 自我介绍
-
-
-http://kejian.sinaapp.com/load.php?page=%E8%AF%BE%E4%BB%B6/04-HTML%E5%9F%BA%E7%A1%801
+* 写一下这个页面的HTML http://www.jianshu.com/p/f543de9e9a65
+* 用table元素做一个课程表
