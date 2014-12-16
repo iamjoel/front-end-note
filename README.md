@@ -23,4 +23,5 @@
 
 ## 参考
 * [饥饿谷](http://kejian.sinaapp.com/)
+* [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)

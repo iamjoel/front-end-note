@@ -6,7 +6,9 @@
 * [拓展阅读](#reading)
 
 ## <a name="what">HTML是神马</a>
-HTML（超文本标记语言，英文：HyperText Markup Language）是一种标记语言。是为了能在浏览器中显示信息设计的。
+* HTML是用来描述网页的一种语言
+* HTML是超文本标记语言（HyperText Markup Language）
+* 不是一种编程语言，是一种标记语言
 
 HTML文件的拓展名为`html`。
 
