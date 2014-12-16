@@ -5,23 +5,24 @@
 * `ppt` 存放ppt
 
 ## 大纲
-* 了解前端 [详细内容](detail/about.md) [ppt](ppt/about.html)
-* GIT [详细内容](detail/git.md)
-* 给新手的建议 [详细内容](detail/suggest.md)
+* [了解前端](detail/about.md)
+* [GIT](detail/git.md)
+* [给新手的建议](detail/suggest.md)
 * HTML
-    * 介绍 [详细内容](detail/html/intro.md)
+    * [介绍](detail/html/intro.md)
     	* [DOCTYPE和浏览器渲染模式](quirks-mode-and-standards-mode.md) 只需了解
-    * 常见标签及属性 [详细内容](detail/html/tag-and-attr.md)
+    * [常见标签及属性](detail/html/tag-and-attr.md)
     * 行内元素与块级元素
     * 标签语义化
     * 常用的meta标签 只需了解
     * 字符实体
     * 网页无障碍 只需了解
+* CSS
 
 ## 其他
 * [Markdown使用参考](others/markdown.md)
 
-## 参考
+## 推荐学习资源
 * [饥饿谷](http://kejian.sinaapp.com/)
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
