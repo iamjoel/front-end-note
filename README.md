@@ -6,7 +6,6 @@
 
 ## 大纲
 * [了解前端](detail/about.md)
-* [GIT](detail/git.md)
 * [给新手的建议](detail/suggest.md)
 * HTML
     * [介绍](detail/html/intro.md)
@@ -19,8 +18,9 @@
     * 网页无障碍 只需了解
 * CSS
 
-## 其他
-* [Markdown使用参考](others/markdown.md)
+## 前端相关
+* [GIT](detail/git.md) 很好用的版本控制工具
+* [Markdown](others/markdown.md) 写文档用的标签语言
 
 ## 推荐学习资源
 * [饥饿谷](http://kejian.sinaapp.com/)

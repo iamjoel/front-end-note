@@ -140,17 +140,20 @@
 ## <a name="comment">注释</a>
 注释由`<!-- 注释内容 -->`来定义
 
-## <a name="more">更多标签</a>
+## <a name="more">更多标签的语义</a>
 * `strong` 强调
 * `pre` 预定义
 * `code` 代码
 * `blockquote` 引用
+* `small` 补充说明
+* `i` 图标或改变的语义
 * `dl`
 	* `dt`
 	* `dd`
 
 ## <a name="reading">拓展阅读</a>
 * [HTML 参考手册](http://www.w3school.com.cn/tags/index.asp)
+* [whatwg 维护的 HTML 语义](https://html.spec.whatwg.org/multipage/semantics.html)。[元素使用概要](https://html.spec.whatwg.org/multipage/semantics.html#usage-summary)
 
 ## <a name="homework">作业</a>
 * 学习页面 http://kejian.sinaapp.com/load.php?page=%E8%AF%BE%E4%BB%B6/04-HTML%E5%9F%BA%E7%A1%801 的HTML标签使用
