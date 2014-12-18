@@ -4,7 +4,7 @@
 * `detail` 存放详细内容
 * `ppt` 存放ppt
 
-## 大纲
+## 学习路线
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
 * HTML
@@ -17,9 +17,14 @@
     * 字符实体
     * 网页无障碍 只需了解
 * CSS
+	* 介绍
+	* 盒模型
+	* 选择器
+	* 常见样式
+	* 常见布局
 
 ## 前端相关
-* [GIT](detail/git.md) 很好用的版本控制工具
+* [GIT](others/git.md) 很好用的版本控制工具
 * [Markdown](others/markdown.md) 写文档用的标签语言
 
 ## 推荐学习资源
