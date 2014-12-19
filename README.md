@@ -24,9 +24,9 @@
 	* 常见布局
 
 ## 前端相关
-* [GIT](others/git.md) 很好用的版本控制工具
-* [Sublime使用](others/sublime.md) 最性感的编辑器
-* [Markdown](others/markdown.md) 写文档用的标签语言
+* [Sublime](others/sublime.md) 最性感的编辑器。
+* [Markdown](others/markdown.md) 一种易读易写的标记语言。适合用来写文档。
+* [GIT](others/git.md) 很好用的版本控制工具。
 
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/)
