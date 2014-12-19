@@ -29,7 +29,7 @@
 * [GIT](others/git.md) 很好用的版本控制工具。
 
 ## 推荐学习资源
-* [饥人谷](http://jirengu.com/)
+* [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 
