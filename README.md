@@ -25,9 +25,15 @@
 
 ## 前端相关
 * [GIT](others/git.md) 很好用的版本控制工具
+* [Sublime使用](others/sublime.md) 最性感的编辑器
 * [Markdown](others/markdown.md) 写文档用的标签语言
 
 ## 推荐学习资源
 * [饥饿谷](http://kejian.sinaapp.com/)
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
+
+## 其他
+* [前端工具](https://github.com/codylindley/frontend-tools)
+* [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
+* [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
