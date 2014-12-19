@@ -156,7 +156,7 @@
 * [whatwg 维护的 HTML 语义](https://html.spec.whatwg.org/multipage/semantics.html)。[元素使用概要](https://html.spec.whatwg.org/multipage/semantics.html#usage-summary)
 
 ## <a name="homework">作业</a>
-* 学习页面 http://kejian.sinaapp.com/load.php?page=%E8%AF%BE%E4%BB%B6/04-HTML%E5%9F%BA%E7%A1%801 的HTML标签使用
+* 学习页面 http://kejian.jirengu.com/fe1/?c=%E8%AF%BE%E4%BB%B6/04-HTML%E5%9F%BA%E7%A1%801 的HTML标签使用
 * 用户调查的页面的HTML。调查的内容包括：
 	* 姓名
 	* 性别 (单选按钮)

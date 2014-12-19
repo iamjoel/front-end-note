@@ -29,7 +29,7 @@
 * [Markdown](others/markdown.md) 写文档用的标签语言
 
 ## 推荐学习资源
-* [饥饿谷](http://kejian.sinaapp.com/)
+* [饥人谷](http://jirengu.com/)
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 
