@@ -82,6 +82,7 @@ Github，Stackoverflow等网站都支持Markdown。
 ```
 
 转化成HTML的效果如下    
+
 1. 第一个
 	1. 第1.1个
 1. 第二个
@@ -183,6 +184,7 @@ function say(str){
 ```
 
 转化成HTML的效果如下    
+
 | Tables        | Are           | Cool  |
 | :------------ |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
