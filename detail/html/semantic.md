@@ -1,0 +1,1 @@
+* http://html5doctor.com/lets-talk-about-semantics/
