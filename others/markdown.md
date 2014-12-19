@@ -52,19 +52,35 @@ Github，Stackoverflow等网站都支持Markdown。
 跳至[落网](http://www.luoo.net/)    
 新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>    
 带title的链接 [落网](http://www.luoo.net/ '落网')    
+地址与文字一样的链接的简写 <http://www.baidu.com>
+
 ```
 
 转化成HTML的效果如下    
+
 跳至[落网](http://www.luoo.net/)    
 新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>    
 带title的链接 [落网](http://www.luoo.net/ '落网')    
+地址与文字一样的链接的简写 <http://www.baidu.com>
 
 ## <a name="pic">图片</a>
+```
+![头像](https://avatars0.githubusercontent.com/u/2120155?v=3&s=40)
+
+```
+
 转化成HTML的效果如下    
 ![头像](https://avatars0.githubusercontent.com/u/2120155?v=3&s=40)
 
 ## <a name="list">列表</a>
 有序列表    
+```
+1. 第一个
+    1. 第1.1个
+1. 第二个
+1. 第三个
+```
+
 转化成HTML的效果如下    
 1. 第一个
 	1. 第1.1个
@@ -72,6 +88,14 @@ Github，Stackoverflow等网站都支持Markdown。
 1. 第三个
 
 无序列表    
+```
+* 葡萄
+    * 夏黑
+    * 巨峰
+* 荔枝
+* 梨
+```
+
 转化成HTML的效果如下    
 
 * 葡萄
@@ -82,26 +106,59 @@ Github，Stackoverflow等网站都支持Markdown。
 
 
 ## <a name="strong">强调</a>
+```
+**强调内容**
+```
 转化成HTML的效果如下    
 **强调内容**
 
 ## <a name="italic">斜体</a>
+```
+*斜体内容*
+```
+
 转化成HTML的效果如下    
 *斜体内容*
 
 ## <a name="del-line">删除线</a>
+```
+~~这种理解是有问题的~~
+```
+
 转化成HTML的效果如下    
 ~~这种理解是有问题的~~
 
 ## <a name="split-line">分割线</a>
+```
+****
+```
+
 转化成HTML的效果如下    
 ****
 
 ## <a name="inline-code">行内代码</a>
+```
+`npm i`
+```
+
 转化成HTML的效果如下    
 `npm i`
 
 ## <a name="block-code">块级代码</a>
+```
+\`\`\`js
+function say(str){
+    console.log(str);
+}
+\`\`\`
+
+\`\`\`css
+#main{
+    width: 80%;
+    margin: 20px auto;
+}
+\`\`\`
+```
 转化成HTML的效果如下    
 ```js
 function say(str){
@@ -117,6 +174,14 @@ function say(str){
 ```
 
 ## <a name="table">表格</a>
+```
+| Tables        | Are           | Cool  |
+| :------------ |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+
 转化成HTML的效果如下    
 | Tables        | Are           | Cool  |
 | :------------ |:-------------:| -----:|
@@ -125,16 +190,36 @@ function say(str){
 | zebra stripes | are neat      |    $1 |
 
 ## <a name="blockquote">引用</a>
+```
+> 天才就是99%的努力加上1%的灵感。-爱迪生
+```
+
 转化成HTML的效果如下    
 > 天才就是99%的努力加上1%的灵感。-爱迪生
 
 ## <a name="block">块状元素</a>
+```
+∙∙∙∙天才就是99%的努力加上1%的灵感。
+∙∙∙∙1%的灵感是很重要的。
+∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙-爱迪生
+```
+其中`∙`代表空格。
+
 转化成HTML的效果如下    
     天才就是99%的努力加上1%的灵感。
     1%的灵感是很重要的。
                             -爱迪生
 
 ## <a name="checkbox">复选框</a>
+```
+- [x] Be awesome
+- [ ] Prepare dinner
+  - [x] Research recipe
+  - [ ] Buy ingredients
+  - [ ] Cook recipe
+- [ ] Sleep
+```
+
 转化成HTML的效果如下    
 - [x] Be awesome
 - [ ] Prepare dinner
