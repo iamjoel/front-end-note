@@ -147,18 +147,18 @@ Github，Stackoverflow等网站都支持Markdown。
 
 ## <a name="block-code">块级代码</a>
 ```
-\`\`\`js
+3个`js
 function say(str){
     console.log(str);
 }
-\`\`\`
+3个`
 
-\`\`\`css
+3个`css
 #main{
     width: 80%;
     margin: 20px auto;
 }
-\`\`\`
+3个`
 ```
 转化成HTML的效果如下    
 ```js
