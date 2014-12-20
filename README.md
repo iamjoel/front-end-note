@@ -1,9 +1,5 @@
 # web前端培训 [下载](https://github.com/iamjoel/front-end-note/archive/master.zip)
 
-## 项目结构
-* `detail` 存放详细内容
-* `ppt` 存放ppt
-
 ## 学习路线
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
@@ -23,10 +19,18 @@
 	* 常见样式
 	* 常见布局
 
+[**新手常见问题及解答**](detail/Q&A.md)
+
+
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
 * [Markdown](others/markdown.md) 一种易读易写的标记语言。适合用来写文档。
 * [GIT](others/git.md) 很好用的版本控制工具。
+
+## 项目结构
+* `detail` 知识点的详细内容
+* `ppt` 知识点讲解ppt
+* `homework` 作业示例
 
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
