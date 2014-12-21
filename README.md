@@ -7,13 +7,13 @@
     * [介绍](detail/html/intro.md)
     	* [DOCTYPE和浏览器渲染模式](quirks-mode-and-standards-mode.md) 只需了解
     * [常见标签及属性](detail/html/tag-and-attr.md)
-    * 行内元素与块级元素
-    * 标签语义化
+    * [标签语义化](sematic.md)
     * 常用的meta标签 只需了解
     * 字符实体
     * 网页无障碍 只需了解
 * CSS
 	* 介绍
+    * 引入
 	* 盒模型
 	* 选择器
 	* 常见样式
