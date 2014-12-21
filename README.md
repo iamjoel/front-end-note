@@ -14,8 +14,9 @@
 * CSS
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
-	* 盒模型
+	* [盒模型](detail/css/box-model.md)
 	* 选择器
+    * 行内元素与块级元素
 	* 常见样式
 	* [布局](detail/css/layout.md)
 
