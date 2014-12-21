@@ -13,7 +13,7 @@
     * 网页无障碍 只需了解
 * CSS
 	* [介绍](detail/css/intro.md)
-    * 引入
+    * [样式写在哪](detail/css/place.md)
 	* 盒模型
 	* 选择器
 	* 常见样式
