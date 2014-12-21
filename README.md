@@ -5,11 +5,11 @@
 * [给新手的建议](detail/suggest.md)
 * HTML
     * [介绍](detail/html/intro.md)
-    	* [DOCTYPE和浏览器渲染模式](quirks-mode-and-standards-mode.md) 只需了解
+    	* [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md) 只需了解
     * [常见标签及属性](detail/html/tag-and-attr.md)
     * [标签语义化](detail/html/semantic.md)
     * 常用的meta标签 只需了解
-    * 字符实体
+    * 字符实体 只需了解
     * 网页无障碍 只需了解
 * CSS
 	* 介绍
@@ -17,7 +17,7 @@
 	* 盒模型
 	* 选择器
 	* 常见样式
-	* 常见布局
+	* [布局](detail/css/layout.md)
 
 [**新手常见问题及解答**](detail/Q&A.md)
 
