@@ -9,12 +9,8 @@
 * [给新手的建议](detail/suggest.md)
 * HTML
     * [介绍](detail/html/intro.md)
-    	* [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md) 只需了解
     * [常见标签及属性](detail/html/tag-and-attr.md)
     * [标签语义化](detail/html/semantic.md)
-    * [常用的meta标签](detail/html/meta.md) 只需了解
-    * 字符实体 只需了解
-    * 网页无障碍 只需了解
 * CSS
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
@@ -23,9 +19,17 @@
     * 行内元素与块级元素
 	* 常见样式
 	* [布局](detail/css/layout.md)
+    * 浏览器hacks
 
 [**新手常见问题及解答**](detail/Q&A.md)
 
+### 只需了解
+* HTML
+    * [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md)
+    * [常用的meta标签](detail/html/meta.md)
+    * 字符实体
+    * 元素的嵌套规则
+    * 网页无障碍
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
