@@ -27,7 +27,7 @@
 * HTML
     * [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md)
     * [常用的meta标签](detail/html/meta.md)
-    * 字符实体
+    * [字符实体](detail/html/entities.md)
     * 元素的嵌套规则
     * 网页无障碍
 
