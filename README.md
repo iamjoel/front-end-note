@@ -15,7 +15,7 @@
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
 	* [盒模型](detail/css/box-model.md)
-	* 选择器
+	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
     * 行内元素与块级元素
 	* 常见样式
 	* [布局](detail/css/layout.md)
@@ -24,7 +24,7 @@
 [**新手常见问题及解答**](detail/Q&A.md)
 
 ### 只需了解
-* [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](W3C&WHATWG.md)
+* [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](detail/W3C&WHATWG.md)
 * HTML
     * [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md)
     * [常用的meta标签](detail/html/meta.md)
