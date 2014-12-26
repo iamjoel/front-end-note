@@ -24,6 +24,7 @@
 [**新手常见问题及解答**](detail/Q&A.md)
 
 ### 只需了解
+* [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](W3C&WHATWG.md)
 * HTML
     * [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md)
     * [常用的meta标签](detail/html/meta.md)
