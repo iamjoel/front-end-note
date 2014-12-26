@@ -9,7 +9,7 @@
 * [给新手的建议](detail/suggest.md)
 * HTML
     * [介绍](detail/html/intro.md)
-    * [常见标签及属性](detail/html/tag-and-attr.md)
+    * [常见标签及属性](detail/html/tag-and-attr.md) [作业](detail/html/tag-and-attr.md#homework)
     * [标签语义化](detail/html/semantic.md)
 * CSS
 	* [介绍](detail/css/intro.md)
@@ -34,7 +34,7 @@
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
 * [Markdown](others/markdown.md) 一种易读易写的标记语言。适合用来写文档。
-* [GIT](others/git.md) 很好用的版本控制工具。
+* [GIT](others/git.md) 很好用的版本控制工具。 [作业](others/git.md#homework)
 
 ## 项目结构
 * `detail` 知识点的详细内容
