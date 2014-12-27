@@ -9,7 +9,7 @@
 * [给新手的建议](detail/suggest.md)
 * HTML
     * [介绍](detail/html/intro.md)
-    * [常见标签及属性](detail/html/tag-and-attr.md) [作业](detail/html/tag-and-attr.md#homework)
+    * **[常见标签及属性](detail/html/tag-and-attr.md)** [作业](detail/html/tag-and-attr.md#homework)
     * [标签语义化](detail/html/semantic.md)
 * CSS
 	* [介绍](detail/css/intro.md)
