@@ -7,7 +7,7 @@
 	* [层次选择器](#descendant-class)
 	* [伪类选择器](#pseudo-class)
 	* [属性选择器](#attribute)
-	* [伪元素](#)
+	* [伪元素选择器](#pseudo-elem)
 * [选择器权重](#selector-weight)
 * [选择器的读取顺序](#match-rule)
 * 选择器的浏览器兼容性 http://kimblim.dk/css-tests/selectors/
@@ -106,6 +106,13 @@ CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
 	* `[abc^="def"]`表示 选择 abc 属性值以 "def" 开头的所有元素
 	* `[abc$="def"]`表示 选择 abc 属性值以 "def" 结尾的所有元素
 	* `[abc*="def"]`表示 选择 abc 属性值中包含子串 "def" 的所有元素
+
+## <a name="pseudo-elem>伪元素选择器</a>
+* `:before` 在元素之前添加内容
+* `:after` 在元素之后添加内容
+* `:first-line`  向文本的首行添加特殊样式
+* `:first-letter` 向文本的第一个字母添加特殊样式
+
 
 ## <a name="selector-weight">选择器权重</a>
 某条样式的是否被采用，取决于：该样式是否是同类样式中，权重得分最大的。
