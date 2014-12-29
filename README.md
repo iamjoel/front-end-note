@@ -19,7 +19,11 @@
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
     * 行内元素与块级元素
 	* 常见样式
+        * 文字
+        * 背景
+    * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
 	* [布局](detail/css/layout.md)
+    * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
 
 [**新手常见问题及解答**](detail/Q&A.md)
@@ -32,6 +36,7 @@
     * [字符实体](detail/html/entities.md)
     * 元素的嵌套规则
     * 网页无障碍
+* CSS
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
