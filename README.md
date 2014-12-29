@@ -16,6 +16,7 @@
     * [样式写在哪](detail/css/place.md)
 	* [盒模型](detail/css/box-model.md)
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
+    * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
     * 行内元素与块级元素
 	* 常见样式
 	* [布局](detail/css/layout.md)
