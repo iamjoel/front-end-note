@@ -17,10 +17,11 @@
 	* [盒模型](detail/css/box-model.md)
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
-    * 行内元素与块级元素
-	* 常见样式
+    * [行内元素与块级元素](detail/css/)
+	* [常见样式]()
         * 文字
         * 背景
+        * 对齐
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
 	* [布局](detail/css/layout.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
@@ -35,7 +36,7 @@
     * [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md)
     * [常用的meta标签](detail/html/meta.md)
     * [字符实体](detail/html/entities.md)
-    * 元素的嵌套规则
+    * [元素的嵌套规则](detail/html/element-nesting.md)
     * 网页无障碍
 * CSS
 
