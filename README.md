@@ -38,6 +38,7 @@
     * [字符实体](detail/html/entities.md)
     * [元素的嵌套规则](detail/html/element-nesting.md)
     * 网页无障碍
+    * [UserAgent的历史变迁](http://article.yeeyan.org/view/heart5/19211) 每个浏览器都宣称自己是其他浏览器的乱象的由来
 * CSS
 
 ## 前端相关
