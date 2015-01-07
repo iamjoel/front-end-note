@@ -54,6 +54,8 @@
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
+* [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
+* [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 
 ## 其他
