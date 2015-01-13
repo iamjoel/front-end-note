@@ -23,6 +23,7 @@
         * 背景
         * 对齐
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
+    * 元素定位
 	* [布局](detail/css/layout.md)
     * CSS Sprites
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
