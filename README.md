@@ -24,6 +24,7 @@
         * 对齐
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
 	* [布局](detail/css/layout.md)
+    * CSS Sprites
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
 
@@ -57,6 +58,7 @@
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
+* [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
 
 ## 其他
 * [前端工具](https://github.com/codylindley/frontend-tools)
