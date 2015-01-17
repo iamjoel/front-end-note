@@ -1,0 +1,29 @@
+# 减少网站响应时间概要
+## 概要
+* 减少HTTP请求文件的大小
+	* 精简html的DOM元素数量
+	* 压缩css，js代码
+	* 图片文件选用合适的格式。对于色彩数不是很丰富的图片，使用`png`格式
+    * 压缩图片。使用类似[pngcrush](http://pmt.sourceforge.net/pngcrush/)的工具
+    * 服务器端启用gzip压缩
+    * 静态资源放在没有cookie的domain下
+    * 减小cookie大小
+    * 减小网站标题图标（favicon.ico）的大小
+* 减少HTTP请求数
+	* 合并文件。比如将所有的样式表合并成一个，所有脚本文件合并成一个
+	* 合并一些图标类图片。图标类图片做成图片精灵（[CSS Sprites](http://alistapart.com/article/sprites)）
+* 缓存
+    * 静态资源的缓存
+    * ajax的缓存
+    * 减少样式和脚本的内联。因为内联的是没法被缓存的
+* 减少网页等待时间
+	* 避免资源的404
+	* 脚本文件放在`</body>`前
+    * 对图片进行Lazyload
+    * 一块一块的输出`html`。可参考Facebook的Bigpipe的思想。
+* 使用CDN
+
+## 参考
+* https://developer.yahoo.com/performance/rules.html
+* [处理网页图片最常见的10个错误及其解决方案](http://www.oschina.net/translate/top_10_mistakes_in_handling_website_images_and_how_to_solve_them)
+* [BigPipe的技术实现【转】](http://www.webdoes.com/archives/462.html)
