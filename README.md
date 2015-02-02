@@ -28,6 +28,8 @@
     * CSS Sprites
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
+* JS
+    * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
 
 [**新手常见问题及解答**](detail/Q&A.md)
 
