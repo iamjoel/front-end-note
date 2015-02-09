@@ -66,6 +66,8 @@
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 * [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
+* [CSS 各种规则的参考](http://tympanus.net/codrops/css_reference/)
+* [学习布局](http://zh.learnlayout.com/)
 
 ## 其他
 * [前端工具](https://github.com/codylindley/frontend-tools)
