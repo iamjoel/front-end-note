@@ -48,6 +48,7 @@
     * [减少网站响应时间概要](others/web-speed-up.md)
 * 其他
 	* [Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
+    * [中文排版的最佳实践](http://zhuanlan.zhihu.com/FrontendMagazine/19891152)
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
