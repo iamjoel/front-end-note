@@ -19,7 +19,7 @@
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
     * [行内元素与块级元素](detail/css/)
 	* 常见样式
-        * [文字](detail/css/font)
+        * [文字](detail/css/font.md)
         * 排版
         * 背景
         * 对齐

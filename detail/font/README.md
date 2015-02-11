@@ -5,18 +5,6 @@
 	* [cssfontstack](http://www.cssfontstack.com/) 各种字体在系统的安装比例
 	* [Font Stacks snippet](http://css-tricks.com/snippets/css/font-stacks/)
 
-## 字体样式
-* `font`
-* `font-family`
-* `font-size`
-* `font-weight` 字重
-* `font-style` 斜体之类（注：中文没有斜体）
-* `font-variant` (https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
-* `font-stretch`
-* `font-size-adjust`
-* `@font-face`
-* `text-transform`
-
 ## 优化
 ### [使Chrome字体渲染更平滑](http://swordair.com/smoother-font-randering-in-chrome/)
 Chrome在字体大于48px时，锯齿很明显。     
