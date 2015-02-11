@@ -18,10 +18,12 @@
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
     * [行内元素与块级元素](detail/css/)
-	* [常见样式]()
-        * 文字
+	* 常见样式
+        * [文字](detail/css/font)
+        * 排版
         * 背景
         * 对齐
+        * [度量单位](http://www.way2tutorial.com/css/reference/type-of-css-measurement-units.php)
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
     * 元素定位
 	* [布局](detail/css/layout.md)
