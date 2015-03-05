@@ -74,6 +74,13 @@
 * [CSS 各种规则的参考](http://tympanus.net/codrops/css_reference/)
 * [学习布局](http://zh.learnlayout.com/)
 
+## 书
+* CSS
+    * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
+* JS
+    * JavaScript高级程序设计
+    * [《eloquentjavascript》](http://eloquentjavascript.net)
+
 ## 其他
 * [前端工具](https://github.com/codylindley/frontend-tools)
 * [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
