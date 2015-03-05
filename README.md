@@ -25,6 +25,7 @@
         * 对齐
         * [度量单位](http://www.way2tutorial.com/css/reference/type-of-css-measurement-units.php)
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
+    * [浮动](detail/css/float/README.md)
     * 元素定位
 	* [布局](detail/css/layout.md)
     * CSS Sprites
@@ -65,6 +66,7 @@
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
+* [FE-learning](https://github.com/qiu-deqing/FE-learning#%E8%B7%9F%E5%AF%B9%E7%A5%9E) 结合个人经历总结的前端入门方法
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)

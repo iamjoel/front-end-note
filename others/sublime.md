@@ -18,7 +18,7 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 ```
 ### 3. 打开命令面板，键入`install`,若出现`Package Control: Install Package`。则说明安装成功
 
-详细 见[这里](https://sublime.wbond.net/installation)
+详细 见[这里](https://packagecontrol.io/installation)
 
 ## <a name="plugin">插件推荐</a>
 ### [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
