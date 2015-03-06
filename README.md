@@ -74,11 +74,13 @@
 * [学习布局](http://zh.learnlayout.com/)
 
 ## 书
+* [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年09月出版
 * CSS
     * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
 * JS
     * JavaScript高级程序设计
     * [《eloquentjavascript》](http://eloquentjavascript.net)
+* [可参考书单](http://www.douban.com/doulist/2772859/)
 
 ## 其他
 * [前端工具](https://github.com/codylindley/frontend-tools)
