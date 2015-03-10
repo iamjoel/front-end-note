@@ -65,6 +65,7 @@
 
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
+* [HTML基本知识](http://www.jianshu.com/notebooks/536331/latest) 一个叫[实验楼](http://www.shiyanlou.com/)的培训机构做的
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
