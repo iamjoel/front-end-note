@@ -68,8 +68,10 @@
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
 * [HTML基本知识](http://www.jianshu.com/notebooks/536331/latest) 一个叫[实验楼](http://www.shiyanlou.com/)的培训机构做的
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
+* [htmldog](http://htmldog.com/) HTML，CSS，JS教程。英文的
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
+* [30 Days to Learn jQuery](http://code.tutsplus.com/courses/30-days-to-learn-jquery)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 * [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
 * [CSS 各种规则的参考](http://tympanus.net/codrops/css_reference/)
