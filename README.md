@@ -76,6 +76,7 @@
 * [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
 * [CSS 各种规则的参考](http://tympanus.net/codrops/css_reference/)
 * [学习布局](http://zh.learnlayout.com/)
+* [一些标准的命名规范](http://www.html-js.com/article/JS-rookie-in-the-rookie-began-to-learn-some-standard-naming-conventions-to-fly)
 
 ## 书
 * [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年09月出版
