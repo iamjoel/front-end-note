@@ -4,6 +4,8 @@
 培训的内容仅包括HTML，CSS，JS基础知识。    
 适合人群：零基础或接近零基础，但对前端感兴趣的人。
 
+学习前端的每天计划，点[这里](http://www.jianshu.com/p/fa7611d73a9a)。
+
 ## 学习路线
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
