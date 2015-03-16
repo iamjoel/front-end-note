@@ -21,12 +21,14 @@
     * [选择合适的选择器](detail/css/choose-selector.md)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
     * [行内元素与块级元素](detail/css/)
-	* 常见样式
+	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
         * [文字](detail/css/font.md)
-        * 排版
-        * 背景
-        * 对齐
-        * [度量单位](http://www.way2tutorial.com/css/reference/type-of-css-measurement-units.php)
+        * 颜色和背景
+        * 盒模型－宽，高，边距，边框等
+        * 位置和显示形式
+        * 表格
+        * 列表
+    * [度量单位](http://www.way2tutorial.com/css/reference/type-of-css-measurement-units.php)
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
     * [浮动](detail/css/float/README.md)
     * 元素定位
