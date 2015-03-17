@@ -65,3 +65,6 @@ $.trim("    hello, how are you?    ");//输出"hello, how are you?"
 ## $.noop()
 返回一个空函数。
 在写组件时，用这个方法可作为有些回调的默认值。
+
+
+[更多](http://api.jquery.com/category/utilities/)
