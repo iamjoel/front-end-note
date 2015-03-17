@@ -10,7 +10,7 @@
 	* [伪元素选择器](#pseudo-elem)
 * [选择器权重](#selector-weight)
 * [选择器的读取顺序](#match-rule)
-* 选择器的浏览器兼容性 http://kimblim.dk/css-tests/selectors/
+* [选择器的浏览器兼容性](#compatibility)
 * [作业](#homework)
 
 ## <a name='basic'>基本选择器</a>
@@ -137,6 +137,13 @@ CSS选择器的读取顺序是从右向左。
 
 更详细的寒冬的[解释](http://v.youku.com/v_show/id_XMjMzMzU2NDc2.html)
 
+
+
+## <a name="compatibility">兼容性</a>
+![css1](../../asset/browser-selector-compatibility/css1.png)
+![css2](../../asset/browser-selector-compatibility/css2.png)
+![css3](../../asset/browser-selector-compatibility/css3.png)
+
 ## <a name="homework">作业</a>
 写满足以下条件的选择器
 * id为`img-list`的子元素中类名为`img-item`的`span`元素
@@ -147,3 +154,4 @@ CSS选择器的读取顺序是从右向左。
 ## 参考
 * http://www.w3schools.com/css/css_selectors.asp
 * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
+* [选择器浏览器兼容性](http://kimblim.dk/css-tests/selectors/)
