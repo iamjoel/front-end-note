@@ -18,7 +18,7 @@
     * [样式写在哪](detail/css/place.md)
 	* [盒模型](detail/css/box-model.md)
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
-    * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
+    * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效
 	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
         * [文字](detail/css/font.md)
         * 颜色和背景
