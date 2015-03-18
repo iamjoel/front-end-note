@@ -18,9 +18,7 @@
     * [样式写在哪](detail/css/place.md)
 	* [盒模型](detail/css/box-model.md)
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
-    * [选择合适的选择器](detail/css/choose-selector.md)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定该显示哪条样式
-    * [行内元素与块级元素](detail/css/)
 	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
         * [文字](detail/css/font.md)
         * 颜色和背景
@@ -28,7 +26,7 @@
         * 位置和显示形式
         * 表格
         * 列表
-    * [度量单位](http://www.way2tutorial.com/css/reference/type-of-css-measurement-units.php)
+    * [样式规则的值的类型及单位](detail/css/value-and-unit.md)
     * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
     * [浮动](detail/css/float/README.md)
     * 元素定位
@@ -52,6 +50,7 @@
     * [网页无障碍](others/accessible.md)
     * [UserAgent的历史变迁](http://article.yeeyan.org/view/heart5/19211) 每个浏览器都宣称自己是其他浏览器的乱象的由来
 * CSS
+    * [元素上使用id还是class](detail/css/id-or-class.md)
 * 网站性能优化
     * [减少网站响应时间概要](others/web-speed-up.md)
 * 其他
