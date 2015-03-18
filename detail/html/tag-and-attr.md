@@ -18,12 +18,16 @@
 ## <a name="html_links">链接</a>
 链接由 `<a>`定义。    
 常用属性
-* `href` 链接地址
+* `href` 链接地址，常见的链接地址有如下几种
+	* `https://gusouk.com/`
+	* `/a.html`
+	* `#aaa` 页面滚动至name或id为`aaa`的地方
+	* `javascript:void(0);`
 * `title` 提示内容
-* `name` 创建文档内的书签
-* `target` 链接的文档在何处显示。
-	* 默认在当前显示
+* `target` 链接的文档在何处显示
+	* 默认在当前页显示
 	* `_blank` 在新窗口显示
+	* 值若为iframe的name值一致，则在iframe中打开
 
 更详细的介绍点[这里](http://w3school.com.cn/html/html_links.asp)
 
@@ -50,7 +54,7 @@
 </ol>
 ```
 
-有序列表由`<ul>`定义，列表的条目由`<li>`定义。如
+无序列表由`<ul>`定义，列表的条目由`<li>`定义。如
 ```
 <h3>a的常见属性包括</h3>
 <ul>
