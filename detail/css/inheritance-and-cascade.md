@@ -7,13 +7,13 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 
 ### 会继承的样式规则
 会继承的样式主要包括：
-	* 字体相关的：font-family, font-size(继承计算后的值), font-style,font-variant, font-weight, font, letter-spacing,line-height
-	* 文本：text-indent, text-align, layout-flow, writing-mode, white-space, word-wrap, text-kashida-space, layout-grid, layout-grid-char, layout-grid-char-spacing, layout-grid-line, layout-grid-mode, layout-grid-type
-	* 列表相关的：list-style-image, list-style-position,list-style-type, list-style
-	* 表格：border-collapse, border-spacing, caption-side, empty-cells, table-layout, speak-header
+* 字体相关的：font-family, font-size(继承计算后的值), font-style,font-variant, font-weight, font, letter-spacing,line-height
+* 文本：text-indent, text-align, layout-flow, writing-mode, white-space, word-wrap, text-kashida-space, layout-grid, layout-grid-char, layout-grid-char-spacing, layout-grid-line, layout-grid-mode, layout-grid-type
+* 列表相关的：list-style-image, list-style-position,list-style-type, list-style
+* 表格：border-collapse, border-spacing, caption-side, empty-cells, table-layout, speak-header
 
 ## 层叠
-层叠，就是层叠样式表中的层叠，是一种样式在文档层次中逐层叠加的过程，目的是让浏览器面对某个标签特定属性值的多个来源，确定最终使用哪个值。
+层叠，是一种样式在文档层次中逐层叠加的过程，目的是让浏览器面对某个标签特定属性值的多个来源，确定最终使用哪个值。
 
 对于层叠来说，样式的主要来源：
 * 浏览器默认样式
