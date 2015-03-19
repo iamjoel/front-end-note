@@ -27,7 +27,7 @@
         * 表格
         * 列表
     * [样式规则的值的类型及单位](detail/css/value-and-unit.md)
-    * [样式简写](https://docs.webplatform.org/wiki/guides/css_shorthand)
+    * [样式简写](detail/css/css-shorthand.md)
     * [浮动](detail/css/float/README.md)
     * 元素定位
 	* [布局](detail/css/layout.md)
