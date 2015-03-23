@@ -32,6 +32,7 @@
     * 元素定位
 	* [布局](detail/css/layout.md)
     * CSS Sprites
+    * [浏览器默认样式](detail/css/ua-style.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
 * JS
