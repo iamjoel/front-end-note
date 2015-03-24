@@ -21,7 +21,7 @@
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效
 	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
         * [文字样式规则](detail/css/font.md)
-        * 颜色和背景样式规则
+        * [背景样式规则](detail/css/background.md)
         * 盒模型－宽，高，边距，边框等样式规则
         * 位置和显示形式样式规则
         * 表格样式规则

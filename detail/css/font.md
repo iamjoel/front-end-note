@@ -16,6 +16,10 @@ p small{
 }
 ```
 
+## color
+指定文字的颜色。可选值见[这里](color.md)
+
+
 ## line-height
 指定行高。如
 ```
