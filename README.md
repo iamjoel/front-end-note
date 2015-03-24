@@ -25,7 +25,7 @@
         * 盒模型－宽，高，边距，边框等样式规则
         * 位置和显示形式样式规则
         * [表格样式规则](detail/css/table/README.md)
-        * 列表样式规则
+        * [列表样式规则](detail/css/list.md)
     * [样式规则的值的类型及单位](detail/css/value-and-unit.md)
     * [样式简写](detail/css/css-shorthand.md)
     * [浮动](detail/css/float/README.md)
