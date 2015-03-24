@@ -44,4 +44,10 @@ background-image: url(someimage.jpg);
 * fixed 当页面的其余部分滚动时，背景图像不会移动
 * inherit
 
+## background
+设置所有背景属性。如
+```
+background: #00FF00 url(bgimage.gif) no-repeat fixed center top;
+```
+
 
