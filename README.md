@@ -1,7 +1,6 @@
-# web前端培训 [下载](https://github.com/iamjoel/front-end-note/archive/master.zip)
+# web前端学习笔记 [下载](https://github.com/iamjoel/front-end-note/archive/master.zip)
 ## 关于本项目
-存放web前端培训的一些资料。    
-培训的内容仅包括HTML，CSS，JS基础知识。    
+存放HTML，CSS，JS等WEB前端基础知识。        
 适合人群：零基础或接近零基础，但对前端感兴趣的人。
 
 学习前端的每天计划，点[这里](http://www.jianshu.com/p/fa7611d73a9a)。
