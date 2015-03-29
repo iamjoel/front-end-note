@@ -29,6 +29,7 @@
     * [样式简写](detail/css/css-shorthand.md)
     * [浮动](detail/css/float/README.md)
     * 元素定位
+    * [元素居中](detail/css/align-center/README.md)
 	* [布局](detail/css/layout.md)
     * CSS Sprites
     * [浏览器默认样式](detail/css/ua-style.md)
