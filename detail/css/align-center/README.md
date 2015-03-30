@@ -1,4 +1,4 @@
-# 元素居中
+# 元素居中 [demo](http://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/blob/master/detail/css/align-center/demo/index.html)
 元素的居中主要分为水平居中和垂直居中。
 ## 水平居中
 ### 元素内的行内元素
@@ -83,6 +83,24 @@ margin-left: -(宽度值/2);
 还可以使用CSS3的flexbox，transform等方式来实现水平居中。但使用这些CSS3特性来做居中时，要注意下兼容性。
 
 详细描述和更多实现见[六种实现元素水平居中](http://www.w3cplus.com/css/elements-horizontally-center-with-css.html)
+
+## 垂直居中
+### 单行文本的垂直居中
+只需让元素的line-height设置成和height一样即可
+
+## 高度不固定的元素的垂直居中
+元素加
+```
+display: table; /*让元素以表格形式渲染*/
+height: 200px; /* 需要定宽，定高 */
+width: 100px;
+```
+
+子元素加
+```
+display: table-cell;/*让元素以表格的单元素格形式渲染*/
+vertical-align: middle;
+```
 
 ## 参考
 * [CSS制作水平垂直居中对齐](http://www.w3cplus.com/css/vertically-center-content-with-css)
