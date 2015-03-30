@@ -8,12 +8,14 @@
 float: left|right|none;
 ```
 
+如果没有设置浮动元素的宽度，那么浮动元素的宽度为其包含元素的宽度。
+
 ## 用浮动来做布局
 
 
 ## 浮动的影响
 
-![浮动的影响](../../asset/float/effect.png)
+![浮动的影响](../../../asset/float/effect.png)
 
 ## 如何去除浮动的影响
 在浮动元素的父节点加`clearfix`的类名。`clearfix`的定义如下：
