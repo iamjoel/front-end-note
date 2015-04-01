@@ -31,7 +31,7 @@
     * [元素定位](detail/css/position)
     * [元素居中](detail/css/align-center/README.md)
 	* [布局](detail/css/layout.md)
-    * CSS Sprites
+    * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图
     * [浏览器默认样式](detail/css/ua-style.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
