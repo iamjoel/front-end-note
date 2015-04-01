@@ -57,6 +57,7 @@
 * 其他
 	* [Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
     * [中文排版的最佳实践](http://zhuanlan.zhihu.com/FrontendMagazine/19891152)
+    * [[ 浏览器原理 ] Repaint 、Reflow 的基本认识和优化](http://segmentfault.com/a/1190000002629708)
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
