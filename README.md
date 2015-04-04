@@ -30,6 +30,7 @@
     * [浮动](detail/css/float/README.md)
     * [元素定位](detail/css/position)
     * [元素居中](detail/css/align-center/README.md)
+    * [BFC](detail/css/BFC)
 	* [布局](detail/css/layout.md)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图
     * [浏览器默认样式](detail/css/ua-style.md)
