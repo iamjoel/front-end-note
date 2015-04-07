@@ -78,6 +78,7 @@
 * [htmldog](http://htmldog.com/) HTML，CSS，JS教程。英文的
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
+* [JavaScript简易教程 v0.3.0- 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
 * [30 Days to Learn jQuery](http://code.tutsplus.com/courses/30-days-to-learn-jquery)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 * [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
