@@ -29,6 +29,8 @@
 	* `_blank` 在新窗口显示
 	* 值若为iframe的name值一致，则在iframe中打开
 
+前端在做页面写链接地址时，若不知道地址，可将href设置成`###`。若点击a不跳转页面，而是绑定点击事件,则href设置为`javascript:void(0);`。
+
 更详细的介绍点[这里](http://w3school.com.cn/html/html_links.asp)
 
 
