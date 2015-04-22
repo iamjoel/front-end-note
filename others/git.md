@@ -58,4 +58,5 @@ Desktop.ini
 * [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [史上最浅显易懂的Git教程！](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
+* [《Git in Practice》作者访谈：关于Git的八个问题](http://www.infoq.com/cn/articles/interview-Mike-McQuaid-git-practice)
 * [Linus Torvalds 传记 By 池建强](http://www.chenjunlu.com/2014/07/linus-torvalds-biography/)
