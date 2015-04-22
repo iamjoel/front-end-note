@@ -19,7 +19,7 @@
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效
 	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
-        * [文字样式规则](detail/css/font.md)
+        * [文字样式规则](detail/css/font/font-style.md)
         * [背景样式规则](detail/css/background.md)
         * 盒模型－宽，高，边距，边框等样式规则
         * 位置和显示形式样式规则
@@ -30,6 +30,7 @@
     * [浮动](detail/css/float/README.md)
     * [元素定位](detail/css/position)
     * [元素居中](detail/css/align-center/README.md)
+    * [BFC](detail/css/BFC)
 	* [布局](detail/css/layout.md)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图
     * [浏览器默认样式](detail/css/ua-style.md)
@@ -78,6 +79,7 @@
 * [htmldog](http://htmldog.com/) HTML，CSS，JS教程。英文的
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
+* [JavaScript简易教程 v0.3.0- 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
 * [30 Days to Learn jQuery](http://code.tutsplus.com/courses/30-days-to-learn-jquery)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 * [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)

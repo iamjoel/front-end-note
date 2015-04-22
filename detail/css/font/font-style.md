@@ -68,4 +68,4 @@ font: italic bold 1.5em/2 arial, Helvetica, sans-serif;
 * text-shadow 控制文本阴影效果
 * font-variant 指定是否把小写字母转化成字号变小的大写字母
 
-字体的相关知识见[这里](../font/README.md)
+字体的相关知识见[这里](README.md)
