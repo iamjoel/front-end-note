@@ -155,3 +155,6 @@ CSS选择器的读取顺序是从右向左。
 * http://www.w3schools.com/css/css_selectors.asp
 * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
 * [选择器浏览器兼容性](http://kimblim.dk/css-tests/selectors/)
+
+## 拓展阅读
+* [30个你必须记住的CSS选择符](http://yanhaijing.com/css/2014/01/04/the-30-css-selectors-you-must-memorize/)
