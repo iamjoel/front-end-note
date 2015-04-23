@@ -102,4 +102,4 @@
 * [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
 * [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
 * [sitthetest(英)](https://sitthetest.com/tests) HTML,CSS,JS的测试
-* [我的收藏夹](bookmark.md)
+* [我的收藏夹](bookmark/)
