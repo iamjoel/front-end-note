@@ -97,6 +97,9 @@ CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
 * :only-of-type选择一个元素是它的上级元素的唯一一个相同类型的子元素；
 * :empty选择的元素里面没有任何内容
 
+### 拓展阅读
+* [Mastering the :nth-child](http://nthmaster.com/)
+
 ## <a name="attribute">属性选择器</a>
 根据属性来选元素。    
 语法 `[属性名=属性值]`    

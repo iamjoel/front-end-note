@@ -22,6 +22,7 @@
 * [HTML 5 书签](http://html5bookmarks.com/) 关于 HTML5 的库，插件，书等资源
 * [Javascript API－overapi.com](http://overapi.com/javascript/) Javascript API
 * [HTML 5 JavaScript API](http://html5index.org/)
+* [HTML5 Video Events and API](http://www.w3.org/2010/05/video/mediaevents.html)
 * [ES 5/6/7兼容列表](http://kangax.github.io/compat-table/)
 * [Polyfills 库](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills)
 * [HTML5 please](http://html5please.com)
@@ -38,6 +39,7 @@
 * [CSS Tidy](http://www.css88.com/tool/csstidy/) CSS整理与压缩
 * [HTML 标签检查](http://i.links.cn/checkhtmltag.asp)
 * [RegExr](http://gskinner.com/RegExr/) 实时显示正则与所写文本的匹配情况,以及正则的 Cheatsheet
+* [Regulex](http://jex.im/regulex/#!embed=false&flags=&re=%5E(a%7Cb)(%5Cd)*%3F%24) 可以看到正则的结构
 * [PHPCharset Encoder / String Encrypter](http://yehg.net/encoding/index.php) 字符编码转换
 * [智图](http://zhitu.tencent.com/) 腾讯做的图片优化平台
 * [Smush.It](http://www.smushit.com/ysmush.it/) 无损压缩图片
@@ -71,6 +73,7 @@
 * [BEM](http://bem.info/method/) 构建可维护，高度重用的网站的指导
 * [OOCSS](https://github.com/stubbornella/oocss/wiki)
 * [SMACSS](https://smacss.com/)
+* [RSCSS](https://github.com/rstacruz/rscss)
 * [apppie](http://www.apppie.org)
 
 ## 代码展示
