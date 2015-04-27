@@ -75,6 +75,10 @@
 * [SMACSS](https://smacss.com/)
 * [RSCSS](https://github.com/rstacruz/rscss)
 * [apppie](http://www.apppie.org)
+* [Sass Guidelines](http://sass-guidelin.es/) 写的很详尽。
+* [CSS Guidelines](http://cssguidelin.es/)
+* [idiomatic-css](https://github.com/necolas/idiomatic-css)
+
 
 ## 代码展示
 * [Dabblet](http://dabblet.com/) 演示CSS的的比较好,都不用加浏览器前缀，对JS的支持比较弱
