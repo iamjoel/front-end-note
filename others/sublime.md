@@ -41,9 +41,12 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 	<li>第3个</li>
 </ul>
 ```
-如果按Tab键没有反应，那么设置文档的语法为html。方式为
+如果按Tab键没有反应，那么设置文档的语法为HTML。方式为
 1. `ctrl+shift+p`
 1. 输入 'set syntax: HTML'
+
+## [Placeholders](https://github.com/mrmartineau/Placeholders)
+生成占位标签
 
 更多用法见 http://docs.emmet.io/
 
@@ -77,7 +80,7 @@ http://ipestov.com/the-best-plugins-for-sublime-text/
 https://sublime.wbond.net/browse/popular
 
 ## <a name="snippets">snippets</a>
-* [我的sulime snippent]https://github.com/iamjoel/sublime-snippets/
+* [我的sulime snippent](https://github.com/iamjoel/sublime-snippets/)
 * [Super-Snippets](https://github.com/jakebresnehan/Sublime-Super-Snippets) 某前端工程师的snippets
 
 ### [Bootstrap 3 Snippets](https://github.com/JasonMortonNZ/bs3-sublime-plugin)

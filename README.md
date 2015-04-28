@@ -5,7 +5,7 @@
 
 学习前端的每天计划，点[这里](http://www.jianshu.com/p/fa7611d73a9a)。
 
-## 学习路线
+## 知识点
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
 * HTML
@@ -40,7 +40,9 @@
 * JS
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
 
-[**新手常见问题及解答**](detail/Q&A.md)
+附
+* [**新手常见问题及解答**](detail/Q&A.md)
+* [代码片段](snippets)
 
 ### 只需了解
 * [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](detail/W3C&WHATWG.md)
