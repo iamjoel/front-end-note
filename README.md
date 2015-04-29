@@ -59,6 +59,7 @@
 * 网站性能优化
     * [减少网站响应时间概要](others/web-speed-up.md)
 * 其他
+    * [命令行及常用指令介绍](others/command-line.md)
 	* [Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
     * [中文排版的最佳实践](http://zhuanlan.zhihu.com/FrontendMagazine/19891152)
     * [[ 浏览器原理 ] Repaint 、Reflow 的基本认识和优化](http://segmentfault.com/a/1190000002629708)
