@@ -107,3 +107,5 @@
 * [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
 * [sitthetest(英)](https://sitthetest.com/tests) HTML,CSS,JS的测试
 * [我的收藏夹](bookmark/)
+* [A Baseline for Front-End [JS] Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
+* [A Baseline for Front-End Developers(2012)](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
