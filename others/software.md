@@ -27,4 +27,4 @@
 ## 其他
 * [Clover](http://cn.ejie.me/) Windows上支持多标签的资源管理器。还支持添加书签功能。书签的快捷键与Chrome的一致。
 * 印象笔记
-* 7Zip 压缩解压工具
+* [7Zip](http://www.7-zip.org/) 压缩解压工具
