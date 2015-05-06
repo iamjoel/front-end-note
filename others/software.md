@@ -28,3 +28,4 @@
 * [Clover](http://cn.ejie.me/) Windows上支持多标签的资源管理器。还支持添加书签功能。书签的快捷键与Chrome的一致。
 * 印象笔记
 * [7Zip](http://www.7-zip.org/) 压缩解压工具
+* [格式工厂](http://www.pcfreetime.com/cn/) 多媒体文件格式的转化。转成Chrome能播放的MP4文件需要在移动设备中的选
