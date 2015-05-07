@@ -45,6 +45,9 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 1. `ctrl+shift+p`
 1. 输入 'set syntax: HTML'
 
+### livestyle
+CSS的文件绑定调整好后，改动CSS的文件或同步到浏览器，在浏览上改动也会同步到文件。注意要在Chrome下安装相应的插件。
+
 ## [Placeholders](https://github.com/mrmartineau/Placeholders)
 生成占位标签
 
