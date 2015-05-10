@@ -32,14 +32,15 @@
     * [元素定位](detail/css/position)
     * [元素居中](detail/css/align-center/README.md)
     * [BFC](detail/css/BFC)
-	* [布局](detail/css/layout.md)
-    * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图
+    * [布局](detail/css/layout.md)
+    * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
 * JS
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
+* [动画效果](detail/effect)
 
 附
 * [**新手常见问题及解答**](detail/Q&A.md)
