@@ -33,6 +33,7 @@
     * [元素居中](detail/css/align-center/README.md)
     * [BFC](detail/css/BFC)
     * [布局](detail/css/layout.md)
+    * [渐变](detail/css/gradient)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
