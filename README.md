@@ -71,6 +71,7 @@
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
+    * [Sublime的Emmet插件中缩写和快捷键](others/sublime-emmet.md)
 * [Markdown](others/markdown.md) 一种易读易写的标记语言。适合用来写文档。
 * [GIT](others/git.md) 很好用的版本控制工具。 [作业](others/git.md#homework)
 
