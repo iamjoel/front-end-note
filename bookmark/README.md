@@ -88,6 +88,14 @@
 * [Jsfiddle](http://jsfiddle.net/)
 * [Jsbin](http://jsbin.com/)
 
+## H5页面创作工具
+*[Maka](http://www.maka.im/home/case.html) H5创作工具
+*[初夜](http://chuye.cloud7.com.cn/)
+*[兔展](http://www.rabbitpre.com) 比较屌的是，响应式做和很精细（好多内联的style啊）。如： http://www.rabbitpre.com/apps/552f638b9ad221b521343617
+*[Epub360意派](http://www.epub360.com/) H5交互设计利器
+*[VXPLO](http://www.vxplo.cn/home) 在线交互设计神器
+
+
 ## 别人的前端网站收藏
 * [飞屋收藏夹](http://www.ifeiwu.com/urls.php)
 * https://github.com/foru17/front-end-collect
