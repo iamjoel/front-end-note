@@ -70,7 +70,7 @@
     * [HTTP协议](others/http.md)
     * [favicon](https://github.com/audreyr/favicon-cheat-sheet)
 
-### deom
+### Demo
 * [购物车](demo/shopping-cart)
 * [签到图片墙](demo/sign-in-anim)
 * [耗时函数被短时间频繁调用时，防浏览器卡死](demo/throttle)
