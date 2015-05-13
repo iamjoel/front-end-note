@@ -42,6 +42,7 @@
 * JS
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
 * [动画效果](detail/effect)
+* [web workers](detail/web-works)
 
 附
 * [**新手常见问题及解答**](detail/Q&A.md)
@@ -68,6 +69,11 @@
     * [[ 浏览器原理 ] Repaint 、Reflow 的基本认识和优化](http://segmentfault.com/a/1190000002629708)
     * [HTTP协议](others/http.md)
     * [favicon](https://github.com/audreyr/favicon-cheat-sheet)
+
+### deom
+* [购物车](demo/shopping-cart)
+* [签到图片墙](demo/sign-in-anim)
+* [耗时函数被短时间频繁调用时，防浏览器卡死](demo/throttle)
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。

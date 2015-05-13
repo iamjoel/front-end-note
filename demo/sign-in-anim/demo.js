@@ -3,10 +3,10 @@ $(document).ready(function() {
         $el: $('.sign-in'),
         $totalNum: $('#total-num'),
         totalNum: 0,
-        ROW: 20,
-        COL: 10,
+        ROW: 8,
+        COL: 8,
         // MAXNUM: 5,//最多出现人数
-        MAXNUM: 100,//最多出现人数
+        MAXNUM: 10,//最多出现人数
         DEFAULT_AVATAR_URL: 'img/avatar/default.png',
         showItemLocArr: [],
         isAnim: false,
