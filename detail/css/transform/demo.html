@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>变形(Transform) Demo</title>
+    <style>
+    	*{
+    		margin: 0;
+    		padding: 0;
+    	}
+		.block{
+			width: 150px;
+			height: 150px;
+			background-color: #ff0;
+			margin: 20px auto;
+		}
+		.block:nth-child(even){
+			background-color: #0ff;
+		}
+		.rotate{
+			-webkit-transform: rotate(20deg);
+			transform: rotate(20deg);
+		}
+		.rotate-x{
+			-webkit-transform: rotateX(50deg);
+			transform: rotateX(50deg);
+	/*		-webkit-perspective: 800px;
+			        perspective: 800px;
+			-webkit-perspective-origin: 50% 100px;
+			        perspective-origin: 50% 100px;*/
+		}
+		.rotate-y{
+			-webkit-transform: rotateY(50deg);
+			transform: rotateY(50deg);
+		}
+		.rotate-z{
+			-webkit-transform: rotateZ(50deg);
+			transform: rotateZ(50deg);
+		}
+		.rotate-3d{
+			-webkit-transform: rotate3d(1, 2, 3, 45deg);
+			transform: rotate3d(1, 2, 3, 45deg);
+		}
+		.rotate-3d2{
+			-webkit-transform: rotateX(45deg) rotateY(45deg) rotateZ(60deg);
+			transform: rotateX(45deg) rotateY(45deg) rotateZ(60deg);
+		}
+
+		.scale{
+			-webkit-transform: scale(2, 1.5);
+			transform: scale(2, 1.5);
+		}
+		.scale-x{
+			-webkit-transform: scaleX(3);
+			transform: scaleX(3);
+		}
+		.scale-z{
+			-webkit-transform: scaleZ(3);
+			transform: scaleZ(3);
+		}
+
+		.skew{
+			-webkit-transform: skew(10deg);
+			transform: skew(10deg);
+		}
+
+		.skew-x{
+			-webkit-transform: skewX(10deg);
+			transform: skewX(10deg);
+		}
+		.skew-y{
+			-webkit-transform: skewY(10deg);
+			transform: skewY(10deg);
+		}
+
+		.translate{
+			-webkit-transform: translate(250px, 10px);
+			transform: translate(250px, 10px);
+		}
+		.translate-x{
+			-webkit-transform: translateX(300px);
+			transform: translateX(300px);
+		}
+		.translate-z{
+			-webkit-transform: translateZ(1000px);
+			transform: translateZ(1000px);
+		}
+
+		.composite{
+			-webkit-transform: translateX(200px) skew(20deg) scale(1.5);
+			transform: translateX(200px) skew(20deg) scale(1.5);
+		}
+    </style>
+</head>
+
+<body>
+	<h2>旋转(rotate)</h2>
+	<div class="rotate block">rotate(20deg) 以Z轴为旋转轴旋转 与 rotateX(20deg)等效</div>
+	<div class="rotate-x block">rotateX(50deg) 以X轴为旋转轴旋转（90deg时，高度为0）</div>
+	<div class="rotate-y block">rotateY(50deg) 以Y轴为旋转轴旋转（90deg时，宽度为0）</div>
+	<div class="rotate-z block">rotateZ(50deg) 以Z轴为旋转轴旋转</div>
+	<div class="rotate-3d block">rotate3d(1, 2, 3, 45deg) 和 rotate3d(10, 20, 30, 45deg)</div>
+	<div class="rotate-3d2 block">rotate3d(1, 2, 3, 45deg) 和 rotate3d(10, 20, 30, 45deg)</div>
+
+	<h2>缩放(scale)</h2>
+	<div class="scale block">scale(2, 1.5)</div>
+	<div class="scale-x block"></div>
+	<div class="scale-z block"></div>
+
+	<h2>斜交(skew)</h2>
+	<div class="skew block">skew(10deg)</div>
+	<div class="skew-x block">skewX(10deg)</div>
+	<div class="skew-y block">skewY(10deg)</div>
+
+	<h2>位移(Translate)</h2>
+	<div class="translate block">translate(250px, 10px)</div>
+	<div class="translate-x block">translateX(300px)</div>
+	<div class="translate-z block">transform: translateZ(1000px) 没什么变化</div>
+
+
+	<h2>一起使用</h2>
+	<div class="composite block"></div>
+
+
+    <script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    });
+    </script>
+</body>
+
+</html>

@@ -39,6 +39,9 @@
     * [浏览器兼容性](detail/css/compatibility)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
+    * CSS3
+        * [过渡(transition)](detail/css/transition)
+        * [变换(transform)](detail/css/transform)
 * JS
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
 * [动画效果](detail/effect)
