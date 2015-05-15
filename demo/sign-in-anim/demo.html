@@ -28,14 +28,8 @@
         height: 80px;
         width: 80px;
         background-color: #f60;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-    }
-    .sign-in__line__item:first-child{
-        border-left: 1px solid #ddd;
-    }
-    .sign-in__line:first-child .sign-in__line__item{
-        border-top: 1px solid #ddd;
+        margin: 0 5px 5px 0;
+
     }
     .sign-in__img--anim{
         position: absolute;
@@ -52,7 +46,9 @@
         height: 200px;
         width: 200px;
         margin: 0;
-        transform-origin: 0 0;
+        background-color: #fff;
+        -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
     }
 
     </style>
@@ -61,8 +57,8 @@
 <body>
     <div class="wrap">
         <button class="add-btn">新增签到</button>
-    	<p>已签到人数为 <span id="total-num">0</span></p>
-    	<div class="sign-in">
+        <p>已签到人数为 <span id="total-num">0</span></p>
+        <div class="sign-in">
             <div class="sign-in__line">
                 <span class="sign-in__line__item"></span>
 
