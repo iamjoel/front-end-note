@@ -80,12 +80,16 @@ $(document).ready(function() {
             var pos = $target.position();
             $img.addClass('sign-in__img');
             $img.fadeIn('slow', function() {
+                var imgPos = $img.position();
+                var offsetX = pos.left - imgPos.left + 'px';
+                var offsetY = pos.top - imgPos.top + 'px';
+                var translate3dStr = 'translate3d(' + offsetX + ',' + offsetY + ',0)';
+                var scaleX = self.itemWidth/$img.width();
+                var scaleY = self.itemHeight/$img.height();
+                var scaleStr = 'scale(' + scaleX + ',' + scaleY + ')';
                 setTimeout(function() {
                     $img.css({
-                        left: pos.left,
-                        top: pos.top,
-                        width: self.itemWidth,
-                        height: self.itemHeight
+                        transform: [translate3dStr, scaleStr].join(' ') // 3D加速
                     });
                 }, 200);
             });
