@@ -33,16 +33,18 @@
     * [元素居中](detail/css/align-center/README.md)
     * [BFC](detail/css/BFC)
     * [布局](detail/css/layout.md)
-    * [渐变](detail/css/gradient)
-    * [动画](detail/css/animate)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * 浏览器hacks
     * CSS3
-        * [过渡(transition)](detail/css/transition)
+        * [渐变](detail/css/gradient)
         * [变换(transform)](detail/css/transform)
+        * [过渡(transition)](detail/css/transition)
+        * [动画](detail/css/animate)
+        * [滤镜(CSS Filter)](detail/css/animate)
+
 * JS
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
 * [动画效果](detail/effect)

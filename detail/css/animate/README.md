@@ -1,2 +1,2 @@
 ## Web动画
-* [动画性能](performance.md)
+* [Web动画性能介绍](performance.md)
