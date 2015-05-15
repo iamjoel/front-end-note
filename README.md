@@ -34,6 +34,7 @@
     * [BFC](detail/css/BFC)
     * [布局](detail/css/layout.md)
     * [渐变](detail/css/gradient)
+    * [动画](detail/css/animate)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
