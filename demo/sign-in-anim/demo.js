@@ -73,7 +73,6 @@ $(document).ready(function() {
             }
             var $img = $('<img>');
             $img.attr('src', itemURL).attr('id', 'item-y-' + loc.y + '-x-' + loc.x);
-            $img.addClass('sign-in__img--anim');
             this.$el.append($img);
             var targetSel = '.row-{row}-col-{col}'.replace('{row}', loc.y).replace('{col}', loc.x);
             var $target = $(targetSel);
@@ -87,11 +86,12 @@ $(document).ready(function() {
                 var scaleX = self.itemWidth / $img.width();
                 var scaleY = self.itemHeight / $img.height();
                 var scaleStr = 'scale(' + scaleX + ',' + scaleY + ')';
-                setTimeout(function() {
+                $img.fadeIn('slow', function () {
+                    $img.addClass('sign-in__img--anim');
                     $img.css({
                         transform: [translate3dStr, scaleStr].join(' ') // 3D加速
                     });
-                }, 200);
+                });
             });
 
             this.$totalNum.text(++this.totalNum);
