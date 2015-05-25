@@ -56,8 +56,6 @@ $(document).ready(function() {
             var $img = this.$el;
             var left = $img.data('left');
             var top = $img.data('top');
-            // var left = $img.position().left;
-            // var top = $img.position().top;
             var $moveToEl = $('.item[data-index=' + $img.data('third-target') + ']', '.layer-3');
             var offset = {
                 x: $moveToEl.position().left - left,
@@ -96,7 +94,6 @@ $(document).ready(function() {
         thirdItems: [], // 第3层的签到元素 18
         SECOND_LENGTH: 9,
         THIRD_LENGTH: 18,
-        // delayTime: 2000, // 新人签到的调用间隔
         delayTime: 2000, // 新人签到的调用间隔
         addItem: function(itemURL) {
             this.totalNum++;
@@ -159,7 +156,7 @@ $(document).ready(function() {
     });
 
     $('.add-multi-btn').click(function() {
-        for (var i = 18; i > 0; i--) {
+        for (var i = 40; i > 0; i--) {
             signIn.addItem();
         };
     });
