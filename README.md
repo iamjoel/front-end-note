@@ -36,8 +36,9 @@
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
+        * [浏览器常见bug](detail/css/compatibility/css-bugs.md)
+        * [浏览器hacks](detail/css/compatibility/css-hack.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
-    * 浏览器hacks
     * CSS3
         * [渐变](detail/css/gradient)
         * [变换(transform)](detail/css/transform)

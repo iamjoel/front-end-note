@@ -15,7 +15,7 @@
 
 常见的条件注释如下
 ```html
-<!--[ifIE6]>
+<!--[if IE6]>
 IE6版本有效
 <![endif]-->
 <!--[if gt IE6]>
@@ -29,6 +29,12 @@ IE8以下版本有效
 <![endif]-->
 <!--[if lte IE8]>
 IE8（包含）及以下版本有效
+<![endif]-->
+<!--[if (gt IE 5)&(lt IE 7)]>
+IE5 - IE7版本有效
+<![endif]-->
+<!--[if (IE 5)|(IE 6)]>
+IE5或IE6版本有效
 <![endif]-->
 <!--[if !IE]>-->
 除了IE
