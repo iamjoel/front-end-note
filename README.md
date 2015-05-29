@@ -119,6 +119,7 @@
 * [可参考书单](http://www.douban.com/doulist/2772859/)
 
 ## 其他
+* [在线工具](bookmark/tool.md)
 * [前端工具](https://github.com/codylindley/frontend-tools)
 * [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
 * [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
