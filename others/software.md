@@ -29,6 +29,7 @@
 * [Beyond Compare](http://www.scootersoftware.com/download.php) 文件/文件夹比较工具
 * [7Zip](http://www.7-zip.org/) 压缩解压工具
 * [CuteFTP](http://www.cuteftp.com/) FTP工具
+* [LockHunter](http://lockhunter.com/) 查看文件是被哪个程序锁定了，并且支持解开程序对文件的锁定
 
 ## 其他
 * [印象笔记](https://www.yinxiang.com/products/)

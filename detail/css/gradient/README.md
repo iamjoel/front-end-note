@@ -39,4 +39,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
 ```
 
 demo 见 [这里](demo.html)    
-详细见 https://css-tricks.com/css3-gradients/
+详细见 https://css-tricks.com/css3-gradients/    
+
+## 工具
+* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/) CSS渐变代码在线生成工具
+* [gradient animator](http://www.gradient-animator.com/) CSS渐变动画在线生成工具

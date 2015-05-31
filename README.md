@@ -36,15 +36,15 @@
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
+        * [浏览器常见bug](detail/css/compatibility/css-bugs.md)
+        * [浏览器hacks](detail/css/compatibility/css-hack.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
-    * 浏览器hacks
     * CSS3
         * [渐变](detail/css/gradient)
         * [变换(transform)](detail/css/transform)
         * [过渡(transition)](detail/css/transition)
         * [动画](detail/css/animate)
         * [滤镜(CSS Filter)](detail/css/animate)
-
 * JS
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
 * [动画效果](detail/effect)
@@ -119,6 +119,7 @@
 * [可参考书单](http://www.douban.com/doulist/2772859/)
 
 ## 其他
+* [在线工具](bookmark/tool.md)
 * [前端工具](https://github.com/codylindley/frontend-tools)
 * [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
 * [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
