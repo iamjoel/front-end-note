@@ -61,6 +61,46 @@ font由 font-style, font-variant, font-weight, font-size, line-height and font-f
 font: italic bold 1.5em/2 arial, Helvetica, sans-serif;
 ```
 
+## text-align
+指元素内文本的水平对齐方式。可选值
+* left 左对齐
+* right 右对齐
+* center 居中对齐
+* justify 两端对齐
+
+## text-indent
+指定缩进。如，段落缩进两个字符
+```
+p{
+	text-indent: 2em;
+}
+```
+隐藏文字可以用
+```
+.hide-text{
+	text-indent: -99999px;
+}
+```
+
+## text-decoration
+对文本进行修饰。可选值
+* none
+* underline 下划线
+* overline 上划线
+* line-through 中划线
+
+## vertical-align
+用于垂直对齐inline元素，也就是display值为inline和inline-block的元素。这个属性比较复杂，见
+* [[翻译]关于Vertical-Align你需要知道的事情](http://segmentfault.com/a/1190000002668492)
+* [垂直居中之vertical-align详解](http://lingyu.wang/2014/04/13/vertical-align/)
+
+## white-space
+指定元素的内容中有空格时如何处理。    
+比较多的用法是，当元素内容中没用空格时，禁止部分内容换行。
+```
+white-space: nowrap;
+```
+
 ## 其他一些字体样式规则
 * [font-stretch](https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch) 对字进行进行伸缩变形
 * @font-face 定义字体
