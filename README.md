@@ -40,6 +40,7 @@
         * [浏览器hacks](detail/css/compatibility/css-hack.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * CSS3
+        * [box shadow](detail/css/box-shadow)
         * [渐变](detail/css/gradient)
         * [变换(transform)](detail/css/transform)
         * [过渡(transition)](detail/css/transition)
