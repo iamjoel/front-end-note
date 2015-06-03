@@ -62,7 +62,7 @@ font: italic bold 1.5em/2 arial, Helvetica, sans-serif;
 ```
 
 ## text-align
-指元素内文本的水平对齐方式。可选值
+指定元素内文本的水平对齐方式。可选值
 * left 左对齐
 * right 右对齐
 * center 居中对齐
@@ -88,6 +88,17 @@ p{
 * underline 下划线
 * overline 上划线
 * line-through 中划线
+
+
+## text-overflow
+指定文本超过元素大小时候的处理方式。    
+单行文本溢出加省略号
+```
+white-space: nowrap;/* 必须要设置这个 */
+overflow: hidden;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+```
 
 ## vertical-align
 用于垂直对齐inline元素，也就是display值为inline和inline-block的元素。这个属性比较复杂，见
