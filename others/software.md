@@ -10,7 +10,7 @@
 
 ## 代码版本控制
 * Git
-	* [Github](https://github.com/) [客户端下载地址](https://help.github.com/articles/set-up-git) 用了Github的客户端的命令行，就会发现msysgit，cgywin里的Git之类的命令行都是浮云。
+	* [Github](https://github.com/) [Windows下的客户端](https://windows.github.com/) 用了Github的客户端的命令行，就会发现msysgit，cgywin里的Git之类的命令行都是浮云。
 	* [Coding](https://coding.net/)
 
 ## 图片查看
