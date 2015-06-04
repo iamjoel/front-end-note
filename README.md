@@ -8,7 +8,7 @@
 ## 知识点
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
-* [推荐安装的软件](others/software.md)
+* [软件推荐](others/software.md)
 * HTML
     * [介绍](detail/html/intro.md)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [作业](detail/html/tag-and-attr.md#homework)

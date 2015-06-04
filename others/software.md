@@ -1,8 +1,8 @@
-# 推荐安装的软件
+# 软件推荐
 ## 浏览器
 * [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html)
 * [Firefox](http://www.firefox.com.cn/download/)
-* IE
+* IE 页面仔就不得不安装各种浏览器。
 * [浏览器相关插件](browser-plugins.md)
 
 ## IDE
@@ -10,7 +10,7 @@
 
 ## 代码版本控制
 * Git
-	* [Github](https://github.com/) [客户端下载地址](https://help.github.com/articles/set-up-git)
+	* [Github](https://github.com/) [客户端下载地址](https://help.github.com/articles/set-up-git) 用了Github的客户端的命令行，就会发现msysgit，cgywin里的Git之类的命令行都是浮云。
 	* [Coding](https://coding.net/)
 
 ## 图片查看
@@ -30,7 +30,7 @@
 * [Everything](http://www.voidtools.com/) 文件搜索工具
 * [Clover](http://cn.ejie.me/) Windows上支持多标签的资源管理器。还支持添加书签功能。书签的快捷键与Chrome的一致。
 * [Beyond Compare](http://www.scootersoftware.com/download.php) 文件/文件夹比较工具
-* [7Zip](http://www.7-zip.org/) 压缩解压工具
+* [7Zip](http://www.7-zip.org/) 免费的压缩解压工具
 * [CuteFTP](http://www.cuteftp.com/) FTP工具
 * [LockHunter](http://lockhunter.com/) 查看文件是被哪个程序锁定了，并且支持解开程序对文件的锁定
 
