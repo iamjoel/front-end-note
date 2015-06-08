@@ -49,6 +49,7 @@
 * JS
     * [脚本写在哪](detail/js/place.md)
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
+    * [ajax](detail/js/ajax.md)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
 
