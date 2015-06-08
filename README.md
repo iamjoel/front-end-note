@@ -30,7 +30,9 @@
     * [样式简写](detail/css/css-shorthand.md)
     * [浮动](detail/css/float/README.md)
     * [元素定位](detail/css/position)
-    * [元素居中](detail/css/align-center/README.md)
+    * 对齐
+        * [元素居中](detail/css/align-center/)
+        * [两端对齐](detail/css/align-justify/)
     * [BFC](detail/css/BFC)
     * [布局](detail/css/layout.md)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
