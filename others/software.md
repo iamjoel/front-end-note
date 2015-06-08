@@ -1,8 +1,8 @@
-# 推荐安装的软件
+# 软件推荐
 ## 浏览器
 * [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html)
 * [Firefox](http://www.firefox.com.cn/download/)
-* IE
+* IE 页面仔就不得不安装各种浏览器。
 * [浏览器相关插件](browser-plugins.md)
 
 ## IDE
@@ -10,12 +10,15 @@
 
 ## 代码版本控制
 * Git
-	* [Github](https://github.com/) [客户端下载地址](https://help.github.com/articles/set-up-git)
+	* [Github](https://github.com/) [Windows下的客户端](https://windows.github.com/) 用了Github的客户端的命令行，就会发现msysgit，cgywin里的Git之类的命令行都是浮云。
 	* [Coding](https://coding.net/)
 
 ## 图片查看
 * Photoshop
 * [Picpick](http://www.picpick.org/en/) 轻量级的查看图片软件支持：查看psd格式；量色；测距离等。
+
+## 一键切图
+* [cutterman](http://www.cutterman.cn/cutterman/feature) 是一款运行在photoshop中的插件，能够自动将你需要的图层进行输出，以替代传统的手工 "导出web所用格式" 以及使用切片工具进行挨个切图的繁琐流程。它支持各种各样的图片尺寸、格式、形态输出，方便你在pc、ios、Android等端上使用。它不需要你记住一堆的语法、规则，纯点击操作，方便、快捷，易于上手。 要先安装Adobe Extension Manager。然后在Adobe Extension Manager中安装该插件。
 
 ## 静态服务器
 * [Anywhere](https://npmjs.org/package/anywhere) 需先安装[Nodejs](https://nodejs.org/download/)。然后命令中执行 `npm i -g anywhere` 进行安装。
@@ -27,7 +30,7 @@
 * [Everything](http://www.voidtools.com/) 文件搜索工具
 * [Clover](http://cn.ejie.me/) Windows上支持多标签的资源管理器。还支持添加书签功能。书签的快捷键与Chrome的一致。
 * [Beyond Compare](http://www.scootersoftware.com/download.php) 文件/文件夹比较工具
-* [7Zip](http://www.7-zip.org/) 压缩解压工具
+* [7Zip](http://www.7-zip.org/) 免费的压缩解压工具
 * [CuteFTP](http://www.cuteftp.com/) FTP工具
 * [LockHunter](http://lockhunter.com/) 查看文件是被哪个程序锁定了，并且支持解开程序对文件的锁定
 

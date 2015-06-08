@@ -8,7 +8,7 @@
 ## 知识点
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
-* [推荐安装的软件](others/software.md)
+* [软件推荐](others/software.md)
 * HTML
     * [介绍](detail/html/intro.md)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [作业](detail/html/tag-and-attr.md#homework)
@@ -20,11 +20,11 @@
 	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效
 	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
-        * [文字样式规则](detail/css/font/font-style.md)
+        * [文本（text）与文字（font）样式规则](detail/css/font/font-style.md)
         * [背景样式规则](detail/css/background.md)
-        * 盒模型－宽，高，边距，边框等样式规则
+        * [盒模型](detail/css/box-model.md) 宽，高，边距，边框等样式规则
         * 位置和显示形式样式规则
-        * [表格样式规则](detail/css/table/README.md)
+        * [表格样式规则](detail/css/table)
         * [列表样式规则](detail/css/list.md)
     * [样式规则的值的类型及单位](detail/css/value-and-unit.md)
     * [样式简写](detail/css/css-shorthand.md)
@@ -42,13 +42,16 @@
         * [浏览器hacks](detail/css/compatibility/css-hack.md)
     * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css)
     * CSS3
+        * [box shadow](detail/css/box-shadow)
         * [渐变](detail/css/gradient)
         * [变换(transform)](detail/css/transform)
         * [过渡(transition)](detail/css/transition)
         * [动画](detail/css/animate)
         * [滤镜(CSS Filter)](detail/css/animate)
 * JS
+    * [脚本写在哪](detail/js/place.md)
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
+    * [ajax](detail/js/ajax.md)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
 
@@ -72,6 +75,7 @@
 * 网站性能优化
     * [减少网站响应时间概要](others/web-speed-up.md)
 * 其他
+    * [Photoshop介绍](others/photoshop)
     * [命令行及常用指令介绍](others/command-line.md)
 	* [Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
     * [中文排版的最佳实践](http://zhuanlan.zhihu.com/FrontendMagazine/19891152)
