@@ -34,7 +34,8 @@
         * [元素居中](detail/css/align-center/)
         * [两端对齐](detail/css/align-justify/)
     * [BFC](detail/css/BFC)
-    * [布局](detail/css/layout.md)
+    * [布局](detail/css/layout)
+        * [Flexbox](detail/css/layout/flexbox)
     * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵
     * [浏览器默认样式](detail/css/ua-style.md)
     * [浏览器兼容性](detail/css/compatibility)
