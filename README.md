@@ -1,7 +1,6 @@
 # web前端学习笔记 [下载](https://github.com/iamjoel/front-end-note/archive/master.zip)
 ## 关于本项目
 存放HTML，CSS，JS等WEB前端基础知识。        
-适合人群：零基础或接近零基础，但对前端感兴趣的人。
 
 学习前端的每天计划，点[这里](http://www.jianshu.com/p/fa7611d73a9a)。
 
@@ -13,6 +12,7 @@
     * [介绍](detail/html/intro.md)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [作业](detail/html/tag-and-attr.md#homework)
     * [标签语义化](detail/html/semantic.md)
+    * [web存储](detail/html/storage)
 * CSS
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
@@ -88,6 +88,7 @@
 * [购物车](demo/shopping-cart)
 * [签到图片墙](demo/sign-in-anim)
 * [耗时函数被短时间频繁调用时，防浏览器卡死](demo/throttle)
+
 
 ## 前端相关
 * [Sublime](others/sublime.md) 最性感的编辑器。
