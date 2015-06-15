@@ -42,3 +42,6 @@ box shadow支持多个值,值之间用`,`分隔。例如
   background-color: #DDD;
 }
 ```
+
+## 拓展阅读
+* [CSS3 制作Drop Shadow效果](http://www.w3cplus.com/css3/box-drop-down-shadow-with-css3)
