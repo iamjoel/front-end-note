@@ -74,6 +74,7 @@
     * [语种名称代码(html lang的值)](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
 * CSS
     * [元素上使用id还是class](detail/css/id-or-class.md)
+    * [加载CSS的优化：Critical CSS](detail/css/critical-css.md)
 * 网站性能优化
     * [减少网站响应时间概要](others/web-speed-up.md)
 * 其他
