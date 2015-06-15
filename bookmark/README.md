@@ -102,6 +102,7 @@
 * https://github.com/dypsilon/frontend-dev-bookmarks
 * http://123.jser.us/
 * http://www.whycss.com/ 里面有蛮多收集的UED团队博客
+* [segmentfault-前端收藏夹子](http://segmentfault.com/bookmark/1230000000679245)
 
 ## 设计网站
 * [dribbble](https://dribbble.com/)
