@@ -52,6 +52,7 @@
 * JS
     * [脚本写在哪](detail/js/place.md)
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html)
+    * [事件DOMContentLoaded和load的区别](detail/js/dom-content-loaded-vs-load.md)
     * [ajax](detail/js/ajax.md)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
