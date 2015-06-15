@@ -26,6 +26,7 @@
         * 位置和显示形式样式规则
         * [表格样式规则](detail/css/table)
         * [列表样式规则](detail/css/list.md)
+        * [CSS的未来：一些试验性CSS属性](http://www.qianduan.net/the-future-of-css-experimental-css-properties/)
     * [样式规则的值的类型及单位](detail/css/value-and-unit.md)
     * [样式简写](detail/css/css-shorthand.md)
     * [浮动](detail/css/float/README.md)
