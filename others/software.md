@@ -35,5 +35,6 @@
 * [LockHunter](http://lockhunter.com/) 查看文件是被哪个程序锁定了，并且支持解开程序对文件的锁定
 
 ## 其他
+* [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
 * [印象笔记](https://www.yinxiang.com/products/)
 * [格式工厂](http://www.pcfreetime.com/cn/) 多媒体文件格式的转化。转成Chrome能播放的MP4文件需要在移动设备中的选。
