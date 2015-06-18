@@ -19,6 +19,10 @@
 ## 对于常见特定设备的媒体查询
 见[这里](media-queries-for-common-device.css)
 
+## 屏幕宽度断点
+* JS中的屏幕宽度断点（在某个宽度下执行某个内容）
+	* [Importing CSS Breakpoints Into Javascript](https://www.lullabot.com/blog/article/importing-css-breakpoints-javascript)
+	* [enquire.js](http://wicky.nillia.ms/enquire.js/) 插件
 
 ## 拓展阅读
 * [响应式网页设计的9项基本原则](http://www.shejidaren.com/principles-of-responsive-web-design.html)

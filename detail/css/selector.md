@@ -161,3 +161,5 @@ CSS选择器的读取顺序是从右向左。
 
 ## 拓展阅读
 * [30个你必须记住的CSS选择符](http://yanhaijing.com/css/2014/01/04/the-30-css-selectors-you-must-memorize/)
+* [The Current Generation of CSS3 Selectors](http://www.sitepoint.com/current-generation-css3-selectors/)
+* [The Future Generation of CSS Selectors: Level 4](http://www.sitepoint.com/future-generation-css-selectors-level-4)

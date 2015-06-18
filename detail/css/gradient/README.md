@@ -44,3 +44,4 @@ demo 见 [这里](demo.html)
 ## 工具
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/) CSS渐变代码在线生成工具
 * [gradient animator](http://www.gradient-animator.com/) CSS渐变动画在线生成工具
+* [gradify](https://github.com/fraser-hemp/gradify) 用渐变的背景做站位图
