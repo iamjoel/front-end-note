@@ -22,4 +22,5 @@
 * [Web动画性能指南](http://alexorz.github.io/animation-performance-guide/)
 
 ## 拓展阅读
+* [网页动画终极指南](http://colachan.com/post/3444)
 * [消除疑问：CSS动画 VS JavaScript](https://github.com/classicemi/blog/issues/3)
