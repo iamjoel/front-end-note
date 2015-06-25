@@ -80,6 +80,8 @@
     * [加载CSS的优化：Critical CSS](detail/css/critical-css.md)
 * 网站性能优化
     * [减少网站响应时间概要](others/web-speed-up.md)
+* 安全
+    * [XSS](detail/security/XSS)
 * 其他
     * [Photoshop介绍](others/photoshop)
     * [命令行及常用指令介绍](others/command-line.md)
