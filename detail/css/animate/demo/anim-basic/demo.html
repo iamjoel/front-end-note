@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3动画基本</title>
+	<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+	<div class="block" data-add-class="bounce"></div>
+	<script src="../../../../../asset/vendor/jquery-2.1.3.min.js"></script>
+	<script>
+	$(document).ready(function () {
+		$('.block').click(function(){
+			var $this = $(this);
+			var toggleClass = $this.data('add-class');
+			$this.toggleClass(toggleClass);
+		});
+		
+	});
+	</script>
+
+</body>
+</html>

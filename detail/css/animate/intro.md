@@ -16,7 +16,6 @@
 * 帧率高（接近60fps最佳）
 * 帧率稳定，波动少（极少出现跳帧现象）
 
-
 ## 参考
 * [动画初探](https://github.com/imsobear/blog/issues/39)
 * [Web动画性能指南](http://alexorz.github.io/animation-performance-guide/)
