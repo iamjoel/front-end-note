@@ -1,8 +1,8 @@
 # CSS介绍
-CSS 指层叠样式表 (Cascading Style Sheets)。    
-
-## 样式
-样式定义了HTML元素的外观。如：
+CSS是Cascading Style Sheets(层叠样式表)的缩写。    
+CSS是一门语言（DSL）。    
+CSS用来指定HTML元素的外观的。外观包括：大小（宽，高），位置，内容的对齐方式，字体等等。    
+下面是CSS代码：
 ```
 .intro{
     width: 100px;
