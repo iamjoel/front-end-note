@@ -10,15 +10,15 @@
 * [软件推荐](others/software.md)
 * HTML
     * [介绍](detail/html/intro.md)
-    * **[常见标签及属性](detail/html/tag-and-attr.md)** [作业](detail/html/tag-and-attr.md#homework)
+    * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
     * [Picture元素](detail/html/picture) 用Picture元素做响应式图片
     * [标签语义化](detail/html/semantic.md)
     * [web存储](detail/html/storage) 缺描述
 * CSS
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
-	* **[选择器](detail/css/selector.md)** [作业](detail/css/selector.md#homework)
-    * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效 缺作业的具体描述
+	* **[选择器](detail/css/selector.md)** [练习](detail/css/selector.md#homework)
+    * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述
 	* [样式规则](http://www.htmldog.com/reference/cssproperties/)
         * [文本（text）与文字（font）样式规则](detail/css/font/font-style.md)
         * [背景样式规则](detail/css/background.md) 缺多背景图的用法
@@ -101,7 +101,7 @@
 * [Sublime](others/sublime.md) 最性感的编辑器。
     * [Sublime的Emmet插件中缩写和快捷键](others/sublime-emmet.md)
 * [Markdown](others/markdown.md) 一种易读易写的标记语言。适合用来写文档。
-* [GIT](others/git.md) 很好用的版本控制工具。 [作业](others/git.md#homework)
+* [GIT](others/git.md) 很好用的版本控制工具。 [练习](others/git.md#homework)
 
 ## 项目结构
 * `detail` 知识点的详细内容
