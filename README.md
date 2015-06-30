@@ -59,7 +59,7 @@
     * [ajax](detail/js/ajax.md)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
-* [异步上传文件](aysn-file-upload)
+* [异步上传文件](others/aysn-file-upload)
 
 附
 * [**新手常见问题及解答**](detail/Q&A.md)
