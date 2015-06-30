@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>XMLHttpRequest2 异步提交表单</title>
+</head>
+
+<body>
+    <form id="upload-form" action="/upload" method="post">
+        <input type="file" name="file">
+        <button type="summit" id="summit-btn">提交</button>
+    </form>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+    <script src="http://cdn.staticfile.org/jquery-mockjax/1.5.3/jquery.mockjax.min.js"></script>
+    <script>
+    $.mockjax({
+        url: "/upload",
+        type: 'post',
+        response: function(setting) {
+        	console.log(setting.data);
+            this.responseText = "upload success~";
+        }
+    });
+    $(function() {
+        var $form = $('#upload-form');
+        $form.find('#summit-btn').click(function(evt) {
+        	evt.preventDefault();
+            var formData = new FormData();
+            $form.find('input').each(function() {
+                if (this.type == 'file' && this.files.length > 0) {
+                    for (var i = 0; i < this.files.length; i++) {
+                        formData.append(this.name, this.files.item(i)); // 存放文件数据
+                    }
+                } else {
+                    formData.append(this.name, this.value);
+                }
+            });
+
+            $.ajax({
+                url: $form.attr('action'),
+                data: formData,
+                processData: false,
+                contentType: false,
+                type: $form.attr('method'),
+                success: function(data) {
+                    console.log(data);
+                }
+            });
+
+            return false;
+        });
+
+
+    });
+    </script>
+</body>
+
+</html>
