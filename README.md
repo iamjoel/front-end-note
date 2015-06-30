@@ -46,7 +46,7 @@
         * [box shadow](detail/css/box-shadow)
         * [渐变](detail/css/gradient)
         * [变换(transform)](detail/css/transform) 缺部分具体的描述
-        * [过渡(transition)](detail/css/transition)
+        * [过渡(transition)](detail/css/transition) 缺具体的描述
         * [动画](detail/css/animate)
         * [滤镜(CSS Filter)](detail/css/animate)
     * [响应式样布局](detail/responsive)
@@ -54,14 +54,14 @@
     * [脚本写在哪](detail/js/place.md)
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
     * [事件DOMContentLoaded和load的区别](detail/js/dom-content-loaded-vs-load.md)
-    * [ajax](detail/js/ajax.md)
+    * [ajax](detail/js/ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
 * [异步上传文件](others/aysn-file-upload)
 
 附
-* [**新手常见问题及解答**](detail/Q&A.md)
-* [代码片段](snippets)
+* [**新手常见问题及解答**](detail/FAQ.md)
+* [代码片段](snippets) 缺具体的描述
 
 ### 只需了解
 * [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](detail/W3C&WHATWG.md)
