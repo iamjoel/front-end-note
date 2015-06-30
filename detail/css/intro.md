@@ -1,23 +1,27 @@
 # CSS介绍
-CSS 指层叠样式表 (Cascading Style Sheets)。    
-
-## 样式
-样式定义了HTML元素的外观。如：
+CSS是Cascading Style Sheets(层叠样式表)的缩写。    
+CSS是一门语言（DSL）。    
+CSS用来指定HTML元素的外观的。外观包括：大小（宽，高），位置，内容的对齐方式，字体等等。    
+下面是CSS代码：
 ```
 .intro{
-    float: left;
     width: 100px;
+    height: 200px;
     color: #ff0;
+    background-color:red;
 }
 ```
-其中：     
+上面代码的意思是，指定所有类名为`intro`的元素有这样的外观：宽度为`100px`,高度为`200px`,字体颜色为`#ff0`,背景色为红色。    
 
-* `.intro` 为选择器。用其选择一系列的元素
-* `float,width,color`为样式规则
-* `left,100px,#f00`为样式规则的值
+样式由**选择器**和**声明**两部分组成。声明由**属性**和**值**组成。    
+在上面的例子中
+* `.intro` 为选择器。
+* `width: 100px;height: 200px;...` 为声明
+* `width,color` 为声明的属性
+* `100px,#f00` 为声明的值
 
 ## 层叠
-对同一个元素来，可以用多种选择器来选择它。如对于一个如下的元素：
+层叠样式表中的层叠的意思是：对同一个元素来，可以用多种选择器来选择（或者说指定）它。如对于一个如下的元素：
 ```
 <div class="box" id="play-music-box"></div>
 ```
