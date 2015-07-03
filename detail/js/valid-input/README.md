@@ -16,7 +16,7 @@
   valueMissing: true
 }
 ```
-badInput，customError，valueMissing是各种错误情况，如果值是合法的，valid才为true。    
+badInput，customError，valueMissing是各种错误情况，如果值是合法的，valid才为true。具体的字段的意义见[HTML规范](https://html.spec.whatwg.org/multipage/forms.html#validitystate)    
 
 demo
 ```
