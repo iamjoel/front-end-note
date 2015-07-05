@@ -54,6 +54,7 @@
     * [脚本写在哪](detail/js/place.md)
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
     * [事件DOMContentLoaded和load的区别](detail/js/dom-content-loaded-vs-load.md)
+    * [表单验证](detail/js/valid-input)
     * [ajax](detail/js/ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
