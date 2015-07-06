@@ -45,6 +45,8 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 1. `ctrl+shift+p`
 1. 输入 'set syntax: HTML'
 
+如果发现自动补全有问题，可能是PyV8没正确安装的缘故(默认是在安装mmet时会自动安装)，如何安装见[这里](https://github.com/emmetio/pyv8-binaries)
+
 ### livestyle
 CSS的文件绑定调整好后，改动CSS的文件或同步到浏览器，在浏览上改动也会同步到文件。注意要在Chrome下安装相应的插件。
 
