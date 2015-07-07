@@ -50,4 +50,15 @@ background-image: url(someimage.jpg);
 background: #00FF00 url(bgimage.gif) no-repeat fixed center top;
 ```
 
+## 多背景
+通过使用 CSS3，你可以向元素应用多个背景。这些背景相互堆叠，第一个背景放在最上面，最后一个背景放在最下面。 仅最后一个背景允许拥有背景色。
+
+指定多个背景很简单：
+```
+background: background1, background 2, ..., backgroundN;
+```
+
+## background-origin
+背景图片的定位原点。具体见 http://www.w3cplus.com/content/css-background-origin
+
 
