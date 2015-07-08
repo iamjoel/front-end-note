@@ -43,3 +43,6 @@
 	* 加载器 webpack，requirejs + r.js
 	* 模板引擎
 	* 常用脚本库
+
+
+吓人版 [前端技能汇总](https://github.com/JacksonTian/fks)

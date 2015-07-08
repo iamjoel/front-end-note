@@ -73,6 +73,7 @@
     * [事件DOMContentLoaded和load的区别](detail/js/dom-content-loaded-vs-load.md)
     * [表单验证](detail/js/valid-input)
     * [ajax](detail/js/ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
+    * [generator函数](detail/js/generator)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
 * [异步上传文件](others/aysn-file-upload)
