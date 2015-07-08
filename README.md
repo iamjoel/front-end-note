@@ -11,10 +11,24 @@
 * HTML
     * [介绍](detail/html/intro.md)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
-    * [HTML5介绍](detail/html/HTML5.md)
-    * [Picture元素](detail/html/picture) 用Picture元素做响应式图片
     * [标签语义化](detail/html/semantic.md)
-    * [web存储](detail/html/storage)
+    * [HTML5](detail/html/html5/)
+        * [标签,属性](detail/html/html5/elements-and-attrs)
+            * [新增的标签](detail/html/html5/elements-and-attrs/new-elements.md)
+            * [废弃的标签](detail/html/html5/elements-and-attrs/removed-elements.md)
+            * [新增的属性](detail/html/html5/elements-and-attrs/new-attrs.md)
+            * [废弃的属性](detail/html/html5/elements-and-attrs/removed-attrs.md)
+            * [Picture元素](detail/html/html5/picture) 用Picture元素做响应式图片
+        * [地理位置](detail/html/html5/geoloaction) 待完善
+        * [画布](detail/html/html5/canvas) 待完善
+        * [视频](detail/html/html5/video) 待完善
+        * [音频](detail/html/html5/audio) 待完善
+        * [拖放](detail/html/html5/drag-and-drop) 待完善
+        * [微数据](detail/html/html5/microdata) 待完善
+        * [应用缓存](detail/html/html5/offline-web-applications) 待完善
+        * [Web存储](detail/html/html5/web-storage)
+        * [web workers](detail/html/html5/web-workers)
+        * [服务器发送事件](detail/html/html5/server-send-events) 待完善
 * CSS
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
