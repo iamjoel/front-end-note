@@ -8,6 +8,7 @@
 * [了解前端](detail/about.md)
 * [给新手的建议](detail/suggest.md)
 * [软件推荐](others/software.md)
+* [前端知识结构](knowledge-structure.md)
 * HTML
     * [介绍](detail/html/intro.md)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
