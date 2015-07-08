@@ -36,5 +36,6 @@
 
 ## 其他
 * [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
+* [f.lux](https://justgetflux.com/) [全天候默默保护眼睛健康的软件！自动调整屏幕色温减少眼睛疲劳，长时间玩电脑必备！](http://www.iplaysoft.com/flux.html)
 * [印象笔记](https://www.yinxiang.com/products/)
 * [格式工厂](http://www.pcfreetime.com/cn/) 多媒体文件格式的转化。转成Chrome能播放的MP4文件需要在移动设备中的选。

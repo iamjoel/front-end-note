@@ -99,7 +99,7 @@
     * [加载CSS的优化：Critical CSS](detail/css/critical-css.md)
 * 网站性能优化
     * [减少网站响应时间概要](others/web-speed-up.md)
-* 安全
+* [安全](detail/security
     * [XSS](detail/security/XSS)
 * 其他
     * [Photoshop介绍](others/photoshop)
