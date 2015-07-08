@@ -19,6 +19,9 @@
             * [新增的属性](detail/html/html5/elements-and-attrs/new-attrs.md)
             * [废弃的属性](detail/html/html5/elements-and-attrs/removed-attrs.md)
             * [Picture元素](detail/html/html5/picture) 用Picture元素做响应式图片
+        * [Web存储](detail/html/html5/web-storage)
+        * [Web workers](detail/html/html5/web-workers)
+        * [File API](detail/html/html5/file-api) 可以做图片预览之类的
         * [地理位置](detail/html/html5/geoloaction) 待完善
         * [画布](detail/html/html5/canvas) 待完善
         * [视频](detail/html/html5/video) 待完善
@@ -26,8 +29,6 @@
         * [拖放](detail/html/html5/drag-and-drop) 待完善
         * [微数据](detail/html/html5/microdata) 待完善
         * [应用缓存](detail/html/html5/offline-web-applications) 待完善
-        * [Web存储](detail/html/html5/web-storage)
-        * [web workers](detail/html/html5/web-workers)
         * [服务器发送事件](detail/html/html5/server-send-events) 待完善
 * CSS
 	* [介绍](detail/css/intro.md)

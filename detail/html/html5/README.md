@@ -17,6 +17,7 @@ HTML5是对 HTML 标准的第五次修订，于2014年10月29日已完工。
 
 
 ## 关于HTML5的链接
+* [HTML5的demo](http://html5demos.com/)
 * [W3C 的 HTML5 草案](w3.org/TR/html5/)
 * http://en.wikipedia.org/wiki/HTML5
 * http://blog.whatwg.org/html-is-the-new-html5
