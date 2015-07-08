@@ -19,7 +19,7 @@ console.log(f.next());// 输出 run second time 然后 再输出 second time
 
 ```
 
-用[Q](https://github.com/kriskowal/q)(一个Promise库)和generator很爽的样子，见[这里](https://github.com/kriskowal/q/tree/v1/examples/async-generators)
+用[Q](https://github.com/kriskowal/q)(一个Promise库)和generator配合使用很爽的样子，见[这里](https://github.com/kriskowal/q/tree/v1/examples/async-generators)
 
 ## 拓展阅读
 * [A Study on Solving Callbacks with JavaScript Generators](http://jlongster.com/A-Study-on-Solving-Callbacks-with-JavaScript-Generators)
