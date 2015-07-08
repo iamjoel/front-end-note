@@ -11,6 +11,7 @@
 * HTML
     * [介绍](detail/html/intro.md)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
+    * [HTML5介绍](detail/HTML5.md)
     * [Picture元素](detail/html/picture) 用Picture元素做响应式图片
     * [标签语义化](detail/html/semantic.md)
     * [web存储](detail/html/storage)
