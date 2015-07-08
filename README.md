@@ -1,6 +1,6 @@
 # web前端学习笔记 [下载](https://github.com/iamjoel/front-end-note/archive/master.zip)
 ## 关于本项目
-存放HTML，CSS，JS等WEB前端基础知识。        
+存放HTML，CSS，JS等WEB前端基础知识。    
 
 学习前端的每天计划，点[这里](http://www.jianshu.com/p/fa7611d73a9a)。
 
@@ -13,7 +13,7 @@
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
     * [Picture元素](detail/html/picture) 用Picture元素做响应式图片
     * [标签语义化](detail/html/semantic.md)
-    * [web存储](detail/html/storage) 缺描述
+    * [web存储](detail/html/storage)
 * CSS
 	* [介绍](detail/css/intro.md)
     * [样式写在哪](detail/css/place.md)
