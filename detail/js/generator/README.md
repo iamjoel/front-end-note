@@ -19,7 +19,8 @@ console.log(f.next());// 输出 run second time 然后 再输出 second time
 
 ```
 
-用[Q](https://github.com/kriskowal/q)(一个Promise库)和generator配合使用很爽的样子，见[这里](https://github.com/kriskowal/q/tree/v1/examples/async-generators)
+用[Q](https://github.com/kriskowal/q)(一个Promise库)和generator配合使用很爽的样子，见[这里](https://github.com/kriskowal/q/tree/v1/examples/async-generators)。本质上，当Promsie被resolve时，调用了generator.next,进入下一个异步
 
 ## 拓展阅读
 * [A Study on Solving Callbacks with JavaScript Generators](http://jlongster.com/A-Study-on-Solving-Callbacks-with-JavaScript-Generators)
+* [Replacing callbacks with ES6 Generators](http://modernweb.com/2014/02/10/replacing-callbacks-with-es6-generators/)
