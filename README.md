@@ -82,7 +82,7 @@
 * [**新手常见问题及解答**](detail/FAQ.md)
 * [代码片段](snippets) 缺具体的描述
 * [Web前端常见名词解释](detail/noun-explain.md)
-* [前端导航页](https://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/tree/master/bookmark/index.html)
+* [前端导航页](https://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/blob/master/bookmark/index.html)
 
 ### 只需了解
 * [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](detail/W3C&WHATWG.md)
