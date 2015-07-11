@@ -4,6 +4,9 @@ XSS（Cross-site scripting）跨站脚本攻击。
 ## 工具
 * [OWASP Xenotix XSS Exploit Framework](http://xenotix.in/) 渗透测试必备之xss自动化测试框架
 
+## 练习
+* [XSSChallengeWiki](https://github.com/cure53/XSSChallengeWiki/wiki)
+
 ## 拓展阅读
 * [心伤的瘦子的XSS](http://www.wooyun.org/whitehats/%E5%BF%83%E4%BC%A4%E7%9A%84%E7%98%A6%E5%AD%90)
 * [XSS 前端防火墙 —— 内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
