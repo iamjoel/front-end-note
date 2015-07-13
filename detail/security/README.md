@@ -1,6 +1,15 @@
 # Web 安全
 
+## 术语
+## 0day
+是已经被发现(有可能未被公开),而官方还没有相关补丁的漏洞
+
+## payload
+完成各种功能的恶意脚本。
+
 ## 资源
+* [纳威安全导航](http://navisec.it/)
+* [sec-wiki](http://www.sec-wiki.com/) 安全百科
 * [EtherDream の 原创空间](http://www.cnblogs.com/index-html)
 * WebGoat
 * [余弦(懒人在思考)](http://evilcos.me/)
@@ -8,6 +17,7 @@
 * [乌云知识库](http://drops.wooyun.org/)
 * [知道创宇 博客](http://blog.knownsec.com/)
 * [腾讯安全应急响应中心 实验室](http://security.tencent.com/index.php/opensource/all)
+* [安全脉搏](http://www.secpulse.com/)
 
 ## 书
 * [《Web之困：现代Web应用安全指南》](http://wenku.it168.com/d_001267004.shtml)
