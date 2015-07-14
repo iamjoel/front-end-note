@@ -20,6 +20,9 @@ $(选择器)
 * .children
 * .contents 包括文本节点
 
+### 同级找
+* .siblings
+
 ### 过滤
 * .filter
 
