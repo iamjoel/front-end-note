@@ -74,9 +74,9 @@
     * [表单验证](detail/js/valid-input)
     * [ajax](detail/js/ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
     * [generator函数](detail/js/generator)
-* [jQuery](detail/jquery/)
-    * [工具方法](detail/jquery/utilities.md)
-    * [查询](detail/jquery/query.md)
+* [jQuery](detail/jQuery/)
+    * [工具方法](detail/jQuery/utilities.md)
+    * [查询](detail/jQuery/query.md)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
 * [异步上传文件](others/aysn-file-upload)
