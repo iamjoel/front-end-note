@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>flex 布局</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    .flex-box {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    
+    .item {
+        height: 50px;
+        width: 40px;
+        background-color: #f60;
+        margin-right: 10px;
+    }
+    
+    .ml-auto {
+        margin-left: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>两左一右</h2>
+        <div class="flex-box">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item ml-auto"></div>
+        </div>
+        <h2>两右一左</h2>
+        <div class="flex-box">
+            <div class="item"></div>
+            <div class="item ml-auto"></div>
+            <div class="item"></div>
+        </div>
+        <h2>两左两中两中</h2>
+        <div class="flex-box">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item ml-auto"></div>
+            <div class="item"></div>
+            <div class="item ml-auto"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+</body>
+
+</html>
