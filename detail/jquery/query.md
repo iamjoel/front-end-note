@@ -54,12 +54,17 @@ $(elem).html();
 
 ## 获取元素的outerHTML
 ```
-$(elem).prop('outerHTML');
+$(selector).prop('outerHTML');
 ```
 
 ## 获取元素的文本内容
 ```
-$(elem).text();
+$(selector).text();
+```
+
+## 获取元素的标签名
+```
+$(selector).prop("tagName").toLowerCase();
 ```
 
 ## 获取元素的数据
