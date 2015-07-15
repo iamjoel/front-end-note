@@ -49,17 +49,23 @@ $(selector).is(':visible');
 
 ## 获取元素的innerHTML
 ```
-$(elem).html();
+$(selector).html();
 ```
+
+## 获取元素的标签名
+```
+$(selector).prop("tagName").toLowerCase();
+```
+$(selector).prop("tagName")返回的为全大写的
 
 ## 获取元素的outerHTML
 ```
-$(elem).prop('outerHTML');
+$(selector).prop('outerHTML');
 ```
 
 ## 获取元素的文本内容
 ```
-$(elem).text();
+$(selector).text();
 ```
 
 ## 获取元素的数据
