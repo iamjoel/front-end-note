@@ -10,7 +10,7 @@
 * [软件推荐](others/software.md)
 * [前端知识结构](knowledge-structure.md)
 * HTML
-    * [介绍](detail/html/intro.md)
+    * [介绍](detail/html)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
     * [标签语义化](detail/html/semantic.md)
     * [HTML5](detail/html/html5/)
@@ -32,7 +32,7 @@
         * [应用缓存](detail/html/html5/offline-web-applications) 待完善
         * [服务器发送事件](detail/html/html5/server-send-events) 待完善
 * CSS
-	* [介绍](detail/css/intro.md)
+	* [介绍](detail/css)
     * [样式写在哪](detail/css/place.md)
 	* **[选择器](detail/css/selector.md)** [练习](detail/css/selector.md#homework)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述

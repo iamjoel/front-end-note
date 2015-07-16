@@ -1,4 +1,4 @@
-# HTML 介绍
+# HTML
 ## 目录
 * [HTML是神马](#what)
 * [基本结构](#struct)
