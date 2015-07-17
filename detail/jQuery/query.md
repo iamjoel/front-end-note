@@ -70,4 +70,3 @@ $(selector).text();
 
 ## 获取元素的数据
 .data
-

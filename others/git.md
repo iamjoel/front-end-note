@@ -41,6 +41,13 @@ Desktop.ini
 
 一些`.gitignore`的模板 https://github.com/github/gitignore
 
+## 常见问题
+### 如何配置Git支持对文件名的大小写敏感
+方案一是设置Git大小写敏感
+```
+git config core.ignorecase false
+```
+
 ## <a name="homework">作业</a>
 1. 安装[Github](https://github.com/)的客户端 [windows 版下载](https://windows.github.com/)
 1. 注册Github的账号
