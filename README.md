@@ -36,7 +36,7 @@
     * [样式写在哪](detail/css/place.md)
 	* **[选择器](detail/css/selector.md)** [练习](detail/css/selector.md#homework)
     * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述
-	* [样式规则](http://www.htmldog.com/reference/cssproperties/) **[CSS参考手册](http://css.doyoe.com/)**
+	* [样式规则](http://www.htmldog.com/reference/cssproperties/) **[CSS参考手册](http://css.doyoe.com/)** **[-webkit- CSS](http://ued.ctrip.com/webkitcss/index.html)**
         * [文本（text）与文字（font）样式规则](detail/css/font/font-style.md)
         * [背景样式规则](detail/css/background.md)
         * [表格样式规则](detail/css/table)
