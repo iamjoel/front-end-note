@@ -105,6 +105,7 @@
     * [减少网站响应时间概要](others/web-speed-up.md)
 * [安全](detail/security)
     * [XSS](detail/security/XSS)
+* [HTTP](detail/http) HTTP相关的。Todo
 * 其他
     * [Photoshop介绍](others/photoshop)
     * [命令行及常用指令介绍](others/command-line.md)
