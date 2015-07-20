@@ -56,3 +56,6 @@
 * https://developer.yahoo.com/performance/rules.html
 * [处理网页图片最常见的10个错误及其解决方案](http://www.oschina.net/translate/top_10_mistakes_in_handling_website_images_and_how_to_solve_them)
 * [BigPipe的技术实现【转】](http://www.webdoes.com/archives/462.html)
+
+## 拓展阅读
+* [移动H5前端性能优化指南](http://isux.tencent.com/h5-performance.html)

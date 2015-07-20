@@ -12,6 +12,7 @@
     * [HTML 5峰会](http://www.html5dw.com/)
     * [Web Rebuild](http://www.webrebuild.org/)
         * [2014年会议视频](http://daxue.qq.com/content/online/id/1669)
+    * [wdshare 西安交流会](http://www.wdshare.org/)
 * [如何与最新的前端技术保存同步](http://uptodate.frontendrescue.org/)
 
 ## 教程&文档
