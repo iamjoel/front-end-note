@@ -64,3 +64,4 @@ flex-grow、flex-shrink、flex-basis这三个属性的作用是：在[flex布局
 
 ## 其他
 * [flexbugs](https://github.com/philipwalton/flexbugs) flexbox bug 列表
+* [cross browser flexbox](https://dev.opera.com/articles/advanced-cross-browser-flexbox/) opera dev
