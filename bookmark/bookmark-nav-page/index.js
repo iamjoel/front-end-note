@@ -7,9 +7,7 @@ $(document).ready(function() {
         if (!key) {
             key = $link.text().substr(0, 1);// 默认是第一个字母
         } else {
-            if(/^[0-9a-zA-Z]$/.test(key)){
-                $link.text($link.text() + ['(', key , ')'].join(''));
-            } else {
+            if(!/^[0-9a-zA-Z]$/.test(key)){
                 console.error('error shortcut %s', key);
                 return;
             }

@@ -112,3 +112,15 @@ h2 {
   color: #333;
   text-decoration: underline;
 }
+
+.nav__item [data-shortcut]:after{
+    content: "("attr(data-shortcut)")";
+    color: #f60;
+}
+.nav__item a{
+    display: block;/*first-letter 只对 display:block的有效*/
+}
+.nav__item a:not([data-shortcut])::first-letter{
+    color: #f60;
+}
+
