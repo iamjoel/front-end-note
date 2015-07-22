@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仪表盘</title>
+	<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+	<div class="outer-wrap">
+		<div class="top-wrap">
+		</div>
+		<div class="bottom-wrap">
+			<div class="cicle"></div>
+		</div>
+		<div class="input-wrap">
+			<input type="number" class="input" value="10">%
+		</div>
+	</div>
+	<script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+	<script>
+	$(document).ready(function (argument) {
+		var $input = $('.input');
+		$input.keyup(function(){
+			rotate($input.val());
+		});
+		
+		rotate($input.val());
+
+		function rotate(deg){
+			deg = deg / 100 * 180;
+			$('.bottom-wrap').css('transform', 'rotateZ({num}deg)'.replace('{num}', deg));
+		}
+	});
+	</script>
+</body>
+</html>
