@@ -74,6 +74,7 @@
     * [表单验证](detail/js/valid-input)
     * [ajax](detail/js/ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
     * [generator函数](detail/js/generator)
+    * [正则](detail/js/reg-reference.md)
 * [jQuery](detail/jQuery/)
     * [工具方法](detail/jQuery/utilities.md)
     * [查询](detail/jQuery/query.md)
