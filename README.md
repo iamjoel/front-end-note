@@ -80,7 +80,6 @@
     * [查询](detail/jQuery/query.md)
 * [动画效果](detail/effect)
 * [web workers](detail/web-works)
-* [异步上传文件](others/aysn-file-upload)
 
 附
 * [**新手常见问题及解答**](detail/FAQ.md)
@@ -124,6 +123,7 @@
 * [耗时函数被短时间频繁调用时，防浏览器卡死](demo/throttle)
 * [响应式导航条](demo/response-nav-bar)
 * [仪表盘](demo/dash-circle)
+* [用XMLHttpRequest2技术：异步提交(上传)带文件的表单](demo/aysn-file-upload)
 
 
 ## 前端相关
