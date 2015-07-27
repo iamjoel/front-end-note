@@ -9,8 +9,10 @@
 	<div class="outer-wrap">
 		<div class="top-wrap">
 		</div>
-		<div class="bottom-wrap">
-			<div class="cicle"></div>
+		<div class="bottom-outter-wrap">
+			<div class="bottom-wrap">
+				<div class="cicle"></div>
+			</div>
 		</div>
 		<div class="input-wrap">
 			<input type="number" class="input" value="10">%
@@ -32,7 +34,7 @@
 
 		function rotate(deg){
 			deg = deg / 100 * 180;
-			$('.bottom-wrap').css('transform', 'rotateZ({num}deg)'.replace('{num}', deg));
+			$('.bottom-outter-wrap').css('transform', 'rotateZ({num}deg)'.replace('{num}', deg));
 		}
 	});
 	</script>

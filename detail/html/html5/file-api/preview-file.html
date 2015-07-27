@@ -55,8 +55,10 @@
 	<div class="container">
 	    <div id="holder">
 	    </div>
-	    <p id="status" class="success"></p>
+        <input type="file" id="file">
+        <p id="status" class="success"></p>
 	</div>
+    <script src="../../../../asset/vendor/jquery-2.1.3.min.js"></script>
     <script>
     (function() {
         var holder = document.getElementById('holder'),
@@ -81,8 +83,25 @@
             this.className = '';
             e.preventDefault();
 
-            var file = e.dataTransfer.files[0],
-                reader = new FileReader();
+            var file = e.dataTransfer.files[0];
+            showImg(file);
+
+            return false;
+        };
+
+        $('#file').change(function(e){
+            if(this.files.length > 0){
+                var file = this.files[0];
+                showImg(file);
+            }
+        });
+
+        function showImg(file){
+            if(!/\.(jpg|jpeg|gif|png)$/.test(file.name)){
+                alert('非法的图片格式！');
+                return ;
+            }
+            var reader = new FileReader();
             // 读文件
             reader.onload = function(event) {
                 // console.log(event.target);
@@ -91,9 +110,7 @@
             console.log(file);
             console.log('文件名:%s, 大小 %d KB,type: %s,上次修改时间 %s', file.name, parseInt(file.size / 1000), file.type, formatTime(file.lastModified));
             reader.readAsDataURL(file);
-
-            return false;
-        };
+        }
 
         function formatTime(time){
             var date = new Date(time);
