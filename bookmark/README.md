@@ -49,6 +49,7 @@
 * [Jsfuck](http://www.jsfuck.com/) 用`[],!`等来混淆代码
 * [ish](http://bradfrostweb.com/demo/ish/#) 响应式设计测试。只能测试几个尺寸以及制定宽度
 * [responsive](http://mattkersley.com/responsive/) 响应式设计测试。能测试几个固定的尺寸。所有分辨率的一起显示
+* [iTest](http://itest.aliyun.com/) 阿里出的测试工具。支持主流浏览器的截图，死链接检测等
 
 ## 资源
 * 图片类
