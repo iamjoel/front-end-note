@@ -6,3 +6,4 @@
 
 ## JS
 * [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 提供JS的代码的一些参考
+* [ES6 in depth](https://hacks.mozilla.org/category/es6-in-depth/)
