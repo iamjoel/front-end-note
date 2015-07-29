@@ -124,6 +124,7 @@
 * [响应式导航条](demo/response-nav-bar)
 * [仪表盘](demo/dash-circle)
 * [从中间向上下展开效果](demo/center-open)
+* [在固定时间内，以动画的形式，经过若个点，移动到指定位置](demo/anim-to-some-place-in-certain)
 * [用XMLHttpRequest2技术：异步提交(上传)带文件的表单](demo/aysn-file-upload)
 
 
