@@ -91,7 +91,7 @@ https://sublime.wbond.net/browse/popular
 ### [Bootstrap 3 Snippets](https://github.com/JasonMortonNZ/bs3-sublime-plugin)
 快速生成bootstrap3的一些组件的Snippets
 
-## <a name="shortcut">快捷键</a>
+## <a name="shortcut">常用快捷键</a>
 * `Ctrl+Shift+P` 打开命令面板
 * Ctrl+\` 打开控制台命令面板(\`在``中转义不鸟)
 
@@ -102,6 +102,7 @@ https://sublime.wbond.net/browse/popular
 	* 以`:`开头：跳转到某行。相当于`Ctrl+G`
 * `Ctrl+F` 查找
 * `Ctrl+M` 光标跳至对应的括号：大中小括号均可
+* `选中方法 + F12` 查找方法的定义
 
 ### 编辑
 * `Ctrl+D`: 选中单词。多次`Ctrl+D`可选择多个，然后可以进行批量的编辑
