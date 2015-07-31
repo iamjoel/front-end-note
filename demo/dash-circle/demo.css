@@ -6,11 +6,11 @@ body{
 	position: relative;
 	width: 400px;
 	height: 200px;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	margin: 50px auto;
 }
 .top-wrap{
-	margin-left: 10px;
+	margin: 0 auto;
 	position: relative;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -52,8 +52,8 @@ body{
 
 .bottom-wrap {
   	position: relative;
-  	bottom: 20px;
-	/*overflow: hidden;*/
+  	/*bottom: 20px;*/
+	overflow: hidden;
 }
 
 
@@ -64,7 +64,8 @@ body{
 	position: absolute;
 	bottom: 0;
 	left: 10px;
-	width: 380px;
+	right: 10px;
+	/*width: 380px;*/
 	height: 380px;
 	border: 4px solid #f60;
 	/*border-radius: 50%;*/
