@@ -6,11 +6,11 @@ body{
 	position: relative;
 	width: 400px;
 	height: 200px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin: 50px auto;
 }
 .top-wrap{
-	margin: 0 auto;
+	margin: 10px auto;
 	position: relative;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -31,7 +31,7 @@ body{
 
 .bottom-outter-wrap{
 	position: absolute;
-	top: 100%;
+	top: 190px;
 	left: 0;
 	/*transform-origin: 50% 0;*/
 	transform-origin: 50% 0;
@@ -52,8 +52,8 @@ body{
 
 .bottom-wrap {
   	position: relative;
-  	/*bottom: 20px;*/
-	overflow: hidden;
+  	bottom: 10px;
+	/*overflow: hidden;*/
 }
 
 
