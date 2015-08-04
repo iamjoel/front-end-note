@@ -4,6 +4,7 @@
 * [插件推荐](#plugin)
 * [snippets](#snippets)
 * [常用快捷键](#shortcut)
+* [运行Nodejs](#run-nodejs)
 
 
 ## <a name="install">安装package manager</a>
@@ -141,16 +142,27 @@ https://sublime.wbond.net/browse/popular
 * `Shift+F11`：全屏只编辑当前文件
 * `Alt+Shift+数字`：分几屏显示
 
-## 官方整理的快捷键
-### mac
+### 官方整理的快捷键
+#### mac
 https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html
 
-## Windows/Linux
+#### Windows/Linux
 https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html
 
+## <a name="run-nodejs">运行Nodejs</a>
+打开菜单 `Tools>Build System>new Build System`    
+在文件中的内容替换为
+```
+{
+ "cmd": ["node","$file"],
+ "selector": "*.js"
+}
+```
+保存。然后据可以在菜单`Tools>Build System>`中选中刚刚保存的。以后打开某个js文件，按 `Ctrl+B`就可以运行nodejs文件了
 
 ### 关于sublime
 http://scotch.io/series/the-complete-visual-guide-to-sublime-text-3
+
 
 
 
