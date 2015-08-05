@@ -83,6 +83,8 @@
 * [Sass Guidelines](http://sass-guidelin.es/) 写的很详尽。
 * [CSS Guidelines](http://cssguidelin.es/)
 * [idiomatic-css](https://github.com/necolas/idiomatic-css)
+* [styleguides](http://styleguides.io/examples.html)
+* [create maintainable code with a css styleguide](http://www.louddog.com/2008/create-maintainable-code-with-a-css-styleguide/)
 
 
 ## 代码展示
