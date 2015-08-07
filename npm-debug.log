@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\admin\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=C:\\Users\\admin\\.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\pangyp\\bin\\node-gyp.js',
+1 verbose cli   '-g',
+1 verbose cli   'install',
+1 verbose cli   'weinre' ]
+2 info using npm@2.7.6
+3 info using node@v0.12.2
+4 verbose install initial load of C:\Program Files\nodejs\package.json
+5 verbose readDependencies loading dependencies from C:\Program Files\nodejs\package.json
+6 silly cache add args [ 'weinre', null ]
+7 verbose cache add spec weinre
+8 silly cache add parsed spec { raw: 'weinre',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'weinre',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed weinre@*
+10 verbose addNamed "*" is a valid semver range for weinre
+11 silly addNameRange { name: 'weinre', range: '*', hasData: false }
+12 silly mapToRegistry name weinre
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npm.taobao.org/
+15 silly mapToRegistry uri https://registry.npm.taobao.org/weinre
+16 verbose addNameRange registry:https://registry.npm.taobao.org/weinre not in flight; fetching
+17 verbose request uri https://registry.npm.taobao.org/weinre
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 16:45:15
+20 verbose request id 9591b5c8cc1108ff
+21 verbose etag "1412743271000"
+22 http request GET https://registry.npm.taobao.org/weinre
+23 http 304 https://registry.npm.taobao.org/weinre
+24 silly get cb [ 304,
+24 silly get   { server: 'nginx/1.1.19',
+24 silly get     date: 'Fri, 07 Aug 2015 08:45:20 GMT',
+24 silly get     connection: 'keep-alive',
+24 silly get     etag: '"1412743271000"',
+24 silly get     'x-readtime': '20' } ]
+25 verbose etag https://registry.npm.taobao.org/weinre from cache
+26 verbose get saving weinre to C:\Users\admin\.cnpm\registry.npm.taobao.org\weinre\.cache.json
+27 silly addNameRange number 2 { name: 'weinre', range: '*', hasData: true }
+28 silly addNameRange versions [ 'weinre',
+28 silly addNameRange   [ '2.0.0-pre-I0Z7U9OV',
+28 silly addNameRange     '2.0.0-pre-HZO3BMNG',
+28 silly addNameRange     '2.0.0-pre-HZ79PDUK',
+28 silly addNameRange     '2.0.0-pre-HYFXM3QM',
+28 silly addNameRange     '2.0.0-pre-HH0SN197',
+28 silly addNameRange     '2.0.0-pre-HG9PLCRF',
+28 silly addNameRange     '2.0.0-pre-HA5N9T49',
+28 silly addNameRange     '2.0.0-pre-H9PU2WST-incubating',
+28 silly addNameRange     '2.0.0-pre-H8EOSCLN-incubating',
+28 silly addNameRange     '2.0.0-pre-H41DGW8S-incubating',
+28 silly addNameRange     '2.0.0-pre-H3FWTQKQ-incubating',
+28 silly addNameRange     '2.0.0-pre-H1GCS73N-incubating',
+28 silly addNameRange     '2.0.0-pre-H0WTHDO5-incubating' ] ]
+29 silly addNamed weinre@2.0.0-pre-I0Z7U9OV
+30 verbose addNamed "2.0.0-pre-I0Z7U9OV" is a plain semver version for weinre
+31 silly cache afterAdd weinre@2.0.0-pre-I0Z7U9OV
+32 verbose afterAdd C:\Users\admin\.cnpm\weinre\2.0.0-pre-I0Z7U9OV\package\package.json not in flight; writing
+33 verbose afterAdd C:\Users\admin\.cnpm\weinre\2.0.0-pre-I0Z7U9OV\package\package.json written
+34 silly install resolved [ { name: 'weinre',
+34 silly install resolved     description: 'WEb INspector REmote',
+34 silly install resolved     author: { name: 'apache.org' },
+34 silly install resolved     version: '2.0.0-pre-I0Z7U9OV',
+34 silly install resolved     tags: [ 'debug' ],
+34 silly install resolved     licenses: [ [Object] ],
+34 silly install resolved     engines: { node: '>=0.6.0' },
+34 silly install resolved     directories: { lib: './lib' },
+34 silly install resolved     dependencies: { express: '2.5.x', nopt: '3.0.x', underscore: '1.7.x' },
+34 silly install resolved     devDependencies: { 'coffee-script': '1.8.x' },
+34 silly install resolved     main: './lib/weinre',
+34 silly install resolved     bin: { weinre: './weinre' },
+34 silly install resolved     homepage: 'http://people.apache.org/~pmuellr/weinre/',
+34 silly install resolved     bugs: { url: 'https://issues.apache.org/jira/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=project%3DCB+and+component%3Dweinre&runQuery=true&clear=true' },
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-weinre.git' },
+34 silly install resolved     _id: 'weinre@2.0.0-pre-I0Z7U9OV',
+34 silly install resolved     scripts: {},
+34 silly install resolved     _shasum: 'fef8aa223921f7b40bbbbd4c3ed4302f6fd0a813',
+34 silly install resolved     _from: 'weinre@*',
+34 silly install resolved     _npmVersion: '2.1.2',
+34 silly install resolved     _nodeVersion: '0.10.31',
+34 silly install resolved     _npmUser: { name: 'pmuellr', email: 'pmuellr@apache.org' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'fef8aa223921f7b40bbbbd4c3ed4302f6fd0a813',
+34 silly install resolved        size: 2236959,
+34 silly install resolved        noattachment: false,
+34 silly install resolved        tarball: 'http://registry.npm.taobao.org/weinre/download/weinre-2.0.0-pre-I0Z7U9OV.tgz' },
+34 silly install resolved     publish_time: 1412714245741,
+34 silly install resolved     _cnpm_publish_time: 1412714245741,
+34 silly install resolved     _resolved: 'https://registry.npm.taobao.org/weinre/download/weinre-2.0.0-pre-I0Z7U9OV.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install weinre@2.0.0-pre-I0Z7U9OV into C:\Program Files\nodejs
+36 info installOne weinre@2.0.0-pre-I0Z7U9OV
+37 verbose installOne of weinre to C:\Program Files\nodejs not in flight; installing
+38 verbose lock using C:\Users\admin\.cnpm\_locks\weinre-383981d873e6ed81.lock for C:\Program Files\nodejs\node_modules\weinre
+39 silly install write writing weinre 2.0.0-pre-I0Z7U9OV to C:\Program Files\nodejs\node_modules\weinre
+40 verbose unbuild node_modules\weinre
+41 silly gentlyRm C:\Program Files\nodejs\node_modules\weinre is being purged from base C:\Program Files\nodejs
+42 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\weinre
+43 verbose tar unpack C:\Users\admin\.cnpm\weinre\2.0.0-pre-I0Z7U9OV\package.tgz
+44 verbose tar unpacking to C:\Program Files\nodejs\node_modules\weinre
+45 silly gentlyRm C:\Program Files\nodejs\node_modules\weinre is being purged
+46 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\weinre
+47 silly gunzTarPerm modes [ '777', '666' ]
+48 error tar.unpack untar error C:\Users\admin\.cnpm\weinre\2.0.0-pre-I0Z7U9OV\package.tgz
+49 verbose unlock done using C:\Users\admin\.cnpm\_locks\weinre-383981d873e6ed81.lock for C:\Program Files\nodejs\node_modules\weinre
+50 verbose fstream_path C:\Program Files\nodejs\node_modules\weinre
+51 verbose fstream_type Directory
+52 verbose fstream_class DirWriter
+53 verbose stack Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\weinre'
+53 verbose stack     at Error (native)
+54 verbose fstream_stack C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+54 verbose fstream_stack C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\mkdirp\index.js:46:53
+54 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+55 verbose cwd D:\Github\front-end-note
+56 error Windows_NT 6.1.7601
+57 error argv "node" "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\admin\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=C:\\Users\\admin\\.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\pangyp\\bin\\node-gyp.js" "-g" "install" "weinre"
+58 error node v0.12.2
+59 error npm  v2.7.6
+60 error path C:\Program Files\nodejs\node_modules\weinre
+61 error code EPERM
+62 error errno -4048
+63 error Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\weinre'
+63 error     at Error (native)
+63 error  { [Error: EPERM, mkdir 'C:\Program Files\nodejs\node_modules\weinre']
+63 error   errno: -4048,
+63 error   code: 'EPERM',
+63 error   path: 'C:\\Program Files\\nodejs\\node_modules\\weinre',
+63 error   fstream_type: 'Directory',
+63 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\weinre',
+63 error   fstream_class: 'DirWriter',
+63 error   fstream_stack:
+63 error    [ 'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+63 error      'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+63 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+64 error Please try running this command again as root/Administrator.
+65 verbose exit [ -4048, true ]
+66 verbose unbuild node_modules\weinre
+67 silly gentlyRm C:\Program Files\nodejs\node_modules\weinre is being purged from base C:\Program Files\nodejs
+68 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_modules\weinre

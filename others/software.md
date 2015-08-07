@@ -26,6 +26,9 @@
 ## Web调试工具(要用到时安装)
 * [fiddler](http://www.telerik.com/fiddler) 记录所有客户端和服务器的http和https请求，允许你监视，设置断点，修改输入输出数据。
 
+## 手机调试
+* [weinre](http://people.apache.org/~pmuellr/weinre/) 是一款基于Web Inspector(Webkit)的远程调试工具， 它使用JS编写， 可以让我们在电脑上直接调试运行在手机上的远程页面。 [weinre入门手册](https://github.com/nupthale/weinre)
+
 ## 文件相关工具
 * [Everything](http://www.voidtools.com/) 文件搜索工具
 * [Clover](http://cn.ejie.me/) Windows上支持多标签的资源管理器。还支持添加书签功能。书签的快捷键与Chrome的一致。
