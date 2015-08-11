@@ -36,6 +36,10 @@
 	.first-line:first-line{
 		color: #00f;
 	}
+
+	.html-entity:before{
+		content: '\d7'; /*utf-16 编码 0x00D7*/
+	}
 	</style>
 </head>
 <body>
@@ -60,6 +64,10 @@
 
 	<a class="first-letter " title="just title">第一行第一行第一行第一行第一行</a>
 	<a class="first-line" title="just title">第一行<br>第二行</a>
+
+	<div class="html-entity">
+		伪类中用html实体要使用该实体的'\' 加上utf-16的编码
+	</div>
 
 </body>
 </html>
