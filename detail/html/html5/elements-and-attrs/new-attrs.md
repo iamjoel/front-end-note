@@ -4,7 +4,11 @@
 * 对input（type=text）、textarea指定placeholder属性，它会对用户的输入进行提示，提示用户可以输入的内容。
 * 对input、output、select、textarea、button与fieldset指定form属性。它声明属于哪个表单（通过form属性的值与form的id值一致来指定），然后将其放置在页面的任何位置，而不是表单之内。
 * 对input（type=text）、textarea指定required属性。该属性表示用户提交时进行检查，检查该元素内必定要有输入内容。
-* 为input标签增加几个新的属性：autocomplete、min、max、multiple、pattern与step。还有list属性与datalist元素配合使用；datalist元素与autocomplete属性配合使用。multiple属性允许上传时一次上传多个文件； pattern属性用于验证输入字段的模式，其实就是正则表达式。step 属性规定输入字段的合法数字间隔（假如 step="3"，则合法数字应该是 -3、0、3、6，以此类推），step 属性可以与 max 以及 min 属性配合使用，以创建合法值的范围。
+* 为input标签增加几个新的属性：autocomplete、min、max、multiple、pattern与step。
+	* list,autocomplete属性与datalist元素配合使用
+	* multiple属性允许上传时一次上传多个文件
+	* pattern属性用于验证输入字段的模式，其实就是正则表达式
+	* step, min, max 属性与数字输入框一起使用(type=number)。step规定输入字段的合法数字间隔（如 step="3"，则合法数字应该是 -3、0、3、6，以此类推），step 属性可以与 max 以及 min 属性配合使用，以创建合法值的范围。
 * 为input、button元素增加formaction、formenctype、formmethod、formnovalidate与formtarget属性。用户重载form元素的action、enctype、method、novalidate与target属性。为fieldset元素增加disabled属性，可以把它的子元素设为disabled状态。
 * 为input、button、form增加novalidate属性，可以取消提交时进行的有关检查，表单可以被无条件地提交。
 
