@@ -43,6 +43,7 @@
         * [列表样式规则](detail/css/list.md)
         * [CSS的未来：一些试验性CSS属性](http://www.qianduan.net/the-future-of-css-experimental-css-properties/) 只是外链，缺整理的描述
     * [样式规则的值的类型及单位](detail/css/value-and-unit.md) 缺具体的描述
+        * [CSS属性中的百分比](detail/css/value-and-unit.md#percent)
     * [样式简写](detail/css/css-shorthand.md) 缺具体的描述
     * [盒模型](detail/css/box-model.md)
     * [浮动](detail/css/float/README.md)
