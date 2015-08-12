@@ -6,6 +6,8 @@ XSS（Cross-site scripting）跨站脚本攻击。
 
 ## 练习
 * [XSSChallengeWiki](https://github.com/cure53/XSSChallengeWiki/wiki)
+	* [挑战（英文版）](https://github.com/cure53/XSSChallengeWiki/wiki/prompt.ml)
+	* [挑战（中文版）](http://www.bugsec.org/4526.html)
 
 ## 拓展阅读
 * [心伤的瘦子的XSS](http://www.wooyun.org/whitehats/%E5%BF%83%E4%BC%A4%E7%9A%84%E7%98%A6%E5%AD%90)
