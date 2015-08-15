@@ -9,10 +9,13 @@
 <body>
 <!-- 未执行onload "><svg/onload=prompt(1)> -->
 <!-- 有效 "><img src="fdfddf" onerror=console.log('xss') style="display:none"> -->
+<!-- " autofocus onfocus="console.log('xss')"   -->
+
     输入内容：<input type="text" id="input"><br>
 	输出内容：<div id="output">
 		
 	</div>
+	<!-- <input type="text" value="" autofocus="" onfocus="console.log('xss')" "=""> -->
 
 	<script src="../../../../asset/vendor/jquery-2.1.3.min.js"></script>
     <script>
