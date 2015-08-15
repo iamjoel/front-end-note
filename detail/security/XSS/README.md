@@ -1,6 +1,13 @@
 # XSS
 XSS（Cross-site scripting）跨站脚本攻击。
 
+## XSS一些总结
+* 用户输入的内容直接输出在文本输入框。绕过方式：输入内容可以用`">`来闭合文本框，后面加的东西你可以随意的啦
+* 用户输入的内容输出前，会用正则删除标签。绕过方式：用img标签，并且不带`>`,HTML的容错性会补全，如：`<img  onerror=console.log('xss') `
+* 用户输入的内容输出前，会删除`[=(]`。绕过方式：`<svg><script>console.log&#40;'xss')</script>`。原因是svg标签里的script会被执行，并且执行前会将script里的内容HTML实体进行解码，即，`&#40`会被替换为`(`
+* 用户输入的内容替换`->`后输出在HTML注释中。绕过方式：用`--!>`也可以结束HTML注释
+
+
 ## 工具
 * [OWASP Xenotix XSS Exploit Framework](http://xenotix.in/) 渗透测试必备之xss自动化测试框架
 
