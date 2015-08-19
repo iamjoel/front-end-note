@@ -127,6 +127,7 @@
 * [从中间向上下展开效果](demo/center-open)
 * [在固定时间内，以动画的形式，经过若个点，移动到指定位置](demo/anim-to-some-place-in-certain)
 * [用XMLHttpRequest2技术：异步提交(上传)带文件的表单](demo/aysn-file-upload)
+* [邮票四周的齿轮效果](demo/stamp)
 
 
 ## 前端相关
@@ -157,9 +158,10 @@
 * [一些标准的命名规范](http://www.html-js.com/article/JS-rookie-in-the-rookie-began-to-learn-some-standard-naming-conventions-to-fly)
 
 ## 书
-* [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年09月出版
+* [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年9月出版
 * CSS
     * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
+    * [CSS Secrets](http://shop.oreilly.com/product/0636920031123.do) Lea Verou（CSS 一姐） 2015年6月出版
 * JS
     * JavaScript高级程序设计
     * [《eloquentjavascript》](http://eloquentjavascript.net)
