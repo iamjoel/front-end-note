@@ -29,4 +29,6 @@ XSS（Cross-site scripting）跨站脚本攻击。
 * [XSS 前端防火墙 —— 整装待发](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-5/)
 * [XSS与字符编码的那些事儿 ---科普文](http://drops.wooyun.org/tips/689)
 * [XSS Payload知识备忘](http://freewifi2.lofter.com/post/1cbcc53d_408791b)
+* [专注XSS三十年](http://www.wooyun.org/whitehats/%E4%B8%93%E6%B3%A8XSS%E4%B8%89%E5%8D%81%E5%B9%B4)
 * [乌云上 反射型xss标签](http://www.wooyun.org/tags/%E5%8F%8D%E5%B0%84%E5%9E%8Bxss/page/1)
+	* 在Google中搜索 "等待厂商处理 xss site:http://www.wooyun.org/"
