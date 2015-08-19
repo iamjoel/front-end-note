@@ -22,6 +22,7 @@
 当多个蜜罐被网络连接在一起时模拟一个大型网络，并利用其中一部分主机吸引黑客入侵，通过监测、观察入侵过程，一方面调查入侵者的来源，另一方面考察用于防护的安全措施是否有效。这种由多个蜜罐组成的模拟网络就称为蜜网。
 
 ## 资源
+* [乌云网](http://www.wooyun.org/)
 * [纳威安全导航](http://navisec.it/)
 * [sec-wiki](http://www.sec-wiki.com/) 安全百科
 * [EtherDream の 原创空间](http://www.cnblogs.com/index-html)
