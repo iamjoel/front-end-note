@@ -161,7 +161,7 @@
 * [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年9月出版
 * CSS
     * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
-    * [CSS Secrets](http://shop.oreilly.com/product/0636920031123.do) Lea Verou（CSS 一姐） 2015年6月出版
+    * [CSS Secrets](http://shop.oreilly.com/product/0636920031123.do) Lea Verou（CSS 一姐） 2015年6月出版 [试读](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449372637_sampler.pdf)
 * JS
     * JavaScript高级程序设计
     * [《eloquentjavascript》](http://eloquentjavascript.net)
