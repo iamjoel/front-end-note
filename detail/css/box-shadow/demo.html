@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>box shadow deme</title>
+    <style>
+    /*, 35px 10px 0 20px #666, 0 0 2px inset #999*/
+    .target {
+        background-color: rgb(114, 188, 191);
+        width: 195px;
+        height: 195px;
+        margin: 50px auto;
+    }
+    .target:nth-child(1){
+        box-shadow: 4px 9px 8px #333;
+    }
+    .target:nth-child(2){
+        box-shadow: 4px 9px 8px #333 inset;
+    }
+    .target:nth-child(3){
+        box-shadow: 200px 0 0 20px #333;
+    }
+    .target:nth-child(4){
+        box-shadow: 200px 0 0 -50px #333;
+    }
+    .target:nth-child(5){
+        box-shadow: 200px 0 0 -50px #333,-200px 0 0 -50px #333;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="target">
+    </div>
+    <div class="target">
+    </div>
+    <div class="target">
+    </div>
+    <div class="target">
+    </div>
+    <div class="target">
+    </div>
+</body>
+
+</html>
