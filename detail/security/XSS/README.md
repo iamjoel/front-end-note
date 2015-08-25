@@ -13,7 +13,7 @@ XSS（Cross-site scripting）跨站脚本攻击。
 如果在request的请求和response响应中包含相同的script可执行的脚本，chrome，Firefox以及高版本IE都会进行拦截
 
 ## 工具
-* [html5sec](http://html5sec.org/) 对输入框内容的过滤
+* [html5sec](http://html5sec.org/) 对输入框内容的过滤需要注意的
 * [OWASP Xenotix XSS Exploit Framework](http://xenotix.in/) 渗透测试必备之xss自动化测试框架
 
 ## 练习
