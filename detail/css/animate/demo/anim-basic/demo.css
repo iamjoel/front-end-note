@@ -21,6 +21,7 @@
     color: #fff;
 }
 
+
 /*animation-name: bounce;
 animation-duration: 2s;
 animation-iteration-count: 10;
@@ -28,6 +29,7 @@ animation-direction: alternate;
 animation-timing-function: ease-out;
 animation-fill-mode: forwards;
 animation-delay: 2s;*/
+
 .bounce {
     animation: bounce 1s;
 }
@@ -42,7 +44,7 @@ animation-delay: 2s;*/
     90% {
         transform: translateX(100px);
     }
-    100% {
+    /*100% { not needed
         transform: translateX(0);
-    }
+    }*/
 }
