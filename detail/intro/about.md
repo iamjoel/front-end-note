@@ -1,11 +1,11 @@
 # WEB前端介绍
-1. [前端攻城狮介绍](#intro)
-1. [互联网公司的研发的工作流程](#workflow)
-1. [前端要学什么](#learn)
-1. [前端的具体工作](#work)
-1. [前端常用软件介绍](#softwork)
-1. [作业](#homework)
-1. [拓展阅读](#reading)
+* [前端攻城狮介绍](#intro)
+* [互联网公司的研发的工作流程](#workflow)
+* [前端要学什么](#learn)
+* [前端的具体工作](#work)
+* [前端常用软件介绍](#softwork)
+* [作业](#homework)
+* [拓展阅读](#reading)
 
 ## <a name='intro'>前端攻城狮介绍</a>
 前端攻城狮从事的工作简单的说就是“将设计稿转换成WEB页面”。    
@@ -27,16 +27,7 @@
 1. 将做好的页面在需要兼容的浏览器中查看，测试
 
 ## <a name='softwork'>前端常用软件介绍</a>
-### [Sublime](http://www.sublimetext.com/)
-最性感的编辑器~    
-为了让coding更快乐，安装如下的插件    
-*  BracketHighlighter 高亮匹配的各种括号
-*  SideBarEnhancements 增强右侧边栏菜单的功能
-*  html-css-js prettify 格式化html,css,js代码
-*  Emmet
-
-### [Chrome](http://www.google.cn/intl/zh-CN/chrome/?)
-> Chrome浏览器是一款专为现代互联网开发的网络浏览器，高速、简约而且安全。
+见 [这里](../software)
 
 ### <a name='homework'>作业</a>
 * 安装 Sublime以及上面提到的常用插件

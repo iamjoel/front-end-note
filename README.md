@@ -3,10 +3,10 @@
 用简单明了的方式记录WEB前端的知识。
 
 ## 目录
-* [WEB前端介绍](detail/intro/about.md),
+* [WEB前端介绍](detail/intro/about.md)
 * [学习WEB前端的建议](detail/intro/suggest.md)
-* [WEB前端软件工具](others/software.md)
-* [前端知识结构](knowledge-structure.md)
+* [WEB前端软件工具](detail/software)
+* [前端知识结构](detail/knowledge-structure.md)
 * HTML
     * [介绍](detail/html)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
