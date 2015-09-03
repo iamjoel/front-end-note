@@ -7,7 +7,7 @@
 * [学习WEB前端的建议](detail/intro/suggest.md)
 * [WEB前端软件工具](detail/software)
 * [前端知识结构](detail/knowledge-structure.md)
-* HTML
+* [HTML](detail/html)
     * [介绍](detail/html)
     * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
     * [标签语义化](detail/html/semantic.md)

@@ -2,8 +2,11 @@
 ## 浏览器
 * [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html)
 * [Firefox](http://www.firefox.com.cn/download/)
-* IE 页面仔就不得不安装各种浏览器。
+* IE
+* Oprea
 * [浏览器相关插件](browser-plugins.md)
+
+页面仔就不得不安装各种浏览器,呵呵。
 
 ## IDE
 * [Sublime Text 3](http://www.sublimetext.com/3) 及[相关插件](sublime.md#plugin)
