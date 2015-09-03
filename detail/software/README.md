@@ -8,6 +8,8 @@
 
 页面仔就不得不安装各种浏览器,呵呵。
 
+[Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
+
 ## IDE
 * [Sublime Text 3](http://www.sublimetext.com/3) 及[相关插件](sublime.md#plugin)
 
@@ -45,3 +47,4 @@
 * [f.lux](https://justgetflux.com/) [全天候默默保护眼睛健康的软件！自动调整屏幕色温减少眼睛疲劳，长时间玩电脑必备！](http://www.iplaysoft.com/flux.html)
 * [印象笔记](https://www.yinxiang.com/products/)
 * [格式工厂](http://www.pcfreetime.com/cn/) 多媒体文件格式的转化。转成Chrome能播放的MP4文件需要在移动设备中的选。
+

@@ -27,4 +27,6 @@
 * [服务器发送事件](html5/server-send-events) 待完善
 
 ## 还需要了解些什么
+* [语种名称代码(html lang的值)](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
 * [网页无障碍](accessibility.md)
+* [UserAgent的历史变迁](http://article.yeeyan.org/view/heart5/19211) 每个浏览器都宣称自己是其他浏览器的乱象的由来

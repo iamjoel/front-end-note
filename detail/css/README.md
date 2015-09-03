@@ -1,4 +1,5 @@
 # CSS
+## 语法
 * [CSS介绍](intro.md)
 * [样式写在哪](place.md)
 * [选择器](selector)
@@ -35,3 +36,7 @@
     * [动画](animate)
     * [滤镜(CSS Filter)](animate)
 * [响应式样布局](detail/responsive)
+
+## 还需要了解些什么
+* [元素上使用id还是class](detail/css/id-or-class.md)
+* [加载CSS的优化：Critical CSS](detail/css/critical-css.md)

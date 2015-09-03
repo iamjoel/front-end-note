@@ -7,62 +7,33 @@
 * [WEB前端介绍](detail/intro/about.md)
 * [学习WEB前端的建议](detail/intro/suggest.md)
 * [WEB前端软件工具](detail/software)
+* [新手常见问题及解答](detail/FAQ.md)
+* [Web前端常见名词解释](detail/noun-explain.md)
 * [前端知识结构](detail/knowledge-structure.md)
 
 ### 基础知识
 * [HTML](detail/html)
 * [CSS](detail/css)
-* JS
-    * [脚本写在哪](detail/js/place.md)
-    * [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
-    * [事件DOMContentLoaded和load的区别](detail/js/dom-content-loaded-vs-load.md)
-    * [表单验证](detail/js/valid-input)
-    * [ajax](detail/js/ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
-    * [generator函数](detail/js/generator)
-    * [正则](detail/js/reg-reference.md)
+* [JS](detail/js)
 * [jQuery](detail/jQuery/)
-    * [工具方法](detail/jQuery/utilities.md)
-    * [查询](detail/jQuery/query.md)
-* [动画效果](detail/effect)
-* [web workers](detail/web-works)
+* [HTTP](detail/http)
+* [安全](detail/security)
 
-附
-* [**新手常见问题及解答**](detail/FAQ.md)
-* [代码片段](snippets) 缺具体的描述
-* [Web前端常见名词解释](detail/noun-explain.md)
-* [前端导航页](https://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/blob/master/bookmark/bookmark-nav-page/index.html)
-
-### 只需了解
+### 综合
 * [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](detail/W3C&WHATWG.md)
 * 浏览器引擎
-* HTML
-    * [DOCTYPE和浏览器渲染模式](detail/html/quirks-mode-and-standards-mode.md)
-    * [常用的meta标签](detail/html/meta.md)
-    * [HTML特殊符号（也有的叫字符实体）](detail/html/entities.md)
-    * [元素的嵌套规则](detail/html/element-nesting.md)
-    * [网页无障碍](others/accessible.md)
-    * [UserAgent的历史变迁](http://article.yeeyan.org/view/heart5/19211) 每个浏览器都宣称自己是其他浏览器的乱象的由来
-    * [语种名称代码(html lang的值)](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
-* CSS
-    * [元素上使用id还是class](detail/css/id-or-class.md)
-    * [加载CSS的优化：Critical CSS](detail/css/critical-css.md)
-* 网站性能优化
-    * [减少网站响应时间概要](others/web-speed-up.md)
-* [安全](detail/security)
-    * [XSS](detail/security/XSS)
-* [HTTP](detail/http) HTTP相关的。Todo
-* 其他
-    * [Photoshop介绍](others/photoshop)
-    * [命令行及常用指令介绍](others/command-line.md)
-	* [Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
-    * [排版](detail/type)
-        * [垂直的韵律](detail/type/vertical-rhythm.md)
-        * [中文排版的最佳实践](http://zhuanlan.zhihu.com/FrontendMagazine/19891152)
-    * [[ 浏览器原理 ] Repaint 、Reflow 的基本认识和优化](http://segmentfault.com/a/1190000002629708)
-    * [HTTP协议](others/http.md)
-    * [favicon](https://github.com/audreyr/favicon-cheat-sheet)
+* [动画效果](detail/effect)
+* [Web性能优化](others/web-speed-up.md)
+* [排版](detail/type)
+    * [垂直的韵律](detail/type/vertical-rhythm.md)
+    * [中文排版的最佳实践](http://zhuanlan.zhihu.com/FrontendMagazine/19891152)
+* [[ 浏览器原理 ] Repaint 、Reflow 的基本认识和优化](http://segmentfault.com/a/1190000002629708)
+* [favicon](https://github.com/audreyr/favicon-cheat-sheet)
+* 提高工作效率
+    * [代码片段](snippets) 缺具体的描述
+    * [前端导航页](https://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/blob/master/bookmark/bookmark-nav-page/index.html)
 
-### Demo
+## Demo
 * [购物车](demo/shopping-cart)
 * [签到图片墙](demo/sign-in-anim)
 * [耗时函数被短时间频繁调用时，防浏览器卡死](demo/throttle)
@@ -73,12 +44,6 @@
 * [用XMLHttpRequest2技术：异步提交(上传)带文件的表单](demo/aysn-file-upload)
 * [邮票四周的齿轮效果](demo/stamp)
 
-
-
-## 项目结构
-* `detail` 知识点的详细内容
-* `ppt` 知识点讲解ppt
-* `homework` 作业示例
 
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站
