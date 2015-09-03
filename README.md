@@ -11,43 +11,7 @@
 
 ### 基础知识
 * [HTML](detail/html)
-* CSS
-	* [介绍](detail/css)
-    * [样式写在哪](detail/css/place.md)
-	* [选择器](detail/css/selector)
-    * [样式的继承和层叠](detail/css/inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述
-	* [样式规则](http://www.htmldog.com/reference/cssproperties/) **[CSS参考手册](http://css.doyoe.com/)** **[-webkit- CSS](http://ued.ctrip.com/webkitcss/index.html)**
-        * [文本（text）与文字（font）样式规则](detail/css/font/font-style.md)
-        * [背景样式规则](detail/css/background.md)
-        * [表格样式规则](detail/css/table)
-        * [列表样式规则](detail/css/list.md)
-        * [CSS的未来：一些试验性CSS属性](http://www.qianduan.net/the-future-of-css-experimental-css-properties/) 只是外链，缺整理的描述
-    * [样式规则的值的类型及单位](detail/css/value-and-unit.md) 缺具体的描述
-        * [CSS属性中的百分比](detail/css/value-and-unit.md#percent)
-    * [样式简写](detail/css/css-shorthand.md) 缺具体的描述
-    * [盒模型](detail/css/box-model.md)
-    * [浮动](detail/css/float/README.md)
-    * [元素定位](detail/css/position)
-    * 对齐
-        * [元素居中](detail/css/align-center/)
-        * [两端对齐](detail/css/align-justify/)
-    * [BFC](detail/css/BFC)
-    * [布局](detail/css/layout)
-        * [Flexbox](detail/css/layout/flexbox) 缺具体的描述
-    * [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵 只是外链，缺整理的描述
-    * [浏览器默认样式](detail/css/ua-style.md)
-    * [浏览器兼容性](detail/css/compatibility)
-        * [浏览器常见bug](detail/css/compatibility/css-bugs.md)
-        * [浏览器hacks](detail/css/compatibility/css-hack.md)
-    * [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css) 只是外链，缺整理的描述
-    * CSS3
-        * [box shadow](detail/css/box-shadow)
-        * [渐变](detail/css/gradient)
-        * [变换(transform)](detail/css/transform) 缺部分具体的描述
-        * [过渡(transition)](detail/css/transition) 缺具体的描述
-        * [动画](detail/css/animate)
-        * [滤镜(CSS Filter)](detail/css/animate)
-    * [响应式样布局](detail/responsive)
+* [CSS](detail/css)
 * JS
     * [脚本写在哪](detail/js/place.md)
     * [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述

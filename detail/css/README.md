@@ -1,43 +1,37 @@
 # CSS
-CSS是Cascading Style Sheets(层叠样式表)的缩写。    
-CSS是一门语言（DSL）。    
-CSS用来指定HTML元素的外观的。外观包括：大小（宽，高），位置，内容的对齐方式，字体等等。    
-下面是CSS代码：
-```
-.intro{
-    width: 100px;
-    height: 200px;
-    color: #ff0;
-    background-color:red;
-}
-```
-上面代码的意思是，指定所有类名为`intro`的元素有这样的外观：宽度为`100px`,高度为`200px`,字体颜色为`#ff0`,背景色为红色。    
-
-样式由**选择器**和**声明**两部分组成。声明由**属性**和**值**组成。    
-在上面的例子中
-* `.intro` 为选择器。
-* `width: 100px;height: 200px;...` 为声明
-* `width,color` 为声明的属性
-* `100px,#f00` 为声明的值
-
-## 层叠
-层叠样式表中的层叠的意思是：对同一个元素来，可以用多种选择器来选择（或者说指定）它。如对于一个如下的元素：
-```
-<div class="box" id="play-music-box"></div>
-```
-以下的选择器均可以选择它    
-
-* `div`
-* `.box`
-* `#play-music-box`
-
-每个选择器的都可以定任意的规则。因此，有这样的可能，不同选择器都定义了一样的规则，但样式规则的值是不同的。这时，元素会怎么显示这规则？报错？啥都不显示？还是？
-
-答案是：元素显示权重高的选择器中定义的那条规则。
-
-## 书籍推荐
-* [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
-* CSS权威指南
-* 禅意花园
-* CSS那些事儿（林小志）
-
+* [CSS介绍](intro.md)
+* [样式写在哪](place.md)
+* [选择器](selector)
+* [样式的继承和层叠](inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述
+* [样式规则](http://www.htmldog.com/reference/cssproperties/) **[CSS参考手册](http://css.doyoe.com/)** **[-webkit- CSS](http://ued.ctrip.com/webkitcss/index.html)**
+    * [文本（text）与文字（font）样式规则](font/font-style.md)
+    * [背景样式规则](background.md)
+    * [表格样式规则](table)
+    * [列表样式规则](list.md)
+    * [CSS的未来：一些试验性CSS属性](http://www.qianduan.net/the-future-of-css-experimental-css-properties/) 只是外链，缺整理的描述
+* [样式规则的值的类型及单位](value-and-unit.md) 缺具体的描述
+    * [CSS属性中的百分比](value-and-unit.md#percent)
+* [样式简写](css-shorthand.md) 缺具体的描述
+* [盒模型](box-model.md)
+* [浮动](float/README.md)
+* [元素定位](position)
+* 对齐
+    * [元素居中](align-center/)
+    * [两端对齐](align-justify/)
+* [BFC](BFC)
+* [布局](layout)
+    * [Flexbox](layout/flexbox) 缺具体的描述
+* [CSS Sprites](http://www.imooc.com/learn/93) 雪碧图/图片精灵 只是外链，缺整理的描述
+* [浏览器默认样式](ua-style.md)
+* [浏览器兼容性](compatibility)
+    * [浏览器常见bug](compatibility/css-bugs.md)
+    * [浏览器hacks](compatibility/css-hack.md)
+* [调试CSS](https://docs.webplatform.org/wiki/tutorials/debugging_css) 只是外链，缺整理的描述
+* CSS3
+    * [box shadow](box-shadow)
+    * [渐变](gradient)
+    * [变换(transform)](transform) 缺部分具体的描述
+    * [过渡(transition)](transition) 缺具体的描述
+    * [动画](animate)
+    * [滤镜(CSS Filter)](animate)
+* [响应式样布局](detail/responsive)
