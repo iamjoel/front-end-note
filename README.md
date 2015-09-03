@@ -3,32 +3,14 @@
 用简单明了的方式记录WEB前端的知识。
 
 ## 目录
+### 了解WEB前端
 * [WEB前端介绍](detail/intro/about.md)
 * [学习WEB前端的建议](detail/intro/suggest.md)
 * [WEB前端软件工具](detail/software)
 * [前端知识结构](detail/knowledge-structure.md)
+
+### 基础知识
 * [HTML](detail/html)
-    * [介绍](detail/html)
-    * **[常见标签及属性](detail/html/tag-and-attr.md)** [练习](detail/html/tag-and-attr.md#homework)
-    * [标签语义化](detail/html/semantic.md)
-    * [HTML5](detail/html/html5/)
-        * [标签,属性](detail/html/html5/elements-and-attrs)
-            * [新增的标签](detail/html/html5/elements-and-attrs/new-elements.md)
-            * [废弃的标签](detail/html/html5/elements-and-attrs/removed-elements.md)
-            * [新增的属性](detail/html/html5/elements-and-attrs/new-attrs.md)
-            * [废弃的属性](detail/html/html5/elements-and-attrs/removed-attrs.md)
-            * [Picture元素](detail/html/html5/picture) 用Picture元素做响应式图片
-        * [Web存储](detail/html/html5/web-storage)
-        * [Web workers](detail/html/html5/web-workers)
-        * [File API](detail/html/html5/file-api) 可以做图片预览之类的
-        * [地理位置](detail/html/html5/geoloaction) 待完善
-        * [画布](detail/html/html5/canvas) 待完善
-        * [视频](detail/html/html5/video) 待完善
-        * [音频](detail/html/html5/audio) 待完善
-        * [拖放](detail/html/html5/drag-and-drop) 待完善
-        * [微数据](detail/html/html5/microdata) 待完善
-        * [应用缓存](detail/html/html5/offline-web-applications) 待完善
-        * [服务器发送事件](detail/html/html5/server-send-events) 待完善
 * CSS
 	* [介绍](detail/css)
     * [样式写在哪](detail/css/place.md)
@@ -128,11 +110,6 @@
 * [邮票四周的齿轮效果](demo/stamp)
 
 
-## 前端相关
-* [Sublime](others/sublime.md) 最性感的编辑器。
-    * [Sublime的Emmet插件中缩写和快捷键](others/sublime-emmet.md)
-* [Markdown](others/markdown.md) 一种易读易写的标记语言。适合用来写文档。
-* [GIT](others/git.md) 很好用的版本控制工具。 [练习](others/git.md#homework)
 
 ## 项目结构
 * `detail` 知识点的详细内容

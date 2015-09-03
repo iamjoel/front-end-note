@@ -1,4 +1,4 @@
-## HTML的常见标签及属性
+## HTML的标签及属性
 ## 目录
 * [链接](#html_links)
 * [标题](#header)
@@ -12,6 +12,7 @@
 * [span](#span)
 * [注释](#comment)
 * [更多标签](#more)
+* [标签的嵌套规则](#tag-nesting)
 * [拓展阅读](#reading)
 * [作业](#homework)
 
@@ -122,7 +123,7 @@
 </form>
 ```
 
-### 常见的表单输入元素有：    
+常见的表单输入元素有：    
 * 文本框 `<input type="text">` 常见属性
 	* `placeholder`
 	* `value`
@@ -146,7 +147,7 @@
 ## <a name="comment">注释</a>
 注释由`<!-- 注释内容 -->`来定义
 
-## <a name="more">更多标签的语义</a>
+## <a name="more">更多标签</a>
 * `strong` 强调
 * `pre` 预定义
 * `code` 代码
@@ -156,6 +157,20 @@
 * `dl`
 	* `dt`
 	* `dd`
+
+## <a name="tag-nesting">标签的嵌套规则</a>
+### HTML4/XHTML的嵌套规则
+* 内联元素不能嵌套块元素
+* <p>元素和<h1~6>元素不能嵌套块元素
+
+### 嵌套错误可能引起的问题
+* 元素开始与结束标签嵌套错误，页面可以在大部分浏览器被正常解析，IE9会出现解析错误
+* 在<p>元素内嵌入<div>等元素造成所有浏览器的解析错误
+* 在<h1>~<h6>元素内嵌入<div>等元素所有浏览器可以解析正常
+* 在<a>元素内嵌入<a>元素会导致所有浏览器的解析错误
+* 在列表元素<li><dt><dd>等插入非列表兄弟元素会导致IE6\IE7的解析错误
+
+了解更多见[这里](http://www.smallni.com/element-nesting/)
 
 ## <a name="reading">拓展阅读</a>
 * [HTML 参考手册](http://www.w3school.com.cn/tags/index.asp)
