@@ -32,7 +32,7 @@
     * [box shadow](box-shadow)
     * [渐变](gradient)
     * [变换(transform)](transform) 缺部分具体的描述
-    * [过渡(transition)](transition) 缺具体的描述
+    * [过渡(transition)](transition)
     * [动画](animate)
     * [滤镜(CSS Filter)](animate)
 * [响应式样布局](detail/responsive)

@@ -78,6 +78,7 @@ Chrome 中，图层分为 RenderLayer(负责 DOM 子树)，GraphicsLayer(负责 
 * [Accelerated Rendering in Chrome](http://www.html5rocks.com/zh/tutorials/speed/layers/)
 
 ## 拓展阅读
+* [网页动画终极指南](http://colachan.com/post/3444)
 * [消除疑问：CSS动画 VS JavaScript](https://github.com/classicemi/blog/issues/3)
 * [CSS Triggers...](http://csstriggers.com/) 样式新建或改变时，会触发哪些行为（重绘，重排，复合）的一个列表
 * http://www.chromium.org/developers/design-documents/gpu-accelerated-compositing-in-chrome

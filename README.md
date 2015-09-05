@@ -22,6 +22,7 @@
 ### 综合
 * [W3C](http://www.chinaw3c.org/about.html) 和 [WHATWG](https://whatwg.org/) 均为定web标准的组织 [他们的故事](detail/W3C&WHATWG.md)
 * 浏览器引擎
+* [动画](detail/comprehensive)
 * [动画效果](detail/effect)
 * [Web性能优化](others/web-speed-up.md)
 * [排版](detail/type)
