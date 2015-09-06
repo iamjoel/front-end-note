@@ -5,7 +5,7 @@
 * [淘宝ued](http://ued.taobao.com/blog/category/bowen/frontend/)
 * [html5梦工厂](http://www.html5dw.com/index/develop/)
 * [web前端开发](http://www.css88.com/)
-* [稀土掘金](http://gold.xitu.io)
+* [稀土掘金](http://gold.xitu.io):技术干货分享
 * [A list Apart](http://alistapart.com/topics):关于做网站的一些文章
 * [前端乱炖](http://www.html-js.com/)
 * [开发者头条](http://toutiao.io/)
