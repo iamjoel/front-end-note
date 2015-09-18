@@ -55,7 +55,7 @@
         },
         _canRun: function() { // 到倒数时，到0的时候，就结束了
             var canRun = true;
-            if (this.options) {
+            if (this.options.reverse) {
                 if (this.hour === 0 && this.minute === 0 && this.second === 0) {
                     canRun = false;
                 }
