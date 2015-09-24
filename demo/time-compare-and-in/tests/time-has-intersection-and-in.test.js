@@ -331,7 +331,7 @@ describe('timesHasIntersection 有若干个时间集合，判断时间集合是�
                 start: '2015-3-2 15:03:01', // 周一
                 end: '2015-3-20 18:05:06', // 周五
                 type: 'week',
-                value: [2,3,4,5,6,0]
+                value: [2, 3, 4, 5, 6, 0]
             };
             timesHasIntersection(time1, time2, time3).hasIntersection.should.to.be.false;
 
@@ -347,7 +347,7 @@ describe('timesHasIntersection 有若干个时间集合，判断时间集合是�
         });
 
         it('should as describe whaterve', function() {
-        	var time1 = {
+            var time1 = {
                 start: '2015-3-1 15:03:01', // 周一
                 end: '2015-3-1 18:05:06', // 周五
                 type: 'all'
@@ -379,5 +379,74 @@ describe('timesHasIntersection 有若干个时间集合，判断时间集合是�
             timesHasIntersection(time1, time4, time3).intersection.should.deep.equal([1, 2]);
 
         });
+    });
+});
+
+describe('indexOfTimes 具体时间在哪个时间区间内', function() {
+    it('should return index if find', function() {
+        var time1 = {
+            start: '2015-3-1 15:03:01', // 周一
+            end: '2015-3-10 18:05:06', // 周五
+            type: 'all'
+        };
+        indexOfTimes('2015-3-2', [time1]).should.equal(0);
+        indexOfTimes('2015-3-1 15:03:01', [time1]).should.equal(0);
+
+        var time2 = {
+            start: '2015-8-1 15:03:01', // 周一
+            end: '2015-8-10 18:05:06', // 周五
+            type: 'all'
+        };
+
+
+        indexOfTimes('2015-8-3', [time1, time2]).should.equal(1);
+
+        var time3 = {
+            start: '2015-8-12 15:03:01', // 周一
+            end: '2015-8-20 18:05:06', // 周五
+            type: 'day',
+            value: 2
+        };
+        indexOfTimes('2015-8-16 16:20:01', [time1, time2, time3]).should.equal(2);
+
+        var time4 = {
+            start: '2015-8-12 15:03:01', // 周一
+            end: '2015-8-20 18:05:06', // 周五
+            type: 'week',
+            value: [2]
+        };
+        indexOfTimes('2015-8-14 16:20:01', [time1, time2, time3, time4]).should.equal(2);
+
+    });
+
+    it('should return -1 if not find', function() {
+    	var time1 = {
+            start: '2015-3-1 15:03:01',
+            end: '2015-3-10 18:05:06',
+            type: 'all'
+        };
+        indexOfTimes('2015-1-2', [time1]).should.equal(-1);
+        indexOfTimes('2015-1-2', [time1]).should.equal(-1);
+        indexOfTimes('2015-3-1 15:03:00', [time1]).should.equal(-1);
+        indexOfTimes('2015-3-10 18:05:08', [time1]).should.equal(-1);
+
+
+        var time2 = {
+            start: '2015-3-10 15:03:01',
+            end: '2015-3-12 18:05:06',
+            type: 'day',
+            value: 2
+        };
+        indexOfTimes('2015-3-11 16:20:01', [time1, time2]).should.equal(-1);
+
+        var time3 = {
+            start: '2015-8-12 15:03:01', // 周三
+            end: '2015-8-20 18:05:06', // 周四
+            type: 'week',
+            value: [1,2,3,4,5,6]
+        };
+        // 周日
+        indexOfTimes('2015-8-16 16:20:01', [time3]).should.equal(-1);
+
     });
 });

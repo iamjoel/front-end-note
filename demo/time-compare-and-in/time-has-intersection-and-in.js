@@ -18,7 +18,7 @@
     		intersection: false
     	};
         var times = [].splice.call(arguments, 0);
-        timeRanges = getTimeRanges(times);
+        var timeRanges = getTimeRanges(times);
         // console.log(timeRanges);
 
         timeRanges.forEach(function(currRange, currIndex){
@@ -33,8 +33,29 @@
         		});
         	}
         });
-
         return returnInfo;
+    }
+
+    /*
+    * 某个时间在那个时间区间中
+    */
+    function indexOfTimes(time, times){
+    	var index = -1;
+    	time = (new moment(time)).valueOf();
+        if(times.length > 0){
+	        var timeRanges = getTimeRanges(times);
+	        timeRanges.forEach(function(currRange, currIndex){
+	        	if(index == -1){
+		        	currRange.forEach(function(item){
+		        		if(time >= item[0] && time <= item[1]){
+		        			index = currIndex;
+		        			return;
+		        		}
+		        	});
+	        	}
+	        });
+        }
+        return index;
     }
 
 	/*
@@ -55,7 +76,6 @@
     		}
     	});
     	return result;
-
     }
 
     /*
@@ -126,18 +146,18 @@
                 break;
             case 'day':
                 var i = 0;
-                while (start.valueOf() < end.valueOf() || i > 100) { // 防止死循环
+                while (start.valueOf() < end.valueOf() || i > 1000) { // 防止死循环
                     timeRange.push([start.valueOf(), toDayEndTime(start, endDayInfo).valueOf()]);
                     start.add(timeObj.value, 'day');
                     i++;
                 }
-                if (i > 100) {
+                if (i > 1000) {
                     console.log(timeRange);
                 }
                 break;
             case 'week':
                 var i = 0;
-                while (start.valueOf() < end.valueOf() || i > 500) { // 防止死循环
+                while (start.valueOf() < end.valueOf() || i > 1000) { // 防止死循环
                     	// debugger;
                     timeObj.value.forEach(function(weekday) {
                         var time = getAfterWeekday(start, weekday);
@@ -148,10 +168,12 @@
                     start.add(1, 'week');
                     i++;
                 }
-                if (i > 500) {
+                if (i > 1000) {
                     console.log(timeRange);
                 }
                 break;
+             default:
+             	throw 'unkown type';
         }
         return timeRange;
 
@@ -258,6 +280,7 @@
     // .add('day', 1)
     // moment().endOf('day').valueOf()
     gloable.timesHasIntersection = timesHasIntersection;
+    gloable.indexOfTimes = indexOfTimes;
     // http://philipwalton.com/articles/how-to-unit-test-private-functions-in-javascript/
     // 私有方法，上线时删除,暴露出来用于测试
     gloable._toDefaultEndTime = toDefaultEndTime;
