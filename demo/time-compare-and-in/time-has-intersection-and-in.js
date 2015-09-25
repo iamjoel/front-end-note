@@ -17,7 +17,12 @@
     		hasIntersection: false,
     		intersection: false
     	};
-        var times = [].splice.call(arguments, 0);
+        var times;
+        if(Array.isArray(arguments[0])){
+            times = arguments[0];
+        } else {
+            times = [].splice.call(arguments, 0);
+        }
         var timeRanges = getTimeRanges(times);
         // console.log(timeRanges);
 
@@ -160,6 +165,7 @@
                 while (start.valueOf() < end.valueOf() || i > 1000) { // 防止死循环
                     	// debugger;
                     timeObj.value.forEach(function(weekday) {
+                    	weekday = parseInt(weekday, 10);
                         var time = getAfterWeekday(start, weekday);
                         if(time.valueOf() < end.valueOf()){
                         	timeRange.push([time.valueOf(), toDayEndTime(time, endDayInfo).valueOf()]);

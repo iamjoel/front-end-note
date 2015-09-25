@@ -344,6 +344,40 @@ describe('timesHasIntersection 有若干个时间集合，判断时间集合是�
             timesHasIntersection(time1, time2, time3, time4).hasIntersection.should.to.be.true;
             timesHasIntersection(time1, time2, time3, time4).intersection.should.deep.equal([0, 3]);
 
+            // week是字符串的情况
+            var time1 = {
+                start: '2015-3-2 15:03:01', // 周一
+                end: '2015-3-20 18:05:06', // 周五
+                type: 'week',
+                value: ['1']
+            };
+
+            var time2 = {
+                start: '2015-6-2 15:03:01', // 周一
+                end: '2015-8-20 18:05:06', // 周五
+                type: 'week',
+                value: ['2', '3', '4']
+            };
+
+            timesHasIntersection(time1, time2).hasIntersection.should.to.be.false;
+
+            var time3 = {
+                start: '2015-3-2 15:03:01', // 周一
+                end: '2015-3-20 18:05:06', // 周五
+                type: 'week',
+                value: ['2', '3', '4', '5', '6', '0']
+            };
+            timesHasIntersection(time1, time2, time3).hasIntersection.should.to.be.false;
+
+            var time4 = {
+                start: '2015-2-2 15:03:01', // 周一
+                end: '2015-3-20 18:05:06', // 周五
+                type: 'week',
+                value: ['1']
+            };
+            timesHasIntersection(time1, time2, time3, time4).hasIntersection.should.to.be.true;
+            timesHasIntersection(time1, time2, time3, time4).intersection.should.deep.equal([0, 3]);
+
         });
 
         it('should as describe whaterve', function() {
