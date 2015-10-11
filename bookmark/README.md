@@ -105,6 +105,7 @@
 
 ## 别人的前端网站收藏
 * [飞屋收藏夹](http://www.ifeiwu.com/urls.php)
+* [醉牛前端](http://f2er.club/)
 * https://github.com/foru17/front-end-collect
 * https://github.com/dypsilon/frontend-dev-bookmarks
 * http://123.jser.us/

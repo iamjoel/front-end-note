@@ -27,3 +27,10 @@
     * [前端导航页](https://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/blob/master/bookmark/bookmark-nav-page/index.html)
 
 首页Readme的资源链接的整理，精简
+
+综合要加的
+布局
+CSS3使页面效果增强的综合的页面：滤镜，boxshow，item移动上去会移动位置，显示boxshow等等
+
+http://speckyboy.com/2015/09/09/css-animation/ css框架和工具
+http://htmlcolorcodes.com/ html颜色
