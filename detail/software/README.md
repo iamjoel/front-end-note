@@ -42,6 +42,9 @@
 * [CuteFTP](http://www.cuteftp.com/) FTP工具
 * [LockHunter](http://lockhunter.com/) 查看文件是被哪个程序锁定了，并且支持解开程序对文件的锁定
 
+## 查询
+* [CanIUse命令行工具](caniuse-command.md)
+
 ## 其他
 * [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
 * [f.lux](https://justgetflux.com/) [全天候默默保护眼睛健康的软件！自动调整屏幕色温减少眼睛疲劳，长时间玩电脑必备！](http://www.iplaysoft.com/flux.html)
