@@ -25,6 +25,11 @@
 * 提高工作效率
     * [代码片段](snippets) 缺具体的描述
     * [前端导航页](https://htmlpreview.github.io/?https://github.com/iamjoel/front-end-note/blob/master/bookmark/bookmark-nav-page/index.html)
+* 前端构建
+	* Gulp
+	* Make 文件
+		* http://www.ruanyifeng.com/blog/2015/02/make.html
+		* http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
 首页Readme的资源链接的整理，精简
 
