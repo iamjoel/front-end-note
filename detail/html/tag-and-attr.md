@@ -127,12 +127,17 @@
 * 文本框 `<input type="text">` 常见属性
 	* `placeholder`
 	* `value`
+	* `maxlength` 最大长度
 * 文本域 `<textarea></textarea>` 和文本框相比，可输入更多文字。常见属性
 	* `placeholder`
 	* `value`
+	* `maxlength` 最大长度IE9(不包括)以下不支持
 * 单选框 `<input type="radio" name="gendar">` 。其中`name`的值一样的单选框只有一个能被选中
 * 复选框 `<input type="checkbox" name="gendar">`
 * 下拉选择框 `<select><option value="1">苹果</option><option value="2">橘子</option></select>`
+* 数字框 `<input type="number">` 。注意，其不支持`maxlength`属性
+	* `min` 最小值
+	* `max` 最大值
 * 提交按钮 `<button type="submit">提交</button>` 点击
 * 重置按钮 `<button type="reset">重置</button>`
 
