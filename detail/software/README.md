@@ -28,7 +28,7 @@
 ## 静态服务器
 * [Anywhere](https://npmjs.org/package/anywhere) 需先安装[Nodejs](https://nodejs.org/download/)。然后命令中执行 `npm i -g anywhere` 进行安装。
 
-## Web调试工具(要用到时安装)
+## Web调试工具
 * [fiddler](http://www.telerik.com/fiddler) 记录所有客户端和服务器的http和https请求，允许你监视，设置断点，修改输入输出数据。
 
 ## 调试
