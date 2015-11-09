@@ -28,11 +28,10 @@
 ## 静态服务器
 * [Anywhere](https://npmjs.org/package/anywhere) 需先安装[Nodejs](https://nodejs.org/download/)。然后命令中执行 `npm i -g anywhere` 进行安装。
 
-## Web调试工具(要用到时安装)
-* [fiddler](http://www.telerik.com/fiddler) 记录所有客户端和服务器的http和https请求，允许你监视，设置断点，修改输入输出数据。
-
-## 手机调试
+## 调试工具
+* [Fiddler](http://www.telerik.com/fiddler) 记录所有客户端和服务器的http和https请求，允许你监视，设置断点，修改输入输出数据。
 * [weinre](weinre.md) 是一款基于Web Inspector(Webkit)的远程调试工具， 它使用JS编写， 可以让我们在电脑上直接调试运行在手机上的远程页面。启动 `weinre --boundHost -all-`
+* [微信调试工具](http://blog.qqbrowser.cc/) 支持本地调试微信公众号，远程调试微信网页。微信官方出的。
 
 ## 文件相关工具
 * [Everything](http://www.voidtools.com/) 文件搜索工具

@@ -24,6 +24,7 @@
 
 ## <a name="summary">Markdown概述</a>
 Markdown是一种易读易写的标记语言。它能被生成HTML。Markdown的目标是：成为一种适用于网络的书写语言。    
+Markdown 与 Office Word 相比，其控制文本的格式更容易；与 HTML 相比，其写法上更简洁和简单。虽然 Markdown 在功能上没有 Office Word 和 HTML 强大，但如果只是用 Markdown 来写写文章和文档，也够用了~    
 
 Github，Stackoverflow等网站都支持Markdown。
 
