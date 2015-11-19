@@ -1,4 +1,7 @@
-# WEB前端开发学习笔记 [下载](https://github.com/iamjoel/front-end-note/archive/master.zip)
+<h1 align="center">WEB前端开发学习笔记</h1>
+<p align="center">
+<a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
+</p>
 
 用简单明了的方式记录WEB前端的知识。
 
