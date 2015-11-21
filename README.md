@@ -3,6 +3,8 @@
 <a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
 </p>
 
+[![Join the chat at https://gitter.im/iamjoel/front-end-note](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iamjoel/front-end-note?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 用简单明了的方式记录WEB前端的知识。
 
 ## 目录
