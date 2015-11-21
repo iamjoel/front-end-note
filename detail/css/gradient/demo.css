@@ -6,7 +6,6 @@
 
 .linear-two-color {
     /* bg:lg(#f60,#f00);*/
-    
     background-image: -webkit-linear-gradient(#f60, #f00);
     background-image: -o-linear-gradient(#f60, #f00);
     background-image: linear-gradient(#f60, #f00);
@@ -14,7 +13,6 @@
 
 .linear-left-to-right-two-color {
     /* bg:lg(to right, #f60,#f00);*/
-    
     background-image: -webkit-linear-gradient(left, #f60, #f00);
     background-image: -o-linear-gradient(left, #f60, #f00);
     background-image: linear-gradient(to right, #f60, #f00);
@@ -65,11 +63,18 @@
 
 .repeat-linear {
     background-image: repeating-linear-gradient( 45deg, yellow, yellow 10px, red 10px, red 20px);
+    border-radius: 50px;
+}
+
+.repeat-linear2 {
+    background-color: #5cb85c;
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.14902) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.14902) 50%, rgba(255, 255, 255, 0.14902) 75%, transparent 75%, transparent);
+    background-size: 40px 40px;
+    border-radius: 50px;
 }
 
 .repeat-radial {
     background-image: repeating-radial-gradient( circle at 0 0, yellow, red 50px);
-    ;
     width: 200px;
     height: 200px;
 }

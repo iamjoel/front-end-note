@@ -77,6 +77,14 @@ HTML5语法高亮
 
 ### [GitGutter](https://github.com/jisaacks/GitGutter) 在文件的行号旁边显示文件的修改状态
 
+### [sublime-TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN)
+在sublime中的左侧文件树中可以做SVN的操作。    
+
+快捷键
+* [alt+c] : 提交
+* [alt+u] : 更新
+* [alt+r] : 回滚
+
 ### AutoFileName
 文件路径与名称的补全
 
