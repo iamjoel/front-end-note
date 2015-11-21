@@ -5,5 +5,6 @@
 * [是时候学习Postcss了](http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/)
 
 ## JS
+* [Superhero.js](http://superherojs.com/) 关于如何创建一个可维护的大型 JS 项目的一系列优秀文章
 * [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 提供JS的代码的一些参考
 * [ES6 in depth](https://hacks.mozilla.org/category/es6-in-depth/)
