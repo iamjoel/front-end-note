@@ -1,14 +1,4 @@
-# 字体
-选择合适的字体，对提高网页的美观度和可读性有着举足轻重的作用。
-
-
-## 字体基础知识
-* [web安全字体](http://web.mit.edu/jmorzins/www/fonts.html)
-* 字体栈(font-family)
-	* [cssfontstack](http://www.cssfontstack.com/) 各种字体在系统的安装比例
-	* [Font Stacks snippet](http://css-tricks.com/snippets/css/font-stacks/)
-
-## 优化
+# 最佳实践
 ### [使Chrome字体渲染更平滑](http://swordair.com/smoother-font-randering-in-chrome/)
 Chrome在字体大于48px时，锯齿很明显。     
 解决
