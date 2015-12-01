@@ -26,6 +26,7 @@
 * [张鑫旭](http://www.zhangxinxu.com/wordpress/)
 * [汤姆大叔](http://www.cnblogs.com/TomXu/)
 * [阮一峰](http://www.ruanyifeng.com/blog/)
+* [拉风的博客](http://rapheal.sinaapp.com/) 写的文章很有深度
 * [牛魔王的世界观](http://www.niumowang.org/)
 * [gbin1](http://www.gbin1.com/)
 * [paul Irish](http://www.paulirish.com/) Moderinizr,Yeoman的开发者之一，志于make www fun。
