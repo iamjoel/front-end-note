@@ -25,6 +25,7 @@
 ### 综合
 * [动画](detail/comprehensive/animate)
 * [浏览器兼容性](detail/comprehensive/browser-compatibility)
+* [CSS 字体](detail/comprehensive/browser-compatibility)
 
 ## 推荐学习资源
 * [饥人谷](http://jirengu.com/) BAT的一些家伙搞的web培训网站

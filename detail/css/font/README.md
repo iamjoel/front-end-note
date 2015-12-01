@@ -1,4 +1,7 @@
 # 字体
+选择合适的字体，对提高网页的美观度和可读性有着举足轻重的作用。
+
+
 ## 字体基础知识
 * [web安全字体](http://web.mit.edu/jmorzins/www/fonts.html)
 * 字体栈(font-family)
