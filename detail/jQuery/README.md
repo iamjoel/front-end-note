@@ -1,9 +1,9 @@
 # [jQuery](http://jquery.com/)
 [官方API文档](http://api.jquery.com/)
 
-
-    * [工具方法](detail/jQuery/utilities.md)
-    * [查询](detail/jQuery/query.md)
+## 整理
+* [工具方法](detail/jQuery/utilities.md)
+* [抓取元素](detail/jQuery/select-elem.md)
 
 ## 资源
 * [官方学习中心](http://learn.jquery.com/)

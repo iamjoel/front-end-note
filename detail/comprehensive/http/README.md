@@ -9,3 +9,5 @@
 
 ## 拓展阅读
 * [HTTP 协议解析](http://yuez.me/http-xie-yi-jie-xi/)
+* [HTTP协议详解](https://www.zybuluo.com/yangfch3/note/167490)
+* [http2讲解](https://ye11ow.gitbooks.io/http2-explained/content/index.html)
