@@ -12,3 +12,4 @@
 * [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo/support) 添加用户自定义脚本
 * [全能二维码](https://chrome.google.com/webstore/detail/ejadepcppnegmgmndhbhpaicoffamngd) 生产网址的二维码
 * [QRreader](https://chrome.google.com/webstore/detail/qrreader-beta/bfdjglobiolninfgldchakgfldifphic) 读取二维码
+* [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
