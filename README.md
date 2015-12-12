@@ -29,7 +29,7 @@
 
 ## 推荐学习资源
 * [饥人谷 前端学习课件](http://book.jirengu.com/fe/index.html) [Samaritan 做的类似的东东](http://samaritan89.github.io/f2e/index.html)
-* [慕课网 HTML+CSS基础课程](http://www.imooc.com/learn/9)
+* [慕课网 HTML + CSS基础课程](http://www.imooc.com/learn/9)
 * [HTML基本知识](http://www.jianshu.com/notebooks/536331/latest) 一个叫[实验楼](http://www.shiyanlou.com/)的培训机构做的
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
 * [htmldog](http://htmldog.com/) HTML，CSS，JS教程。英文的
