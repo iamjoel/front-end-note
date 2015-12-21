@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	.apple{
+		position: relative;
+		width: 172px;
+		height: 202px;
+	}
+	.apple .top,
+	.apple .bottom{
+		position: absolute;
+		background-color: #e03a3e;
+	}
+	.top-wrap,
+	.bottom-wrap{
+		position: absolute;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.top-wrap {
+		top: 47px;
+	    height: 128px;
+	}
+	.top{
+		top: 0;
+		border-radius: 108px 108px 108px 94px/128px 128px 128px 128px;
+	    top: 0;
+	    width: 108px;
+	    height: 100%;
+	}
+	.top.left{
+		left: 0;
+	}
+	.top.right{
+		right: 0;
+	}
+
+	.bottom-wrap{
+		top: 98px;
+		height: 100px;
+	}
+	.bottom{
+		border-radius: 22px 64px 64px 64px/106px 106px 106px 106px;
+	    height: 106px;
+	    top: 0;
+	    width: 64px;
+	}
+
+	.bottom.left{
+	    transform: rotate(-25deg);
+		left: 12px;
+	}
+	.bottom.right{
+	    transform: rotate(25deg);
+		right: 12px;
+	}
+	</style>
+</head>
+<body>
+	<!-- http://www.ecsspert.com/css3-logos/apple.php -->
+	<div class="apple">
+		<div class="top-wrap">
+			<div class="top left"></div>
+			<div class="top right"></div>
+		</div>
+		<div class="bottom-wrap">
+			<div class="bottom left"></div>
+			<div class="bottom right"></div>
+		</div>
+		<div class="middle"></div>
+	</div>
+</body>
+</html>
