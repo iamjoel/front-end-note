@@ -5,6 +5,7 @@
 * [是时候学习Postcss了](http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/)
 
 ## JS
+### 代码质量
 * [Superhero.js](http://superherojs.com/) 关于如何创建一个可维护的大型 JS 项目的一系列优秀文章
-* [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 提供JS的代码的一些参考
-* [ES6 in depth](https://hacks.mozilla.org/category/es6-in-depth/)
+* [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 一些案例，应该如何重构
+* [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
