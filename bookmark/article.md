@@ -9,3 +9,10 @@
 * [Superhero.js](http://superherojs.com/) 关于如何创建一个可维护的大型 JS 项目的一系列优秀文章
 * [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 一些案例，应该如何重构
 * [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
+
+## 技巧
+* [The Art of Debugging(调试的艺术)](https://remysharp.com/2015/10/14/the-art-of-debugging)
+	* 重现 Bug
+	* 理解 Bug 是如何产生的
+	* 解决 Bug
+
