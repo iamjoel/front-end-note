@@ -1,8 +1,8 @@
 # JS
 * [脚本写在哪](place.md)
 * 语法
-	* [数组](grammer/array)
-	* [字符串](grammer/string)
+	* [数组](grammar/array)
+	* [字符串](grammar/string)
 	* [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
 	* 闭包 TODO
 		* [Master the JavaScript Interview: What is a Closure?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
