@@ -52,5 +52,9 @@ CSS3使页面效果增强的综合的页面：滤镜，boxshow，item移动上�
 
 http://speckyboy.com/2015/09/09/css-animation/ css框架和工具
 http://htmlcolorcodes.com/ html颜色
+## 前沿
 ## postcss
 * [rucksack](http://simplaio.github.io/rucksack/docs/) cool
+
+* [css-modules](https://github.com/css-modules/css-modules) 在组件中定义的类名不会影响其他组件。会有一个编译的过程，编译后，会将 CSS 文件中的类名和引用的类名生成为一个不会重复的类名。
+
