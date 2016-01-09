@@ -82,6 +82,7 @@ git config core.ignorecase false
 
 ## 拓展阅读
 * [猴子都能懂的Git入门](http://backlogtool.com/git-guide/cn/)
+* [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki) 高质量的Git中文教程
 * [Git 及托管商 Github 的使用](https://github.com/xirong/my-git)
 * [版本控制入门插图教程](http://www.ruanyifeng.com/blog/2008/12/a_visual_guide_to_version_control.html)
 * [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)

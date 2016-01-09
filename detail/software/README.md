@@ -14,7 +14,7 @@
 * [Sublime Text 3](http://www.sublimetext.com/3) 及[相关插件](sublime.md#plugin)
 
 ## 代码版本控制
-* Git
+* Git [使用介绍](git.md)
 	* [Github](https://github.com/) [Windows下的客户端](https://windows.github.com/) 用了Github的客户端的命令行，就会发现msysgit，cgywin里的Git之类的命令行都是浮云。
 	* [Coding](https://coding.net/)
 
