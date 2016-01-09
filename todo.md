@@ -58,3 +58,5 @@ http://htmlcolorcodes.com/ html颜色
 
 * [css-modules](https://github.com/css-modules/css-modules) 在组件中定义的类名不会影响其他组件。会有一个编译的过程，编译后，会将 CSS 文件中的类名和引用的类名生成为一个不会重复的类名。
 
+* [esdoc](https://github.com/esdoc/esdoc) 感觉比 jsdoc 更好，主要是支持 ES6 的源码，以及会把测试也放进去。
+
