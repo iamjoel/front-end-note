@@ -1,4 +1,24 @@
 # Web前端网站收藏
+## API 速查
+* [HTML5标签](http://websitesetup.org/html5-cheat-sheet/) HTML5 标签的语义，帮助我们写出语义化的HTML
+* [Markdown](http://warpedvisions.org/projects/markdown-cheat-sheet)
+* [CSS](http://overapi.com/css/)
+* [Sass](http://aepicos.com/blog/sass-cheat-sheet/)
+* [Media Queries](http://mac-blog.org.ua/css-3-media-queries-cheat-sheet/) 媒体查询
+* [Javascript API](http://overapi.com/javascript/)
+* [JQuery API](http://oscarotero.com/jquery/)
+* [HTML 5 Canvas Cheat Sheet](http://websitesetup.org/html-5-canvas-cheat-sheet/)
+* [Git](http://www.git-tower.com/blog/git-cheat-sheet/)
+
+## 兼容查询
+* [Can I Use](http://caniuse.com/) HTML 5 浏览器兼容性查询
+* [ES5规范浏览器兼容性表格](http://kangax.github.io/compat-table/es5/)
+* [ES6规范浏览器兼容性表格](http://kangax.github.io/compat-table/es6/)
+* [HTML 5 Please](http://html5please.com/) HTML5 与 CSS3 技术应用评估
+* [Browserhacks](http://browserhacks.com/) 各种奇妙的浏览器hack
+* [ios端移动设备参数速查](http://ivomynttinen.com/blog/the-ios-design-cheat-sheet-volume-2/)
+* [Compatibility overview](http://www.quirksmode.org/compatibility.html) CSS，DOM，Event，Mobile 等的兼容表
+
 ## 新闻
 * 技术新闻聚合
     * [开发者头条](http://toutiao.io/)
@@ -26,7 +46,6 @@
 * [Javascript API－overapi.com](http://overapi.com/javascript/) Javascript API
 * [HTML 5 JavaScript API](http://html5index.org/)
 * [HTML5 Video Events and API](http://www.w3.org/2010/05/video/mediaevents.html)
-* [ES 5/6/7兼容列表](http://kangax.github.io/compat-table/)
 * [Polyfills 库](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills)
 * [HTML5 please](http://html5please.com)
 * [CSS3 please](http://css3please.com/)
