@@ -7,10 +7,16 @@
 * [2015 Codrops 一大波优秀的资源](http://tympanus.net/codrops2015/)
 
 ## JS
+### 介绍
+* [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
 ### 代码质量
 * [Superhero.js](http://superherojs.com/) 关于如何创建一个可维护的大型 JS 项目的一系列优秀文章
 * [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 一些案例，应该如何重构
 * [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
+
+### 工具方法
+* [7 Essential JavaScript Functions](https://davidwalsh.name/essential-javascript-functions)
 
 ## 技巧
 * [The Art of Debugging(调试的艺术)](https://remysharp.com/2015/10/14/the-art-of-debugging)
@@ -20,4 +26,5 @@
 
 ## 其他
 * [The state of Web Components](https://hacks.mozilla.org/2015/06/the-state-of-web-components)
+* [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.hbilswjcl)
 
