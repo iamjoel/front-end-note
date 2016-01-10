@@ -80,6 +80,9 @@ git config core.ignorecase false
 
 注：Github的客户端包含图形界面和命令行（Git Shell）界面。虽然他们都包含一样的功能，但推荐使用命令行来完成上面的工作。
 
+## 实战
+* [githug](https://github.com/Gazler/githug) 闯过 55 个关卡，你就掌握 Git 啦~ [介绍](http://segmentfault.com/a/1190000004222489)
+
 ## 拓展阅读
 * [猴子都能懂的Git入门](http://backlogtool.com/git-guide/cn/)
 * [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki) 高质量的Git中文教程
