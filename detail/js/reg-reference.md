@@ -97,6 +97,8 @@ ps 新建一正则时可多个模式，如 `/hEllO/ig`
 1. 在字符串”1.5 0 123”中匹配数字([1.5,0,123])，无论是整数还是小数。
 1. [更多习题](http://javascript.info/tutorial/practice)
 
+[交互学习教程](http://regexone.com/lesson/introduction_abcs)
+
 ------------
 ## 进阶
 ## 贪婪和非贪婪模式
@@ -142,7 +144,7 @@ Lookaround 参考教程：http://www.regular-expressions.info/lookaround.html
 * 匹配中文字符的正则表达式： [\u4e00-\u9fa5]
 * 匹配双字节字符(包括汉字在内)：[^\x00-\xff]
 
-## 更多资源
+## 更多资源reg
 * [正则在线工具](http://regexr.com/)
 * [正则简明参考](http://javascript.info/tutorial/regular-expressions-javascript)
 * 死磕JavaScript正则表达式系列 [1](http://www.html-js.com/article/1723) [2](http://www.html-js.com/article/1726) [3](http://www.html-js.com/article/1730) [4](http://www.html-js.com/article/1948)
