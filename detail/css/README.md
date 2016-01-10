@@ -11,6 +11,7 @@
     * [背景样式规则](background.md)
     * [表格样式规则](table)
     * [列表样式规则](list.md)
+    * [鼠标样式](cursor.md)
     * [CSS的未来：一些试验性CSS属性](http://www.qianduan.net/the-future-of-css-experimental-css-properties/) 只是外链，缺整理的描述
 * [样式规则的值的类型及单位](value-and-unit.md) 缺具体的描述
     * [CSS属性中的百分比](value-and-unit.md#percent)
