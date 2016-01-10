@@ -43,6 +43,7 @@
 
 ## 查询
 * [CanIUse命令行工具](caniuse-command.md)
+* [TLDR](http://tldr-pages.github.io/) 我们要看命令行的文档可能会用 `man 命令`，但太罗嗦了。TLDR(Too Long Did't Read) 是一个文档简介版的工具。node 安装 `npm install -g tldr` [在线版](http://www.ostera.io/tldr.jsx)
 
 ## 其他
 * [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
