@@ -24,6 +24,9 @@
 	* [表单验证](valid-input)
 * [ajax](ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [generator函数](generator)
+* 常用框架
+	* [lodash](https://lodash.com/)
+		- [Lodash: 10 Javascript Utility Functions That You Should Probably Stop Rewriting](http://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting)
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
