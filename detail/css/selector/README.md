@@ -11,6 +11,7 @@
 * [选择器权重](#selector-weight)
 * [选择器的读取顺序](#match-rule)
 * [选择器的浏览器兼容性](#compatibility)
+* [Efficiently Rendering CSS（高效的写选择器）](https://css-tricks.com/efficiently-rendering-css/)
 * [作业](#homework)
 
 ## <a name='basic'>基本选择器</a>
