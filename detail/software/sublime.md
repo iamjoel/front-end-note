@@ -3,8 +3,8 @@
 * [插件推荐](#plugin)
 * [snippets](#snippets)
 * [常用快捷键](#shortcut)
+* [主题皮肤](#theme)
 * [运行Nodejs](#run-nodejs)
-
 
 ## <a name="install">安装package manager</a>
 ### 1. Ctrl+\` 打开控制台
@@ -157,6 +157,9 @@ https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/referenc
 
 #### Windows/Linux
 https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html
+
+## <a name="theme">主题皮肤</a>
+我用的 [material-theme](https://github.com/equinusocio/material-theme)。
 
 ## <a name="run-nodejs">运行Nodejs</a>
 打开菜单 `Tools>Build System>new Build System`    
