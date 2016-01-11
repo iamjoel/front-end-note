@@ -32,6 +32,21 @@
 	* 重现 Bug
 	* 理解 Bug 是如何产生的
 	* 解决 Bug
+* [JS 做后台任务](http://www.sitepoint.com/how-to-schedule-background-tasks-in-javascript/)
+用 requestIdleCallback。 这个方法会在浏览器空闲时做一些事情。用法，如
+```
+f ('requestIdleCallback' in window) {
+  // requestIdleCallback supported
+  requestIdleCallback(backgroundTask);
+}
+else {
+  // no support - do something else
+  setTimeout(backgroundTask1, 1);
+  setTimeout(backgroundTask2, 1);
+  setTimeout(backgroundTask3, 1);
+}
+```
+
 
 ## 其他
 * [The state of Web Components](https://hacks.mozilla.org/2015/06/the-state-of-web-components)
