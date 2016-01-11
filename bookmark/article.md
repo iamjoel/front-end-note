@@ -1,10 +1,19 @@
 # 好文收藏
+## HTML
+* [Battling BEM – 5 common problems and how to avoid them](https://medium.com/fed-or-dead/battling-bem-5-common-problems-and-how-to-avoid-them-5bbd23dee319#.6jkw93axf)
+	* 如嵌套太深 用新的组件
+
 ## CSS
 * [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/?from=timeline&isappinstalled=0)
 * [12 Little-Known CSS Facts (The Sequel)](http://www.sitepoint.com/12-little-known-css-facts-the-sequel/) 介绍了一些CSS的你可能不知道的用法
 * [是时候学习Postcss了](http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/)
 * [The CSS at…](https://css-tricks.com/css/) 一些大公司是怎么处理 CSS：预译器，前缀，代码风格等
 * [2015 Codrops 一大波优秀的资源](http://tympanus.net/codrops2015/)
+* [Blending Modes in CSS: Color Theory and Practical Application](http://webdesign.tutsplus.com/tutorials/blending-modes-in-css-color-theory-and-practical-application--cms-25201) 混合模式的不同值的颜色值算法。
+
+### 酷炫效果
+* [Star Wars 文字动画](https://cssanimation.rocks/starwars/)
+
 
 ## JS
 ### 介绍
