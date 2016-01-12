@@ -62,3 +62,15 @@ Things To Avoid When Writing CSS (Part 2) https://medium.com/@Heydon/things-to-a
 Web Storage 初探 http://segmentfault.com/a/1190000003936684
 JQuery - Sizzle选择器引擎原理分析 http://segmentfault.com/a/1190000003933990
 React Cheat Sheet http://reactcheatsheet.com/
+Using PostCSS Together with Sass, Stylus, or LESS http://webdesign.tutsplus.com/tutorials/using-postcss-together-with-sass-stylus-or-less--cms-24591
+Guide To Using WebP Images Today: A Case Study https://www.smashingmagazine.com/2015/10/webp-images-and-performance/
+浅谈 JS 对象之扩展、密封及冻结三大特性 http://segmentfault.com/a/1190000003894119
+[你不知道的 JavaScript 类型和语法] 第一章：类型 http://segmentfault.com/a/1190000003888178
+Lazy Loading Images on the Web 各种lazyload image 方案 http://developer.telerik.com/featured/lazy-loading-images-on-the-web/
+FLEXBOX MYTH BUSTING  flexbox 一些坑的地方 http://jonyablonski.com/2015/flexbox-myth-busting/
+Things To Avoid When Writing CSS https://medium.com/@Heydon/things-to-avoid-when-writing-css-1a222c43c28f#.9pfcpy76x
+Angled Edges with CSS Masks and Transforms https://viget.com/inspire/angled-edges-with-css-masks-and-transforms#When:12:26
+BackstopJS 做响应式页面的测试框架（ 用Resemble.js, CasperJS, PhantomJS and SlimerJS） https://garris.github.io/BackstopJS/
+How z-index Works http://bitsofco.de/how-z-index-works/ http://bitsofco.de/(其文章都不错的样子)
+Experimenting with Object.observe in JavaScript http://www.sitepoint.com/experimenting-object-observe-javascript-found-useful/
+https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know
