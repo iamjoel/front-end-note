@@ -88,3 +88,28 @@ speaking Javascript 在线电子书 http://speakingjs.com/es5/
 Use Cases For Css Calc 什么时候使用CSS Calc  http://vincentp.me/blog/use-cases-for-calc/
 Sass based CSS architecture and methodology http://docssa.info/
 可卡因 一些Sass 的 mixin 和 function https://github.com/bcinarli/caffeine
+
+upup 关于离线存储的框架 https://www.talater.com/upup/
+Dealing with long words in CSS https://justmarkup.com/log/2015/07/dealing-with-long-words-in-css/
+Building an enterprice css framework https://justmarkup.com/log/2015/07/dealing-with-long-words-in-css/
+Styling & Customizing File Inputs the Smart Way http://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
+Back to the :roots http://simurai.com/blog/2015/09/09/back-to-the-roots/
+微信开发学习路线 http://bss.csdn.net/m/topic/learning_path_weixin
+[译] 剖析responsive image https://github.com/riskers/blog/issues/5
+生成 favicon 的工具网站 http://www.generate-favicon.com/about
+海豚-Web UI自动化测试工具 http://div.io/topic/1339
+微软“机器学习”系列文章 http://www.msra.cn/zh-cn/research/machine-learning-group/default.aspx
+Deep Learning and Shallow Learning （机器）深入学习和浅的学习 http://freemind.pluskid.org/machine-learning/deep-learning-and-shallow-learning/
+七个对我最重要的职业建议（译文） （Nicholas C. Zakas）http://www.ruanyifeng.com/blog/2015/09/career-advice.html
+ES6 Number Improvements in Depth https://ponyfoo.com/articles/es6-number-improvements-in-depth
+ES6 的 Array.from(list) 可以转化成 array (等效于 Array.prototype.slice.call(list)) polyfill https://github.com/mathiasbynens/Array.from
+Most Developers Don’t Know How to Test https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.48gpqyenz
+JS原生Date类型方法的一些冷知识 http://segmentfault.com/a/1190000003710954
+Jets.js Native CSS search engine http://nexts.github.io/Jets.js/
+CSS 最核心的几个概念 http://www.jianshu.com/p/3a18fcd9fcda
+DevTools Tips For Sublime Text Users https://medium.com/google-developers/devtools-tips-for-sublime-text-users-cdd559ee80f8#.u1f7j6avj
+「JavaScript」四种跨域方式详解 http://segmentfault.com/a/1190000003642057
+FRONT-END PRINCIPLES FOR DESIGNERS http://jonyablonski.com/2015/front-end-principles-for-designers/
+randexp.js Create random strings that match a given regular expression http://fent.github.io/randexp.js/
+10 Common Mistakes Web Developers Make http://www.sitepoint.com/10-common-mistakes-web-developers-make/
+
