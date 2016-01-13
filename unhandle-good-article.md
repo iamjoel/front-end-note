@@ -138,3 +138,49 @@ New regular expression features in ECMAScript 6 http://www.2ality.com/2015/07/re
 https://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/
 Advanced CSS filters http://iamvdo.me/en/blog/advanced-css-filters
 CSS vs. SVG: Graphical Text Effects（字的内容是背景图） http://blogs.adobe.com/dreamweaver/2015/07/css-vs-svg-graphical-text.html
+HTML 最佳实践 https://github.com/dyygtfx/html-best-practices
+Comprehensive Guide: When to Use Em vs. Rem http://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984
+position sticky: scroll-to-top-then-fixed in pure CSS http://thenewcode.com/1052/position-sticky-scroll-to-top-then-fixed-in-pure-CSS
+https://web-design-weekly.com/2015/07/21/creating-better-csss
+Skeleton-Sass Sass 项目结构 https://github.com/whatsnewsaes/Skeleton-Sass
+Why I use Tape Instead of Mocha & So Should You https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4#.3k8yu82a4
+Exploring ES2016 Decorators https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.6wrov67c7
+Working with Shapes in Web Design https://css-tricks.com/working-with-shapes-in-web-design/
+Fix scrolling performance with CSS will-change property http://fourkitchens.com/blog/article/fix-scrolling-performance-css-will-change-property
+Native CSS Scroll Snap Points https://blog.gospodarets.com/css-scroll-snap/
+What a CSS Code Review Might Look Like https://css-tricks.com/what-a-css-code-review-might-look-like/
+A Guide to the Front-End Interview Process http://ashleynolan.co.uk/blog/a-guide-to-front-end-interviews
+Pro tips for using scalable vector graphics http://www.creativebloq.com/web-design/discover-power-svg-61515291
+Interoperable CSS:A CSS standard for the Loader Age http://glenmaddern.com/articles/interoperable-css
+Writing Good CSS http://speckyboy.com/2015/06/17/writing-good-css/
+A Look at Some CSS Methodologies(OOCSS BEM 之类) http://sixrevisions.com/css/css-methodologies/
+On writing real CSS (again) https://blog.colepeters.com/on-writing-real-css-again/
+Everyone who tried to convince me to use modular CSS was wrong, including me. https://medium.com/@opudalo/everyone-who-tried-to-convince-me-to-use-modular-css-was-wrong-including-myself-28961f96f3c4#.sgs0ndf7j
+Writing a Non-blocking JavaScript Quicksort http://www.breck-mckye.com/blog/2015/06/writing-a-non-blocking-javascript-quicksort/
+前端架构 http://saito.im/note/The-Architecture-of-F2E/
+js-smells http://elijahmanor.com/talks/js-smells/
+Buffer's loading animation https://cssanimation.rocks/buffer/
+Scally is a Sass-based, BEM, OOCSS, responsive-ready, CSS framework that provides you with a solid foundation for building reusable https://github.com/chris-pearce/scally
+JavaScript Functions and Helpers（Vanilla JS utilities for writing powerful web applications without jQuery.） cheatsheet https://plainjs.com/javascript/
+css 生成工具（box shadow之类） http://www.cssreflex.com/css-generators/
+In CSS, the Only Wrong Answers are Definitive Ones http://madewithenvy.com/ecosystem/articles/2015/css-definitive-answers
+Eric Meyer on the past, present and future of CSS http://www.creativebloq.com/web-design/eric-meyer-past-present-and-future-css-7126192
+编写稳健、可维护和可扩展的 Sass http://sass-guidelin.es/zh/
+Sass Burger sass写的汉堡包菜单 http://joren.co/sass-burger/
+Build High-Performance HTML5 Cordova Apps with Crosswalk http://blogs.intel.com/evangelists/2015/05/12/build-high-performance-html5-cordova-apps-with-crosswalk/
+Icons - Font, Inline SVG or Background SVGs ? http://blog.nparashuram.com/2015/05/icons-font-inline-svg-or-background-svgs.html
+A Complete Guide to SVG Fallbacks https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
+安全： An introduction to JavaScript-based DDoS https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/
+Manage large-scale web projects with new CSS architecture ITCSS http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731
+函数式 CSS http://yanhaijing.com/css/2013/09/02/functional-css-fcss/
+I READ ALL THE W3C SPECS  http://sandersk.github.io/reading-w3c/
+Surviving CSS A few simple techniques to keep your CSS in check.
+Introducing T3: Enabling Large Scale JavaScript Applications https://www.box.com/blog/introducing-t3-enabling-large-scale-javascript-applications/
+Loading CSS without blocking render http://keithclark.co.uk/articles/loading-css-without-blocking-render/
+Disable Text Selection with CSS http://sixrevisions.com/css/disable-text-selection/ 
+https://www.smashingmagazine.com/2015/03/simple-real-and-bug-free-foundation-development/
+从零基础如何自学 UI 设计？https://www.zhihu.com/question/20857524
+CSS Testing with PhantomCSS, PhantomJS, CasperJS and Grunt https://www.phase2technology.com/blog/css-testing-with-phantomcss-phantomjs-casperjs-and-grunt/
+The Truth About !important http://meiert.com/en/blog/20150310/important/
+yy - a collection of sass utilities https://github.com/astina/yy
+DAY 7: SURPRISING CSS PROPERTIES YOU CAN USE TODAY http://12devsofxmas.co.uk/2016/01/day-7-surprising-css-properties-you-can-use-today/
