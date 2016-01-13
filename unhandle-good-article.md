@@ -26,7 +26,6 @@ How Our CSS Framework Helps Enforce Accessibility  http://www.ebaytechblog.com/2
 
 Writing CSS on Growing Teams http://alistapart.com/blog/post/writing-css-on-growing-teams?utm_source=CSS-Weekly&amp;utm_campaign=Issue-189&amp 
 https://sarasoueidan.com/blog/svg-tips-for-designers/
-http://wwsun.github.io/posts/lodash-top-10-functions.html Lodash中十个常用的工具函数
 https://medium.com/creative-business/why-is-it-so-hard-to-find-a-front-end-developer-cb92848a7c6f#.69879dled
 CSS Protips https://github.com/AllThingsSmitty/css-protips
 Grid, Flexbox, Box Alignment: Our New System for Layout https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout
@@ -134,7 +133,6 @@ Introducing Backdrop Filters https://webkit.org/blog/3632/introducing-backdrop-f
 IE安全系列：脚本先锋（3）http://www.infoq.com/cn/articles/InternetExplorer-Security5
 New regular expression features in ECMAScript 6 http://www.2ality.com/2015/07/regexp-es6.html
 安全工具合集 http://www.codefrom.com/t/%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86
-优雅的underscore http://yalishizhude.github.io/2015/08/02/beatiful-underscore/
 https://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/
 Advanced CSS filters http://iamvdo.me/en/blog/advanced-css-filters
 CSS vs. SVG: Graphical Text Effects（字的内容是背景图） http://blogs.adobe.com/dreamweaver/2015/07/css-vs-svg-graphical-text.html
