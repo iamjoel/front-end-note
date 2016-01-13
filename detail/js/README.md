@@ -14,6 +14,7 @@
 		* [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 	* 流程控制
 		* if/else
+		* switch
 		* while/for
 			* break;continue;
 	* [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
@@ -25,7 +26,7 @@
 * [ajax](ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [generator函数](generator)
 * 常用框架
-	* [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) [介绍](underscore-and-lodash)
+	* [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) 的**[介绍](underscore-and-lodash)**
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
