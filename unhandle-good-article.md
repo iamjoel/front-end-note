@@ -112,4 +112,29 @@ DevTools Tips For Sublime Text Users https://medium.com/google-developers/devtoo
 FRONT-END PRINCIPLES FOR DESIGNERS http://jonyablonski.com/2015/front-end-principles-for-designers/
 randexp.js Create random strings that match a given regular expression http://fent.github.io/randexp.js/
 10 Common Mistakes Web Developers Make http://www.sitepoint.com/10-common-mistakes-web-developers-make/
-
+markdown 转化的库 https://github.com/netgusto/upndown
+flexbox https://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/
+matches selector https://webkit.org/blog/3615/css-selectors-inside-selectors-discover-matches-not-and-nth-child/
+Understanding Critical CSS https://www.smashingmagazine.com/2015/08/understanding-critical-css/
+3d 进度条 http://codepen.io/rgg/full/QbRyOq/
+Building A Circular Navigation with CSS Clip Paths https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/
+Strategies for Cache-Busting CSS https://css-tricks.com/strategies-for-cache-busting-css/
+The Hamburger Menu Doesn't Work http://deep.design/the-hamburger-menu/
+The only menu you will ever need to kill the hamburger. https://github.com/lucidlemon/paradeiser
+[tool] cssnano A modular minifier, composed of single-responsibility PostCSS plugins. http://cssnano.co/
+https://codyhouse.co/gem/animated-svg-hero-slider/
+[幻灯片] 重拾 CSS 的乐趣（上） https://github.com/cssmagic/blog/issues/52
+移动时代的前端加密 http://div.io/topic/1220
+42 个移动端启动页面优化 Tips http://www.oschina.net/translate/42-mobile-landing-page-optimization-tips
+写给前端面试者(大漠) https://github.com/amfe/article/issues/5
+SVG图标在移动端的应用 http://ued.ctrip.com/blog/svg-icons-in-mobile-applications.html
+如何成为一名卓越的前端工程师 http://jiongks.name/blog/how-to-become-a-great-front-end-engineer/
+AnyAPI （public api）https://any-api.com/
+Introducing Backdrop Filters https://webkit.org/blog/3632/introducing-backdrop-filters/
+IE安全系列：脚本先锋（3）http://www.infoq.com/cn/articles/InternetExplorer-Security5
+New regular expression features in ECMAScript 6 http://www.2ality.com/2015/07/regexp-es6.html
+安全工具合集 http://www.codefrom.com/t/%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86
+优雅的underscore http://yalishizhude.github.io/2015/08/02/beatiful-underscore/
+https://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/
+Advanced CSS filters http://iamvdo.me/en/blog/advanced-css-filters
+CSS vs. SVG: Graphical Text Effects（字的内容是背景图） http://blogs.adobe.com/dreamweaver/2015/07/css-vs-svg-graphical-text.html
