@@ -26,6 +26,7 @@
 * [动画](detail/comprehensive/animate)
 * [浏览器兼容性](detail/comprehensive/browser-compatibility)
 * [字体](detail/comprehensive/font)
+* [字体图标(icon-fonts)](detail/comprehensive/iconfont)
 
 ## 推荐学习资源
 * [饥人谷 前端学习课件](http://book.jirengu.com/fe/index.html) [Samaritan 做的类似的东东](http://samaritan89.github.io/f2e/index.html)

@@ -167,6 +167,8 @@ Eric Meyer on the past, present and future of CSS http://www.creativebloq.com/we
 Sass Burger sass写的汉堡包菜单 http://joren.co/sass-burger/
 Build High-Performance HTML5 Cordova Apps with Crosswalk http://blogs.intel.com/evangelists/2015/05/12/build-high-performance-html5-cordova-apps-with-crosswalk/
 Icons - Font, Inline SVG or Background SVGs ? http://blog.nparashuram.com/2015/05/icons-font-inline-svg-or-background-svgs.html
+http://mir.aculo.us/2014/10/31/icon-fonts-vs-inline-svg/
+http://www.w3cplus.com/css3/icon-fonts-vs-svg.html 中文版
 A Complete Guide to SVG Fallbacks https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
 安全： An introduction to JavaScript-based DDoS https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/
 Manage large-scale web projects with new CSS architecture ITCSS http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731
