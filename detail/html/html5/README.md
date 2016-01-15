@@ -24,3 +24,6 @@ HTML5是对 HTML 标准的第五次修订，于2014年10月29日已完工。
 * http://www.html5rocks.com/zh/
 * https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
 * http://fortuito.us/diveintohtml5/introduction.html
+
+## 推荐阅读
+* [HTML5 Mastery Class](http://code.tutsplus.com/series/html5-mastery-class--cms-897) 掌握 HTML5 系列。该系列比较多的写一些底层的介绍。比如，浏览器的上下文，编码之类的。

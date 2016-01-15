@@ -44,3 +44,4 @@ pc端的chrome浏览器下出现严重的锯齿。
 
 ## 相关阅读
 * [周刊3# Web字体图标专刊](http://www.w3cplus.com/collective-3.html)
+* [seriously-dont-use-icon-fonts](http://blog.cloudfour.com/seriously-dont-use-icon-fonts/) 为什么用 svg icons 替代 iconfont

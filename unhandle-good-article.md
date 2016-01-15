@@ -1,32 +1,24 @@
 # 未处理好文
 分类：教程；效果；技巧；最佳实践
 https://github.com/dleitee/valid.js 数据验证
-https://sarasoueidan.com/blog/svg-vs-gif/?utm_source=hackernewsletter&amp&amp;utm_term=fav 用svg与gif 的比较
-http://code.tutsplus.com/tutorials/html5-mastery-scoping-rules--cms-24840?utm_source=html5weekly&amp  html标签嵌套的规则 HTML5 Mastery: Scoping Rules
+https://sarasoueidan.com/blog/svg-vs-gif/ 用svg与gif 的比较
+http://code.tutsplus.com/tutorials/html5-mastery-scoping-rules--cms-24840
 https://whatwebcando.today/ What Web Can Do Today
 Material design ripples with CSS  https://ghinda.net/article/css-ripple-material-design/?utm_source=html5weekly&amp 涟漪~
 How to animate "box-shadow" with silky smooth performance http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 http://segmentfault.com/q/1010000004014035?utm_source=weekly&amp&amp;utm_campaign=email_weekly 用3个div 做彩虹
 http://segmentfault.com/a/1190000004029028 字符的编码 utf-8 等
-ES6
-* http://segmentfault.com/a/1190000003764489
-* http://segmentfault.com/a/1190000004014046
-CSS as Readable by Humans https://medium.com/@AndrewRocco/css-as-readable-by-humans-21ad57d845c9#.i6ylk4lin 更可读的css
-http://blog.cloudfour.com/seriously-dont-use-icon-fonts/ 为什么 用 svg icons 替代 iconfont
-Classy CSS: a Programmatic Approach to Sass Stylesheets http://una.im/classy-css/  更好的写sass
-rscss http://rscss.io/ 关于写可维护的css
 
 http://renderedtext.com/blog/2015/11/18/closures-are-not-magic 关于closure 介绍
 http://editorconfig.org/ 编辑器配置
 http://animaticons.co/ gif动画icon
 http://una.im/lomo/   CSS filters and blend modes 的显示的介绍
-CSS in the Modern World http://www.sitepoint.com/css-modern-world/
-How Our CSS Framework Helps Enforce Accessibility  http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/ css 对可访问性的增强
+
 
 Writing CSS on Growing Teams http://alistapart.com/blog/post/writing-css-on-growing-teams?utm_source=CSS-Weekly&amp;utm_campaign=Issue-189&amp 
 https://sarasoueidan.com/blog/svg-tips-for-designers/
 https://medium.com/creative-business/why-is-it-so-hard-to-find-a-front-end-developer-cb92848a7c6f#.69879dled
-CSS Protips https://github.com/AllThingsSmitty/css-protips
+
 
 Ten questions I’ve been asked, most more than once, over six technical JavaScript / Front-end Engineer job interviews.(专业的一些问题) https://www.reddit.com/r/javascript/comments/3rb88w/ten_questions_ive_been_asked_most_more_than_once/
 jQuery Tips Everyone Should Know https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know/
@@ -125,7 +117,7 @@ https://codyhouse.co/gem/animated-svg-hero-slider/
 42 个移动端启动页面优化 Tips http://www.oschina.net/translate/42-mobile-landing-page-optimization-tips
 写给前端面试者(大漠) https://github.com/amfe/article/issues/5
 SVG图标在移动端的应用 http://ued.ctrip.com/blog/svg-icons-in-mobile-applications.html
-如何成为一名卓越的前端工程师 http://jiongks.name/blog/how-to-become-a-great-front-end-engineer/
+
 AnyAPI （public api）https://any-api.com/
 Introducing Backdrop Filters https://webkit.org/blog/3632/introducing-backdrop-filters/
 IE安全系列：脚本先锋（3）http://www.infoq.com/cn/articles/InternetExplorer-Security5
@@ -171,14 +163,49 @@ A Complete Guide to SVG Fallbacks https://css-tricks.com/a-complete-guide-to-svg
 安全： An introduction to JavaScript-based DDoS https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/
 Manage large-scale web projects with new CSS architecture ITCSS http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731
 函数式 CSS http://yanhaijing.com/css/2013/09/02/functional-css-fcss/
-I READ ALL THE W3C SPECS  http://sandersk.github.io/reading-w3c/
+
+
 Surviving CSS A few simple techniques to keep your CSS in check.
 Introducing T3: Enabling Large Scale JavaScript Applications https://www.box.com/blog/introducing-t3-enabling-large-scale-javascript-applications/
-Loading CSS without blocking render http://keithclark.co.uk/articles/loading-css-without-blocking-render/
-Disable Text Selection with CSS http://sixrevisions.com/css/disable-text-selection/ 
+
 https://www.smashingmagazine.com/2015/03/simple-real-and-bug-free-foundation-development/
 从零基础如何自学 UI 设计？https://www.zhihu.com/question/20857524
-CSS Testing with PhantomCSS, PhantomJS, CasperJS and Grunt https://www.phase2technology.com/blog/css-testing-with-phantomcss-phantomjs-casperjs-and-grunt/
+
 The Truth About !important http://meiert.com/en/blog/20150310/important/
 yy - a collection of sass utilities https://github.com/astina/yy
 DAY 7: SURPRISING CSS PROPERTIES YOU CAN USE TODAY http://12devsofxmas.co.uk/2016/01/day-7-surprising-css-properties-you-can-use-today/
+
+## 综合
+* [I READ ALL THE W3C SPECS](http://sandersk.github.io/reading-w3c/) 我读了所有的 W3C 的规范文档
+* [如何成为一名卓越的前端工程师](http://jiongks.name/blog/how-to-become-a-great-front-end-engineer/)
+
+## ES6
+* [ES6 走马观花](http://segmentfault.com/a/1190000003764489)
+* [ES6 旧瓶新酒](http://segmentfault.com/a/1190000004014046)
+
+## HTML
+### 介绍
+
+
+## CSS
+CSS in the Modern World http://www.sitepoint.com/css-modern-world/
+How Our CSS Framework Helps Enforce Accessibility  http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/ css 对可访问性的增强
+
+### 写更好的 CSS
+* [CSS Protips](https://github.com/AllThingsSmitty/css-protips) 写专业的CSS的一些小贴士
+* [CSS as Readable by Humans](https://medium.com/@AndrewRocco/css-as-readable-by-humans-21ad57d845c9#.i6ylk4lin) 更可读的css
+* [rscss](http://rscss.io/) 关于写可维护的css
+
+### 优化
+* [Loading CSS without blocking render](http://keithclark.co.uk/articles/loading-css-without-blocking-render/)
+
+### 技巧
+* [Disable Text Selection with CSS](http://sixrevisions.com/css/disable-text-selection/)
+
+### demo
+
+
+### 测试
+* [CSS Testing with PhantomCSS, PhantomJS, CasperJS and Grunt](https://www.phase2technology.com/blog/css-testing-with-phantomcss-phantomjs-casperjs-and-grunt/)
+## Sass
+* [Classy CSS: a Programmatic Approach to Sass Stylesheets](http://una.im/classy-css/)  更好的写sass
