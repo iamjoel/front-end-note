@@ -1,7 +1,6 @@
 # 未处理好文
 分类：教程；效果；技巧；最佳实践
 https://github.com/dleitee/valid.js 数据验证
-FLEXBOX FROGGY  http://flexboxfroggy.com/ 控制青蛙的位置。学习flexbox教程
 https://sarasoueidan.com/blog/svg-vs-gif/?utm_source=hackernewsletter&amp&amp;utm_term=fav 用svg与gif 的比较
 http://code.tutsplus.com/tutorials/html5-mastery-scoping-rules--cms-24840?utm_source=html5weekly&amp  html标签嵌套的规则 HTML5 Mastery: Scoping Rules
 https://whatwebcando.today/ What Web Can Do Today
@@ -28,7 +27,7 @@ Writing CSS on Growing Teams http://alistapart.com/blog/post/writing-css-on-grow
 https://sarasoueidan.com/blog/svg-tips-for-designers/
 https://medium.com/creative-business/why-is-it-so-hard-to-find-a-front-end-developer-cb92848a7c6f#.69879dled
 CSS Protips https://github.com/AllThingsSmitty/css-protips
-Grid, Flexbox, Box Alignment: Our New System for Layout https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout
+
 Ten questions I’ve been asked, most more than once, over six technical JavaScript / Front-end Engineer job interviews.(专业的一些问题) https://www.reddit.com/r/javascript/comments/3rb88w/ten_questions_ive_been_asked_most_more_than_once/
 jQuery Tips Everyone Should Know https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know/
 Nodejs-制作命令行工具 http://jslite.io/2015/06/19/Nodejs-%E5%88%B6%E4%BD%9C%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/
@@ -45,7 +44,7 @@ HTML5的五种客户端离线存储方案 http://segmentfault.com/a/119000000396
 从理论到实践，全方位认识DNS（理论篇）http://segmentfault.com/a/1190000003956853
 知其所以然之永不遗忘的算法 http://segmentfault.com/a/1190000003946392
 程序员必知之前端演进史 http://segmentfault.com/a/1190000003973286
-Flexbox For Interfaces All The Way: Tracks Case Study https://www.smashingmagazine.com/2015/11/flexbox-interfaces-tracks-case-study/
+
 
 最全前端开发面试问题及答案整理 https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage
 异步 JavaScript 进化史 http://zhuanlan.zhihu.com/FrontendMagazine/20322843
@@ -66,7 +65,7 @@ Guide To Using WebP Images Today: A Case Study https://www.smashingmagazine.com/
 浅谈 JS 对象之扩展、密封及冻结三大特性 http://segmentfault.com/a/1190000003894119
 [你不知道的 JavaScript 类型和语法] 第一章：类型 http://segmentfault.com/a/1190000003888178
 Lazy Loading Images on the Web 各种lazyload image 方案 http://developer.telerik.com/featured/lazy-loading-images-on-the-web/
-FLEXBOX MYTH BUSTING  flexbox 一些坑的地方 http://jonyablonski.com/2015/flexbox-myth-busting/
+
 Things To Avoid When Writing CSS https://medium.com/@Heydon/things-to-avoid-when-writing-css-1a222c43c28f#.9pfcpy76x
 Angled Edges with CSS Masks and Transforms https://viget.com/inspire/angled-edges-with-css-masks-and-transforms#When:12:26
 BackstopJS 做响应式页面的测试框架（ 用Resemble.js, CasperJS, PhantomJS and SlimerJS） https://garris.github.io/BackstopJS/
@@ -112,7 +111,6 @@ FRONT-END PRINCIPLES FOR DESIGNERS http://jonyablonski.com/2015/front-end-princi
 randexp.js Create random strings that match a given regular expression http://fent.github.io/randexp.js/
 10 Common Mistakes Web Developers Make http://www.sitepoint.com/10-common-mistakes-web-developers-make/
 markdown 转化的库 https://github.com/netgusto/upndown
-flexbox https://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/
 matches selector https://webkit.org/blog/3615/css-selectors-inside-selectors-discover-matches-not-and-nth-child/
 Understanding Critical CSS https://www.smashingmagazine.com/2015/08/understanding-critical-css/
 3d 进度条 http://codepen.io/rgg/full/QbRyOq/

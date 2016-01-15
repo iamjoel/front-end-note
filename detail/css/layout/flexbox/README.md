@@ -1,6 +1,8 @@
 # flexbox
 2009年，W3C提出了一种新的方案----Flex布局，可以简便、完整、响应式地实现各种页面布局。目前，它已经得到了所有浏览器的支持，这意味着，现在就能很安全地使用这项功能。
 
+flexbox 很灵活，但是 flex 相关的概念满多的，并不是那么好学。
+
 ## 历史
 如果你正在查找有关于Flexbox的博客资料，你看到了“display:box;”或者“box-{*}”属性，那么你看的正是2009年版本的Flexbox。
 
@@ -61,6 +63,13 @@ flex-grow、flex-shrink、flex-basis这三个属性的作用是：在[flex布局
 * http://www.w3cplus.com/css3/old-flexbox-and-new-flexbox.html
 * http://www.html5rocks.com/zh/tutorials/flexbox/quick/
 * http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## 推荐阅读
+* [flexbox froggy](http://flexboxfroggy.com/) flexbox教程。将青蛙放到位置。
+* [Grid, Flexbox, Box Alignment: Our New System for Layout](https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout)
+* [Flexbox For Interfaces All The Way: Tracks Case Study](https://www.smashingmagazine.com/2015/11/flexbox-interfaces-tracks-case-study/)
+* [FLEXBOX MYTH BUSTING](http://jonyablonski.com/2015/flexbox-myth-busting/) flexbox 一些坑的地方
+* [flexible future for web design with flexbox](https://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/)
 
 ## 其他
 * [flexbugs](https://github.com/philipwalton/flexbugs) flexbox bug 列表
