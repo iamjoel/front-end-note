@@ -6,7 +6,7 @@ http://code.tutsplus.com/tutorials/html5-mastery-scoping-rules--cms-24840
 https://whatwebcando.today/ What Web Can Do Today
 Material design ripples with CSS  https://ghinda.net/article/css-ripple-material-design/?utm_source=html5weekly&amp 涟漪~
 How to animate "box-shadow" with silky smooth performance http://tobiasahlin.com/blog/how-to-animate-box-shadow/
-http://segmentfault.com/q/1010000004014035?utm_source=weekly&amp&amp;utm_campaign=email_weekly 用3个div 做彩虹
+
 http://segmentfault.com/a/1190000004029028 字符的编码 utf-8 等
 
 http://renderedtext.com/blog/2015/11/18/closures-are-not-magic 关于closure 介绍
@@ -203,6 +203,7 @@ How Our CSS Framework Helps Enforce Accessibility  http://www.ebaytechblog.com/2
 * [Disable Text Selection with CSS](http://sixrevisions.com/css/disable-text-selection/)
 
 ### demo
+* [如何用 3 个 div 做彩虹](http://segmentfault.com/q/1010000004014035)
 
 
 ### 测试
