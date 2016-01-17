@@ -94,7 +94,7 @@ Deep Learning and Shallow Learning （机器）深入学习和浅的学习 http:
 ES6 Number Improvements in Depth https://ponyfoo.com/articles/es6-number-improvements-in-depth
 ES6 的 Array.from(list) 可以转化成 array (等效于 Array.prototype.slice.call(list)) polyfill https://github.com/mathiasbynens/Array.from
 Most Developers Don’t Know How to Test https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.48gpqyenz
-JS原生Date类型方法的一些冷知识 http://segmentfault.com/a/1190000003710954
+
 Jets.js Native CSS search engine http://nexts.github.io/Jets.js/
 CSS 最核心的几个概念 http://www.jianshu.com/p/3a18fcd9fcda
 DevTools Tips For Sublime Text Users https://medium.com/google-developers/devtools-tips-for-sublime-text-users-cdd559ee80f8#.u1f7j6avj

@@ -8,7 +8,7 @@
 		* 对象
 			* [数组](grammar/array)
 			* 函数
-			* 日期
+			* [日期](grammer/date)
 			* [正则](reg-reference.md)
 		* [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 		* [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
