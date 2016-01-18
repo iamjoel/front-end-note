@@ -175,6 +175,20 @@ The Truth About !important http://meiert.com/en/blog/20150310/important/
 yy - a collection of sass utilities https://github.com/astina/yy
 DAY 7: SURPRISING CSS PROPERTIES YOU CAN USE TODAY http://12devsofxmas.co.uk/2016/01/day-7-surprising-css-properties-you-can-use-today/
 
+using Polymer and Flexbox http://charbelrami.github.io/grid-element/
+
+MorphSVGPlugin http://greensock.com/morphSVG
+
+Automatically animate all inserted and removed DOM elements https://github.com/OutSystems/AutoAnimations
+
+Crow http://getcrow.eu/ A smart grid framework, not just for grids
+
+Wee is a lightweight front-end framework for logically building complex, responsive web projects. https://github.com/weepower/wee
+
+* [flexibility](https://github.com/10up/flexibility) 让IE8&9 支持 flexbox 布局
+* [react-boilerplate](https://github.com/mxstbr/react-boilerplate)  Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.
+
+
 ## 综合
 * [I READ ALL THE W3C SPECS](http://sandersk.github.io/reading-w3c/) 我读了所有的 W3C 的规范文档
 * [如何成为一名卓越的前端工程师](http://jiongks.name/blog/how-to-become-a-great-front-end-engineer/)
