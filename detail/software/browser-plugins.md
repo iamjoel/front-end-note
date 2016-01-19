@@ -14,3 +14,5 @@
 * [QRreader](https://chrome.google.com/webstore/detail/qrreader-beta/bfdjglobiolninfgldchakgfldifphic) 读取二维码
 * [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 * [Link Preveiw](https://chrome.google.com/webstore/detail/link-previews/hlbhbhdjmllabhmeoehogilodnpbmhgj) 预览链接指向的页面
+* [Awesome Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj) 截屏工具。支持截整个页面。
+* [划词翻译](https://chrome.google.com/webstore/detail/划词翻译/ikhdkkncnoglghljlkmcimlnlhkeamad) 翻译工具。
