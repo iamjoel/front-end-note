@@ -17,9 +17,13 @@
 		* switch
 		* while/for
 			* break;continue;
+	* 解释与执行机制
+	* 作用域与作用域链
 	* [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
-	* 闭包 TODO
-		* [Master the JavaScript Interview: What is a Closure?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
+		- call,apply 以及 bind
+	* [闭包](closure) TODO
+	* 高阶函数
+	* 原型与继承
 * DOM
 	* [事件DOMContentLoaded和load的区别](dom-content-loaded-vs-load.md)
 	* [表单验证](valid-input)
