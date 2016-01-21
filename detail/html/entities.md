@@ -7,16 +7,20 @@
 
 显示字符实体可用实体名称或实体编号。
 
-## 常用的字符实体及名称
-* `空格`  `&nbsp;`
-* `<` `&lt;`
-* `>` `&gt;`
-* `&` `&amp;`
-* `"` `&quot;`
-* `'` `&apos;` (IE不支持)
-* `©` `&copy;` 版权
-* `®` `&reg;` 注册商标
-* `×` `&times;`
+## 常用的字符实体
+
+| 结果        | HTML实体名称          | HTML实体编号  | 十六进制 | 在 CSS content 中 | 8 进制            |
+| :-----------|:-------------         |:-----------   |:------   |:-------------     |:-----             |
+|  空格       | `&nbsp;`              | `&#160;`      |%A0       |content:"\00a0";   |`alert('\240')`    |
+|  <       	  | `&lt;`                | `&#60;`       |%3C       |content:"\003c";   |`alert('\74')`     |
+|  >       	  | `&gt;`                | `&#62;`       |%3E       |content:"\003e";   |`alert('\76')`     |
+|  &       	  | `&amp;`               | `&#38;`       |%26       |content:"\0026";   |`alert('\46')`     |
+|  "       	  | `&quot;`              | `&#34;`       |%22       |content:"\0022";   |`alert('\42')`     |
+|  ©       	  | `&copy;`              | `&#169;`      |%A9       |content:"\00a9";   |`alert('\251')`    |
+|  ®       	  | `&reg;`               | `&#174;`      |%AE       |content:"\00ae";   |`alert('\256')`    |
+|  ×       	  | `&times;`             | `&#215;`      |%D7       |content:"\00d7";   |`alert('\327')`    |
 
 
-所有的见 http://www.w3school.com.cn/tags/html_ref_entities.html
+## 参考
+* [HTML ISO-8859-1 支持的字符集](http://www.w3school.com.cn/tags/html_ref_entities.html)
+* [Glyphs](https://css-tricks.com/snippets/html/glyphs/)
