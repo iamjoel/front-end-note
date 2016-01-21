@@ -9,7 +9,6 @@ How to animate "box-shadow" with silky smooth performance http://tobiasahlin.com
 
 http://segmentfault.com/a/1190000004029028 字符的编码 utf-8 等
 
-http://renderedtext.com/blog/2015/11/18/closures-are-not-magic 关于closure 介绍
 http://editorconfig.org/ 编辑器配置
 http://animaticons.co/ gif动画icon
 http://una.im/lomo/   CSS filters and blend modes 的显示的介绍

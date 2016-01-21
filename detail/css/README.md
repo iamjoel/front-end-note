@@ -3,6 +3,7 @@
 * [CSS介绍](intro.md)
 * [样式写在哪](place.md)
 * [选择器](selector)
+    * [伪元素](selector/pseudo-elem) [使用注意点](selector/pseudo-elem/tip.md)
 * [样式的继承和层叠](inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述
 * [样式规则](http://www.htmldog.com/reference/cssproperties/) **[CSS参考手册](http://css.doyoe.com/)** **[-webkit- CSS](http://ued.ctrip.com/webkitcss/index.html)**
     * [元素类型](elem-type.md)
