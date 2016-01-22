@@ -1,6 +1,6 @@
 # 使用 CSS 伪元素需要注意的
 ## 伪元素 ::before，::after
-### 1. 某些元素不支持 ::before，::after
+### 1. 空元素(不能包含内容的元素)不支持 ::before，::after
 * IE 不支持的元素有：img，input，select，textarea。
 * FireFox 不支持的元素有：input，select，textarea。
 * Chrome 不支持的元素有：input[type=text]，textarea。
