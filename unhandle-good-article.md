@@ -174,7 +174,6 @@ The Truth About !important http://meiert.com/en/blog/20150310/important/
 yy - a collection of sass utilities https://github.com/astina/yy
 DAY 7: SURPRISING CSS PROPERTIES YOU CAN USE TODAY http://12devsofxmas.co.uk/2016/01/day-7-surprising-css-properties-you-can-use-today/
 
-using Polymer and Flexbox http://charbelrami.github.io/grid-element/
 
 MorphSVGPlugin http://greensock.com/morphSVG
 

@@ -73,7 +73,6 @@
 ## 资源
 * 图片类
     * [findIcons](http://findicons.com/ ) icon搜索引擎
-    * [生成loading图标](http://preloaders.net/)
     * [在线icon制作](http://www.xiconeditor.com/)
     * [subtlepatterns](http://subtlepatterns.com/)  网站背景图片
     * [favicon](http://www.favicon.cc/) 做网站icon
