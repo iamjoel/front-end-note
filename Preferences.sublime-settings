@@ -1,0 +1,13 @@
+{
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "draw_white_space": "all",
+  "font_size": 14,
+  "ignored_packages":
+  [
+  ],
+  "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "highlight_modified_tabs": true,
+  "show_tab_close_buttons": false
+}
