@@ -183,6 +183,8 @@ Crow http://getcrow.eu/ A smart grid framework, not just for grids
 
 Wee is a lightweight front-end framework for logically building complex, responsive web projects. https://github.com/weepower/wee
 
+预加载系列二：让File Prefetching丝丝润滑无痛无痒 http://segmentfault.com/a/1190000004336839
+
 * [flexibility](https://github.com/10up/flexibility) 让IE8&9 支持 flexbox 布局
 * [react-boilerplate](https://github.com/mxstbr/react-boilerplate)  Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.
 
