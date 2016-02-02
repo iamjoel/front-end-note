@@ -4,11 +4,14 @@
 $(选择器 [, 父元素])
 ```
 
-支持 CSS1-3 的选择器以及一些 jQuery 自定义的选择器。
+支持选择器包括：
+* CSS 1-3 定义的选择器。
+* jQuery 自定义的选择器。
 
 ### 一些有用的选择器
 * [:visible](https://api.jquery.com/visible-selector/) 可见元素
 * [:hidden](https://api.jquery.com/hidden-selector/) 不可见元素
+* [:animated](https://api.jquery.com/animated-selector/) 正在做动画的元素
 * [:checked](https://api.jquery.com/checked-selector/) 选中的单选和复选按钮
 * [:selected](https://api.jquery.com/selected-selector) 选中的 `<option>` 元素
 * [:disabled](https://api.jquery.com/disabled-selector) 不可用的表单元素
