@@ -69,7 +69,7 @@ elem.onclick = function(event){
 elem.addEventListener(
     'click',
     function(event){
-        return false;// 什么都不错。
+        return false;// 什么都不做。
     },
     false
 );
@@ -77,3 +77,22 @@ elem.addEventListener(
 
 ### 总结
 考虑到可读性以及歧义性。尽量不要用 `return false`。
+
+### 鼠标右击事件
+方法1:
+```
+$elem.bind("contextmenu",function(evt){// 事件处理函数});
+```
+
+方法2:
+```
+$elem.mousedown(function(event) {
+  switch (event.which) {
+    case 1: /* 左击 */; break;
+    case 2: /* 点滑轮 */; break;
+    case 3: /* 右击 */; break;
+  }
+});
+```
+
+
