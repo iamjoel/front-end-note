@@ -58,12 +58,16 @@ Desktop.ini
 :sunny: :snowman: :full_moon:    
 :ghost: :camera: :calendar:    
 
+## 提交说明
+* [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
 ## 常见问题
 ### 如何配置Git支持对文件名的大小写敏感
 方案一是设置Git大小写敏感
 ```
 git config core.ignorecase false
 ```
+
 
 ## <a name="practice">练习</a>
 1. 安装[Github](https://github.com/)的客户端 [windows 版下载](https://windows.github.com/)
