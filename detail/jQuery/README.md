@@ -2,7 +2,7 @@
 [官方API文档](http://api.jquery.com/)
 
 ## 知识点
-* [使用 jQuery 大概的一个流程](about.md)
+* [jQuery 介绍](about.md)
 * [选取元素](select-elem/)
 * [获取或设置元素信息](get-or-set-elem-info/)
 * [事件](event/)
