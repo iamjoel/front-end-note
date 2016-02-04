@@ -1,0 +1,11 @@
+{
+  "html": {
+    "indent_size": 2, // Indentation size
+  },
+  "css": {
+    "indent_size": 2, // Indentation size
+  },
+  "js": {
+    "indent_size": 2 // Indentation size
+  }
+}
