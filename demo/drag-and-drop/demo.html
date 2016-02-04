@@ -18,6 +18,10 @@
     height: 300px;
     border: 2px dashed #ddd;
   }
+  .drop-zone .placeholer{
+    height: 30px;
+    border: 1px dashed #f00;
+  }
   </style>
 </head>
 
@@ -50,15 +54,25 @@
     }).on('dragend', function(event){
       $(this).removeClass('dragging');
     });
-    $('.drop-zone').on('drop', function(event){
+    var $dropZone = $('.drop-zone');
+    $dropZone.on('drop', function(event){
       event.preventDefault();
       var $tar = $('.dragging').clone();
       $tar.removeClass('dragging');
-      $tar.prop('draggable', false);
-      $(this).append($tar);
+      // $tar.prop('draggable', false);
+      $dropZone.append($tar);
     }).on('dragover', function(event){
       // $(this).addClass
       event.preventDefault();
+    });
+
+    // 研究下 sortable
+    // https://github.com/RubaXa/Sortable
+    // https://github.com/RubaXa/Sortable/wiki/Sorting-with-the-help-of-HTML5-Drag'n'Drop-API
+    $('.drop-zone').on('dragover', '.draggable', function () {
+      var $placeHolder = $('<div>');
+      $placeHolder.addClass('placeholer');
+      $(this).before($placeHolder);
     });
   });
   </script>
