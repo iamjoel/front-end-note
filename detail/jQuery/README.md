@@ -1,12 +1,36 @@
 # [jQuery](http://jquery.com/)
 [官方API文档](http://api.jquery.com/)
 
-## 知识点
+## 目录
 * [jQuery 介绍](about.md)
-* [选取元素](select-elem/)
-* [获取或设置元素信息](get-or-set-elem-info/)
+* jQuery 核心
+  - [选取元素](select-elem/)
+  - [获取或设置元素信息](get-or-set-elem-info/)
 * [事件](event/)
+* 动画
+* Ajax
 * [工具方法](utilities.md)
+* 插件
+* 最佳实践
+  - 高效选取元素
+
+
+
+## 常见问题
+* DOM 元素与 jQuery 元素的如何互相转换
+```
+// DOM -> jQuery
+var dom = document.getElementById('elem');
+var $dom = $(dom);
+
+// jQuery -> DOM
+var $dom = $('#elem');
+var dom = $dom[0];
+```
+* 获取选中的下拉框的文本内容
+```
+$( "#myselect option:selected" ).text();
+```
 
 ## 资源
 * [官方学习中心](http://learn.jquery.com/)
