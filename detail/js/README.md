@@ -36,6 +36,7 @@
 	* [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) 的**[介绍](underscore-and-lodash)**
 
 ## 专题
+* [设计模式](pattern) 提高代码质量
 * 条件语言中，哪些值是 false 的
 
 ## 教程
