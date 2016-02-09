@@ -16,7 +16,7 @@ Cache-Control 是一个相对时间的强缓存管理 header，在配置缓存�
 ## 协商缓存
 当浏览器对某个资源的请求没有命中强缓存，就会发一个请求到服务器，验证协商缓存是否命中，如果协商缓存命中，请求响应返回的 http 状态为 304 并且会显示一个 Not Modified 的字符串。
 
-协商缓存是利用的是【Last-Modified，If-Modified-Since】和【ETag、If-None-Match】这两对Header来管理的。
+协商缓存是利用的是【Last-Modified、If-Modified-Since】和【ETag、If-None-Match】这两对 Header 来管理的。
 
 服务器端的响应头有 Last-Modified 字段，客户端有请求头 If-Modified-Since，值为之前 Last-Modified 的值。配置好的服务器会理解这些If-Modified-Since请求头标，将头标里的时间和文件的最后修改时间进行比较并作出响应。如果二者相等则请求响应返回的 http 状态为 304 并且会显示一个 Not Modified 的字符串。否则的话会重新发送一个新的资源和新的 Last-Modified 的头标。
 
@@ -24,8 +24,8 @@ Cache-Control 是一个相对时间的强缓存管理 header，在配置缓存�
 服务器端的响应头有 ETag 字段，客户端有请求头 If-None-Match，值为之前 ETag 的值。原理和 Last-Modified，If-Modified-Since 类似。
 
 ## 浏览器行为对缓存的影响
-* 当ctrl+f5强制刷新网页时，直接从服务器加载，跳过强缓存和协商缓存
-* 当f5刷新网页时，跳过强缓存，但是会检查协商缓存
+* 当 ctrl + f5 强制刷新网页时，直接从服务器加载，跳过强缓存和协商缓存
+* 当 f5 刷新网页时，跳过强缓存，但是会检查协商缓存
 * 对于地址栏回车；页面链接跳转；新开窗口；前进后退：强缓存和协商缓存都有效
 
 ## 哪些请求不会被缓存
