@@ -1,17 +1,17 @@
-<h1 align="center">WEB前端开发学习笔记</h1>
+<h1 align="center">WEB 前端开发学习笔记</h1>
 <p align="center">
 <a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
 </p>
 
-用简单明了的方式记录WEB前端的知识。
+用简单明了的方式记录WEB前端知识。
 
 ## 目录
 ### 了解WEB前端
-* [WEB前端介绍](detail/intro/about.md)
-* [学习WEB前端的建议](detail/intro/suggest.md)
-* [WEB前端软件工具](detail/software)
+* [WEB 前端介绍](detail/intro/about.md)
+* [学习 WEB 前端的建议](detail/intro/suggest.md)
+* [WEB 前端软件工具](detail/software)
 * [新手常见问题及解答](detail/FAQ.md)
-* [Web前端常见名词解释](detail/noun-explain.md)
+* [Web 前端常见名词解释](detail/noun-explain.md)
 * [前端知识结构](detail/knowledge-structure.md)
 
 ### 基础知识
@@ -55,11 +55,15 @@
     * [《eloquentjavascript》](http://eloquentjavascript.net)
 * [可参考书单](http://www.douban.com/doulist/2772859/)
 
+## 找工作相关
+* [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
+* [前端工作招聘网站列表](https://dwqs.gitbooks.io/frontenddevhandbook/content/practice/front-end-jobs.html)
+* [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
+
 ## 其他
 * [在线工具](bookmark/tool.md)
 * [前端工具](https://github.com/codylindley/frontend-tools)
 * [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
-* [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
 * [sitthetest(英)](https://sitthetest.com/tests) HTML,CSS,JS的测试
 * [我的收藏夹](bookmark/)
 * [A Baseline for Front-End [JS] Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
