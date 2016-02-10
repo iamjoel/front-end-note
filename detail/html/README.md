@@ -3,7 +3,7 @@
 * [HTML介绍](intro.md)
 * [标签和属性](tag-and-attr.md)
 * [meta标签](meta.md)
-* [HTML特殊符号（也有的叫字符实体）](entities.md)
+* [HTML 转义字符](entities.md) 也叫字符实体或 HTML 特殊符号。
 * [DOCTYPE和浏览器渲染模式](quirks-mode-and-standards-mode.md)
 * [标签语义化](semantic.md)
 

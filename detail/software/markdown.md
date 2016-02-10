@@ -3,28 +3,28 @@
 ## 目录
 * [Markdown概述](#summary)
 * 语法
-    * [标题](#headers)
-    * [换行](#break-line)
-    * [链接](#anchor)
-    * [图片](#pic)
-    * [列表](#list)
-    * [强调](#strong)
-    * [斜体](#italic)
-    * [删除线](#del-line)
-    * [分割线](#split-line)
-    * [行内代码](#inline-code)
-    * [块级代码](#block-code)
-    * [表格](#table)
-    * [引用](#blockquote)
-    * [块级元素](#block)
-    * [复选框](#checkbox)
-    * [转意](#backslash-escapes)
+  * [标题](#headers)
+  * [换行](#break-line)
+  * [链接](#anchor)
+  * [图片](#pic)
+  * [列表](#list)
+  * [强调](#strong)
+  * [斜体](#italic)
+  * [删除线](#del-line)
+  * [分割线](#split-line)
+  * [行内代码](#inline-code)
+  * [块级代码](#block-code)
+  * [表格](#table)
+  * [引用](#blockquote)
+  * [块级元素](#block)
+  * [复选框](#checkbox)
+  * [转意](#backslash-escapes)
 * [参考](#reference)
 * [拓展阅读](#reading)
 
 ## <a name="summary">Markdown概述</a>
-Markdown是一种易读易写的标记语言。它能被生成HTML。Markdown的目标是：成为一种适用于网络的书写语言。    
-Markdown 与 Office Word 相比，其控制文本的格式更容易；与 HTML 相比，其写法上更简洁和简单。虽然 Markdown 在功能上没有 Office Word 和 HTML 强大，但如果只是用 Markdown 来写写文章和文档，也够用了~    
+Markdown是一种易读易写的标记语言。它能被生成HTML。Markdown的目标是：成为一种适用于网络的书写语言。  
+Markdown 与 Office Word 相比，其控制文本的格式更容易；与 HTML 相比，其写法上更简洁和简单。虽然 Markdown 在功能上没有 Office Word 和 HTML 强大，但如果只是用 Markdown 来写写文章和文档，也够用了~  
 
 Github，Stackoverflow等网站都支持Markdown。
 
@@ -37,7 +37,7 @@ Github，Stackoverflow等网站都支持Markdown。
 ##### h5
 ###### h6
 ```
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 # h1
 ## h2
 ### h3
@@ -46,22 +46,22 @@ Github，Stackoverflow等网站都支持Markdown。
 ###### h6
 
 ## <a name="break-line">换行</a>
-四个及以上空格加回车。
+两个及以上空格加回车。
 
 ## <a name="anchor">链接</a>
 ```
-跳至[落网](http://www.luoo.net/)    
-新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>    
-带title的链接 [落网](http://www.luoo.net/ '落网')    
+跳至[落网](http://www.luoo.net/)  
+新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>  
+带title的链接 [落网](http://www.luoo.net/ '落网')  
 地址与文字一样的链接的简写 <http://www.baidu.com>
 
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 
-跳至[落网](http://www.luoo.net/)    
-新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>    
-带title的链接 [落网](http://www.luoo.net/ '落网')    
+跳至[落网](http://www.luoo.net/)  
+新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>  
+带title的链接 [落网](http://www.luoo.net/ '落网')  
 地址与文字一样的链接的简写 <http://www.baidu.com>
 
 ## <a name="pic">图片</a>
@@ -70,35 +70,35 @@ Github，Stackoverflow等网站都支持Markdown。
 
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 ![头像](https://avatars0.githubusercontent.com/u/2120155?v=3&s=40)
 
 ## <a name="list">列表</a>
-有序列表    
+有序列表  
 ```
 1. 第一个
-    1. 第1.1个
+  1. 第1.1个
 1. 第二个
 1. 第三个
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 
 1. 第一个
 	1. 第1.1个
 1. 第二个
 1. 第三个
 
-无序列表    
+无序列表  
 ```
 * 葡萄
-    * 夏黑
-    * 巨峰
+  * 夏黑
+  * 巨峰
 * 荔枝
 * 梨
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 
 * 葡萄
 	* 夏黑
@@ -111,7 +111,7 @@ Github，Stackoverflow等网站都支持Markdown。
 ```
 **强调内容**
 ```
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 **强调内容**
 
 ## <a name="italic">斜体</a>
@@ -119,7 +119,7 @@ Github，Stackoverflow等网站都支持Markdown。
 *斜体内容*
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 *斜体内容*
 
 ## <a name="del-line">删除线</a>
@@ -127,7 +127,7 @@ Github，Stackoverflow等网站都支持Markdown。
 ~~这种理解是有问题的~~
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 ~~这种理解是有问题的~~
 
 ## <a name="split-line">分割线</a>
@@ -135,7 +135,7 @@ Github，Stackoverflow等网站都支持Markdown。
 ****
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 ****
 
 ## <a name="inline-code">行内代码</a>
@@ -143,25 +143,25 @@ Github，Stackoverflow等网站都支持Markdown。
 `npm i`
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 `npm i`
 
 ## <a name="block-code">块级代码</a>
 ```
 3个`js
 function say(str){
-    console.log(str);
+  console.log(str);
 }
 3个`
 
 3个`css
 #main{
-    width: 80%;
-    margin: 20px auto;
+  width: 80%;
+  margin: 20px auto;
 }
 3个`
 ```
-转化成HTML的效果如下    
+转化成HTML的效果如下  
 ```js
 function say(str){
 	console.log(str);
