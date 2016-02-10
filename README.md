@@ -35,7 +35,6 @@
 * [慕课网 HTML + CSS基础课程](http://www.imooc.com/learn/9)
 * [HTML基本知识](http://www.jianshu.com/notebooks/536331/latest) 一个叫[实验楼](http://www.shiyanlou.com/)的培训机构做的
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
-* [htmldog](http://htmldog.com/) HTML，CSS，JS教程。英文的
 * [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
 * [JavaScript简易教程 v0.3.0- 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
@@ -49,11 +48,11 @@
 ## 书
 * [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年9月出版
 * CSS
-    * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
-    * [CSS Secrets](http://shop.oreilly.com/product/0636920031123.do) Lea Verou（CSS 一姐） 2015年6月出版 [试读](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449372637_sampler.pdf)
+  * [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
+  * [CSS Secrets](http://shop.oreilly.com/product/0636920031123.do) Lea Verou（CSS 一姐） 2015年6月出版 [试读](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449372637_sampler.pdf)
 * JS
-    * JavaScript高级程序设计
-    * [《eloquentjavascript》](http://eloquentjavascript.net)
+  * JavaScript高级程序设计
+  * [《eloquentjavascript》](http://eloquentjavascript.net)
 * [可参考书单](http://www.douban.com/doulist/2772859/)
 
 ## 找工作相关
