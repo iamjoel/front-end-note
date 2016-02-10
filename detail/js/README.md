@@ -30,6 +30,10 @@
 * DOM
 	* [事件DOMContentLoaded和load的区别](dom-content-loaded-vs-load.md)
 	* [表单验证](valid-input)
+* BOM
+  * Window
+  * location
+  * navigator
 * [ajax](ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [generator函数](generator)
 * 常用框架
