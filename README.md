@@ -45,6 +45,10 @@
 * [学习布局](http://zh.learnlayout.com/)
 * [一些标准的命名规范](http://www.html-js.com/article/JS-rookie-in-the-rookie-began-to-learn-some-standard-naming-conventions-to-fly)
 
+## 通过练习的方式学习
+* [FreeCodeCamp](http://www.freecodecamp.com/)
+* [Codewars](http://www.codewars.com/)
+
 ## 书
 * [Web前端工程师修炼之道(原书第4版)](http://book.douban.com/subject/26258171/) 2014年9月出版
 * CSS
