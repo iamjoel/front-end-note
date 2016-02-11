@@ -28,6 +28,7 @@
 * [字体](detail/comprehensive/font)
 * [字体图标(icon-fonts)](detail/comprehensive/iconfont)
 * [浏览器缓存](detail/comprehensive/browser-cache)
+* [用 SVG 做动画和用 GIF 的比较](detail/comprehensive/svg-vs-gif)
 
 ## 推荐学习资源
 * [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)

@@ -1,7 +1,6 @@
 # 未处理好文
 分类：教程；效果；技巧；最佳实践
 https://github.com/dleitee/valid.js 数据验证
-https://sarasoueidan.com/blog/svg-vs-gif/ 用svg与gif 的比较
 http://code.tutsplus.com/tutorials/html5-mastery-scoping-rules--cms-24840
 https://whatwebcando.today/ What Web Can Do Today
 Material design ripples with CSS  https://ghinda.net/article/css-ripple-material-design/?utm_source=html5weekly&amp 涟漪~
@@ -9,7 +8,6 @@ How to animate "box-shadow" with silky smooth performance http://tobiasahlin.com
 
 http://segmentfault.com/a/1190000004029028 字符的编码 utf-8 等
 
-http://editorconfig.org/ 编辑器配置
 http://animaticons.co/ gif动画icon
 http://una.im/lomo/   CSS filters and blend modes 的显示的介绍
 
