@@ -64,6 +64,8 @@
 * [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
 * [前端工作招聘网站列表](https://dwqs.gitbooks.io/frontenddevhandbook/content/practice/front-end-jobs.html)
 * [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
+* [简历语术](others/resume.md)
+
 
 ## 其他
 * [在线工具](bookmark/tool.md)
