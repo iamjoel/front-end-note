@@ -27,7 +27,6 @@
 * [浏览器兼容性](detail/comprehensive/browser-compatibility)
 * [字体](detail/comprehensive/font)
 * [字体图标(icon-fonts)](detail/comprehensive/iconfont)
-* [浏览器缓存](detail/comprehensive/browser-cache)
 * [用 SVG 做动画和用 GIF 的比较](detail/comprehensive/svg-vs-gif)
 
 ## 推荐学习资源
@@ -61,7 +60,7 @@
 * [可参考书单](http://www.douban.com/doulist/2772859/)
 
 ## 找工作相关
-* [面试题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
+* [前端工作面试问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
 * [前端工作招聘网站列表](https://dwqs.gitbooks.io/frontenddevhandbook/content/practice/front-end-jobs.html)
 * [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
 * [简历语术](others/resume.md)
