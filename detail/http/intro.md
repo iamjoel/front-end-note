@@ -151,9 +151,14 @@ Connection: Closed
 ### 消息主体
 消息主体是响应消息的承载数据。
 
+### 推荐个命令行 HTTP 客户端
+[HTTPie](https://github.com/jkbrzt/httpie) 类似 cURL，但其 api 相比 cURL 更友好。
+![HTTPie 示例](https://raw.githubusercontent.com/jkbrzt/httpie/master/httpie.png)
+
+
 ## 参考链接
 * [HTTP 引入](http://www.ituring.com.cn/article/209130)
 * [HTTP 协议解析](http://yuez.me/http-xie-yi-jie-xi/)
 * [URI和URL及URN的区别](http://www.biaodianfu.com/uri-url-urn-relationship.html)
-* [HTTP协议详解（真的很经典）](http://www.cnblogs.com/li0803/archive/2008/11/03/1324746.html)
+* [HTTP协议详解](http://blog.csdn.net/gueter/article/details/1524447)
 
