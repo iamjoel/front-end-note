@@ -11,7 +11,7 @@
 			* [数组](grammar/array)
 			* 函数
 			* [日期](grammar/date)
-			* [正则](reg-reference.md)
+			* [正则](grammar/regex)
 		* [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 		* [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 	* [运算符](grammar/operator)

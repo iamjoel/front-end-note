@@ -1,4 +1,4 @@
-## 正则表达式
+# 正则表达式
 > 一个正则表达式就是一个用来描述字符模式的对象。它被用来在文本中执行模式匹配(pattern-matching)以及”查找-替换”(search-and-replace)的任务。javascript中正则的风格类似Perl中正则的风格。
 
 ## 创建正则表达式
@@ -143,6 +143,27 @@ Lookaround 参考教程：http://www.regular-expressions.info/lookaround.html
 ## 常用正则
 * 匹配中文字符的正则表达式： [\u4e00-\u9fa5]
 * 匹配双字节字符(包括汉字在内)：[^\x00-\xff]
+
+## 坑
+```
+var regexAbc = /a(b)c/gi
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+console.log(regexAbc.exec("abc")) // null
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+console.log(regexAbc.exec("abc")) // null
+```
+
+Javascript 的正则表达式是有状态的。尤其是exec方法，是有副作用的。当其匹配成功的时候reg.lastIndex会被改变。因此导致了间隔的返回null的情况。
+
+因此，正确的写法是:
+```
+var regexAbc = /a(b)c/gi
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+regexAbc.lastIndex = 0;
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+```
+
+参考[正则表达式exec一个神秘的小问题](https://segmentfault.com/q/1010000004388956)。
 
 ## 更多资源reg
 * [正则在线工具](http://regexr.com/)
