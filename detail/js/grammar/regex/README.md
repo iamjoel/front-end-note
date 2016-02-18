@@ -2,25 +2,29 @@
 > 一个正则表达式就是一个用来描述字符模式的对象。它被用来在文本中执行模式匹配(pattern-matching)以及”查找-替换”(search-and-replace)的任务。javascript中正则的风格类似Perl中正则的风格。
 
 ## 创建正则表达式
-`var reg = new RegExp(pattern,modifiers);`
-或
-`var reg = /pattern/modifiers; `     
-modifiers包括
+```
+// 方法1
+var reg = new RegExp(pattern,modifiers);
+// 方法2
+var reg = /pattern/modifiers;
+```
+
+modifiers 包括
+
 * g : 执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）
-    如  
-    ```'Hey, Is this all there Is '.replace(/Is/g, 'is');//替换某字符串中所有的Is为is
-    ```
 * i : 执行对大小写不敏感的匹配
-* m : 执行多行匹配，具体见[这里](http://javascript.info/tutorial/ahchors-and-multiline-mode)    
-ps 新建一正则时可多个模式，如 `/hEllO/ig`
+* m : 执行多行匹配，具体见[这里](http://javascript.info/tutorial/ahchors-and-multiline-mode)
+
+注：一正则时可多个模式，如 `/hEllO/ig`
 
 
 ## JavaScript正则表达式对象的常用方法
-* .test()。该方法对一个字符串进行匹配。并根据匹配结果返回true或false。例如
-```   
+### .test()。该方法对一个字符串进行匹配。并根据匹配结果返回true或false。例如
+```
 /e/.test('The best things in life are free'); //true
 ```
-* .exec()。该方法将对一个字符串进行匹配。并返回第一个匹配项目。例如：
+
+### .exec()。该方法将对一个字符串进行匹配。并返回第一个匹配项目。例如：
 ```
 /e/.exec('The best things in life are free'); // ["e"]
 ```
@@ -30,9 +34,30 @@ ps 新建一正则时可多个模式，如 `/hEllO/ig`
 'The best things in life are free'.match(/e/); //["e"]
 ```
 
-## 正则表达式中的元字符
-> 正则表达式中的元字符是用来替代一类具有相同属性的字符的特殊字符，它也可以被称为字符类(character class)。 
+下面来看个神秘的问题：
+```
+var regexAbc = /a(b)c/gi
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+console.log(regexAbc.exec("abc")) // null
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+console.log(regexAbc.exec("abc")) // null
+```
 
+
+产生上面奇怪现象的原因是：Javascript 的正则表达式是有状态的。 exec 方法，是有副作用的。当其匹配成功的时候 reg.lastIndex 会被改变。因此导致了间隔的返回 null 的情况。
+
+因此，正确的写法是:
+```
+var regexAbc = /a(b)c/gi
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+regexAbc.lastIndex = 0;
+console.log(regexAbc.exec("abc")) // ["abc", "b"]
+```
+
+参考[正则表达式exec一个神秘的小问题](https://segmentfault.com/q/1010000004388956)。
+
+## 正则表达式中的元字符
+正则表达式中的元字符是用来替代一类具有相同属性的字符的特殊字符，它也可以被称为字符类(character class)。
 
 * .   查找单个字符，除了换行和行结束符。
 * \w  查找单词字符（字母、数字以及下划线”_”）。
@@ -60,10 +85,12 @@ ps 新建一正则时可多个模式，如 `/hEllO/ig`
 1. @前面的部分；
 2. @后面’.’之前的部分；
 3. ’.’之后的部分；
-如果要匹配所有gamil邮箱中@前的用户名中带有jack的替换为joel
+
+如果要匹配所有gamil邮箱中`@`前的用户名中带有`jack`的替换为`joel`
 ```
-'iamjack007@gmail.com'.replace(/^(\w*)(jack)(\w*)@gmail\.com$/, '$1joel$3@gmail.com');  //"iamjoel007@gmail.com"  
-```    
+'iamjack007@gmail.com'.replace(/^(\w*)(jack)(\w*)@gmail\.com$/, '$1joel$3@gmail.com');  //"iamjoel007@gmail.com"
+```
+
 这种类似于模块化的思想，不仅使我们一次可以专注于查找其中的一个小部分，也可以让我们在后面可以轻松的替换其中的某个部分，而不需要纠结于“牵一发而动全身”的痛苦。
 
 ### 方括号 []
@@ -120,6 +147,7 @@ ps 新建一正则时可多个模式，如 `/hEllO/ig`
 ```
 /(?:\d+)\d+/.exec('123');// 结果 ["123"]
 ```
+
 ## 匹配
 Lookaround 是 向前匹配(Lookahead) 和 向后匹配(Lookbehind) 的统称。
 向前匹配
@@ -144,26 +172,7 @@ Lookaround 参考教程：http://www.regular-expressions.info/lookaround.html
 * 匹配中文字符的正则表达式： [\u4e00-\u9fa5]
 * 匹配双字节字符(包括汉字在内)：[^\x00-\xff]
 
-## 坑
-```
-var regexAbc = /a(b)c/gi
-console.log(regexAbc.exec("abc")) // ["abc", "b"]
-console.log(regexAbc.exec("abc")) // null
-console.log(regexAbc.exec("abc")) // ["abc", "b"]
-console.log(regexAbc.exec("abc")) // null
-```
 
-Javascript 的正则表达式是有状态的。尤其是exec方法，是有副作用的。当其匹配成功的时候reg.lastIndex会被改变。因此导致了间隔的返回null的情况。
-
-因此，正确的写法是:
-```
-var regexAbc = /a(b)c/gi
-console.log(regexAbc.exec("abc")) // ["abc", "b"]
-regexAbc.lastIndex = 0;
-console.log(regexAbc.exec("abc")) // ["abc", "b"]
-```
-
-参考[正则表达式exec一个神秘的小问题](https://segmentfault.com/q/1010000004388956)。
 
 ## 更多资源reg
 * [正则在线工具](http://regexr.com/)
