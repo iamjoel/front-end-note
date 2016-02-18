@@ -42,6 +42,7 @@
 ## 专题
 * [设计模式](pattern) 提高代码质量
 * 条件语言中，哪些值是 false 的
+* [Fetch API](fetch-api): XMLHttpRequest的最新替代技术
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
