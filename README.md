@@ -7,12 +7,12 @@
 
 ## 目录
 ### 了解WEB前端
-* [WEB 前端介绍](detail/intro/about.md)
-* [学习 WEB 前端的建议](detail/intro/suggest.md)
-* [WEB 前端软件工具](detail/software)
-* [新手常见问题及解答](detail/FAQ.md)
-* [Web 前端常见名词解释](detail/noun-explain.md)
-* [前端知识结构](detail/knowledge-structure.md)
+* [介绍](detail/intro/about.md)
+* [学习建议](detail/intro/suggest.md)
+* [推荐软件](detail/software)
+* [知识结构](detail/knowledge-structure.md)
+* [名词解释](detail/noun-explain.md)
+* [新手常见问题](detail/FAQ.md)
 
 ### 基础知识
 * [HTML](detail/html)
