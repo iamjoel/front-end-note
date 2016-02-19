@@ -13,18 +13,22 @@
 
 学习前端和学习其他知识一样，难在入门。入门后，自己就能去堆知识和堆经验了。
 
-## 具体的建议
-1. 有技术相关的问题使用Google。学习搜索技巧。被墙的解决方案
-    * 用 Google的免翻墙镜像（如 https://gusouk.com）
-    * 翻墙。比如用VPN。推荐用[云梯](http://ytref.com/?r=f3e9d90b468a1e44)
-1. 建一个技术博客,推荐[简书](http://www.jianshu.com/)。对于一些复杂的知识点，理解后，总结成一篇文章。遇到的坑，解决了，也可以写篇文章。好处是
+## 提升的建议
+* 读优秀的源码 [作为一名前端开发人员，有哪些值得一读的js代码？](https://www.zhihu.com/question/27471576)
+  * [underscore[注解版]](http://underscorejs.org/docs/underscore.html)
+* 让高手 Reveiew 你的代码
+* 建一个技术博客,推荐[简书](http://www.jianshu.com/)。对于一些复杂的知识点，理解后，总结成一篇文章。遇到的坑，解决了，也可以写篇文章。好处是
     * 方便自己查阅
     * 借此可能会遇到些志同道合的来和你交流
     * 如果你写的有错误，会有好心人来纠（peng）正你哦～
-1. 在[Github](https://github.com)或[coding](https://coding.net/)上建立项目。在上面存放自己的练习代码，以便查阅和修改。
-1. 给自己订计划。可以制定周计划，最好是日计划
-1. 多看，多写，多想，多交流，多总结
-1. 建立自己的技能树
+* 在[Github](https://github.com)或[coding](https://coding.net/)上建立项目。在上面存放自己的练习代码，以便查阅和修改。
+* 给自己订计划。可以制定周计划，最好是日计划
+* 多看，多写，多想，多交流，多总结
+* 建立自己的技能树
+* 有技术相关的问题使用Google。学习搜索技巧。被墙的解决方案
+    * 用 Google的免翻墙镜像（如 https://gusouk.com）
+    * 翻墙。比如用VPN。推荐用[云梯](http://ytref.com/?r=f3e9d90b468a1e44)
+
 
 ## 拓展阅读
 * [FE-learning](https://github.com/qiu-deqing/FE-learning#%E8%B7%9F%E5%AF%B9%E7%A5%9E) 结合个人经历总结的前端入门方法
