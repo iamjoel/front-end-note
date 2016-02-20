@@ -14,8 +14,7 @@
 学习前端和学习其他知识一样，难在入门。入门后，自己就能去堆知识和堆经验了。
 
 ## 提升的建议
-* 读优秀的源码 [作为一名前端开发人员，有哪些值得一读的js代码？](https://www.zhihu.com/question/27471576)
-  * [underscore[注解版]](http://underscorejs.org/docs/underscore.html)
+* 读优秀的源码。推荐源码见[这里](good-source-code-list.md)。
 * 让高手 Reveiew 你的代码
 * 建一个技术博客,推荐[简书](http://www.jianshu.com/)。对于一些复杂的知识点，理解后，总结成一篇文章。遇到的坑，解决了，也可以写篇文章。好处是
     * 方便自己查阅
