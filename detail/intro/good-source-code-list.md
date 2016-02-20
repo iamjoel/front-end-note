@@ -11,6 +11,7 @@
 
 ## JS
 * [Bootstrap 的 JS 插件](https://github.com/twbs/bootstrap/tree/master/js) Bootstrap 的 JS 插件都是基于 jQuery 的，每个插件也就一两百行代码。
+* [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/) 一些 JavaScript 模式的介绍，以及实现。
 * [underscore[注解版]](http://underscorejs.org/docs/underscore.html) 能了解一大波基本数据类型的工具方法的实现。
 
 ## CSS
