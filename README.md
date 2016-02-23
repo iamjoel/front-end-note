@@ -17,7 +17,7 @@
 ### 基础知识
 * [HTML](detail/html)
 * [CSS](detail/css)
-* [JS](detail/js)
+* [JavaScript](detail/js)
 * [jQuery](detail/jQuery/)
 * [HTTP](detail/http)
 * [安全](detail/security)
