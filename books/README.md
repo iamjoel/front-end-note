@@ -10,6 +10,9 @@ JavaScript 框架设计
 ![测试驱动的JavaScript 开发](cover-image/test-driven-JavaScript.jpg)  
 测试驱动的JavaScript 开发
 
+![精通D3.js：交互式数据可视化高级编程](cover-image/depth-in-d3.jpg)  
+精通D3.js：交互式数据可视化高级编程
+
 ## Node.js
 ![深入浅出Node.js](cover-image/about-node.jpg)  
 深入浅出Node.js
@@ -24,5 +27,8 @@ JavaScript 框架设计
 写给大家看的设计书
 
 ## 其他
+![图解机器学习](cover-image/pic-about-mache-learning.jpg)  
+图解机器学习
+
 ![重来](cover-image/rework.jpg)  
 重来
