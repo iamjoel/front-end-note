@@ -58,6 +58,7 @@
   * JavaScript高级程序设计
   * [《eloquentjavascript》](http://eloquentjavascript.net)
 * [可参考书单](http://www.douban.com/doulist/2772859/)
+* [我的书](books)
 
 ## 找工作相关
 * [前端工作面试问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
