@@ -9,6 +9,7 @@
 * [事件](event/)
 * 动画
 * Ajax
+* [Deferred](deferred)
 * [工具方法](utilities.md)
 * 插件
 * 最佳实践
