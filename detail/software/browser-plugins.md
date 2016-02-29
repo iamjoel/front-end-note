@@ -18,6 +18,9 @@
 * [Link Preveiw](https://chrome.google.com/webstore/detail/link-previews/hlbhbhdjmllabhmeoehogilodnpbmhgj) 预览超链接指向的页面的内容。
 * [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo/) 添加用户自定义脚本.
 
+### Github
+* [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) 在侧边栏像打开文件夹一样的查看别人的 Github 项目
+
 ### Web 前端开发相关
 * [Prism Pretty](https://chrome.google.com/webstore/detail/prism-pretty/hjjcdjnncffbbhlglkipjhljmocnehim) 语法高亮在浏页面新窗口打开的CSS，JS。
 * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) 语法高亮在浏页面新窗口打开的 JSON。
