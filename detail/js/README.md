@@ -35,6 +35,7 @@
   * location
   * navigator
 * [ajax](ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
+* [Fetch API](fetch-api): XMLHttpRequest的最新替代技术
 * [generator函数](generator)
 * 常用框架
 	* [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) 的**[介绍](underscore-and-lodash)**
@@ -42,7 +43,6 @@
 ## 专题
 * [设计模式](pattern) 提高代码质量
 * 条件语言中，哪些值是 false 的
-* [Fetch API](fetch-api): XMLHttpRequest的最新替代技术
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
