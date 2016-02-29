@@ -11,6 +11,7 @@
 * [IE6 bug系列](http://www.css88.com/archives/tag/ie6-bug)
 * [用 -webkit-mask-image 解决 border-radius 元素对应用了 transform 的子元素 overflow:hidden 失败的 BUG (WebKit).](http://www.html-js.com/article/Mczone-CSS-to-solve-the-element-borderradius-for-child-elements-of-the-overflowhidden-transform-applications-of-the-failure-of-BUG-with-webkitmaskimage)
 * [移动端与border-radius有关的bug](http://makaiqian.com/yu-border-radiusyou-guan-de-bug/)
+* [`<img>`元素底部为何有空白？](https://www.zhihu.com/question/21558138) 去除方法 `img{display:block;}` 或 `img { vertical-align:top/bottom/middle; }`
 
 
 ## <a name="double-margin">双边距</a>
