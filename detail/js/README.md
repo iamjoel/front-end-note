@@ -42,6 +42,8 @@
 
 ## 专题
 * [设计模式](pattern) 提高代码质量
+* ECMAScript
+  * [New in ECMAScript 5](http://speakingjs.com/es5/ch25.html)
 * 条件语言中，哪些值是 false 的
 
 ## 教程
