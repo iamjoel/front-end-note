@@ -4,7 +4,7 @@
 * 语法
 	* 变量
 	* 数据类型
-		* 数字
+		* [数字](grammar/number)
 		* [字符串](grammar/string)
 		* 布尔值
 		* 对象
