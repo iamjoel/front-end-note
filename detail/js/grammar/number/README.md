@@ -1,3 +1,4 @@
+# JavaScript 数字相关的属性方法
 ## 类型判断
 * [isNaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN) - 是否是 [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)(Not a Number)。主要用来判断 NaN 是否是 NaN，因为 `NaN == NaN ` 是 `false`。
 
