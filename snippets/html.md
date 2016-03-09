@@ -27,6 +27,11 @@ IE8（包含）及以下版本有效
 <meta name="renderer" content="webkit"><!-- 此标签只有360浏览器支持 -->
 ```
 
+## mobile 的页面防止缩放的 Meta
+```
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+```
+
 ## HTML特殊符号（也有的叫字符实体）
 * `空格`  `&nbsp;`
 * `<` `&lt;`
