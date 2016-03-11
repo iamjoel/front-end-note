@@ -1,0 +1,65 @@
+.icon-facebook-single {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 0;
+  background-size: 0.75rem 3.46875rem;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+.icon-flickr-single {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 -0.90625rem;
+  background-size: 0.75rem 3.46875rem;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+.icon-skype-single {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 -1.8125rem;
+  background-size: 0.75rem 3.46875rem;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+.icon-twitter-single {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 -2.71875rem;
+  background-size: 0.75rem 3.46875rem;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+.icon-facebook {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 0;
+  background-size: 0.75rem 3.46875rem;
+}
+.icon-facebook-offset-y {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 0;
+  background-size: 0.75rem 3.46875rem;
+  background-position: 0.15625rem 0.125rem;
+}
+.icon-flickr {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 -0.90625rem;
+  background-size: 0.75rem 3.46875rem;
+}
+.icon-skype {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 -1.8125rem;
+  background-size: 0.75rem 3.46875rem;
+}
+.icon-twitter {
+  background-repeat: no-repeat;
+  background-image: url('../images/rem-icons-s1bd0425a5f.png');
+  background-position: 0 -2.71875rem;
+  background-size: 0.75rem 3.46875rem;
+}
+
+/*# sourceMappingURL=rem-icons.css.map */

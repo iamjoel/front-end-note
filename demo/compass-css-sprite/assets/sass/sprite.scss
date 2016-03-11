@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import "compass/utilities/sprites";
+
+$sprites:sprite-map("icons/*.png", $spacing:10px, $layout: vertical);// 生成图片精灵
+// 更多设置见 http://compass-style.org/help/tutorials/spriting/customization-options/
+@mixin icon($name) {
+    $icon: sprite-file($sprites, $name); // 图标文件
+    width: image-width($icon);
+    height: image-height($icon);
+    background-image: sprite-url($sprites);
+    background-position: nth(sprite-position($sprites, $name), 1) nth(sprite-position($sprites, $name), 2);
+    background-repeat: no-repeat;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    &--facebook {
+        @include icon('facebook');
+    }
+    &--flickr {
+        @include icon('flickr');
+    }
+    &--twitter {
+        @include icon('twitter');
+    }
+    &--cookie {
+        @include icon('cookie');
+    }
+}

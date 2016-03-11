@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import "compass/utilities/sprites";
+// http://compass-style.org/reference/compass/helpers/sprites/#sprite-map
+$sprites:sprite-map("rem-icons/*.png", $spacing:10px, $layout: vertical);
+$divide: 10;
+$ppr: 640px/$divide/1rem;
+$pprVal: 640/10;
+@function strip-units($number) {
+    @return $number / ($number * 0 + 1);
+}
+
+@function addRemUnit($val, $unit: px) {
+    // @debug $val;
+    @if $val !=0 {
+        $val: $val/$pprVal;
+        $val: $val + rem;
+    }
+    @return $val;
+}
+
+// @debug 1px + 2px;// 3px
+// @debug 0 + 2px;// 2px
+// 将图片精灵的图片大小和位置进行缩放。实现方式通过把单位由px变成rem
+//$offset-x的正值向右移，$offset-y的正值向下移
+@mixin rem-sprite($sprites, $name) {
+    background-repeat: no-repeat;
+    background-image: sprite-url($sprites); //雪碧图路径
+    background-position: addRemUnit(strip-units(nth(sprite-position($sprites, $name), 1))) addRemUnit(strip-units(nth(sprite-position($sprites, $name), 2)));
+    background-size: sprite-width($sprites)/$ppr sprite-height($sprites)/$ppr;
+}
+
+@mixin rem-sprite-size($sprites, $name) {
+    height: image-height(sprite-file($sprites, $name))/$ppr; //目标图片高度
+    width: image-width(sprite-file($sprites, $name))/$ppr; //目标图片宽度
+}
+
+@mixin rem-sprite-pos($sprites, $name, $offset-x: 0, $offset-y: 0) {
+    background-position: addRemUnit(strip-units(nth(sprite-position($sprites, $name), 1)) + $offset-x) addRemUnit(strip-units(nth(sprite-position($sprites, $name), 2)) + $offset-y);
+}
+
+.icon {
+    &-facebook-single {
+        @include rem-sprite($sprites, facebook);
+        @include rem-sprite-size($sprites, facebook);
+    }
+    &-flickr-single {
+        @include rem-sprite($sprites, flickr);
+        @include rem-sprite-size($sprites, flickr);
+    }
+    &-skype-single {
+        @include rem-sprite($sprites, skype);
+        @include rem-sprite-size($sprites, skype);
+    }
+    &-twitter-single {
+        @include rem-sprite($sprites, twitter);
+        @include rem-sprite-size($sprites, twitter);
+    }
+    &-facebook {
+        @include rem-sprite($sprites, facebook);
+    }
+    &-facebook-offset-y {
+        @include rem-sprite($sprites, facebook);
+        @include rem-sprite-pos($sprites, facebook, 10, (64-48)/2);
+    }
+    &-flickr {
+        @include rem-sprite($sprites, flickr);
+    }
+    &-skype {
+        @include rem-sprite($sprites, skype);
+    }
+    &-twitter {
+        @include rem-sprite($sprites, twitter);
+    }
+}

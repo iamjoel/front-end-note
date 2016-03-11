@@ -1,0 +1,14 @@
+.icons-sprite, .icon__facebook {
+  background-image: url('../images/icons-s7997a1d434.png');
+  background-repeat: no-repeat;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+.icon__facebook {
+  background-position: 0 0;
+}
+
+/*# sourceMappingURL=icons.css.map */
