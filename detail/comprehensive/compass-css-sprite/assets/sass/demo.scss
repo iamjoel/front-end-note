@@ -7,7 +7,7 @@ h2{
     vertical-align: middle;
     margin-right: 10px;
     background-color: #ddd;
-    $sprites: creatSprite('icons');// 生成图片精灵
+    $sprites: creatSprite('icons/*.png');// 将icons下所有png图片生成图片精灵。$glob 不支持 +(png|gif|jpg|jpeg) ...
     &--facebook {
         @include icon('facebook', $sprites);
     }

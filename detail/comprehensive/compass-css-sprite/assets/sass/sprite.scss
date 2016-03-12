@@ -11,9 +11,8 @@
 }
 
 // 生成图片精灵
-@function creatSprite($foldName, $spacing: 10px){
-  $imagesPath: $foldName + '/*.png';
-  @return  sprite-map($imagesPath, $spacing: $spacing, $layout: vertical);
+@function creatSprite($globImgPath, $spacing: 10px){
+  @return  sprite-map($globImgPath, $spacing: $spacing, $layout: vertical);
 }
 
 // 更多设置见 http://compass-style.org/help/tutorials/spriting/customization-options/
