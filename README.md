@@ -28,6 +28,7 @@
 * [字体](detail/comprehensive/font)
 * [字体图标(icon-fonts)](detail/comprehensive/iconfont)
 * [用 SVG 做动画和用 GIF 的比较](detail/comprehensive/svg-vs-gif)
+* [用 Compass 分分钟地做图片精灵](detail/comprehensive/compass-css-sprite)
 
 ## 推荐学习资源
 * [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
