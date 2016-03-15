@@ -131,6 +131,7 @@
 * [segmentfault-前端收藏夹子](http://segmentfault.com/bookmark/1230000000679245)
 
 ## 设计网站
+* [设计导航](http://hao.shejidaren.com/)
 * [dribbble](https://dribbble.com/)
 * [codrops](http://tympanus.net/codrops/)
 * [smashingmagazine](http://www.smashingmagazine.com/tag/web-design/)

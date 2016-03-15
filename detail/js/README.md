@@ -51,6 +51,7 @@
 * 单向数据流
   * Flux
   * [Redux](http://redux.js.org/)
+  * [Vuex](https://github.com/vuejs/vuex)
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
