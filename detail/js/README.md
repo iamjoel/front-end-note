@@ -44,6 +44,13 @@
 * [设计模式](pattern) 提高代码质量
 * [JavaScript 版本(ES5, ES6, ES2016, ES.Next)](ECMAScript)
 * 条件语言中，哪些值是 false 的
+* 函数式编程
+  * [purescript](http://www.purescript.org/)
+  * [elm](http://elm-lang.org/)
+  * [Immutable](https://facebook.github.io/immutable-js/)
+* 单向数据流
+  * Flux
+  * [Redux](http://redux.js.org/)
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
