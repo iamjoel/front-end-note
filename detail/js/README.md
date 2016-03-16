@@ -52,6 +52,10 @@
   * Flux
   * [Redux](http://redux.js.org/)
   * [Vuex](https://github.com/vuejs/vuex)
+* 由前端决定数据形状
+  * [relay](https://github.com/facebook/relay) Facebook
+    * [GraphQL and Relay 浅析](http://zhuanlan.zhihu.com/purerender/20638731)
+  * [falcor](https://github.com/Netflix/falcor) Netflix
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
