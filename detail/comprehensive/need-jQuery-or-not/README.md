@@ -5,6 +5,7 @@
 
 **认为不需要 jQuery 的理由如下：**
 * IE7 及更低版本的浏览器的市场份额已经低到忽略的地步。而用 IE8 及更高版本的浏览器的原生 API 来实现 jQuery 提供的功能并不是很麻烦。比如：
+
 ```
 /* 选取元素 */
 // IE8+
@@ -71,6 +72,7 @@ $(el).on(eventName, eventHandler);
 * 不少现代的框架依赖 jQuery，如 Bootstrap 的 JS 插件，Ember，Meteor JS。如果要用那些框架，就不得不用 jQuery。
 * 用 jQuery 比用原生的 API 好学，好用，强大，简洁， 还不需要考虑浏览器兼容性问题。
 *  jQuery 的开发仍在继续中。并且与时俱进的增加了一些新特性。比如，jQuery 3 增加允许用 `for... of` 来遍历 jQuery 集合的 DOM 元素。如
+
 ```
 var $inputs = $('input');
 var i = 0;
@@ -80,7 +82,7 @@ for(var input of $inputs) {
 }
 ```
 
-所以，我们到底需不需要 jQuery? 其实还是要根据具体项目来定。对我来说，对于一般的项目，我都会用 jQuery，毕竟 jQuery 大小不大，比如，`jquery-3.0.0-beta1.min.js` 在没 gzip 压缩前也就 86 kB。
+那么，我们到底需不需要 jQuery 呢? 其实还是要根据具体项目来定。对我来说，对于一般的项目，我都会用 jQuery，毕竟 jQuery 大小不大，比如，`jquery-3.0.0-beta1.min.js` 在没 gzip 压缩前也就 86 KB。
 
 
 ## 参考链接
