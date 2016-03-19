@@ -29,6 +29,7 @@
 * [字体图标(icon-fonts)](detail/comprehensive/iconfont)
 * [用 SVG 做动画和用 GIF 的比较](detail/comprehensive/svg-vs-gif)
 * [用 Compass 分分钟地做图片精灵](detail/comprehensive/compass-css-sprite)
+* [我们到底需不需要 jQuery](detail/comprehensive/need-jQuery-or-not)
 * [项目构建工具概览](detail/comprehensive/build-tool)
 
 ## 推荐学习资源
