@@ -6,3 +6,4 @@
 
 ## 拓展阅读
 * [gulp 入门指南](https://github.com/nimojs/gulp-book)
+* [GRUNT AND GULP TASKS FOR PERFORMANCE OPTIMIZATION](http://yeoman.io/blog/performance-optimization.html) 一些与性能优化相关的 Grunt 和 Gulp 任务
