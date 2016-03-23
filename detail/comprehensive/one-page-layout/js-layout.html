@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js 来算高度</title>
+  <style>
+  html,body{
+    margin: 0;
+  }
+  .layout-item:nth-child(1){
+    background: red;
+  }
+  .layout-item:nth-child(2){
+    background: green;
+  }
+  .layout-item:nth-child(3){
+    background: blue;
+  }
+  </style>
+</head>
+<body>
+  <div class="layout-item" data-style-height="1"></div>
+  <div class="layout-item" data-style-height="2" data-style-margin-top="1" data-style-margin-bottom="1">
+    <div class="layout-item"></div>
+  </div>
+  <div class="layout-item" data-style-height="1" data-style-padding-top="1" ></div>
+
+  <script src="../../../asset/vendor/jquery-2.1.3.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      function fillOnePage() {
+        // 要算垂直间距的属性
+        var calAttrs = ['height', 'margin-top', 'margin-bottom', 'padding-top', 'padding-bottom'];
+        var windowHeight = $(window).height();
+        // 不支持嵌套
+        var $layoutItems = $('body>.layout-item');
+        // var $sublayoutItems = $('.layout-item .layout-item');
+        // 总共多少分
+        var splitTotalNums = 0;
+        $layoutItems.each(function () {
+          var $item = $(this);
+          var splitNums = 0;
+          calAttrs.forEach(function (attrName) {
+            splitNums += getAttrSplitNum($item, 'style-' + attrName);
+          });
+          splitTotalNums +=splitNums;
+        });
+        var itemHeight = windowHeight / splitTotalNums;
+        $layoutItems.each(function () {
+          var $item = $(this);
+          calAttrs.forEach(function (attrName) {
+            var splitNum = $item.data('style-' + attrName);
+            if(splitNum){
+              $item.css(attrName, splitNum * itemHeight + 'px');
+            }
+          });
+          // 对子元素的高度的计算 嵌套的做 todo，整个结构都一起优化
+          // $item.find('>.layout-item')
+        });
+
+        function getAttrSplitNum($elem, attrName) {
+          var val = $elem.data(attrName);
+          if(!isNaN(parseFloat(val))){
+            val = parseFloat(val);
+          } else {
+            val = 0;
+          }
+          return val;
+        }
+      }
+
+      fillOnePage();
+      $(window).resize(fillOnePage);
+    });
+  </script>
+</body>
+</html>
