@@ -136,6 +136,7 @@ img, .png {
  ```
 
 注意：如果元素之间没有空格(用js动态生成的)，则不会生效。这时候可以用 flex
+```
 容器选择器{
     display: -webkit-flex;
     display: -moz-flex;
@@ -145,8 +146,15 @@ img, .png {
     flex-wrap:wrap;
     justify-content: space-between;
 }
+```
 
-
+## 文本溢出加省略号
+```
+  overflow:hidden;
+  white-space:nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+```
 
 ## 参考
 * https://css-tricks.com/snippets/css/
