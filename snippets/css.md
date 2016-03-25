@@ -156,5 +156,7 @@ img, .png {
   text-overflow: ellipsis;
 ```
 
+注意这对内联元素无效。
+
 ## 参考
 * https://css-tricks.com/snippets/css/
