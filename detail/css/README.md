@@ -51,6 +51,9 @@
 * [响应字体大小](http://blog.cloudfour.com/responsive-guide-to-type-sizing/) 用 `calc` 属性
 * [响应式样布局](detail/responsive)
 
+## 专题
+* [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
+
 ## 拓展阅读
 * [CSS Protips](https://github.com/AllThingsSmitty/css-protips)
 * [22个CSS黑魔法](http://www.ido321.com/1665.html)
