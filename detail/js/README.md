@@ -23,7 +23,8 @@
 	* 解释与执行机制
 	* 作用域与作用域链
 	* [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
-		- call,apply 以及 bind
+		- call,apply
+    - [bind](grammar/this/bind)
 	* [闭包](closure) TODO
 	* 高阶函数
 	* 原型与继承
