@@ -78,7 +78,7 @@ HTML5语法高亮
 ### [GitGutter](https://github.com/jisaacks/GitGutter) 在文件的行号旁边显示文件的修改状态
 
 ### [sublime-TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN)
-在sublime中的左侧文件树中可以做SVN的操作。    
+在sublime中的左侧文件树中可以做SVN的操作。  
 
 快捷键
 * [alt+c] : 提交
@@ -88,8 +88,12 @@ HTML5语法高亮
 ### AutoFileName
 文件路径与名称的补全
 
+### [WakaTime](https://wakatime.com/)
+记录你的Code时间
+
 ### 更多
-http://ipestov.com/the-best-plugins-for-sublime-text/
+* [The Best Plugins for Sublime Text](http://ipestov.com/the-best-plugins-for-sublime-text/)
+* [如何优雅地使用Sublime Text](http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text)
 
 ### sulime 插件排行
 https://sublime.wbond.net/browse/popular
@@ -116,6 +120,7 @@ https://sublime.wbond.net/browse/popular
 
 ### 编辑
 * `Ctrl+D`: 选中单词。多次`Ctrl+D`可选择多个，然后可以进行批量的编辑
+* `Alt+F3`: 选中所有与第一次选中内容相同的内容。Mac下默认的是`Ctrl+Command+G`。
 * `Ctrl+H`: 替换
 * `Ctrl+Shift+A`: 在html文件中，选中标签的内容
 * `Ctrl+ENTER`: 在当前行的下一行创建
