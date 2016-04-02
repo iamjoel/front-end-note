@@ -31,7 +31,7 @@
 * [用 Compass 分分钟地做图片精灵](detail/comprehensive/compass-css-sprite)
 * [我们到底需不需要 jQuery](detail/comprehensive/need-jQuery-or-not)
 * [让内容恰好占一屏，适配各种尺寸的设备的实现](detail/comprehensive/adapt-to-one-page)
-* [用 npm scripts 来构建前端项目的尝试](detail/use-npm-script)
+* [用 npm scripts 来构建前端项目的尝试](detail/comprehensive/use-npm-script)
 * [项目构建工具概览](detail/comprehensive/build-tool)
 
 ## 推荐学习资源
