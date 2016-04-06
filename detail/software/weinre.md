@@ -1,5 +1,5 @@
 # 远程调试手机页面工具：Weinre介绍
-[Weinre(全称Web Inspector Remote)](http://people.apache.org/~pmuellr/weinre-docs/latest/Home.html)是一款的可以在电脑上远程调试手机页面的工具。
+[Weinre(全称Web Inspector Remote)](https://people.apache.org/~pmuellr/weinre/docs/latest/)是一款的可以在电脑上远程调试手机页面的工具。
 
 通过Weinre，我们可以在电脑上审查手机上页面的元素，选中的元素会有一个选中效果，并显示对应元素的样式。如下图所示：
 
