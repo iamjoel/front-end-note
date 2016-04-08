@@ -34,6 +34,9 @@
 * [用 npm scripts 来构建前端项目的尝试](detail/comprehensive/use-npm-script)
 * [项目构建工具概览](detail/comprehensive/build-tool)
 
+## demo
+* [下滑无限加载的简单实现](demo/infinate-scroll)
+
 ## 推荐学习资源
 * [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
 * [饥人谷 前端学习课件](http://book.jirengu.com/fe/index.html) [Samaritan 做的类似的东东](http://samaritan89.github.io/f2e/index.html)
