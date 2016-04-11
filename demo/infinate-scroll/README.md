@@ -17,3 +17,6 @@
 ## 参考
 * [html中offsetTop、clientTop、scrollTop、offsetTop各属性介绍](http://blog.csdn.net/fswan/article/details/17238933)
 
+
+## 推荐阅读
+* [6 jQuery Infinite Scrolling Demos](http://www.sitepoint.com/jquery-infinite-scrolling-demos/) 无限加载 grid 的列表，文章，图片带分页等。

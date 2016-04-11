@@ -15,3 +15,4 @@
 	* [CSS Loding](http://cssload.net/) 生成Loding的CSS代码
 	* [CSS Loding Text](http://cssload.net/en/animated_text) 带Loding文字的CSS代码
 	* [生成loading图标](http://preloaders.net/) 可生成 GIF 和 APNG 格式的 Loading 图
+* [Manifest Generator]( http://brucelawson.github.io/manifest/)

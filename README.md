@@ -53,6 +53,10 @@
 * [学习布局](http://zh.learnlayout.com/)
 * [一些标准的命名规范](http://www.html-js.com/article/JS-rookie-in-the-rookie-began-to-learn-some-standard-naming-conventions-to-fly)
 
+
+## 评估
+* [测试驱动的方式评估自己的 JavaScript 水平](https://github.com/rmurphey/js-assessment)
+
 ## 通过练习的方式学习
 * [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，提交代码让他人评论你的代码以提高。
 * [FreeCodeCamp](http://www.freecodecamp.com/)
