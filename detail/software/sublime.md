@@ -32,7 +32,7 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 格式化html,css,js代码。快捷键`ctrl+shift+h`进行格式化。
 
 ### [Emmet](https://sublime.wbond.net/packages/Emmet)
-提供html的自动补全功能。如输入 `ul.main>li{第$个}*3`，然后按Tab键。会生成如下的内容
+提供 HTML，CSS，JS 的自动补全功能。如输入 `ul.main>li{第$个}*3`，然后按 Tab 键。会生成如下的内容
 ```
 <ul class="main">
 	<li>第1个</li>
@@ -40,11 +40,12 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 	<li>第3个</li>
 </ul>
 ```
-如果按Tab键没有反应，那么设置文档的语法为HTML。方式为
-1. `ctrl+shift+p`
-1. 输入 'set syntax: HTML'
 
-如果发现自动补全有问题，可能是PyV8没正确安装的缘故(默认是在安装mmet时会自动安装)，如何安装见[这里](https://github.com/emmetio/pyv8-binaries)
+如果新建的文件，需要补全时，按 Tab 键没有反应，那么只要设置文件的语法类型（HTML， CSS 或 JS）即可（因为 Emmet 只对语法类型为 HTML，CSS，JS 的文件内容生效）。方式为
+1. 打开命令面板(`ctrl+shift+p`)
+1. 输入 'set syntax: xxx'
+
+如果发现自动补全缺一些功能（如输入 `html:5` 不能补全），可能是 PyV8 没正确安装的缘故(默认在安装 Emmet 时会自动安装)。此时需要手动安装 PyV8，见[这里](https://github.com/emmetio/pyv8-binaries)
 
 ### [sublime-evernote](https://packagecontrol.io/packages/Evernote)
 支持用markdown写印象笔记(Evernote)。具体见[这里](sublime-evernote.md)
