@@ -27,6 +27,9 @@ JavaScript 框架设计
 写给大家看的设计书
 
 ## 其他
+![程序员健康指南](cover-image/the-healthy-programmer.jpg)  
+程序员健康指南
+
 ![图解机器学习](cover-image/pic-about-mache-learning.jpg)  
 图解机器学习
 
