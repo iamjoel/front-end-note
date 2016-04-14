@@ -43,9 +43,10 @@
 * [慕课网 HTML + CSS基础课程](http://www.imooc.com/learn/9)
 * [HTML基本知识](http://www.jianshu.com/notebooks/536331/latest) 一个叫[实验楼](http://www.shiyanlou.com/)的培训机构做的
 * [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
-* [JavaScript深入浅出(视频)](http://www.imooc.com/learn/277)
-* [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
-* [JavaScript简易教程 v0.3.0- 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
+* [JavaScript深入浅出(视频) - 慕课网](http://www.imooc.com/learn/277)
+* [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
+* [JavaScript简易教程 v0.3.0 - 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
+* [JavaScript Tutorial](http://javascript.info/) JavaScript基础教程。知识介绍以及习题。
 * [30 Days to Learn jQuery](http://code.tutsplus.com/courses/30-days-to-learn-jquery)
 * [dive into html5](http://diveintohtml5.info/table-of-contents.html)
 * [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
