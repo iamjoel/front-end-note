@@ -3,6 +3,9 @@
 ![图解CSS3 核心实战与案例实践](cover-image/css3-core-and-practice.jpg)  
 图解CSS3 核心实战与案例实践
 
+![学习响应式设计](cover-image/learn-responsive-web-design.jpg)  
+学习响应式设计
+
 ## JavaScript
 ![JavaScript 框架设计](cover-image/JavaScript-frame-work-design.jpg)  
 JavaScript 框架设计
