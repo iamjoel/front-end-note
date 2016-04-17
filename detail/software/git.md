@@ -43,6 +43,15 @@ Desktop.ini
 
 一些`.gitignore`的模板 https://github.com/github/gitignore
 
+## 配置别名
+```
+git config --global alias.st status
+git config --global alias.pl pull
+git config --global alias.ci commit
+git config --global alias.ca 'commit -am'
+git config --global alias.ph push
+```
+
 ## Github表情符
 在Github中可以在 Pull Requests, Issues, 提交消息, Markdown 文件里加入表情符。使用方法 :name_of_emoji:
 
