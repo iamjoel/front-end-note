@@ -40,6 +40,7 @@
   * [过渡(transition)](transition)
   * [动画](animate)
   * [滤镜(CSS Filter)](animate)
+  * [文字阴影](text-shadow)
 * 性能优化
   * 选择器优化：[Efficiently Rendering CSS（高效的写选择器）](https://css-tricks.com/efficiently-rendering-css/)
   * [加载CSS的优化：Critical CSS](detail/css/critical-css.md)
@@ -53,6 +54,11 @@
 
 ## 专题
 * [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
+* CSS 代码组织
+  * [Primer](http://primercss.io/scaffolding/) Github 的 CSS
+
+## 一些效果
+* [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
 
 ## 拓展阅读
 * [CSS Protips](https://github.com/AllThingsSmitty/css-protips)
