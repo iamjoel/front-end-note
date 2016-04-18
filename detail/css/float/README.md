@@ -35,5 +35,6 @@ float: left|right|none;
 
 
 ## 参考
+* [你真的懂float吗](http://div.io/topic/1278)
 * http://zh.learnlayout.com/float-layout.html
 * https://css-tricks.com/all-about-floats/

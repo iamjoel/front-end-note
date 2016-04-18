@@ -39,9 +39,12 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 .idea
 Desktop.ini
 *.log
+# 开头表示注释，如果相匹配 #，可以在前面加一个反斜杠，即 \#
 ```
 
 一些`.gitignore`的模板 https://github.com/github/gitignore
+
+[用对 gitignore](http://www.barretlee.com/blog/2015/09/06/set-gitignore-after-add-file/)。[更多gitignore规则](https://git-scm.com/docs/gitignore)
 
 ## 配置别名
 ```

@@ -60,7 +60,11 @@
 ## 一些效果
 * [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
 
+## 冷知识
+* [Crayon.css](http://riccardoscalco.github.io/crayon/) 告诉你各种颜色的名字
+
 ## 拓展阅读
+* [CSS3 Please](http://css3please.com/)
 * [CSS Protips](https://github.com/AllThingsSmitty/css-protips)
 * [22个CSS黑魔法](http://www.ido321.com/1665.html)
 

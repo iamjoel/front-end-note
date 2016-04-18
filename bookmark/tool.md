@@ -8,6 +8,7 @@
 ## 渐变
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/) 生成渐变代码
 * [gradient animator](http://www.gradient-animator.com/) 生成渐变动画
+* [随机渐变生成器](http://paintbycode.github.io/gradient-generator/)
 
 ## 其他
 * [livetools](http://livetools.uiparade.com/index.html) 按钮，表单，丝带（Ribbon）代码生成

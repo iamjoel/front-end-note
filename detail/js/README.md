@@ -60,5 +60,8 @@
   * [falcor](https://github.com/Netflix/falcor) Netflix
 * [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
 
+## 酷炫的
+* [如何使用JavaScript生成lowpoly风格图像？](https://www.zhihu.com/question/29856775)
+
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
