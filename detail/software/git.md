@@ -47,6 +47,7 @@ Desktop.ini
 ```
 git config --global alias.st status
 git config --global alias.pl pull
+git config --global alias.aa 'add -A'
 git config --global alias.ci commit
 git config --global alias.ca 'commit -am'
 git config --global alias.ph push
