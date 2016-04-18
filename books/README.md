@@ -29,6 +29,10 @@ JavaScript 框架设计
 ![写给大家看的设计书](cover-image/the-none-designers-design-book.jpg)  
 写给大家看的设计书
 
+## 时间管理
+![番茄工作法图解 简单易行的时间管理方法](cover-image/pomodoro-technique-illustrated.jpg)  
+番茄工作法图解 简单易行的时间管理方法 [读书笔记](note/pomodoro-technique-illustrated.md)
+
 ## 其他
 ![程序员健康指南](cover-image/the-healthy-programmer.jpg)  
 程序员健康指南 [读书笔记](note/the-healthy-programmer.md)
