@@ -1,6 +1,6 @@
 # 软件推荐
 ## 浏览器
-* [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html)
+* [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html) [Chrome 使用](chrome.md)
 * [Firefox](http://www.firefox.com.cn/download/)
 * IE
 * Oprea

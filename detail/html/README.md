@@ -26,6 +26,11 @@
 * [应用缓存](html5/offline-web-applications) 待完善
 * [服务器发送事件](html5/server-send-events) 待完善
 
+## 专题
+* disable, readonly 的区别
+* 关于 accept="image/*"
+* JS 模板的类型 type="text/x-template"
+
 ## 还需要了解些什么
 * [语种名称代码(html lang的值)](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
 * [网页无障碍](accessibility.md)

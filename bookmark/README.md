@@ -146,3 +146,4 @@
 ## 其他
 * [Linux命令学习手册](http://linux.9iphp.com/)
 * [如何写好技术简历 —— 实例、模板及工具](http://get.jobdeer.com/744.get)
+* [鸟哥笔记](http://www.niaogebiji.com/) 运营的东东

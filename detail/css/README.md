@@ -59,10 +59,18 @@
 * CSS Modules
   * http://x-team.com/2015/08/css-modules-a-new-way-to-css/
   * https://github.com/css-modules/webpack-demo/
+  * [【译】CSS 模块](http://www.w3ctech.com/topic/1479)
+* CSS clip path
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+  * https://css-tricks.com/almanac/properties/c/clip/
+* Post CSS
+  * http://webdesign.tutsplus.com/tutorials/using-postcss-for-cross-browser-compatibility--cms-24567
+
 
 ## 一些效果
 * [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
 * [Advanced CSS filters](http://iamvdo.me/en/blog/advanced-css-filters) 滤镜的 Demo
+* [利用jQuery和CSS实现环形进度条](http://www.w3cplus.com/css3/create-radial-progress-bar-with-jQuery-and-css3.html)
 
 ## 冷知识
 * [Crayon.css](http://riccardoscalco.github.io/crayon/) 告诉你各种颜色的名字

@@ -59,6 +59,9 @@
     * [GraphQL and Relay 浅析](http://zhuanlan.zhihu.com/purerender/20638731)
   * [falcor](https://github.com/Netflix/falcor) Netflix
 * [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
+* mouseover,  mouseenter  的差别
+  * https://api.jquery.com/mouseover/ 进入子元素再出来还是会触发。。。
+  * https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter
 
 ## 酷炫的
 * [如何使用JavaScript生成lowpoly风格图像？](https://www.zhihu.com/question/29856775)
