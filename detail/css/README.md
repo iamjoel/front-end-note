@@ -56,9 +56,13 @@
 * [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
 * CSS 代码组织
   * [Primer](http://primercss.io/scaffolding/) Github 的 CSS
+* CSS Modules
+  * http://x-team.com/2015/08/css-modules-a-new-way-to-css/
+  * https://github.com/css-modules/webpack-demo/
 
 ## 一些效果
 * [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
+* [Advanced CSS filters](http://iamvdo.me/en/blog/advanced-css-filters) 滤镜的 Demo
 
 ## 冷知识
 * [Crayon.css](http://riccardoscalco.github.io/crayon/) 告诉你各种颜色的名字
