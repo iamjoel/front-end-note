@@ -143,6 +143,10 @@
 * [Type is beautiful](http://www.typeisbeautiful.com/) 文字设计和视觉文化
 * [配色网](http://www.peise.net/tools/web/) 配色相关资源
 
+## 一些问答类的
+* [问啊](http://www.wenaaa.com/)
+* [问津](http://www.kiford.com/)
+
 ## 其他
 * [Linux命令学习手册](http://linux.9iphp.com/)
 * [如何写好技术简历 —— 实例、模板及工具](http://get.jobdeer.com/744.get)
