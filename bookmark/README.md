@@ -20,6 +20,7 @@
 * [Compatibility overview](http://www.quirksmode.org/compatibility.html) CSS，DOM，Event，Mobile 等的兼容表
 
 ## 新闻
+* [JS.org](https://stats.js.org/) 在 Github 上最受欢迎的 JS 项目的排名
 * 技术新闻聚合
     * [开发者头条](http://toutiao.io/)
     * [编程狂人](http://www.tuicool.com/mags) 为IT人打造的行业技术周刊
