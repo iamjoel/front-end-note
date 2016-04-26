@@ -71,6 +71,7 @@
 * JS
   * JavaScript高级程序设计
   * [《eloquentjavascript》](http://eloquentjavascript.net)
+* 代码简洁之道（Clean Code）
 * [可参考书单](http://www.douban.com/doulist/2772859/)
 * [我的书](books)
 
