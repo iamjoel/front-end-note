@@ -1,6 +1,6 @@
 # 软件推荐
 ## 浏览器
-* [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html) [Chrome 使用](chrome.md)
+* [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html) **[Chrome 使用](chrome.md)**
 * [Firefox](http://www.firefox.com.cn/download/)
 * IE
 * Oprea
@@ -11,7 +11,8 @@
 [Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
 
 ## IDE
-* [Sublime Text 3](http://www.sublimetext.com/3) 及[相关插件](sublime.md#plugin)
+* [Sublime Text 3](http://www.sublimetext.com/3) **[介绍](sublime)**
+  * [Emmet](emmet.md)
 
 ## 代码版本控制
 * Git [使用介绍](git.md)
