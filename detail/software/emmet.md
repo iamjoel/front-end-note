@@ -1,5 +1,5 @@
 # 前端开发利器：Emmet 介绍
-#[Emmet](http://emmet.io/) 是一个能提高前端开发效率的编辑器插件，支持 Sublime，Atom，TextMate，Nodepad++ 等主流编辑器。Emmet 定义了一些缩写，当我们输入缩写代码后，按展开键（默认是 Tab 键）后会展开成完整的代码。如，我们在 HTML 文件中输入 `ul.list>li{第$个}*2` ， 然后按展开键，会展开成如下代码
+[Emmet](http://emmet.io/) 是一个能提高前端开发效率的编辑器插件，支持 Sublime，Atom，TextMate，Nodepad++ 等主流编辑器。Emmet 定义了一些缩写，当我们输入缩写代码后，按展开键（默认是 Tab 键）后会展开成完整的代码。如，我们在 HTML 文件中输入 `ul.list>li{第$个}*2` ， 然后按展开键，会展开成如下代码
 ```
 <ul class="list">
   <li>第1个</li>

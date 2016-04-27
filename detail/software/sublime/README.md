@@ -1,3 +1,4 @@
+# Sublime 介绍
 ## 目录
 * [安装package manager](#install)
 * [插件推荐](#plugin)
