@@ -27,7 +27,7 @@
 * [服务器发送事件](html5/server-send-events) 待完善
 
 ## 专题
-* disable, readonly 的区别
+* [文本域的 disabled, readonly](disabled-readonly.md)
 * 关于 accept="image/*"
 * JS 模板的类型 type="text/x-template"
 
