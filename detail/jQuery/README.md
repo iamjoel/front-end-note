@@ -13,7 +13,7 @@
 * [工具方法](utilities.md)
 * 插件
 * 最佳实践
-  - 高效选取元素
+  - [选择器的优化](performance/optimize-selectors.md)
 
 
 
