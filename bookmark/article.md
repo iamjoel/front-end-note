@@ -24,6 +24,9 @@
 * [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 一些案例，应该如何重构
 * [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
 
+## 前端工程化
+* [张云龙的前端工程系列文章](https://github.com/fouber/blog/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B)
+
 ### 工具方法
 * [7 Essential JavaScript Functions](https://davidwalsh.name/essential-javascript-functions)
 
