@@ -10,9 +10,12 @@
 * [The CSS at…](https://css-tricks.com/css/) 一些大公司是怎么处理 CSS：预译器，前缀，代码风格等
 * [2015 Codrops 一大波优秀的资源](http://tympanus.net/codrops2015/)
 * [Blending Modes in CSS: Color Theory and Practical Application](http://webdesign.tutsplus.com/tutorials/blending-modes-in-css-color-theory-and-practical-application--cms-25201) 混合模式的不同值的颜色值算法。
+* [Masking in the Browser with CSS and SVG](http://www.sitepoint.com/masking-in-the-browser-with-css-and-svg/)
+* [CSS custom properties (native variables) In-Depth](https://blog.gospodarets.com/css_properties_in_depth) CSS 变量
 
 ### 酷炫效果
 * [Star Wars 文字动画](https://cssanimation.rocks/starwars/)
+* [Water In A Bubble](https://codepen.io/gingerdude/pen/JXwgdK)
 
 
 ## JS
