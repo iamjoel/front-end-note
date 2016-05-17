@@ -77,17 +77,9 @@
 * [FreeCodeCamp](http://www.freecodecamp.com/)
 * [Codewars](http://www.codewars.com/)
 
-## 书籍推荐
-戳[这里](books)。
-
-## 找工作相关
-* [前端工作面试问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
-* [前端工作招聘网站列表](https://dwqs.gitbooks.io/frontenddevhandbook/content/practice/front-end-jobs.html)
-* [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
-* [简历语术](others/resume.md)
-
-
 ## 其他
+* [书籍推荐](books)
+* [找工作相关](find-jobs)
 * [在线工具](bookmark/tool.md)
 * [前端工具](https://github.com/codylindley/frontend-tools)
 * [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
