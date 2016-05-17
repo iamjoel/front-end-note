@@ -22,7 +22,7 @@
 * [HTTP](detail/http)
 * [安全](detail/security)
 
-### 综合
+### [综合](detail/comprehensive)
 * [动画](detail/comprehensive/animate)
 * [浏览器兼容性](detail/comprehensive/browser-compatibility)
 * [字体](detail/comprehensive/font)
@@ -34,8 +34,22 @@
 * [用 npm scripts 来构建前端项目的尝试](detail/comprehensive/use-npm-script)
 * [项目构建工具概览](detail/comprehensive/build-tool)
 
-## demo
+## [demo](demo)
 * [下滑无限加载的简单实现](demo/infinate-scroll)
+* [移动到指定元素所在位置](demo/anim-to-some-place-in-certain)
+* [用 CSS 做个苹果](demo/apple-icon)
+* [异步上传文件](demo/aysn-file-upload)
+* [计算洞的大小(算法)](demo/caculateHoleSize)
+* [从中间向两边展开图片的效果](demo/center-open)
+* [倒计时](demo/count-time)
+* [drag,drop 和 sortable](demo/drag-and-drop-and-sortable)
+* [用 CSS 做些几何图形](demo/css-shape)
+* [用 CSS 来找出两张图片的不同点](demo/img-differ-use-css)
+* [jQuery Deferred](demo/promise)
+* 签到图片墙 [2D 版](demo/sign-in-anim/2d-photo-wall.html) [3D 版](demo/sign-in-anim/3d-photo-wall.html)
+* [用 CSS 做邮票](demo/stamp)
+* [耗时函数被短时间频繁调用时，防浏览器卡死的方法](demo/throttle)
+* [时间集合的包含和某个时间在哪个时间内](demo/time-compare-and-in)
 
 ## 推荐学习资源
 * [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)

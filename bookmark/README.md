@@ -73,7 +73,12 @@
 
 ## 资源
 * 图片类
-    * [Unsplash](https://unsplash.com/) 提供可免費使用的高质量照片网站
+    * 免费图片
+      * [Unsplash](https://unsplash.com/) 提供可免費使用的高质量照片网站
+      * [Foodies Feed](https://foodiesfeed.com/crunchy-sunny-side-eggs-bacon/) 以「食物」为主题的免费摄影照片图库
+      * [picjumbo](https://picjumbo.com/)
+      * [streetwill](http://streetwill.co/)
+      * [gratisography](http://www.gratisography.com/)
     * [findIcons](http://findicons.com/ ) icon搜索引擎
     * [在线icon制作](http://www.xiconeditor.com/)
     * [subtlepatterns](http://subtlepatterns.com/)  网站背景图片
