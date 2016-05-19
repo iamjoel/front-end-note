@@ -143,7 +143,7 @@
 * [codrops](http://tympanus.net/codrops/)
 * [smashingmagazine](http://www.smashingmagazine.com/tag/web-design/)
 * [awwwards](http://www.awwwards.com/) 做的很好看的,牛逼的网站汇总
-* [设计的不错的网站](good-design-site.md)
+* [设计的不错的网站](site.md)
 * [UI中国](http://www.ui.cn/) 界面设计垂直社区、中国人气最高的图形界面交互设计平台
 * [站酷](http://www.zcool.com.cn/)
 * [百设](http://shapesides.com/) UI资源
