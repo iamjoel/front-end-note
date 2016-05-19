@@ -38,7 +38,7 @@
 
     var $container = $('.container');
     $container.append(makeItems(4));
-    // 距离底部多少的时候，触发滚动
+    // 元素下方没显示的高度值小于TRIGGER_SCROLL_SIZE时，触发滚动
     var TRIGGER_SCROLL_SIZE = 50;
     var isLoading = false;
     $container.scroll(function () {

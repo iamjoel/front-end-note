@@ -1,21 +1,50 @@
-# 下滑无限加载的简单实现
-## 各种高度的含义
-* clientHeight 元素可视区域高度
-* scrollTop 元素垂直方向滚动了的距离
-* scrollHeight 元素的总高度
+# 滑动到底部无限加载的实现
+我们常常会碰到数据条数很多，如果显示全部数据会导致页面过长的情况。处理这种情况，对于 PC 页面，我们一般会用分页的方式；对于移动端页面，我们一般会用每次滚动到接近页面底部时，加载更多数据的方式。本文就来介绍下滑动到底部无限加载的实现。
 
-如图的所示
+实现滑动到底部无限加载，我们要做的是:
+* 监听显示数据内容的元素的滚动事件。
+* 每次元素滚动时，若此时不在加载数据，则计算元素下方没显示的高度值。如果其值小于我们设定的触发加载的值，则加载更多数据；否则什么都不做。
+
+易知：元素下方没显示的高度值 = 元素总高度 - 元素垂直方向滚动了的距离 - 元素可视区域高度
+
+各种值如下图所示：  
 ![size-describe](size-describe.gif)
 
-## 实现
-下滑无限加载的要实现是：滚动到元素下方小于指定距离的时候，加载更多内容。元素下方还有的距离的值为 `scrollHeight - clientHeight - scrollTop`。
+我们可知：
+元素的 scrollHeight  属性值为其总高度。  
+元素的 scrollTop 属性值为其垂直方向滚动了的距离。  
+元素的 clientHeight 属性值为其可视区域高度。  
 
-算法为：监听元素的滚动事件，如果滚动到元素下方小于指定距离的时候，加载更多内容。
+因此， 元素下方没显示的高度值 = elem.scrollHeight - elem.clientHeight - elem.scrollTop
 
-[实现](demo.html)
+伪代码如下
+```
+ // 元素下方没显示的高度值小于TRIGGER_SCROLL_SIZE时，触发滚动
+var TRIGGER_SCROLL_SIZE = 50;
+var isLoading = false;
+// $container 为显示数据内容的元素
+$container.scroll(function () {
+  if(!isLoading){
+    var totalHeight = $container.prop('scrollHeight');
+    var scrollTop = $container.scrollTop();
+    var height = $container.height();
+    if(totalHeight - (height + scrollTop) <= TRIGGER_SCROLL_SIZE){
+      isLoading = true;
+      // 加载更多数据
+    }
+  }
+});
+
+```
+
+完整的 Demo 代码见[这里](demo.html)。
+
+注意，如果显示内容的元素为 body，则取其垂直方向滚动了的距离要用 `$(document).scrollTop()`。否则会有兼容性问题。
+
 
 ## 参考
 * [html中offsetTop、clientTop、scrollTop、offsetTop各属性介绍](http://blog.csdn.net/fswan/article/details/17238933)
+* [关于页面滚动值scrollTop在FireFox与Chrome浏览器间的兼容问题](http://www.cnblogs.com/xxcanghai/p/5015712.html)
 
 
 ## 推荐阅读
