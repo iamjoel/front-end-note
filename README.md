@@ -18,7 +18,7 @@
 * [HTML](detail/html)
 * [CSS](detail/css)
 * [JavaScript](detail/js)
-* [jQuery](detail/jQuery/)
+* [jQuery](detail/jQuery)
 * [HTTP](detail/http)
 * [安全](detail/security)
 

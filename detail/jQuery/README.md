@@ -1,12 +1,14 @@
 # [jQuery](http://jquery.com/)
-[官方API文档](http://api.jquery.com/)
+* [官方API文档](http://api.jquery.com/)
+* [jQuery API 速查](https://oscarotero.com/jquery/)
+* [You Might Not Need jQuery](https://github.com/HubSpot/YouMightNotNeedjQuery) 高级浏览器中的JS API来实现jQuery的一些API
 
 ## 目录
 * [jQuery 介绍](about.md)
 * jQuery 核心
   - [选取元素](select-elem/)
   - [获取或设置元素信息](get-or-set-elem-info/)
-* [事件](event/)
+* [事件](event)
 * 动画
 * Ajax
 * [Deferred](deferred)
