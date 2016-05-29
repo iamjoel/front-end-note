@@ -11,16 +11,32 @@ attr 和 prop 的区别是： attr 在 DOM 中, 如 `$('a').attr('title')`, DOM:
 * outerHTML
 * tagName
 
-## 获取样式
-* .css
+## 样式
+.css
 
-## 获取尺寸
+```
+$el.css('color');
+$el.css('color', 'red');
+$el.css({
+  'font-size': '16px',
+  'border': 'none'
+});
+```
+
+## 尺寸
 * .height
+* .innerHeight: height + 垂直方向的padding
+* .outerHeight( [includeMargin ]): height + 垂直方向的 padding，border + 可选的 margin
 * .width
+* .innerWidth
+* .outerWidth
 
 ## 位置
-* position
-* offset
+* position: 返回元素相对于其定位父元素（position为relative，absolute和fixed）的位置。包括属性left和top。
+* offset: 返回元素相对于浏览器窗口的位置。包括属性left和top。
+* .offset(坐标/返回坐标的函数)：设置元素相对于浏览器窗口的位置。
+
+
 
 ## 是否满足某个条件
 .is。如是否可见
@@ -28,7 +44,10 @@ attr 和 prop 的区别是： attr 在 DOM 中, 如 `$('a').attr('title')`, DOM:
 $(selector).is(':visible');
 ```
 
-## 获取元素的innerHTML
+## 元素的innerHTML
+* .html()
+* .html(html)
+
 ```
 $(selector).html();
 ```
@@ -49,7 +68,7 @@ $(selector).prop('outerHTML');
 $(selector).text();
 ```
 
-## 获取元素的数据
+## 数据
 .data
 
 ## 元素的显示隐藏
