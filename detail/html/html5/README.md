@@ -3,7 +3,8 @@
 HTML5是对 HTML 标准的第五次修订，于2014年10月29日已完工。    
 其主要的目标是将互联网语义化，以便更好地被人类和机器阅读，并同时提供更好地支持各种媒体的嵌入。当然有时我们在谈论HTML5时，还包括一系列让互联网变得更炫的技术。    
 
-具体来说HTML5新增的东西包括：一些新标签，新标签属性；geoloaction；canvas；Microdata；Offline Web Applications；Web Storage等。
+具体来说 HTML5 新增的东西包括：一些新标签，新标签属性（也不再支持一些元素和属性）；geoloaction；canvas；Microdata；Offline Web Applications；Web Storage等。
+
 
 ## HTML5支持情况
 我们可以通过 [HTML5 test](http://html5test.com/)来查看浏览器对HTML5的支持情况。得分越高，则说明对HTML5的支持越好。    
