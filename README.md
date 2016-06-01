@@ -33,6 +33,7 @@
 * [让内容恰好占一屏，适配各种尺寸的设备的实现](detail/comprehensive/adapt-to-one-page)
 * [用 npm scripts 来构建前端项目的尝试](detail/comprehensive/use-npm-script)
 * [项目构建工具概览](detail/comprehensive/build-tool)
+* [前端性能优化](detail/comprehensive/performance)
 
 ## [demo](demo)
 * [下滑无限加载的简单实现](demo/infinate-scroll)
@@ -73,8 +74,8 @@
 * [测试驱动的方式评估自己的 JavaScript 水平](https://github.com/rmurphey/js-assessment)
 
 ## 通过练习的方式学习
+* [FreeCodeCamp](https://freecodecamp.cn/)
 * [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，提交代码让他人评论你的代码以提高。
-* [FreeCodeCamp](http://www.freecodecamp.com/)
 * [Codewars](http://www.codewars.com/)
 
 ## 其他
