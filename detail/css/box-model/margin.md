@@ -1,6 +1,19 @@
 # margin
 外边距。
 
+margin 属性包括
+* margin-left
+* margin-right
+* margin-top
+* margin-bottom
+* margin: 简写。如
+```
+margin: 2em          /* all margins set to 2em */
+margin: 1em 2em      /* top & bottom = 1em, right & left = 2em */
+margin: 1em 2em 3em  /* top=1em, right & left = 2em, bottom=3em */
+margin: 1em 2em 3em 4em  /* top=1em, right=2em, bottom=3em, left=4em */
+```
+
 ## margin 折叠
 ### 折叠规则
 * 垂直相邻的 margin 才有可能折叠，水平 margin 永远不折叠
@@ -18,3 +31,4 @@
 
 ## 参考
 * [细说 CSS margin](https://blog.coding.net/blog/css-margin)
+* [CSS 2.1 规范](http://www.ayqy.net/doc/css2-1/box.html#box-dimensions)

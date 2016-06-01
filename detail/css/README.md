@@ -2,6 +2,7 @@
 ## 目录
 * [CSS介绍](intro.md)
 * [样式写在哪](place.md)
+* [属性](property.md)
 * [选择器](selector)
   * [伪元素](selector/pseudo-elem) [使用注意点](selector/pseudo-elem/tip.md)
 * [样式的继承和层叠](inheritance-and-cascade.md) 决定哪条样式生效 缺练习的具体描述
@@ -17,8 +18,11 @@
 * [样式规则的值的类型及单位](value-and-unit.md) 缺具体的描述
   * [CSS属性中的百分比](value-and-unit.md#percent)
 * [样式简写](css-shorthand.md) 缺具体的描述
-* [盒模型](box-model.md)
-  * [margin](margin.md)
+* [盒模型](box-model)
+  * [盒尺寸](box-model/box-dimensions.md)
+  * [Margin](box-model/margin.md)
+  * Padding
+  * Border
 * [浮动](float)
 * [元素定位](position)
 * [BFC](BFC)
@@ -79,4 +83,5 @@
 * [CSS3 Please](http://css3please.com/)
 * [CSS Protips](https://github.com/AllThingsSmitty/css-protips)
 * [22个CSS黑魔法](http://www.ido321.com/1665.html)
+* [CSS2.1 规范 中文版](http://www.ayqy.net/doc/css2-1/cover.html)
 

@@ -1,4 +1,4 @@
-# 盒模型
+# 盒尺寸
 页面上显示的每个元素（包括内联元素）都可以看作一个盒子，即盒模型( box model )。请看Chrome DevTools 里的截图：    
 ![盒模型](../../asset/box-model.png)
 
