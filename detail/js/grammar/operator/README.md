@@ -50,3 +50,13 @@ typeof new String("abc") === 'object';
 typeof function(){} === 'function';
 typeof Math.sin === 'function';
 ```
+
+## 优先级
+关联性/结合性
+
+圆括号 > 成员访问(.) > 需要技术的成员访问([]) > new(带参数列表) >  函数调用 > new (无参数列表)(从右向左)
+
+具体见 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+## 拓展阅读
+* [一道常被人轻视的前端JS面试题](http://www.cnblogs.com/xxcanghai/archive/2016/02/14/5189353.html)
