@@ -45,7 +45,7 @@
 ## 专题
 * [设计模式](pattern) 提高代码质量
 * [JavaScript 版本(ES5, ES6, ES2016, ES.Next)](ECMAScript)
-* 条件语言中，哪些值是 false 的
+* [真值和假值](truey-falsey)
 * 函数式编程
   * [purescript](http://www.purescript.org/)
   * [elm](http://elm-lang.org/)
