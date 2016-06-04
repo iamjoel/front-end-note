@@ -14,6 +14,13 @@ var dom = $dom[0];
 $( "#myselect option:selected" ).text();
 ```
 
+## 给页面中所有的文本节点外面用 p 标签包裹
+```
+$('body').contents().filter(function(){
+  return this.nodeType === 3;
+}).wrap('<p></p>')
+```
+
 ## $(document).ready 和 $(window).load 有何区别
 DOM 加载好之后，会触发 (document).ready。
 
@@ -42,5 +49,6 @@ target 为触发这事件的元素，currentTarget 为处理这事件的元素�
 
 ## mouseleave 和 mouseout 有何区别
 某元素绑了 mouseout 事件，若离开其子元素也会触发 mouseout，而 mouseleave 不会。
+
 
 
