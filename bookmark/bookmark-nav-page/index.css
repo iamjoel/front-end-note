@@ -119,6 +119,7 @@ h2 {
 }
 .nav__item a{
     display: block;/*first-letter 只对 display:block的有效*/
+    line-height: 1.5;
 }
 .nav__item a:not([data-shortcut])::first-letter{
     color: #f60;
