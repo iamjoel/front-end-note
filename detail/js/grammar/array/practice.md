@@ -3,6 +3,8 @@
 
 如果对数组的 API 不是很熟悉，可查阅 [MDN Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 的介绍。
 
+主流浏览器都支持 ES5 新增的数组方法，如 `isArray`,`map`,`filter`,`every`,`reduce` 等。
+
 ** 题 1：查找数组对象中 age 大于 18 对象 **
 编写函数 `filterAdult`,满足
 ```
@@ -92,12 +94,15 @@ uniq([1,2,'M','e','r', 'r', 'y']); // 输出 [1,2,'M','e','r','y']
 ```
 random([1,2,3,4]); // 输出的可能是 [1,2,3,4] 或 [1,3,4,2] 或 [3,4,1,2] 等等随机可能
 ```
-*** 
+
+***
+
+** 题 9: 复制数组 **
+编写拷贝数组的函数 `cloneArray`
+
+***
 
 如果想获得更多练习，[CodeWars](http://www.codewars.com/kata/latest/my-languages?tags=Strings) 上有更多有意思的题。
 
 
-***
 
-*本文遵守[创作共享CC BY-NC-SA 4.0协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)*
-**网络平台如需转载必须与本人联系确认。**
