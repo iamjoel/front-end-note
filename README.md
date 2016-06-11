@@ -33,7 +33,7 @@
 * [让内容恰好占一屏，适配各种尺寸的设备的实现](detail/comprehensive/adapt-to-one-page)
 * [用 npm scripts 来构建前端项目的尝试](detail/comprehensive/use-npm-script)
 * [项目构建工具概览](detail/comprehensive/build-tool)
-* [前端性能优化](detail/comprehensive/performance)
+* [前端性能优化概要](detail/comprehensive/performance)
 
 ## [demo](demo)
 * [下滑无限加载的简单实现](demo/infinate-scroll)
