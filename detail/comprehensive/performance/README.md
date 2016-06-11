@@ -44,6 +44,12 @@
 * 尽量不要用 iframe。
 * 减少 DOM 数量。
 
+## 工具
+* YSlow
+* Chrome 的 Profiles 和 Timeline
+* [jsperf](https://github.com/jsperf/jsperf.com)
+* [Benchmark.js](https://benchmarkjs.com/)
+
 ## 参考
 * [15年双11手淘前端技术巡演 - H5性能最佳实践](https://github.com/amfe/article/issues/21)
 * [性能 CheckList v1.0](http://ntx.me/2015/03/02/checkList/)
@@ -57,9 +63,3 @@
 * https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/
 * https://developer.chrome.com/devtools/docs/demos/memory
 
-
-## 工具
-* YSlow
-* Chrome 的 Profiles 和 Timeline
-* [jsperf](https://github.com/jsperf/jsperf.com)
-* [Benchmark.js](https://benchmarkjs.com/)
