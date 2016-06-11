@@ -35,7 +35,7 @@ $(document).ready(function() {
     function removeFromArray(arr, value) {
         var removeIndex = false;
         arr.forEach(function(each, index) {
-            if (each === value) {
+            if (each == value) {
                 removeIndex = index;
             }
         });

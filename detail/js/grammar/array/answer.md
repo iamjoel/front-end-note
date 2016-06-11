@@ -1,4 +1,4 @@
-JavaScript 数组练习题见[这里](http://www.jianshu.com/p/4f40599c7174)。
+JavaScript 数组练习题见[这里](practice.md)。
 
 ** 题 1：查找数组对象中 age 大于 18 对象 **
 ```
@@ -167,5 +167,13 @@ function random(arr) {
 
 ***
 
-*本文遵守[创作共享CC BY-NC-SA 4.0协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)*
-**网络平台如需转载必须与本人联系确认。**
+** 题 9: 复制数组 **
+```
+function cloneArray(arr){
+  return arr.map(function(item){
+    return item;
+  });
+}
+```
+
+***
