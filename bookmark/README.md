@@ -95,7 +95,7 @@
 
 ## 网站性能
 * [阿里测](http://alibench.com/) 网站在不同地区的访问情况
-* [JsPerf](http://jsperf.com/) JS执行效率测试
+* [jsPerf](http://jsperf.com/) JS执行效率测试
 * [YSlow](http://yslow.org/) 分析网站，提出提升网站性能的建议
 * [perf-tooling.today](http://perf-tooling.today/) 有有关性能的工具，文章等
 
