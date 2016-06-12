@@ -57,9 +57,8 @@
 * [响应式样布局](detail/responsive)
 
 ## 专题
+* [CSS 代码组织，写法的最佳实践](best-practice)
 * [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
-* CSS 代码组织
-  * [Primer](http://primercss.io/scaffolding/) Github 的 CSS
 * CSS Modules
   * http://x-team.com/2015/08/css-modules-a-new-way-to-css/
   * https://github.com/css-modules/webpack-demo/
