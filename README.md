@@ -30,9 +30,7 @@
 * [找工作](find-jobs)
 
 ## 赞助
-<div  align="center">
-  <p>你的支持是对我最大的鼓励，支付宝扫一扫</p>
-  ![支付宝付款二维码](alipay.png)
-</div>
+<p align="center">你的支持是对我最大的鼓励，支付宝扫一扫</p>
+![支付宝付款二维码](alipay.png)
 
 
