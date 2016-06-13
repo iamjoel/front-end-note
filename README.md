@@ -38,6 +38,6 @@
 
 ## 赞助
 <p align="center">你的支持是对我最大的鼓励，支付宝扫一扫</p>
-<div align="center">![支付宝付款二维码](alipay.png)</div>
+<img src="alipay.png" align="center" alt="支付宝付款二维码">
 
 
