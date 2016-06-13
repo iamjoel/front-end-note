@@ -36,8 +36,8 @@
   * [当面试官问「你有什么要问我的吗」时，应该问什么？ 知乎](https://www.zhihu.com/question/28058827)
   * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 
-## 赞助
-<p align="center">你的支持是对我最大的鼓励，支付宝扫一扫</p>
+## 打赏
+你的支持是对我最大的鼓励，支付宝扫一扫  
 <img src="alipay.png" align="center" alt="支付宝付款二维码">
 
 
