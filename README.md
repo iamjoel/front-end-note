@@ -3,11 +3,11 @@
 <a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
 </p>
 
-用简单明了的方式记录WEB前端知识。
+**用简单明了的方式记录WEB前端知识。**
 
 ### 了解WEB前端
-* [介绍](detail/intro/about.md)
-* [学习建议](detail/intro/suggest.md)
+* [介绍](intro/about.md)
+* [学习建议](intro/suggest.md)
 * [推荐软件](detail/software)
 * [更多](intro/README.md)
 
