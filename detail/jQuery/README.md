@@ -19,7 +19,7 @@
   - [获取或设置元素信息](get-or-set-elem-info/)
 * [事件](event)
 * 动画
-* Ajax
+* [ajax](ajax/)
 * [Deferred](deferred)
 * [工具方法](utilities.md)
 * 插件
