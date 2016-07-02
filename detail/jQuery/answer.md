@@ -18,7 +18,7 @@ $( "#myselect option:selected" ).text();
 ```
 $('body').contents().filter(function(){
   return this.nodeType === 3;
-}).wrap('<p></p>')
+}).wrap('<p></p>');
 ```
 
 ## $(document).ready 和 $(window).load 有何区别

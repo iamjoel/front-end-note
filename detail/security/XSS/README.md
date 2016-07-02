@@ -3,10 +3,17 @@ XSS（Cross-site scripting）跨站脚本攻击。
 
 XSS只要包括反射型XSS和储存型XSS。     
 
-反射型：将恶意脚本代码参数的URL，当URL地址被打开时，特有的恶意代码参数被HTML解析、执行。它的特点是非持久化，必须用户打开带有特定参数的链接才能触发。
+反射型：将恶意脚本代码加入 URL 中，当 URL 被打开时，特有的恶意代码参数被执行。它的特点是非持久化，必须用户打开带有特定参数的链接才能触发。
 注：如果在request的请求和response响应中包含相同的script可执行的脚本，chrome，Firefox以及高版本IE都会进行拦截。因此，页面代码只是把请求参数的某部分输出到DOM这样的漏洞，肯定会被拦截。
 
-储存型:代码是存储在服务器中的，如在个人信息或发表文章等地方，加入代码，如果没有过滤或过滤不严，那么这些代码将储存到服务器中，用户访问该页面的时候触发代码执行。
+储存型（持久型）:代码是存储在服务器中的，如在个人信息或发表文章等地方，加入代码，如果没有过滤或过滤不严，那么这些代码将储存到服务器中，用户访问该页面的时候触发代码执行。
+
+[DOM Based XSS](https://www.owasp.org/index.php/DOM_Based_XSS): 恶意通过改变 DOM 来实施攻击。
+
+## 恶意的 JS 代码或做什么
+* 收集用户的敏感信息，如 cookie，用户键盘输入
+* 发 HTTP 请求。将收集的敏感信息发到攻击者的服务器
+* 修改 DOM 元素。可以构造一些钓鱼的表单；或修改原表单的提交地址
 
 ## 绕过技巧
 * 用户输入的内容直接输出在文本输入框。绕过方式：输入内容可以用`">`来闭合文本框，后面加的东西你可以随意的啦
@@ -29,6 +36,7 @@ XSS只要包括反射型XSS和储存型XSS。
 	* [挑战（中文版）](http://www.bugsec.org/4526.html)
 
 ## 拓展阅读
+* [Excess XSS](http://excess-xss.com/) A comprehensive tutorial on cross-site scripting
 * [心伤的瘦子的XSS](http://www.wooyun.org/whitehats/%E5%BF%83%E4%BC%A4%E7%9A%84%E7%98%A6%E5%AD%90)
 * [XSS 前端防火墙 —— 内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
 * [XSS 前端防火墙 —— 可疑模块拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-2/)
