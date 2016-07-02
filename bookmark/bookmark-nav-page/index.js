@@ -14,7 +14,7 @@ ready(function() {
       }
     }
     key = typeof key === 'string' ? key.toLowerCase() : key;
-    removeFromArray(avaliableShortcut, key);
+    avaliableShortcut = removeFromArray(avaliableShortcut, key);
     if (!shortcuts[key]) {
       shortcuts[key] = item.getAttribute('href');
 
@@ -36,15 +36,9 @@ ready(function() {
   });
 
   function removeFromArray(arr, value) {
-    var removeIndex = false;
-    arr.forEach(function(each, index) {
-      if (each == value) {
-        removeIndex = index;
-      }
+    return arr.filter(function (each) {
+      return each != value;
     });
-    if (removeIndex !== false) {
-      arr.splice(removeIndex, 1);
-    }
   }
 
 
