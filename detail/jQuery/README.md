@@ -15,7 +15,7 @@
 * [jQuery 介绍](about.md)
 * jQuery 核心
   - [选取元素](select-elem/)
-  - 遍历元素
+  - [遍历元素](iterator/)
   - [获取或设置元素信息](get-or-set-elem-info/)
 * [事件](event)
 * 动画
