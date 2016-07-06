@@ -7,6 +7,8 @@
 * 编写代码的哪些方面能够使你兴奋或感兴趣
 * 谈谈你喜欢的开发环境
 
+## 算法相关
+* [leetcode](https://leetcode.com/) 算法题的难度还是满大的。
 
 [更多](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
 
