@@ -12,8 +12,12 @@ $par.on(事件名称, 委托元素, 事件处理函数)
 
 ### 简写
 * click
+* dblclick
 * change
 * hover
+* keyup
+* keydown
+* keypress
 
 ## 解绑事件
 ### 解除某类型事件的所有事件处理函数
