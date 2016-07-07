@@ -18,6 +18,9 @@ $par.on(事件名称, 委托元素, 事件处理函数)
 * keyup
 * keydown
 * keypress
+* focus
+* blur
+* ...
 
 ## 解绑事件
 ### 解除某类型事件的所有事件处理函数
@@ -41,8 +44,8 @@ $elem.trigger(事件名称)
 * relatedTarget
 * pageX
 * pageY
-* which
-* metaKey
+* which 按下的键值
+* metaKey meta键是否被按下，在 Window 指 Windows key，在 Mac 上指 Command Key
 
 
 ## 阻止事件冒泡
@@ -97,6 +100,14 @@ $elem.mousedown(function(event) {
     case 3: /* 右击 */; break;
   }
 });
+```
+
+### 图片加载失败
+```
+$( "img" )
+  .error(function() {
+    $( this ).attr( "src", "replacement.png" );
+  })
 ```
 
 
