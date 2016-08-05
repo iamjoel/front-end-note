@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>this demo</title>
+</head>
+
+<body>
+  <script>
+  (function() {
+    console.log('*********0*********');
+    console.log(this === window);
+    var dog = {
+      name: '旺财',
+      describe: function() {
+        console.log('汪汪，我是' + this.name);
+      }
+    };
+    console.log('*********1*********');
+    dog.describe(); // 1
+
+    var Cat = function(name) {
+      this.name = name;
+    };
+    Cat.prototype = {
+      describe: function() {
+        console.log('喵喵，我是' + this.name);
+      }
+    };
+
+    var cat = new Cat('咪啊');
+    console.log('*********2*********');
+    cat.describe(); // 2
+
+    dog.catLikeDescribe = cat.describe;
+    console.log('*********1*********');
+    dog.catLikeDescribe(); // 3
+
+    window.name = '全局对象';
+    var describe = dog.describe;
+    console.log('*********4*********');
+    describe(); // 4
+
+    dog.describeWithOther = function(describeFn) {
+      this.describe();
+      describeFn();
+    };
+    console.log('*********5*********');
+    dog.describeWithOther(cat.describe); // 5
+    console.log('*********6*********');
+    dog.describeWithOther.call(cat, cat.describe); // 6
+    console.log('*********7*********');
+    dog.describeWithOther(cat.describe.bind(cat)); // 7
+
+  })();
+
+  // 输出的值
+  /*
+  0 true
+  1 汪汪，我是旺财
+  2 喵喵，我是咪啊
+  3 喵喵，我是旺财
+  4 汪汪，我是全局对象
+  5 汪汪，我是旺财 喵喵，我是全局对象
+  6 喵喵，我是咪啊 喵喵，我是全局对象
+  7 汪汪，我是旺财 喵喵，我是咪啊
+  */
+  </script>
+</body>
+
+</html>
