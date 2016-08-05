@@ -1,5 +1,12 @@
-# JavaScript 数组常用方法介绍
-## 修改数组
+# JavaScript 数组
+## 创建数组
+```
+var arr = [];
+var arr1 = [1,2,3];
+```
+
+## 常用方法
+### 修改数组
 
 * [array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) - 删除数组最后一位元素。
 ```
@@ -64,7 +71,7 @@ arr;// [1, "a", "b", "c", 4]
 
 **注意：当数组执行上面的这些方法时，都会修改原数组。**
 
-## 迭代方法
+### 迭代方法
 * [array.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) - 遍历数组。
 ```
 ['a' ,'b' ,'c'].forEach(function(each, index){
@@ -126,7 +133,7 @@ isSomePositive; // false;
 ** 注意 IE8 及以下版本不支持 every, some, map, reduce。如果想在 IE 8 及以下版本用这几个方法，可以用 [es5-shim](https://github.com/es-shims/es5-shim) 或 [lodash](https://lodash.com/)。**
 
 
-## 其他方法
+### 其他方法
 * [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) - 是否是数组。IE9+ 支持该方法。
 ```
 Array.isArray(3); // false
@@ -163,8 +170,3 @@ Array.isArray([]); // true
 ## 参考
 * [D3.js 的数组 Wiki](https://github.com/mbostock/d3/wiki/%E6%95%B0%E7%BB%84)
 * [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
-
-***
-
-*本文遵守[创作共享CC BY-NC-SA 4.0协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)*
-**网络平台如需转载必须与本人联系确认。**

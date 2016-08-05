@@ -1,13 +1,14 @@
-# ³£ÓÃ·½·¨
-## [new Date()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.3.1)
+# æ—¥æœŸ
+## åˆå§‹åŒ–
+[new Date()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.3.1)
 * new Date ()
 * new Date (str)
 * new Date (year, month [, date [, hours [, minutes [, seconds [, ms ] ] ] ] ] )
 
-iphone 5c ½âÎö new Date(2016-03-31 17:35:23) ÓĞÎÊÌâ£¬½â¾ö·½°¸
+iphone 5c Â½Ã¢ÃÃ¶ new Date(2016-03-31 17:35:23) Ã“ÃÃÃŠÃŒÃ¢Â£Â¬Â½Ã¢Â¾Ã¶Â·Â½Â°Â¸
 ```
 /*
-  * @param timestr ĞÎÈç£º2016-03-31 17:35:23
+  * @param timestr 2016-03-31 17:35:23
 */
 function toTimeValue(timestr) {
     var dateArr = timestr.split(' ')[0].split('-');
@@ -18,5 +19,23 @@ function toTimeValue(timestr) {
 }
 ```
 
-## ²Î¿¼Á´½Ó
+## æ—¥æœŸå¯¹è±¡ä¸Šçš„æ“ä½œ
+* getTime
+* getFullYear
+* getMonth
+* getDate
+* getHours
+* getMinutes
+* getSeconds
+
+
+```
+(new Date()).getTime();
+```
+
+## é™æ€å¯¹è±¡
+* Date.now()
+
+
+## å‚è€ƒ
 * [MDN Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
