@@ -23,9 +23,7 @@
   * 解释与执行机制
     * 变量提升
   * 作用域与作用域链
-  * [this](http://www.cnblogs.com/Wayou/p/all-this.html) 只是外链，缺整理的描述
-    - call,apply
-    - [bind](grammar/this/bind)
+  * [this](grammar/this)
   * [闭包](closure) TODO
   * 高阶函数
   * 原型与继承
@@ -68,3 +66,4 @@
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
+* [跟着9张思维导图学习Javascript](http://www.cnblogs.com/coco1s/p/3953653.html)
