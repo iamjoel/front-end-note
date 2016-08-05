@@ -22,6 +22,7 @@
 * [FreeCodeCamp](https://freecodecamp.cn/)
 * [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，提交代码让他人评论你的代码以提高。
 * [Codewars](http://www.codewars.com/)
+* [百度前端技术学院:任务列表](http://ife.baidu.com/task/all)
 
 ## 其他
 * [在线工具](bookmark/tool.md)
