@@ -3,19 +3,13 @@
 * [脚本写在哪](place.md)
 * 语法
   * 变量
-  * 数据类型
-    * [数字](grammar/number)
-    * [字符串](grammar/string)
-    * 布尔值
-    * 对象
-      * [数组](grammar/array)
-      * 函数
-      * [日期](grammar/date)
-      * [正则](grammar/regex)
-    * [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
-    * [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-  * [运算符](grammar/operator)
   * 注释。单行注释;多行注释。
+  * [数据类型](grammer/types)
+  * [运算符](grammar/operator)
+  * [数组](grammar/array)
+  * [日期](grammar/date)
+  * [正则](grammar/regex)
+  * 函数
   * 流程控制
     * 条件判断: if;else if;else;switch;case;default
     * 循环: while;for;break;continue
