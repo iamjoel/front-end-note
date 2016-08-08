@@ -2,7 +2,7 @@
 ## 基础知识
 * [脚本写在哪](place.md)
 * 语法
-  * 变量
+  * [基本语法](grammer/basic)
   * 注释。单行注释;多行注释。
   * [数据类型](grammer/types)
   * [运算符](grammar/operator)
@@ -60,4 +60,5 @@
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
+* [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 * [跟着9张思维导图学习Javascript](http://www.cnblogs.com/coco1s/p/3953653.html)
