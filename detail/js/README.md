@@ -2,9 +2,8 @@
 ## 基础知识
 * [脚本写在哪](place.md)
 * 语法
-  * [基本语法](grammer/basic)
-  * 注释。单行注释;多行注释。
-  * [数据类型](grammer/types)
+  * [基本语法](grammar/basic)
+  * [数据类型](grammar/types)
   * [运算符](grammar/operator)
   * [数组](grammar/array)
   * [日期](grammar/date)
