@@ -44,7 +44,7 @@ console.log(regexAbc.exec("abc")) // null
 ```
 
 
-产生上面奇怪现象的原因是：Javascript 的正则表达式是有状态的。 exec 方法，是有副作用的。当其匹配成功的时候 reg.lastIndex 会被改变。因此导致了间隔的返回 null 的情况。
+产生上面奇怪现象的原因是：Javascript 的正则表达式是有状态的, 在创建正则表达式对象时如果使用了“g”标识符或者设置它了的﻿global属性值为ture时。 exec 方法，是有副作用的。当其匹配成功的时候 reg.lastIndex 会被改变。因此导致了间隔的返回 null 的情况。
 
 因此，正确的写法是:
 ```
