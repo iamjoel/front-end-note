@@ -10,7 +10,7 @@
   * [元素类型](elem-type.md)
   * [文本（text）与文字（font）样式规则](font/font-style.md)
   * [空格 Tab;换行等:white-space](white-space)
-  * [背景样式规则](background.md)
+  * [背景样式规则](background)
   * [表格样式规则](table)
   * [列表样式规则](list.md)
   * [鼠标样式](cursor.md)

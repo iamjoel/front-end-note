@@ -36,6 +36,8 @@ background-image: url(someimage.jpg);
 * x% y%
 * xpos ypos
 
+在 CSS3 中，还可以使用 `right 20px bottom 10px` 这样的值，其等价于 `calc(100% - 20px) calc(100% - 10px)`
+
 具体的解释见[这里](http://www.w3school.com.cn/cssref/pr_background-position.asp)
 
 ## background-attachment
@@ -49,6 +51,12 @@ background-image: url(someimage.jpg);
 ```
 background: #00FF00 url(bgimage.gif) no-repeat fixed center top;
 ```
+
+## background-size
+背景图片的大小。
+
+## background-orgin
+背景图片的起点。默认是 padding-box,可以设置成 content-box 和 border-box。
 
 ## 多背景
 通过使用 CSS3，你可以向元素应用多个背景。这些背景相互堆叠，第一个背景放在最上面，最后一个背景放在最下面。 仅最后一个背景允许拥有背景色。

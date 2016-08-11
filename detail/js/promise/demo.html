@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Promise Demo</title>
+</head>
+<body>
+  <script>
+    function doThing(params) {
+      var defaultParams = {
+        aysn: true,
+        successVal: '',
+        isSuccess: true,
+        useTime: 100
+      };
+
+      params = Object.assign(defaultParams, params);
+      return function () {
+        return new Promise(function(resolve, reject){
+          if(params.aysn){
+            setTimeout(function () {
+
+            }, );
+          }
+        });
+      }
+    }
+
+
+  </script>
+</body>
+</html>
