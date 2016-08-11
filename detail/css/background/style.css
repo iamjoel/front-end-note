@@ -1,0 +1,22 @@
+body{
+  background-color: #ddd;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+.block{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #f60;
+}
+
+.bg-not-under-border,
+.bg-under-border{
+  border: 5px dashed #fff;
+}
+
+.bg-not-under-border{
+   background-clip: padding-box;
+}
