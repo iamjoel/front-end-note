@@ -30,6 +30,9 @@
 * [ajax](ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [Fetch API](fetch-api): XMLHttpRequest的最新替代技术
 * [generator函数](generator)
+* ES6 新增特性
+  * [Promise](promise)
+  * [Proxy](proxy)
 * 常用框架
   * [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) 的**[介绍](underscore-and-lodash)**
 
