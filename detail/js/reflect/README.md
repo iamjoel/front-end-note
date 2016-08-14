@@ -1,9 +1,7 @@
 # Reflect
-Reflect对象，ES6新的内置对象。
+Reflect对象，ES6新增的内置对象。
 
-在各种编程语言中，基本都有反射机制，可让用户的代码高度灵活化，主要功能就是让程序不用预先知道需要怎么去做，在做的过程中去根据过程去执行过程，虽然目前JavaScript不直接支持反射，但基本各路都已经使用了各种判断逻辑去支持反射了。
-
-Demo
+在各种编程语言中，基本都有反射机制，可让用户的代码高度灵活化，主要功能就是让程序不用预先知道需要怎么去做，在执行的过程中去根据条件去执行。虽然 ES6 之前， JavaScript 不直接支持反射，但可以通过各种判断逻辑去支持反射了。如：
 ```
 var fn  = Reflect.has(obj, 'methodName')?Reflect.get(obj, 'methodName'):Reflect.get(self, 'defaultMethod');
 fn.call();
