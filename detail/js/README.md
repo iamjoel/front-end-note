@@ -32,7 +32,8 @@
 * [generator函数](generator)
 * ES6 新增特性
   * [Promise](promise)
-  * [Proxy](proxy)
+  * [Proxy](proxy) 代理
+  * [Reflect](reflect) 反射
 * 常用框架
   * [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) 的**[介绍](underscore-and-lodash)**
 

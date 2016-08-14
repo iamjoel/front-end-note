@@ -400,6 +400,32 @@ Vue.http.interceptors.push(function(request, next) {
   });
 });
 
+### 支持 Promise
+例如
+```
+Vue.http.post('/someUrl', [optinos])
+  .then(function(res) {
+    var data = res.data;
+    return new Promise(function(resolve, reject) {
+      if (!data.error) {
+        reject()
+      } else {
+        resolve(data);
+      }
+    }.bind(this));
+  })
+  .then(function(res) {
+    var data = res.data;
+    return new Promise(function(resolve, reject) {
+      Vue.http.post('/someUrl', data).then(function (res) {
+        if(res.data){
+          resolve();
+        }
+      });
+    }.bind(this));
+  }, failFn)
+  .then(succFn, failFn);
+
 ```
 
 
