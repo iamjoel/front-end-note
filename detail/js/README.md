@@ -23,15 +23,12 @@
 * DOM
   * [事件DOMContentLoaded和load的区别](dom-content-loaded-vs-load.md)
   * [表单验证](valid-input)
-* BOM
-  * Window
-  * location
-  * navigator
+* [BOM](BOM) 浏览器对象模型。
 * [ajax](ajax.md) 缺部分具体的描述（不用jquery的写法；xhr2）
 * [Fetch API](fetch-api): XMLHttpRequest的最新替代技术
-* [generator函数](generator)
 * ES6 新增特性
   * [Promise](promise)
+  * [generator函数](generator)
   * [Proxy](proxy) 代理
   * [Reflect](reflect) 反射
 * 常用框架
