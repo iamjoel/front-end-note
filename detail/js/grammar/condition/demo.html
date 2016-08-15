@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>条件</title>
+</head>
+
+<body>
+  <script>
+  function getResult(score) {
+    var result;
+    if (score > 90) {
+      result = 'A';
+    } else if (score > 80) {
+      result = 'B';
+    } else if (score > 70) {
+      result = 'C';
+    } else {
+      result = 'D';
+    }
+    return result;
+  }
+  console.log(getResult(95));
+  console.log(getResult(85));
+  console.log(getResult(45));
+
+  function getFruitDescribe(fruitName) {
+    var describe;
+    switch (fruitName) {
+      case "Oranges":
+        describe = "Oranges are $0.59 a pound.";
+        break;
+      case "Apples":
+        describe = "Apples are $0.32 a pound.";
+        break;
+      case "Bananas":
+        describe = "Bananas are $0.48 a pound.";
+        break;
+      case "Cherries":
+        describe = "Cherries are $3.00 a pound.";
+        break;
+      case "Mangoes":
+      case "Papayas":
+        describe = "Mangoes and papayas are $2.79 a pound.";
+        break;
+      default:
+        describe = "Sorry, we are out of " + fruitName + ".";
+    }
+    return describe;
+  }
+  console.log(getFruitDescribe('Oranges'));
+  console.log(getFruitDescribe('Papayas'));
+  console.log(getFruitDescribe('Paneapple'));
+  </script>
+</body>
+
+</html>

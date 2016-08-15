@@ -9,10 +9,10 @@
   * [日期](grammar/date)
   * [正则](grammar/regex)
   * 函数
-  * 流程控制
-    * 条件判断: if;else if;else;switch;case;default
+  * 流程控制语句
+    * [条件](grammar/condition)
     * 循环: while;for;break;continue
-    * 错误处理: try;catch;finally
+  * 错误处理: try;catch;finally
   * 解释与执行机制
     * 变量提升
   * 作用域与作用域链
@@ -60,5 +60,6 @@
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
+* [JavaScript简易教程 - 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
 * [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 * [跟着9张思维导图学习Javascript](http://www.cnblogs.com/coco1s/p/3953653.html)
