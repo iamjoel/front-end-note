@@ -1,14 +1,17 @@
-body{
+body {
   background-color: #ddd;
 }
-.container{
+
+.container {
   width: 960px;
   margin: 0 auto;
 }
-.demo{
+
+.demo {
   margin-bottom: 10px;
 }
-.block{
+
+.block {
   margin-bottom: 10px;
   width: 100px;
   height: 100px;
@@ -16,15 +19,15 @@ body{
 }
 
 .bg-not-under-border,
-.bg-under-border{
+.bg-under-border {
   border: 5px dashed #fff;
 }
 
-.bg-not-under-border{
-   background-clip: padding-box;
+.bg-not-under-border {
+  background-clip: padding-box;
 }
 
-.stripe-block{
+.stripe-block {
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -32,33 +35,41 @@ body{
   height: 100px;
 }
 
-.hor-stripe-bg{
+.hor-stripe-bg {
   /* 如果某个色标的位置值比整个列表中在它之前的色标的位置值都要
 小， 则该色标的位置值会被设置为它前面所有色标位置值的最大值 ，所以下面的0 相当于 50%*/
-/* 0-50% 是 #fb3, 50%-100% #8a*/
+  /* 0-50% 是 #fb3, 50%-100% #8a*/
   background-image: linear-gradient(#fb3 50%, #58a 0);
   background-size: 100% 25px;
   background-repeat: repeat-y;
 }
 
-.hor-multi-stripe-bg{
+.hor-multi-stripe-bg {
   background-image: linear-gradient(#fb3 30%, #58a 0, #58a 80%, red 0);
   background-size: 100% 25px;
   background-repeat: repeat-y;
 }
 
-.ver-stripe-bg{
+.ver-stripe-bg {
   background-image: linear-gradient(90deg, #fb3 50%, #58a 0);
-  background-size:  25px 100%;
+  background-size: 25px 100%;
   background-repeat: repeat-x;
 }
 
-.slash-stripe-bg{
+.slash-stripe-bg {
   /*一个色块是由4条颜色组成的*/
-  background-image: repeating-linear-gradient(45deg,  #fb3, #fb3 25%, #58a 0, #58a 50%);
+  background-image: repeating-linear-gradient(45deg, #fb3, #fb3 25%, #58a 0, #58a 50%);
 }
 
-.slash60-stripe-bg{
+.slash60-stripe-bg {
   /* 条纹宽度是 10px */
-  background-image: repeating-linear-gradient(60deg,  #fb3, #fb3 10px, #58a 0, #58a 20px);
+  background-image: repeating-linear-gradient(60deg, #fb3, #fb3 10px, #58a 0, #58a 20px);
+}
+
+.fake-random-bg {
+  width: 1000px;
+  height: 200px;
+  background: hsl(20, 40%, 90%);
+  background-image: linear-gradient(90deg, #fb3 11px, transparent 0), linear-gradient(90deg, #ab4 23px, transparent 0), linear-gradient(90deg, #655 41px, transparent 0);
+  background-size: 41px 100%, 61px 100%, 83px 100%;/* 都是质数 */
 }

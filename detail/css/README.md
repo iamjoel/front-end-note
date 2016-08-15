@@ -22,7 +22,7 @@
   * [盒尺寸](box-model/box-dimensions.md)
   * [Margin](box-model/margin.md)
   * Padding
-  * Border
+  * [Border](border) 边框
 * [浮动](float)
 * [元素定位](position)
 * [BFC](BFC)
