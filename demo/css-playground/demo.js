@@ -61,7 +61,7 @@ $(document).ready(() => {
       var $this = $(this);
       var value = $this.val();
       var $editText = $this.prev('.editable-text');
-      $editText.text(tools.toHex(value));
+      $editText.text(value);
       render();
       $this.closest('.editable').removeClass('edit');
     });
