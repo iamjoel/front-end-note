@@ -8,18 +8,19 @@
   * [数组](grammar/array)
   * [日期](grammar/date)
   * [正则](grammar/regex)
-  * 函数
+  * [函数](grammar/function)
   * 流程控制语句
     * [条件](grammar/condition)
     * [循环](grammar/loop)
   * 错误处理: try;catch;finally
   * 解释与执行机制
     * 变量提升
-  * 作用域与作用域链
-  * [this](grammar/this)
+    * 关于求值：作用域与作用域链
+  * 面向对象
+    * 原型与继承
+    * [this](grammar/this)
   * [闭包](closure) TODO
   * 高阶函数
-  * 原型与继承
 * DOM
   * [事件DOMContentLoaded和load的区别](dom-content-loaded-vs-load.md)
   * [表单验证](valid-input)
