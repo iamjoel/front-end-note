@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Playground</title>
+  <link rel="stylesheet" href="style.css">
+  <style id="target-style"></style>
+</head>
+
+<body>
+  <!-- Inspired by http://css3please.com/ -->
+  <div class="container">
+    <h1 class="title">CSS Playground</h1>
+    <div class="css">
+      <span class="selector">.target</span><span class="bracket">{</span>
+      <div class="rule">
+        <span class="property">border</span>:
+        <span class="value">
+          <span class="editable">
+            <span class="editable-text">5px</span>
+            <input type="text" class="editable-value">
+          </span> solid
+          <span class="editable">
+            <span class="editable-text">#800080</span>
+            <input type="color" class="editable-value">
+          </span>
+        </span>;<span class="comment">/* 边框 */</span>
+      </div>
+      <div class="rule">
+        <span class="property">border-radius</span>:
+        <span class="value">
+          <span class="editable">
+            <span class="editable-text">15%</span>
+            <input type="text" class="editable-value">
+          </span>
+        </span>;<span class="comment">/* 圆角 */</span>
+      </div>
+      <div class="rule">
+        <span class="property">background</span>:
+        <span class="value">
+          <span class="editable">
+            <span class="editable-text">#ff8000</span>
+            <input type="color" class="editable-value">
+          </span>
+        </span>;<span class="comment">/* 背景 */</span>
+      </div>
+      <div class="rule">
+        <span class="property">color</span>:
+        <span class="value">
+          <span class="editable">
+            <span class="editable-text">#ffffff</span>
+            <input type="color" class="editable-value">
+          </span>
+        </span>;<span class="comment">/* 字的颜色 */</span>
+      </div>
+      <span class="bracket">}</span>
+    </div>
+  </div>
+
+  <div class="target">Taget</div>
+  <script src="../../asset/vendor/jquery-2.1.3.min.js"></script>
+  <script src="demo.js"></script>
+</body>
+
+</html>

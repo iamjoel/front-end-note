@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: #0c1021;
+  font-size: 14px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #fff;
+}
+
+.css {
+  font: 14px/20px Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  color: #fff;
+}
+
+.selector {
+  color: #ff6400;
+}
+
+.bracket {}
+
+.rule {
+  text-indent: 2em;
+}
+
+.property {
+  color: #8da6ce;
+}
+
+.value {
+  color: #61ce3c;
+}
+
+.editable {
+  position: relative;
+  margin-right: 5px;
+  font-size: 0;
+  color: #d8fa3c;
+  border-bottom: 1px dotted #808080;
+  padding-bottom: 1px;
+}
+
+.comment{
+  margin-left: 10px;
+  color: rgba(0,136,255,.3);
+}
+
+.editable .editable-text,
+.editable .editable-value {
+  font-size: 14px;
+}
+
+.editable .editable-value {
+  display: none;
+}
+
+.editable.edit .editable-text{
+  visibility: hidden;
+}
+.editable.edit .editable-value {
+  position: absolute;
+  display: inline;
+  background: none;
+  border: 0;
+  color: #fff;
+  left: -1px;
+  min-width: 2em;
+  outline: 0;
+  padding: 0;
+  width: 200%;
+}
+.editable.edit .editable-value[type=color]{
+    width: 58px;
+    left: -2px;
+}
+
+.target {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+  transition: all .5s ease-in-out;
+}
