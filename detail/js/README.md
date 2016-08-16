@@ -11,7 +11,7 @@
   * 函数
   * 流程控制语句
     * [条件](grammar/condition)
-    * 循环: while;for;break;continue
+    * [循环](grammar/loop)
   * 错误处理: try;catch;finally
   * 解释与执行机制
     * 变量提升

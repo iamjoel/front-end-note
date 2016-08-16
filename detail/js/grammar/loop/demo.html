@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>循环 Demo</title>
+</head>
+
+<body>
+  <script>
+  var i = 0;
+  while (i < 5) {
+    console.log(i);
+    i += 1;
+  }
+  console.log('*****');
+  for (var i = 0; i < 5; i++) {
+    console.log(i);
+  }
+  console.log('*****');
+
+  for (var i = 1; i < 8; i++) {
+    if (i % 3 == 0) {
+      continue;
+    }
+    console.log(i);
+  }
+  console.log('*****');
+
+  for (var i = 1; i < 8; i++) {
+    if (i % 3 == 0) {
+      break;
+    }
+    console.log(i);
+  }
+  </script>
+</body>
+
+</html>
