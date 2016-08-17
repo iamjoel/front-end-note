@@ -12,7 +12,7 @@
   * 流程控制语句
     * [条件](grammar/condition)
     * [循环](grammar/loop)
-  * 错误处理: try;catch;finally
+  * [错误处理机制](grammar/handle-error)
   * 解释与执行机制
     * 变量提升
     * 关于求值：作用域与作用域链
