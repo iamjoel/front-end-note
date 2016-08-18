@@ -19,7 +19,7 @@
   * 面向对象
     * 原型与继承
     * [this](grammar/this)
-  * [闭包](closure) TODO
+  * [闭包](closure)
   * 高阶函数
 * DOM
   * [事件DOMContentLoaded和load的区别](dom-content-loaded-vs-load.md)
@@ -32,6 +32,7 @@
   * [generator函数](generator)
   * [Proxy](proxy) 代理
   * [Reflect](reflect) 反射
+  * 装饰器
 * 常用框架
   * [Underscore](http://underscorejs.org/) 和 [lodash](https://lodash.com/) 的**[介绍](underscore-and-lodash)**
 
