@@ -9,4 +9,5 @@
 * [让内容恰好占一屏，适配各种尺寸的设备的实现](adapt-to-one-page)
 * [用 npm scripts 来构建前端项目的尝试](use-npm-script)
 * [项目构建工具概览](build-tool)
+* [ESlint](eslint) 验证代码格式
 * [前端性能优化概要](performance)
