@@ -29,6 +29,7 @@
 ## 文本
 * text-indent
 * text-d­eco­ration, text-s­hadow
+* text-overflow
 * line-height
 * word-s­pacing, letter­-sp­acing
 * white-­space
@@ -61,6 +62,11 @@
 * animation, animation-name, animation-duration, animation-play-state ...
 * @keyframes
 
+## 伪元素
+* content
+
 ## 其他
 * border-radius
 * cursor
+* filter
+* will-change
