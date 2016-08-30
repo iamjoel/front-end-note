@@ -50,6 +50,7 @@
   * [加载CSS的优化：Critical CSS](detail/css/critical-css.md)
 * 小贴士
   * [元素上使用id还是class](detail/css/id-or-class.md)
+* [CSS 常用属性](rule-cheatsheet.md)
 
 ## mobile 相关
 * [touch-action: manipulation;](https://adactio.com/journal/10019) 消除移动端点击 300 毫秒的延迟。
