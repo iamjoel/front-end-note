@@ -92,6 +92,7 @@
     * [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/) 包含了google免费字体库
     * [开放静态文件 CDN](http://staticfile.org/) 更多静态文件资源。由七云提供。
 * [JiaThis](http://www.jiathis.com/) 分享按钮代码
+* [Github ribbons](https://github.com/blog/273-github-ribbons) fork me on Github 的角标
 * [前端面试题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
 
 ## 网站性能
