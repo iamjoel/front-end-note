@@ -12,9 +12,9 @@
 * [更多](intro/README.md)
 
 ### 基础知识
-* [HTML](detail/html)
-* [CSS](detail/css)
-* [JavaScript](detail/js)
+* [HTML](html)
+* [CSS](css)
+* [JavaScript](js)
 * [jQuery](detail/jQuery)
 * [更多](detail/README.md)
 
