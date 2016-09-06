@@ -11,22 +11,21 @@
 * [推荐软件](detail/software)
 * [更多](intro/README.md)
 
-### 基础知识
-* [HTML](html)
-* [CSS](css)
-* [JavaScript](js)
-* [jQuery](detail/jQuery)
-* [更多](detail/README.md)
+### 语言
+* [HTML](language/html)
+* [CSS](language/css)
+* [JavaScript](language/js)
+
+### 框架
+* [jQuery](framework/jQuery)
+* [vue](framework/vue)
+
+## 构建工具
+* [webpack](build-tool/webpack)
 
 ### 资源
 * [学习资源](bookmark/learn-resource.md)
 * [网站收藏](bookmark/README.md)
-
-### 实例
-* [动画](detail/comprehensive/animate)
-* [浏览器兼容性](detail/comprehensive/browser-compatibility)
-* [用 npm scripts 来构建前端项目的尝试](detail/comprehensive/use-npm-script)
-* [更多](detail/comprehensive/README.md)
 
 ### 找工作
 * [评估自己的技术](find-jobs/assessment)
