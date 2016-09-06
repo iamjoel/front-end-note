@@ -428,6 +428,9 @@ Vue.http.post('/someUrl', [optinos])
 
 ```
 
+## 其他
+`vm.$options.filters.filter名称` 可以获取到具体的 filter
+
 
 
 
