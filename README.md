@@ -8,7 +8,7 @@
 ### 了解WEB前端
 * [介绍](intro/about.md)
 * [学习建议](intro/suggest.md)
-* [推荐软件](detail/software)
+* [推荐软件](software)
 * [更多](intro/README.md)
 
 ### 语言
