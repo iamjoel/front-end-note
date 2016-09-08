@@ -1,7 +1,7 @@
 # JS
 ## 目录
 * [介绍](intro)
-* [语法](grammer)
+* [语法](grammar)
 * [DOM](DOM)
 * [BOM](BOM)
 * [与服务端交互](interact-with-server)
