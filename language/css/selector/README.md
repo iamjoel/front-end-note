@@ -116,6 +116,7 @@ CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
 * `:after` 在元素之后添加内容
 * `:first-line`  向文本的首行添加特殊样式
 * `:first-letter` 向文本的第一个字母添加特殊样式
+* `::-webkit-input-placeholder` 设置 placeholder
 
 
 ## <a name="selector-weight">选择器权重</a>

@@ -12,11 +12,24 @@
 * [Blending Modes in CSS: Color Theory and Practical Application](http://webdesign.tutsplus.com/tutorials/blending-modes-in-css-color-theory-and-practical-application--cms-25201) 混合模式的不同值的颜色值算法。
 * [Masking in the Browser with CSS and SVG](http://www.sitepoint.com/masking-in-the-browser-with-css-and-svg/)
 * [CSS custom properties (native variables) In-Depth](https://blog.gospodarets.com/css_properties_in_depth) CSS 变量
+* [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
+* CSS Modules
+  * http://x-team.com/2015/08/css-modules-a-new-way-to-css/
+  * https://github.com/css-modules/webpack-demo/
+  * [【译】CSS 模块](http://www.w3ctech.com/topic/1479)
+* CSS clip path
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+  * https://css-tricks.com/almanac/properties/c/clip/
+* Post CSS
+  * http://webdesign.tutsplus.com/tutorials/using-postcss-for-cross-browser-compatibility--cms-24567
+
 
 ### 酷炫效果
 * [Star Wars 文字动画](https://cssanimation.rocks/starwars/)
 * [Water In A Bubble](https://codepen.io/gingerdude/pen/JXwgdK)
-
+* [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
+* [Advanced CSS filters](http://iamvdo.me/en/blog/advanced-css-filters) 滤镜的 Demo
+* [利用jQuery和CSS实现环形进度条](http://www.w3cplus.com/css3/create-radial-progress-bar-with-jQuery-and-css3.html)
 
 ## JS
 ### 介绍

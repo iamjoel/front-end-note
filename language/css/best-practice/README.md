@@ -23,7 +23,8 @@ background-color: expression((new Date()).getHours()%2?"#FFFFFF": "#000000" );
 但是，在页面显示，缩放时，页面滚动、乃至移动鼠标时都会要重新计算css表达式的值，以致产生性能的影响。
 
 ### css选择器的优化
-http://www.w3cplus.com/css/css-selector-performance
+* http://www.w3cplus.com/css/css-selector-performance
+* [Efficiently Rendering CSS（高效的写选择器）](https://css-tricks.com/efficiently-rendering-css/)
 
 ### 移除无匹配的样式
 移除无匹配的样式，有两个好处：
@@ -31,6 +32,7 @@ http://www.w3cplus.com/css/css-selector-performance
 2. 对于浏览器而言，所有的样式规则的都会被解析后索引起来，即使是当前页面无匹配的规则。移除无匹配的规则，减少索引项，加快浏览器查找速度
 
 [gulp-uncss](https://github.com/ben-eb/gulp-uncss) 可以删除没有用到的CSS
+
 
 ## 参考
 * http://web-design-weekly.com/2014/07/17/dealing-with-a-large-css-codebase

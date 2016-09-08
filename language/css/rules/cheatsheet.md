@@ -70,3 +70,9 @@
 * cursor
 * filter
 * will-change
+* -webkit-overflow-scrolling :设置为 touch 滚动会带惯性
+
+## 更多
+* [-webkit- CSS](http://ued.ctrip.com/webkitcss/index.html)
+* [CSS参考手册](http://css.doyoe.com/)
+* [CSS的未来：一些试验性CSS属性](http://www.qianduan.net/the-future-of-css-experimental-css-properties/)
