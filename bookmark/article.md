@@ -71,3 +71,4 @@ else {
 * [The state of Web Components](https://hacks.mozilla.org/2015/06/the-state-of-web-components)
 * [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.hbilswjcl)
 * [程序员的自我修养](http://wiki.jikexueyuan.com/project/a-programmer-prepares/)
+* [UserAgent的历史变迁](http://article.yeeyan.org/view/heart5/19211) 每个浏览器都宣称自己是其他浏览器的乱象的由来
