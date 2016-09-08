@@ -31,12 +31,22 @@ for(var i = 0, arrLen = arr.length; i < arrLen; i++){
 * 对属性的说明，如 readonly,nonenumberable
 * 类型检查
 
+## 策略模式
+http://www.cnblogs.com/tugenhua0707/p/4722696.html
+
+## 其他
+* 单向数据流
+  * Flux
+  * [Redux](http://redux.js.org/)
+  * [Vuex](https://github.com/vuejs/vuex)
+* 由前端决定数据形状
+  * [relay](https://github.com/facebook/relay) Facebook
+    * [GraphQL and Relay 浅析](http://zhuanlan.zhihu.com/purerender/20638731)
+  * [falcor](https://github.com/Netflix/falcor) Netflix
+
 ### 拓展阅读
 * [极客学院 装饰模式](http://wiki.jikexueyuan.com/project/javascript-design-patterns/decorative-pattern.html)
 * [细说ES7 JavaScript Decorators](http://greengerong.com/blog/2015/09/24/es7-javascript-decorators/)
 * [ES7之Decorators实现AOP示例](http://greengerong.com/blog/2015/09/23/es7-zhi-decorators-shi-xian-aopshi-li/)
 * [core-decorators.js](https://github.com/jayphelps/core-decorators.js) 实现的一些过滤器。
-
-
-## 拓展阅读
 * [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/#jquery-patterns)

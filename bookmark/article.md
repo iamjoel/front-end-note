@@ -30,6 +30,7 @@
 * [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
 * [Advanced CSS filters](http://iamvdo.me/en/blog/advanced-css-filters) 滤镜的 Demo
 * [利用jQuery和CSS实现环形进度条](http://www.w3cplus.com/css3/create-radial-progress-bar-with-jQuery-and-css3.html)
+* [如何使用JavaScript生成lowpoly风格图像？](https://www.zhihu.com/question/29856775)
 
 ## JS
 ### 介绍

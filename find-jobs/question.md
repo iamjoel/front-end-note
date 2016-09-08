@@ -10,7 +10,7 @@
 ## 算法相关
 * [leetcode](https://leetcode.com/) 算法题的难度还是满大的。
 
-[更多](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
-
+* [更多](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese)
+* [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
 
 
