@@ -5,27 +5,27 @@
 
 **用简单明了的方式记录WEB前端知识。**
 
-### 了解WEB前端
+## 了解WEB前端
 * [介绍](intro/about.md)
 * [学习建议](intro/suggest.md)
 
-### 语言
+## 语言
 * [HTML](language/html)
 * [CSS](language/css)
 * [JavaScript](language/js)
 
-### 框架
+## 框架
 * [jQuery](framework/jQuery)
 * [vue](framework/vue)
 
 ## 构建工具
 * [webpack](build-tool/webpack)
 
-### 资源
+## 资源
 * [学习资源](resource/bookmark/learn-resource.md)
 * [网站收藏](resource/bookmark/README.md)
 
-### 找工作
+## 找工作
 * [评估自己的技术](find-jobs/assessment)
 * [面试问题](find-jobs/question.md)
 
