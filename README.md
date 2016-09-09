@@ -8,8 +8,6 @@
 ### 了解WEB前端
 * [介绍](intro/about.md)
 * [学习建议](intro/suggest.md)
-* [推荐软件](software)
-* [更多](intro/README.md)
 
 ### 语言
 * [HTML](language/html)
@@ -24,14 +22,15 @@
 * [webpack](build-tool/webpack)
 
 ### 资源
-* [学习资源](bookmark/learn-resource.md)
-* [网站收藏](bookmark/README.md)
+* [学习资源](resource/bookmark/learn-resource.md)
+* [网站收藏](resource/bookmark/README.md)
 
 ### 找工作
 * [评估自己的技术](find-jobs/assessment)
 * [面试问题](find-jobs/question.md)
-* [Web前端程序员简历模板](find-jobs/resume.md)
-* [更多](find-jobs/README.md)
+
+## 其他
+* [推荐软件](software)
 
 ## 打赏
 你的支持是对我最大的鼓励，支付宝扫一扫  
