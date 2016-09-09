@@ -1,11 +1,11 @@
-<h1 align="center">WEB 前端开发学习笔记</h1>
+<h1 align="center">Web 前端开发学习笔记</h1>
 <p align="center">
 <a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
 </p>
 
 **用简单明了的方式记录WEB前端知识。**
 
-## 了解WEB前端
+## 了解 Web 前端
 * [介绍](intro/about.md)
 * [学习建议](intro/suggest.md)
 
