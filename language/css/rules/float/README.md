@@ -1,7 +1,7 @@
 # 浮动
 ## 什么是浮动
 浮动(Float)可用于实现文字环绕效果
-![浮动](../../../asset/float/float.png)
+![浮动](image/float.png)
 
 语法
 ```
@@ -15,7 +15,7 @@ float: left|right|none;
 
 ## 浮动的影响
 
-![浮动的影响](../../../asset/float/effect.png)
+![浮动的影响](image/effect.png)
 
 ## 如何去除浮动的影响
 在浮动元素的父节点加`clearfix`的类名。`clearfix`的定义如下：

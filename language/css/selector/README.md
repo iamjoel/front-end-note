@@ -145,9 +145,9 @@ CSS选择器的读取顺序是从右向左。
 
 
 ## <a name="compatibility">兼容性</a>
-![css1](../../asset/browser-selector-compatibility/css1.png)
-![css2](../../asset/browser-selector-compatibility/css2.png)
-![css3](../../asset/browser-selector-compatibility/css3.png)
+![css1](image/css1.png)
+![css2](image/css2.png)
+![css3](image/css3.png)
 
 ## <a name="homework">作业</a>
 写满足以下条件的选择器

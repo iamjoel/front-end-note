@@ -9,7 +9,7 @@
 如果用 setInterval 来做动画，每帧时间大概设置成13ms（jQuery 用的 13ms）。因为用 setInterval 会有1ms左右的延时。当然在高级浏览器中，当然是用 requestAnimationFrame 来做动画啦。
 
 在Chrome中查看帧率    
-![在Chrome中查看帧率](../../../asset/anim-perfomance/show-fps.png)
+![在Chrome中查看帧率](image/show-fps.png)
 
 ## 网页不同帧率的体验
 * 帧率能够达到50~60fps的动画将会相当流畅，让人倍感舒适。
@@ -65,7 +65,7 @@ Chrome 中，图层分为 RenderLayer(负责 DOM 子树)，GraphicsLayer(负责 
 * 改变透明度（透明度改变不会触发重绘哦）
 
 在chrome浏览器中查看复合层的方式为    
-![查看复合层的方式为](../../../asset/anim-perfomance/show-composited-layer.png)    
+![查看复合层的方式为](image/show-composited-layer.png)    
 页面上的复合层会有黄色边框。
 
 
