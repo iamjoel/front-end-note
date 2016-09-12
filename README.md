@@ -5,9 +5,8 @@
 
 **用简单明了的方式记录WEB前端知识。**
 
-## 了解 Web 前端
-* [介绍](intro/about.md)
-* [学习建议](intro/suggest.md)
+## 关于 Web 前端
+* [前端知识结构](intro/knowledge-structure.md)
 
 ## 语言
 * [HTML](language/html)
