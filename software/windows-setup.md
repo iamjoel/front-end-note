@@ -19,6 +19,3 @@
 * [Beyond Compare](http://www.scootersoftware.com/download.php)
 * [Everything](http://www.voidtools.com/) 文件搜索工具
 * [Clover](http://cn.ejie.me/) 多标签的资源管理器
-
-## 其他
-* [云梯](https://www.secureurdata.com/)
