@@ -5,13 +5,13 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 Demos 见[这里](https://github.com/iamjoel/front-end-demos/tree/master/demos/es6)。
 
 ## 目录
-* [块作用域变量定义：let 和 常量定义 const](let-and-const)
-* [模板字符串](template-string)
-* [解构（Destructing）](destructing)
-* [不定参数和默认参数](rest-parameters-and-defaults)
-* [for-of 循环](for-of)
-* [迭代器](iterator)
-* [箭头函数](arrow-function)
+* [块作用域变量定义：let 和 常量定义 const](let-and-const.md)
+* [模板字符串](template-string.md)
+* [解构（Destructing）](destructing.md)
+* [不定参数和默认参数](rest-parameters-and-defaults.md)
+* [for-of 循环](for-of.md)
+* [迭代器](iterator.md)
+* [箭头函数](arrow-function.md)
 * [展开运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 * 新的数据类型: Map 和 Set
 * [生成器：Generators](generator.md)
