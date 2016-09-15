@@ -81,6 +81,8 @@ git config --global alias.ph push
 git config core.ignorecase false
 ```
 
+### Difference between matching and simple Git push
+https://github.com/miroadamy/miroadamy-dot-com/wiki/Difference-between-matching-and-simple---Git-push
 
 ## <a name="practice">练习</a>
 1. 安装[Github](https://github.com/)的客户端 [windows 版下载](https://windows.github.com/)

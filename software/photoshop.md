@@ -32,3 +32,31 @@
 ## 其他
 * `Alt + Ctrl + 方向键` 向某个方向复制黏贴选区像素。
 * `ctrl + K` 打开首选项
+
+## 破解 Adobe Photoshop CC
+这里以 Mac 版为例。Windows 也类似
+1 断网安装
+2 在 hosts 文件(位于`/ect/hosts`)中加如下内容：  
+```
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 lmlicenses.wip4.adobe.com
+127.0.0.1 lm.licenses.adobe.com
+127.0.0.1 na1r.services.adobe.com
+127.0.0.1 hlrcv.stage.adobe.com
+```
+3 方法1，启动 Photoshop，点击连接Intenet时出现问题，然后用注册机完成剩下部分。方法2，把破解的 amtlib.framework 替换 Adobe Photoshop CC 2015.5.app/Contents/Frameworks 下的 amtlib.framework。
+
+详细见[这里](http://www.waitsun.com/adobe-cc-2015-sn.html)和[这里](http://www.yunrui.co/33230.html)。
