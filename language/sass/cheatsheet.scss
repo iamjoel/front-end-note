@@ -1,0 +1,102 @@
+// 变量定义
+$font-stack: Helvetica,
+sans-serif;
+$primary-color: #333;
+body {
+  font: 100% $font-stack 14px;
+  color: $primary-color;
+}
+
+
+/* 变量定义结束 */
+
+// 嵌套
+.box {
+  .title {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .content {
+    padding: 10px;
+    .pager {
+      text-align: center;
+    }
+  }
+  // &表示外层的元素
+  &:hover {
+    outline: 1px solid #ddd;
+  }
+}
+
+// 属性嵌套
+.font {
+  font: {
+    style: normal;
+    weight: bold;
+    size: 14px;
+  }
+}
+
+
+/* 嵌套结束 */
+
+// Partials and Import
+@import 'reset';
+
+/* Partials and Import结束 */
+
+// Mixins
+// :默认值
+@mixin border-radius($radius:5px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.default-box {
+  @include border-radius();
+}
+
+.box {
+  @include border-radius(10px);
+}
+
+
+/* Mixins结束 */
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+
+/* 继承结束 */
+
+.container {
+  width: 100%;
+}
+
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complimentary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
+
+
+/* 操作符结束 */

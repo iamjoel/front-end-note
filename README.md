@@ -10,7 +10,7 @@
 
 ## [语言](https://github.com/iamjoel/front-end-note/blob/master/language/)
 * [HTML](https://github.com/iamjoel/front-end-note/blob/master/language/html)
-* [CSS](https://github.com/iamjoel/front-end-note/blob/master/language/css)
+* [CSS](https://github.com/iamjoel/front-end-note/blob/master/language/css) [Sass](https://github.com/iamjoel/front-end-note/blob/master/language/sass)
 * [JavaScript](https://github.com/iamjoel/front-end-note/blob/master/language/js)
 
 ## [框架](https://github.com/iamjoel/front-end-note/blob/master/framework/)
