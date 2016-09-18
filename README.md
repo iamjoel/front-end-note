@@ -8,23 +8,23 @@
 ## 关于 Web 前端
 * [前端知识结构](https://github.com/iamjoel/front-end-note/blob/master/intro/knowledge-structure.md)
 
-## 语言
+## [语言](https://github.com/iamjoel/front-end-note/blob/master/language/)
 * [HTML](https://github.com/iamjoel/front-end-note/blob/master/language/html)
 * [CSS](https://github.com/iamjoel/front-end-note/blob/master/language/css)
 * [JavaScript](https://github.com/iamjoel/front-end-note/blob/master/language/js)
 
-## 框架
+## [框架](https://github.com/iamjoel/front-end-note/blob/master/framework/)
 * [jQuery](https://github.com/iamjoel/front-end-note/blob/master/framework/jQuery)
 * [vue](https://github.com/iamjoel/front-end-note/blob/master/framework/vue)
 
-## 构建工具
+## [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/
 * [webpack](https://github.com/iamjoel/front-end-note/blob/master/build-tool/webpack)
 
-## 资源
+## [资源](https://github.com/iamjoel/front-end-note/blob/master/resource/)
 * [学习资源](https://github.com/iamjoel/front-end-note/blob/master/resource/bookmark/learn-resource.md)
 * [网站收藏](https://github.com/iamjoel/front-end-note/blob/master/resource/bookmark/README.md)
 
-## 找工作
+## [找工作](https://github.com/iamjoel/front-end-note/blob/master/find-jobs/)
 * [评估自己的技术](https://github.com/iamjoel/front-end-note/blob/master/find-jobs/assessment)
 * [面试问题](https://github.com/iamjoel/front-end-note/blob/master/find-jobs/question.md)
 
