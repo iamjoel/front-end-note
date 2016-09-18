@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JSX</title>
+</head>
+
+<body>
+    <div id="target"></div>
+    <script src="../assets/vendor/react/react.js"></script>
+    <script src="../assets/vendor/react/JSXTransformer.js"></script>
+    <script type="text/jsx">
+    // js代码放在{}中
+    (function() {
+      var arr = [
+        <h1>Hello world!</h1>,
+        <h2>React is awesome</h2>,
+      ];
+      var name = 'joel';
+      function sayHello () {
+          return 'hello ' + name;
+      }
+      React.render(
+        <div>
+            {/* 一般注释, 用 {} 包围 */}
+            变量:{name}<br/>
+            {/* 多
+         行
+         注释 */}
+            函数调用: {sayHello()}<br/>
+            遍历数组:
+            <ul>
+                {
+                    arr.map(function (each) {
+                        return <li>{each}</li>;
+                    })
+                }
+            </ul>
+            <div>
+                <h2>数组是能自己输出</h2>
+                {arr}
+            </div>
+            三元表达式: {name == "joel"? 'cool': 'not cool'}<br/>
+            不支持在元素中混用if：<a href="https://facebook.github.io/react/tips/if-else-in-JSX.html" target="_blank">详细说明</a>。但可以用三元表达式或函数调用来做。可以在直接执行的函数中使用<br/>
+            {
+                (function (argument) {
+                    if(true){
+                        return 'aaa'
+                    }
+                })()
+            }
+            <h2>XSS</h2>
+            <div>{'被转义了，哈哈：<div>aaa</div>'}</div>
+            <div dangerouslySetInnerHTML={{__html: '迫不得已：<div>aaa</div>'}} />
+            <div data-id="3" other="bbb" aria-hidden="true">{'如果往原生 HTML 元素里传入 HTML 规范里不存在的属性，React 不会显示它们。如果需要使用自定义属性，要加 data- 前缀。'}</div>
+
+        </div>,
+        document.getElementById('target')
+      );
+    })()
+
+    </script>
+</body>
+
+</html>

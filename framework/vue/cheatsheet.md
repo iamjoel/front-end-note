@@ -299,7 +299,19 @@ this.$children 访问它的子组件。
 ```
 template 用于包含多个元素的块,最终的渲染结果不会包含 template 元素。
 
+### Vue.set 和 Vue.delete
+用于解决 不能检测到属性添加，属性删除的限制。
 
+### Vue.nextTick
+```
+// 修改数据
+vm.msg = 'Hello'
+// DOM 没有更新
+Vue.nextTick(function () {
+  // DOM 更新了
+})
+```
+Vue 在检测到数据变化时是异步更新 DOM 的。具体见 [异步更新队列](http://cn.vuejs.org/guide/reactivity.html#u5F02_u6B65_u66F4_u65B0_u961F_u5217)。vm 上也有 `this.$nextTick`。
 
 ## vue 插件
 ### 路由: vue-router

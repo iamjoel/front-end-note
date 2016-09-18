@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>组件</title>
+</head>
+
+<body>
+    <div id="target"></div>
+    <div id="target2"></div>
+    <script src="../assets/vendor/react/react.js"></script>
+    <script src="../assets/vendor/react/JSXTransformer.js"></script>
+    <script type="text/jsx">
+    (function() {
+        var HelloMessage = React.createClass({
+          render: function() {
+            return <h1>Hello {this.props.name}</h1>;
+          }
+        });
+
+        React.render(
+          <HelloMessage name="John" />,
+          document.getElementById('target')
+        );
+
+        // 通过this.props.children可以拿到元素节点的内部内容
+        var NotesList = React.createClass({
+          render: function() {
+            return (
+              <ol>
+              {
+                this.props.children.map(function (child) {
+                  return <li>{child}</li>
+                })
+              }
+              </ol>
+            );
+          }
+        });
+
+        React.render(
+          <NotesList>
+            <span>hello</span>
+            <span>world</span>
+          </NotesList>,
+          document.getElementById('target2')
+        );
+    })()
+
+    </script>
+</body>
+
+</html>
