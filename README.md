@@ -16,6 +16,7 @@
 ## [框架](https://github.com/iamjoel/front-end-note/blob/master/framework/)
 * [jQuery](https://github.com/iamjoel/front-end-note/blob/master/framework/jQuery)
 * [vue](https://github.com/iamjoel/front-end-note/blob/master/framework/vue)
+* [cordova](https://github.com/iamjoel/front-end-note/blob/master/framework/cordova.md)
 
 ## [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/)
 * [webpack](https://github.com/iamjoel/front-end-note/blob/master/build-tool/webpack)
