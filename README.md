@@ -17,7 +17,7 @@
 * [jQuery](https://github.com/iamjoel/front-end-note/blob/master/framework/jQuery)
 * [vue](https://github.com/iamjoel/front-end-note/blob/master/framework/vue)
 
-## [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/
+## [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/)
 * [webpack](https://github.com/iamjoel/front-end-note/blob/master/build-tool/webpack)
 
 ## [资源](https://github.com/iamjoel/front-end-note/blob/master/resource/)
