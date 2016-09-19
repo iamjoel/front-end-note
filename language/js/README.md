@@ -8,6 +8,7 @@
 * [ES6](ES6)
 * [函数式编程](function-programming)
 * [设计模式](pattern)
+* [Node.js](nodejs)
 
 ## 教程
 * [JavaScript 标准参考教程（alpha）-阮一峰](http://javascript.ruanyifeng.com/)
