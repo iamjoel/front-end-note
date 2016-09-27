@@ -1,4 +1,4 @@
-# ES6 学习
+# ES6
 ## ES6 简介
 ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已经在 2015 年 6 月正式发布了。它的目标，是使得 JavaScript 语言可以用来编写复杂的大型应用程序，成为企业级开发语言。因为当前版本的ES6是在2015年发布的，所以又称 ECMAScript 2015。
 
@@ -22,3 +22,5 @@ Demos 见[这里](https://github.com/iamjoel/front-end-demos/tree/master/demos/e
 * 类（Class）与继承
 * 模块
 
+## 文档
+* [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
