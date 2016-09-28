@@ -163,7 +163,3 @@ var html = `
 * [ECMAScript 6入门](http://es6.ruanyifeng.com/) 阮一峰老师写的。
 * [深入浅出 ES6 的中文版](http://www.infoq.com/cn/es6-in-depth/) [原文](https://hacks.mozilla.org/category/es6-in-depth/)。
 * [ES6 Katas](http://es6katas.org/) 通过写ES6的代码来学习ES6。修复失败的测试来学习这些知识。
-***
-
-*本文遵守[创作共享CC BY-NC-SA 4.0协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)*
-**网络平台如需转载必须与本人联系确认。**
