@@ -79,7 +79,28 @@ var sumFn = (...nums) => {
 }
 ```
 
-## [解构(Destructuring)赋值](http://www.infoq.com/cn/articles/es6-in-depth-destructuring) 
+## [展开运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+### 数组和字符串的展开
+ES5
+
+```
+var a1 = [1, 2]
+var a2 = [0].concat(a1).concat(3)
+doSth('abc'.split())
+function doSth(x, y, z){}
+```
+
+
+ES6
+
+```
+var a1 = [1, 2]
+var a2 = [0, ...a1, 3]
+doSth(...'abc')
+function doSth(x, y, z){}
+```
+
+## [解构(Destructuring)赋值](http://www.infoq.com/cn/articles/es6-in-depth-destructuring)
 ### 交换两个变量的值
 ES5
 

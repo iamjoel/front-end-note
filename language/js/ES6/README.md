@@ -24,3 +24,4 @@ Demos 见[这里](https://github.com/iamjoel/front-end-demos/tree/master/demos/e
 
 ## 文档
 * [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
+* [Pony 的 ES6 系列](https://ponyfoo.com/articles/tagged/es6)
