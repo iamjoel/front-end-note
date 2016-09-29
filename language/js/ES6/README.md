@@ -13,15 +13,19 @@ Demos 见[这里](https://github.com/iamjoel/front-end-demos/tree/master/demos/e
 * [迭代器](iterator.md)
 * [箭头函数](arrow-function.md)
 * [展开运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_operator)
-* 新的数据类型: Map 和 Set
+* [Promise](https://ponyfoo.com/articles/es6-promises-in-depth)
 * [生成器：Generators](generator.md)
-* Symbols
+* [Symbols](https://ponyfoo.com/articles/es6-symbols-in-depth)
 * 集合
+  * [Set](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Set) [WeakSet](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
+  * [Map](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map) [WeakMap](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
+* [迭代器](https://ponyfoo.com/articles/es6-iterators-in-depth)
 * [代理（Proxies）](proxy.md)
 * [反射](reflect.md)
-* 类（Class）与继承
-* 模块
+* [类（Class）与继承](https://ponyfoo.com/articles/es6-classes-in-depth)
+* [模块](https://ponyfoo.com/articles/es6-modules-in-depth)
 
 ## 文档
 * [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
+* [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 * [Pony 的 ES6 系列](https://ponyfoo.com/articles/tagged/es6)
