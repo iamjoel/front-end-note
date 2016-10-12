@@ -410,6 +410,7 @@ Vue.http.interceptors.push(function(request, next) {
     }
   });
 });
+```
 
 ### 支持 Promise
 例如
