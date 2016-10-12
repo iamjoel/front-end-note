@@ -28,4 +28,5 @@ node_modules
 
 # Sass compass
 .sass-cache
+.map
 

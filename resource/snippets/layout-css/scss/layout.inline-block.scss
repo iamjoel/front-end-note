@@ -1,0 +1,32 @@
+// inspired by Kite http://hiloki.github.io/kitecss/
+.ly {
+  display: table; // For Android: Android doesn't fill in `inline-block` gaps. `display: table;` magic fills in them.
+  width: 100%;
+  font-size: 0 !important;
+  &--center {
+    text-align: center;
+  }
+  &--right {
+    text-align: right;
+  }
+  &--justify {
+    display: block;
+    text-align: justify;
+    &:after {
+      content: '';
+      width: 100%;
+      display: inline-block;
+    }
+  }
+  &--fill>&__item{
+    display: table-cell;
+  }
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;/* default font size */
+    &--fill{
+      width: 100%;
+    }
+  }
+}
