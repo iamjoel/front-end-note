@@ -1,5 +1,4 @@
 # vue.js
-[官网](http://cn.vuejs.org/)
 
 ## Hello World
 ```
