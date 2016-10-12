@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+  font: 100% Helvetica, sans-serif 14px;
+  color: #333; }
+
+/* 变量定义结束 */
+.box .title {
+  font-size: 18px;
+  padding-left: 10px; }
+.box .content {
+  padding: 10px; }
+  .box .content .pager {
+    text-align: center; }
+.box:hover {
+  outline: 1px solid #ddd; }
+
+.font {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px; }
+
+/* 嵌套结束 */
+body {
+  margin: 0; }
+
+/* Partials and Import结束 */
+.default-box {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+/* Mixins结束 */
+.message, .success, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+/* 继承结束 */
+.container {
+  width: 100%; }
+
+article[role="main"] {
+  float: left;
+  width: 62.5%; }
+
+aside[role="complimentary"] {
+  float: right;
+  width: 31.25%; }
+
+/* 操作符结束 */
+.isCool {
+  color: #fff; }
+
+.notCool {
+  color: #000; }
+
+/* 条件结束 */
+
+/*# sourceMappingURL=overview.css.map */

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 // 变量定义
 $font-stack: Helvetica,
 sans-serif;
@@ -100,3 +101,19 @@ aside[role="complimentary"] {
 
 
 /* 操作符结束 */
+
+$isCool: true;
+@if $isCool {
+  .isCool{
+    color: #fff;
+  }
+}
+$isCool: false;
+@if $isCool {
+} @else {
+   .notCool{
+    color: #000;
+  }
+}
+
+/* 条件结束 */

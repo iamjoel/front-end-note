@@ -1,24 +1,6 @@
 # [Sass](http://sass-lang.com/)
-> Sass是世界上最成熟，稳定强大的专业的CSS拓展语言
-
-## [Sass官网](http://sass-lang.com/)上对Sass的介绍
-### 与CSS兼容
-Sass和所有版本的CSS完全兼容。我们非常认真的对待兼容性，因此你可以放心的使用可用的CSS库。
-
-### 丰富的特性
-Sass可以自夸的说比其他CSS拓展语言有更多的特性和功能。Sass核心团队不停的努力工作，不仅为了保持进步还为保持领先。
-
-### 成熟
-热爱Sass的核心团队积极的为Sass提供支持已经超过8年了。
-
-### 工业认可
-一而再，再而三的，工业上把Sass作为CSS拓展语言的首选。
-
-### 庞大的社区
-许多技术公司和开发者活跃地为Sass提供支持和开发。
-
-### 框架
-非常多的框架是用Sass构建的。[Compass](http://compass-style.org/),[Bourbon](http://bourbon.io/),[Susy](http://susy.oddbird.net/)只是其中的一部分。
+* [介绍](intro.md)
+* [写法概览](overview.scss)
 
 ## 安装
 Mac上的安装如下  
