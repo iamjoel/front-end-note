@@ -3,3 +3,6 @@
 * [HTML 代码片段](html.md)
 * [获取图片的原始大小的宽高](get-image-h-and-w.html)
 * [将url的查询参数解析成字典对象](get-query-obj.js)
+* 文件模板
+  * [CMD-style JS](CMD-style/demo.js)
+  * [页面 JS](file-template/page/template.js)

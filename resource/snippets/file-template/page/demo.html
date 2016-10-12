@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script src="template.js"></script>
+  <script>
+    (function () {
+      Main({
+        init: function () {
+          console.log('init')
+        },
+        registerEvent: function () {
+          console.log('registerEvent')
+        },
+        render: function () {
+          console.log('render')
+        }
+      })
+
+      new Main({
+        init: function () {
+          console.log('init2')
+        },
+        registerEvent: function () {
+          console.log('registerEvent2')
+        }
+      })
+    })()
+  </script>
+</body>
+</html>
