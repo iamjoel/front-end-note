@@ -1,107 +1,50 @@
-@charset "UTF-8";
-// 变量定义
-$font-stack: Helvetica,
-sans-serif;
-$primary-color: #333;
+@charset 'utf-8';// 不加这行，文件中有中文时会报错
+// 注释
+// 用 // 表示单行注释，不会输出在 CSS 中。
+// 用 /* */ 表示多行注释，会输出在 CSS 中。
+/*
+  @author: Joel
+  @describe Sass syntax overview
+*/
+
+// 变量
 body {
-  font: 100% $font-stack 14px;
-  color: $primary-color;
+  $primary-color: #333; // 定义变量。作用域为括号。
+  color: $primary-color; // 使用变量
+  $base-line: 2px;
+  $base-line: 1px !default;
+  @debug 'base line is ' $base-line;// 2px。 !default 定义的变量不会覆盖前面定义的同名变量。
+  $gloable-red-color: #f00 !global; // 全局变量
 }
+// @debug 'primary color:' + $primary-color;//Undefined variable: "$primary-color"
+@debug 'gloable color' + $gloable-red-color;
 
 
-/* 变量定义结束 */
+// 数据类型
+// 字符串
+$str: 'str1' + 'str2';
+@debug $str; 
+// 数字
+$num: 4 + 5;
+@debug $num;
+$width: 10px;
+@debug $width/2;// 5px
+// 数组。数组的元素可以由空格或逗号分割
+$list: 10px 20px 10px;
+@debug '数组第2个元素:' + nth($list, 2);
+$list2: 10,30,50;
+@debug '数组的分隔符是:' + list-separator($list2);
+// 颜色
+$orange: #f60; // 颜色
+@debug '橙色的红色部分的值为' + red($orange);
+// Map
+$map: ('name': 'joel', 'gender': 'male');
+@debug map-get($map, 'name') + '\'s gender is ' + map-get($map, 'gender');
 
-// 嵌套
-.box {
-  .title {
-    font-size: 18px;
-    padding-left: 10px;
-  }
-  .content {
-    padding: 10px;
-    .pager {
-      text-align: center;
-    }
-  }
-  // &表示外层的元素
-  &:hover {
-    outline: 1px solid #ddd;
-  }
-}
+// 引入 Sass 或 Scss 文件
+@import 'reset';// 等效于 @import 'reset.scss';如果找不到 reset.scss 也会找_reset.scss
 
-// 属性嵌套
-.font {
-  font: {
-    style: normal;
-    weight: bold;
-    size: 14px;
-  }
-}
-
-
-/* 嵌套结束 */
-
-// Partials and Import
-@import 'reset';
-
-/* Partials and Import结束 */
-
-// Mixins
-// :默认值
-@mixin border-radius($radius:5px) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  -ms-border-radius: $radius;
-  border-radius: $radius;
-}
-
-.default-box {
-  @include border-radius();
-}
-
-.box {
-  @include border-radius(10px);
-}
-
-
-/* Mixins结束 */
-
-.message {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
-}
-
-.success {
-  @extend .message;
-  border-color: green;
-}
-
-.error {
-  @extend .message;
-  border-color: red;
-}
-
-
-/* 继承结束 */
-
-.container {
-  width: 100%;
-}
-
-article[role="main"] {
-  float: left;
-  width: 600px / 960px * 100%;
-}
-
-aside[role="complimentary"] {
-  float: right;
-  width: 300px / 960px * 100%;
-}
-
-
-/* 操作符结束 */
-
+// 条件语句
 $isCool: true;
 @if $isCool {
   .isCool{
@@ -116,4 +59,98 @@ $isCool: false;
   }
 }
 
-/* 条件结束 */
+// 循环
+$map: ('a': #f00, 'b': #0f0, 'c': #00f);
+@each $key, $value in $map {
+  .section-#{$key} {
+    background-color: $value;
+  }
+}
+
+// 函数
+@function add($a, $b){
+  @return $a + $b;
+}
+@debug add(1, 2);// 3
+
+// 嵌套
+// 嵌套规则
+.box {
+  .title {// 相当于 .box .title
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .content {
+    padding: 10px;
+    .pager {
+      text-align: center;
+    }
+  }
+  // &表示外层的元素
+  &:hover { // 相当于 .box:hover
+    outline: 1px solid #ddd;
+  }
+}
+
+// 嵌套属性
+.font {
+  font: {
+    weight: bold;// 相当于 font-bold
+    size: 14px;
+  }
+}
+
+
+
+// 混合宏(Mixins)
+// 定义
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.wrap {
+  @include clearfix;// 使用
+}
+
+// 带参数
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+.block1{
+  @include size(100px);
+}
+
+.block2{
+  @include size(100px, 200px);
+}
+
+// 扩展
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+%border-box {
+  box-sizing: border-box;
+}
+
+.success {
+  @extend %border-box;
+  @extend .message;
+  border-color: #0f0;
+}
+
+.error {
+  @extend %border-box;
+  @extend .message;
+  border-color: #00f;
+}
+
+
+

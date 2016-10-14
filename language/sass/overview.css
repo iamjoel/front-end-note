@@ -1,9 +1,28 @@
-@charset "UTF-8";
+/*
+  @author: Joel
+  @describe Sass syntax overview
+*/
 body {
-  font: 100% Helvetica, sans-serif 14px;
   color: #333; }
 
-/* 变量定义结束 */
+body {
+  margin: 0; }
+
+.isCool {
+  color: #fff; }
+
+.notCool {
+  color: #000; }
+
+.section-a {
+  background-color: #f00; }
+
+.section-b {
+  background-color: #0f0; }
+
+.section-c {
+  background-color: #00f; }
+
 .box .title {
   font-size: 18px;
   padding-left: 10px; }
@@ -15,58 +34,33 @@ body {
   outline: 1px solid #ddd; }
 
 .font {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px; }
 
-/* 嵌套结束 */
-body {
-  margin: 0; }
+.wrap::after {
+  content: '';
+  display: table;
+  clear: both; }
 
-/* Partials and Import结束 */
-.default-box {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px; }
+.block1 {
+  width: 100px;
+  height: 100px; }
 
-.box {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px; }
+.block2 {
+  width: 100px;
+  height: 200px; }
 
-/* Mixins结束 */
 .message, .success, .error {
   border: 1px solid #ccc;
-  padding: 10px;
-  color: #333; }
+  padding: 10px; }
+
+.success, .error {
+  box-sizing: border-box; }
 
 .success {
-  border-color: green; }
+  border-color: #0f0; }
 
 .error {
-  border-color: red; }
-
-/* 继承结束 */
-.container {
-  width: 100%; }
-
-article[role="main"] {
-  float: left;
-  width: 62.5%; }
-
-aside[role="complimentary"] {
-  float: right;
-  width: 31.25%; }
-
-/* 操作符结束 */
-.isCool {
-  color: #fff; }
-
-.notCool {
-  color: #000; }
-
-/* 条件结束 */
+  border-color: #00f; }
 
 /*# sourceMappingURL=overview.css.map */
