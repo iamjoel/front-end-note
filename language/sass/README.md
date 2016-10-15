@@ -1,6 +1,6 @@
 # [Sass](http://sass-lang.com/)
 * [介绍](intro.md)
-* [写法概览](overview.scss)
+* [写法示例](overview.md)
 
 ## 安装
 Mac上的安装如下  

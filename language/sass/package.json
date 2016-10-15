@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "dev": "sass --watch overview.scss:overview.css"
-  }
-}
