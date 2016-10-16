@@ -22,8 +22,12 @@ function firstLetterToUpperCase(str) {
 function trim(str) {
     var res;
     if (typeof str === 'string') {
+        if(''.tirm){
+            return str.trim();
+        } else {
         res = str.replace(/^\s+/g, '')
             .replace(/\s+$/g, '');
+        }
     } else {
         res = str;
     }
@@ -112,6 +116,3 @@ function caculateExistNum(str) {
 }
 ```
 ***
-
-*本文遵守[创作共享CC BY-NC-SA 4.0协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)*
-**网络平台如需转载必须与本人联系确认。**

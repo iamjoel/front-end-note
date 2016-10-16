@@ -33,6 +33,6 @@
 ## 其他
 * 程序员健康指南 [读书笔记](note/the-healthy-programmer.md)
 * 重来
-
+* [设计原本](https://book.douban.com/subject/5406042/) 对设计过程进行深入分析，揭示进行有效和优雅设计的方法。作者是Frederick P. Brooks（也是人月神话的作者）。
 
 [我的书籍](my-book.md)。有感兴趣的，苏州的朋友可以问我来借~
