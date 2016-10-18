@@ -99,7 +99,11 @@ $el.change()// 脚本触发事件
 ## 动画
 ```
 $.animate({
-  
+  opacity: 0.6,
+  left: '+=50',
+  height: 'toggle'// 0 与 原高的切换
+}, 2000, function(){
+  // 动画完成
 })
 ```
 
