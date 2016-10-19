@@ -149,11 +149,11 @@ add(1,2,3);//输出6
 
 ### 类型判断
 ```
-// $.isArray() 是否是数组
-// $.isFunction() 是否是方法
-// $.isNumeric() 是否是数组
-// $.isEmptyObject() 是否是空对象
-// $.isPlainObject() 是否是PlainObject。PlainObject的定义见[这里](http://api.jquery.com/Types/#PlainObject)
+$.isArray() // 是否是数组
+$.isFunction() // 是否是方法
+$.isNumeric() // 是否是数组
+$.isEmptyObject() // 是否是空对象
+$.isPlainObject() // 是否是PlainObject。PlainObject的定义见[这里](http://api.jquery.com/Types/#PlainObject)
 ```
 
 ### $.extend
