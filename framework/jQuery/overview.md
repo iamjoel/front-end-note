@@ -93,6 +93,8 @@ $el.click(function(event){
   event.which();// 按下的键
 })
 
+$(document).ready(function(){})
+
 $el.change()// 脚本触发事件
 ```
 
@@ -128,4 +130,45 @@ $.ajax({
 $el.addClass('someClass')
    .html('xxx')
    .click()
+```
+
+## 工具方法
+### $.makeArray
+将类似数组的对象转化成数组
+```
+function add() {
+  var args = arguments;
+  args = $.makeArray(args);
+  var sum = 0;
+  return args.reduce(function(prev, curr) {
+    return prev + curr
+  }, 0)
+}
+add(1,2,3);//输出6
+```
+
+### 类型判断
+```
+// $.isArray() 是否是数组
+// $.isFunction() 是否是方法
+// $.isNumeric() 是否是数组
+// $.isEmptyObject() 是否是空对象
+// $.isPlainObject() 是否是PlainObject。PlainObject的定义见[这里](http://api.jquery.com/Types/#PlainObject)
+```
+
+### $.extend
+对象合并
+```
+var defaultOpts = {a:'xxx', b:'xxx'}
+function doSth(opts) {
+  $.extend({}, defaultOpts, opts)
+  // 也可以用 Object.assign({}, defaultOpts, opts)
+}
+```
+
+### 其他
+```
+$.noop() // 返回一个空函数
+$.now() // 返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数。也可以用 Date.now()
+$.trim('   aa  ') // 去除字符串前后的空格。也可以用 '   aa  '.trim()
 ```
