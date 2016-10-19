@@ -1,17 +1,17 @@
 # 软件推荐
-## 浏览器
-* [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html) **[Chrome 使用](chrome.md)**
+## [浏览器](browser)
+* [Chrome](http://www.google.cn/intl/zh-cn/chrome/browser/desktop/index.html) [镜像](http://www.nruan.com/chrome38-141028.html)
 * [Firefox](http://www.firefox.com.cn/download/)
 * IE
 * Oprea
-* [浏览器相关插件](browser-plugins.md)
+* [浏览器相关插件](browser/plugins.md)
 
 页面仔就不得不安装各种浏览器,呵呵。
 
-[Chrome 控制台console的用法](http://segmentfault.com/blog/shibar/1190000002511877)
+
 
 ## IDE
-* [Sublime Text 3](http://www.sublimetext.com/3) **[介绍](sublime)**
+* [Sublime Text 3](http://www.sublimetext.com/3) **[介绍](ide/sublime)**
   * [Emmet](emmet.md)
 
 ## 代码版本控制

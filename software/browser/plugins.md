@@ -25,6 +25,6 @@
 * [Prism Pretty](https://chrome.google.com/webstore/detail/prism-pretty/hjjcdjnncffbbhlglkipjhljmocnehim) 语法高亮在浏页面新窗口打开的CSS，JS。
 * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) 语法高亮在浏页面新窗口打开的 JSON。
 * [Visual Event](https://chrome.google.com/webstore/detail/visual-event/pbmmieigblcbldgdokdjpioljjninaim) 查看用 jQuery 绑定的事件处理代码。如果用浏览器自带的的 Event Listeners 查看的话，可以查看到元素上绑定的事件，但指向是的 jQuery 的源码。
-* ~~[LiveStyle](http://livestyle.emmet.io/install/) CSS的文件绑定调整好后，改动CSS的文件或同步到浏览器，在浏览上改动也会同步到文件。注意，要让这个插件生效。需满足如下条件 1，要 安装 Sublime的插件 Livestyle。2，在服务器上打开 HTML 文件。~~ 这个过程还是略显麻烦的。用 [Browsersync](https://www.browsersync.io/) 是更好的替代解决方案。
+* ~~[LiveStyle](http://livestyle.emmet.io/install/) CSS的文件绑定调整好后，改动CSS的文件或同步到浏览器，在浏览上改动也会同步到文件。注意，要让这个插件生效。需满足如下条件 1，要 安装 Sublime的插件 Livestyle。2，在服务器上打开 HTML 文件。~~ 这个过程还是略显麻烦的。用 [Browsersync](https://www.browsersync.io/) 是更好的替代解决方案。或者用 Webpack 的 dev-server。
 
 
