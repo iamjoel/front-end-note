@@ -93,6 +93,9 @@ HTML5语法高亮
 ### [WakaTime](https://wakatime.com/)
 记录你的Code时间
 
+### [Sublimerge](http://www.sublimerge.com/)
+文件比较工具
+
 ### 更多
 * [The Best Plugins for Sublime Text](http://ipestov.com/the-best-plugins-for-sublime-text/)
 * [如何优雅地使用Sublime Text](http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text)
