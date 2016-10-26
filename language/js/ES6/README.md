@@ -23,7 +23,7 @@ Demos 见[这里](https://github.com/iamjoel/front-end-demos/tree/master/demos/e
 * [代理（Proxies）](proxy.md)
 * [反射](reflect.md)
 * [类（Class）与继承](https://ponyfoo.com/articles/es6-classes-in-depth)
-* [模块](https://ponyfoo.com/articles/es6-modules-in-depth)
+* [模块](modules.md)
 
 ## 文档
 * [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
