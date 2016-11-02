@@ -17,6 +17,8 @@
 
 ## 提高代码质量
 * Maintainable.JavaScript
+* 代码整洁之道(Clean Code)
+* 编写可读代码的艺术
 
 ## Node.js
 * 深入浅出Node.js
