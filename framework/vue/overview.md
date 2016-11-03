@@ -34,6 +34,14 @@ new Vue({
 <div v-for="item in items" v-bind:key="item.id">
 ```
 
+#### 循环对象
+```
+<!-- Vue 1 这么写 -->
+<li v-for="(key, value) in obj"></li>
+<!-- Vue 2 这么写 -->
+<li v-for="(value, key) in obj"></li>
+```
+
 #### 循环数字
 ```
 <span v-for="n in 10">{{ n }} </span>
@@ -42,8 +50,11 @@ new Vue({
 
 ### 条件
 ```
+<!-- 如果ok为false, 不输出在 HTML 中 -->
 <div v-if="ok">Yes</div>
 <div v-else>No</div>
+
+<!-- 如果ok为false,只是 display:none 而已 -->
 <h1 v-show="ok">Hello!</h1>
 ```
 
@@ -112,8 +123,11 @@ new Vue({
 不会显示 `<div>` 的内容，直到编译结束。
 
 ### 单向绑定
+单向绑定的意思是，即使绑定变量的值发生变化，显示的内容仍旧就是最初绑定时候的值。
 ```
+<!-- Vue 1 这么写 -->
 <span>This will never change: {{* msg }}</span>
+<!-- Vue 2 不支持 -->
 ```
 
 ### 输出 HTML
@@ -201,7 +215,11 @@ Vue.filter('wrap', function (value, begin, end) {
 
 ```
 <!-- 'hello' => 'before hello after' -->
+<!-- Vue 1 这么写 -->
 <span v-text="message | wrap 'before' 'after'"></span>
+<!-- Vue 2 这么写 -->
+<span v-text="message | wrap('before', 'after')"></span>
+
 ```
 
 
@@ -228,7 +246,12 @@ new Vue({
 
 ## 过渡效果
 ```
+<!-- Vue 1 这么写 -->
 <div v-if="show" transition="my-transition"></div>
+<!-- Vue 2 这么写 -->
+<transition v-bind:name="my-transition">
+  <!-- ... -->
+</transition>
 ```
 
 ```
