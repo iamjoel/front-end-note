@@ -23,9 +23,20 @@ new Vue({
 
 ## 指令
 ### 循环
+#### 循环数组
 ```
+<!-- Vue 1 这么写 -->
 <li v-for="item in items"> 第{{ $index }}条:{{ item.message }}</li>
+<div v-for="item in items" track-by="id">
+<!-- Vue 2 这么写 -->
+<li v-for="(item, index) in items"> 第{{ index }}条:{{ item.message }}</li>
+<div v-for="item in items" v-bind:key="item.id">
+```
+
+#### 循环数字
+```
 <span v-for="n in 10">{{ n }} </span>
+<!-- Vue 1 从0开始，Vue 2从1开始  -->
 ```
 
 ### 条件
@@ -41,7 +52,7 @@ new Vue({
 <!-- 简写 -->
 <button @click="say('hi')">点击</button>
 <!-- 传入 event 对象 -->
-<button @click="say('hi'， $event)">点击</button>
+<button @click="say('hi', $event)">点击</button>
 <!-- 阻止单击事件冒泡 -->
 <button @click.stop="doSth">点击</button>
 <!-- 阻止默认行为 -->
@@ -68,6 +79,7 @@ new Vue({
 ### 绑定属性
 ```
 <div v-bind:class="{ 'class-a': isA, 'class-b': isB }"></div>
+<div v-bind:class="classArr"></div> <!-- classArr 是一个数组 -->
 <!-- 简写 -->
 <div :class="{ 'class-a': isA, 'class-b': isB }"></div>
 <div :style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
@@ -75,8 +87,16 @@ new Vue({
 <a :href="baseURL + '/path'">
 ```
 
-### 避免闪烁： v-cloak
+在 Vue 2 中，如果属性值是变量，必须用绑定属性的写法。
 ```
+// wrong
+<img src="{{imgSrc}}">
+// right
+<img :src="imgSrc">
+```
+
+### 避免闪烁： v-cloak
+```css
 [v-cloak] {
   display: none;
 }
@@ -88,7 +108,7 @@ new Vue({
 </div>
 ```
 
-不会显示，直到编译结束。
+不会显示 `v-cloak` 的内容，直到编译结束。
 
 ### 单向绑定
 ```
@@ -97,7 +117,10 @@ new Vue({
 
 ### 输出 HTML
 ```
+<!-- Vue 1 这么写 -->
 <div>{{{ raw_html }}}</div> <!-- {{}} 中的 HTML 内容的会转为纯文本 -->
+<!-- Vue 2 这么写 -->
+<div v-html="raw_html"></div>
 ```
 
 ## 计算属性
@@ -166,6 +189,8 @@ new Vue({
 常见内置过滤器  
 capitalize, uppercase, lowercase, json, limitBy, filterBy。所有见[这里](http://cn.vuejs.org/api/#过滤器)。
 
+Vue 2 中把这些内置的过滤器都删除了。
+
 ### 自定义过滤器
 ```
 Vue.filter('wrap', function (value, begin, end) {
@@ -181,11 +206,20 @@ Vue.filter('wrap', function (value, begin, end) {
 
 ## 生命周期相关的钩子函数
 ```
+// Vue 1
 new Vue({
   created: function(){},
   beforeCompile: function(){},
   compiled: function(){},
   ready: function(){},// DOM 元素已经加入到HTML中
+  beforeDestroy: function(){},
+  destroyed: function(){}
+});
+
+// Vue 2
+new Vue({
+  created: function(){},
+  mounted : function(){},// 相对与 1 中的 ready
   beforeDestroy: function(){},
   destroyed: function(){}
 });
@@ -209,6 +243,9 @@ new Vue({
 
 
 ## 组件
+Vue 2 和 Vue 1 的组件的区别有些大。
+
+#### Vue 1
 ### 定义和调用组件
 ```
 <my-comp
