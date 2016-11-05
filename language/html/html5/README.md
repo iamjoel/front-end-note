@@ -44,6 +44,7 @@ HTML5是对 HTML 标准的第五次修订，于2014年10月29日已完工。
 * [微数据](html5/microdata) 待完善
 * [应用缓存](html5/offline-web-applications) 待完善
 * [服务器发送事件](html5/server-send-events) 待完善
+* [摄像头](camera)
 
 ## 推荐阅读
 * [HTML5 Mastery Class](http://code.tutsplus.com/series/html5-mastery-class--cms-897) 掌握 HTML5 系列。该系列比较多的写一些底层的介绍。比如，浏览器的上下文，编码之类的。

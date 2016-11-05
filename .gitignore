@@ -30,3 +30,5 @@ node_modules
 .sass-cache
 .map
 
+.DS_Store
+

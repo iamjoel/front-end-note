@@ -71,6 +71,8 @@ git config --global alias.ph push
 :sunny: :snowman: :full_moon:    
 :ghost: :camera: :calendar:    
 
+[EMOJI CHEAT SHEET](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
 ## 提交说明
 * [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
