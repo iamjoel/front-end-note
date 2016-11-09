@@ -17,3 +17,6 @@ SOLID 原则是面向对象的程序设计的 5 个基本原则的缩写。
 * L(Liskov Substitution Principle): 如果用某个子对象来替换对象，不会影响程序的正确性。
 * I(Interface Segregation Principle): 多个特定的接口，好过一个特定的通用的接口。
 * D(Dependency Inversion Principle):依赖反转原则。上级模块不应该依赖底层模块，他们都应该依赖于抽象。抽象不应该依赖于细节，细节应该依赖于抽象。
+
+## 幽灵按钮
+幽灵按钮，也就是Ghost Buttons，是一个透明的按钮，通常是矩形或者圆角矩形，仅保留基本的形制，使用细线来标识边界；按钮内的文字通常使用纤细的非衬线体字体的纯文本，来指明按钮功能。
