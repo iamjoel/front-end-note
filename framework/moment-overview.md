@@ -1,5 +1,5 @@
 # Moment.js  写法示例
-[Moment.js](http://momentjs.com/) 是一个操作时间的工具库。它使得操作时间更简单。
+[Moment.js](http://momentjs.com/) 是我用过的最好用的操作时间的工具库。它使得操作时间变得很简单。
 
 ## 创建
 ```
@@ -15,6 +15,7 @@ moment(new Date(2011, 9, 16)) // 2011-10-16
 ```
 moment().format('YYYY年MM月DD日 HH:mm:ss') // 2016年11月11日 22:05:19
 moment().format('hh:m:ss') // 10:5:19
+moment().format('[YYYY]') // "YYYY"。[] 里的会原样输出。
 ```
 
 ## 转化成 Date 对象
@@ -37,6 +38,7 @@ moment().week() // 一年里的第几周
 moment().month() // 第几个月
 moment().quarter() // 一年里的第几个季度
 moment().year() // 年
+moment().daysInMonth() // 当前月有多少天
 ```
 
 ## 操作
@@ -54,19 +56,22 @@ moment().endOf('week')
 
 ## 查询
 ```
+// 早于
 moment('2010-10-20').isBefore('2010-10-21') // true
 moment('2010-10-20').isBefore('2010-12-31', 'year') // false
 moment('2010-10-20').isBefore('2011-01-01', 'year') // true
 
+// 是否相等
 moment('2010-10-20').isSame('2010-10-20') // true
 moment('2010-10-20').isSame('2009-12-31', 'year')  // false
 moment('2010-10-20').isSame('2010-01-01', 'year')  // true
 
+// 晚于
 moment('2010-10-20').isAfter('2010-10-19') // true
 moment('2010-10-20').isAfter('2010-01-01', 'year') // false
 moment('2010-10-20').isAfter('2009-12-31', 'year') // true
 
-// 在时间范围内
+// 是否在时间范围内
 moment('2010-10-20').isBetween('2010-10-19', '2010-10-25') // true
 moment('2010-10-20').isBetween('2010-01-01', '2012-01-01', 'year') // false
 moment('2010-10-20').isBetween('2009-12-31', '2012-01-01', 'year') // true
