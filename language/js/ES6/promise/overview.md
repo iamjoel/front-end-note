@@ -3,10 +3,10 @@
 ```
 function doThing(){
   return new Promise(function (resolve, reject) {
-    setTimout(function(){// 模拟异步
+    setTimeout(function(){// 模拟异步
       resolve();// 成功用 resovlve；失败用 reject。可以传数据。
     }, 100)
-  }
+  })
 }
 
 doThing().then(成功回调，失败回调)
