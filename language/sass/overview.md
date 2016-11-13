@@ -1,6 +1,8 @@
 # Sass 写法示例
 CSS 本身是非常有趣的，但随着样式表变大，变复杂，变得越来越难维护。这时候预处理就有用了。Sass能让你使用一些CSS中没有的特性，比如：变量，嵌套（nesting），混入（mixins），继承等其他能让写CSS变的继续有趣的特性。更多描述见[官网](http://sass-lang.com/)。
 
+想尝试下 Sass ，可以尝试下在线编译，点[这里](http://www.sassmeister.com/)。
+
 ## charset
 代码第一行必须加如下的指定编码的代码，否则文件中由中文时会报错。
 
@@ -63,6 +65,16 @@ $map: ('name': 'joel', 'gender': 'male');
 ## 引入 Sass 或 Scss 文件
 ```
 @import 'reset';// 等效于 @import 'reset.scss';如果找不到 reset.scss 也会找_reset.scss
+```
+
+## 逻辑操作符
+```
+$true: true;
+$false: false;
+
+not $true;// false
+$true and $false; // false
+$true or $false; // true
 ```
 
 ## 条件语句
