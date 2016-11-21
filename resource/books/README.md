@@ -4,7 +4,10 @@
 * [CSS Secrets](http://shop.oreilly.com/product/0636920031123.do) Lea Verou（CSS 一姐） 2015年6月出版 [试读](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449372637_sampler.pdf)
 
 ## JavaScript
-* JavaScript高级程序设计
+* JavaScript 语言精粹 ：蝴蝶书
+* JavaScript高级程序设计： 红宝书
+* JavaScript 权威指南：犀牛书
+* 你不知道的 JavaScript： 进阶学习 Javascript 最好的书。
 * JavaScript 框架设计
 * [《eloquentjavascript》](http://eloquentjavascript.net)
 * 测试驱动的JavaScript 开发
