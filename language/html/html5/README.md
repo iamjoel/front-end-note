@@ -42,7 +42,7 @@ HTML5是对 HTML 标准的第五次修订，于2014年10月29日已完工。
 * [音频](html5/audio) 待完善
 * [拖放](html5/drag-and-drop) 待完善
 * [微数据](html5/microdata) 待完善
-* [应用缓存](html5/offline-web-applications) 待完善
+* ~~[应用缓存](html5/offline-web-applications)~~ 该特性已经从 Web 标准中删除
 * [服务器发送事件](html5/server-send-events) 待完善
 * [摄像头](camera)
 
