@@ -27,23 +27,23 @@ HTML5是对 HTML 标准的第五次修订，于2014年10月29日已完工。
 * http://fortuito.us/diveintohtml5/introduction.html
 
 ## 具体介绍
-* [标签,属性](html5/elements-and-attrs)
-    * [新增的标签](html5/elements-and-attrs/new-elements.md)
-    * [废弃的标签](html5/elements-and-attrs/removed-elements.md)
-    * [新增的属性](html5/elements-and-attrs/new-attrs.md)
-    * [废弃的属性](html5/elements-and-attrs/removed-attrs.md)
-    * [Picture元素](html5/picture) 用Picture元素做响应式图片
-* [Web存储](html5/web-storage)
-* [Web workers](html5/web-workers)
-* [File API](html5/file-api) 可以做图片预览之类的
-* [地理位置](html5/geoloaction) 待完善
-* [画布](html5/canvas) 待完善
-* [视频](html5/video) 待完善
-* [音频](html5/audio) 待完善
-* [拖放](html5/drag-and-drop) 待完善
-* [微数据](html5/microdata) 待完善
-* ~~[应用缓存](html5/offline-web-applications)~~ 该特性已经从 Web 标准中删除
-* [服务器发送事件](html5/server-send-events) 待完善
+* [标签,属性](elements-and-attrs)
+    * [新增的标签](elements-and-attrs/new-elements.md)
+    * [废弃的标签](elements-and-attrs/removed-elements.md)
+    * [新增的属性](elements-and-attrs/new-attrs.md)
+    * [废弃的属性](elements-and-attrs/removed-attrs.md)
+    * [Picture元素](picture) 用Picture元素做响应式图片
+* [Web存储](web-storage)
+* [Web workers](web-workers)
+* [File API](file-api) 可以做图片预览之类的
+* [地理位置](geoloaction) 待完善
+* [画布](canvas) 待完善
+* [视频](video) 待完善
+* [音频](audio) 待完善
+* [拖放](drag-and-drop) 待完善
+* [微数据](microdata) 待完善
+* ~~[应用缓存](offline-web-applications)~~ 该特性已经从 Web 标准中删除
+* [服务器发送事件](server-send-events) 待完善
 * [摄像头](camera)
 
 ## 推荐阅读
