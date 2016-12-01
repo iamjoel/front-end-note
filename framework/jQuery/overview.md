@@ -15,6 +15,7 @@ $('.box').find('.box-header')
 
 $('.box').closest('.wrap')
 $('.box').parents('.wrap')
+$('.box').offsetParent()
 ```
 
 ## 遍历元素
@@ -27,6 +28,11 @@ $el.each(function( index ) {
 ## 创建元素
 ```
 var $newEl = $('<div>')
+```
+
+## 复制元素
+```
+$(el).clone()
 ```
 
 ## 元素的末尾插入子元素
@@ -51,7 +57,11 @@ $el.insertAfter($newEl)
 
 ## 删除元素
 ```
-$el.remove()
+$(el).is($(otherEl))
+```
+
+## 判断两个元素是否相等
+```
 ```
 
 ## 内容

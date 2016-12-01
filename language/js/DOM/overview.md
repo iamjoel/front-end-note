@@ -18,6 +18,11 @@ document.querySelectorAll('a') // 返回所有，类型是 NodeList。不存在�
 var newEl = document.createElement('div')
 ```
 
+## 复制元素
+```
+el.cloneNode(true)
+```
+
 ## 元素的末尾插入子元素
 ```
 el.appendChild(newEl)
@@ -41,6 +46,11 @@ el.parentNode.insertBefore(newEl, el.nextSibling)
 ## 删除元素
 ```
 el.parentNode.removeChild(el)
+```
+
+## 判断两个元素是否相等
+```
+el === otherEl
 ```
 
 ## 表单元素
