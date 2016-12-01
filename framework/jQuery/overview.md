@@ -4,6 +4,17 @@
 $('.box') // CSS3 选择器
 $('.el', $parent)
 $().add('.el1').add('.el2')
+
+$('.box').filter(':visible')
+$('.box').filter(function(){
+  var $this = $(this)
+  return $this.index() > 3 && $this.hasClass('xxx')
+})
+
+$('.box').find('.box-header')
+
+$('.box').closest('.wrap')
+$('.box').parents('.wrap')
 ```
 
 ## 遍历元素
@@ -42,7 +53,6 @@ $el.insertAfter($newEl)
 ```
 $el.remove()
 ```
-
 
 ## 内容
 ```

@@ -1,3 +1,4 @@
+#DOM 操作写法示例
 ## 选取元素
 ```
 document.querySelector('a') // 返回找到的第一个，不存在返回 null
