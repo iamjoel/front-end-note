@@ -13,6 +13,37 @@ $el.each(function( index ) {
 });
 ```
 
+## 创建元素
+```
+var $newEl = $('<div>')
+```
+
+## 元素的末尾插入子元素
+```
+$el.append($newEl)
+```
+
+## 元素的开始插入子元素
+```
+$el.prepend($newEl)
+```
+
+## 当前元素前面插入元素
+```
+$el.insertBefore($newEl)
+```
+
+## 当前元素后面插入元素
+```
+$el.insertAfter($newEl)
+```
+
+## 删除元素
+```
+$el.remove()
+```
+
+
 ## 内容
 ```
 $el.text()
