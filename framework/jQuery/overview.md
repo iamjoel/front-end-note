@@ -57,11 +57,12 @@ $el.insertAfter($newEl)
 
 ## 删除元素
 ```
-$(el).is($(otherEl))
+$(el).remove()
 ```
 
 ## 判断两个元素是否相等
 ```
+$(el).is($(otherEl))
 ```
 
 ## 内容
