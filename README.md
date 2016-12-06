@@ -6,8 +6,6 @@
 **用简单明了的方式记录WEB前端知识。**
 
 ## 关于 Web 前端
-* [前端知识结构](https://github.com/iamjoel/front-end-note/blob/master/intro/knowledge-structure.md)
-
 ## [语言](https://github.com/iamjoel/front-end-note/blob/master/language/)
 * [HTML](https://github.com/iamjoel/front-end-note/blob/master/language/html)
 * [CSS](https://github.com/iamjoel/front-end-note/blob/master/language/css) [Sass](https://github.com/iamjoel/front-end-note/blob/master/language/sass)
