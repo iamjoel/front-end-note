@@ -5,7 +5,7 @@
 * navigator 有关浏览器的信息
   * userAgent 用户代理的信息
   * platform 运行浏览器的操作系统平台
-* histroy 浏览历史
+* history 浏览历史
   * lengh
   * back()
   * forward()
@@ -18,15 +18,20 @@
   * protocol
   * search
   * hash
+  * pathname
   * reload()
   * assign(url)
   * replace(url)
 * window
   * alert()
   * confirm()
+  * prompt()
   * open()
   * setTimeout()
+  * clearTimeout()
   * setInterval()
+  * clearInterval()
+  * requestAnimationFrame
   * console
     * log
     * info
