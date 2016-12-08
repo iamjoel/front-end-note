@@ -16,8 +16,12 @@
 * [Vue.js](https://github.com/iamjoel/front-end-note/blob/master/framework/vue)
 * [cordova](https://github.com/iamjoel/front-end-note/blob/master/framework/cordova.md)
 
-## [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/)
-* [webpack](https://github.com/iamjoel/front-end-note/blob/master/build-tool/webpack)
+## 工具
+* [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/)
+  * [webpack](https://github.com/iamjoel/front-end-note/blob/master/build-tool/webpack)
+* 包管理
+  * [npm](package-manage/npm)
+  * [Yarn](package-manage/yarn)
 
 ## [资源](https://github.com/iamjoel/front-end-note/blob/master/resource/)
 * [学习资源](https://github.com/iamjoel/front-end-note/blob/master/resource/bookmark/learn-resource.md)
