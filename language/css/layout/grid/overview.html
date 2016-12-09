@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+  .ly{
+      margin-bottom: 10px;
+  }
+  
+  .ly__item{
+    min-width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #1abc9c;
+    background-color: #f60;
+  }
+  .ly {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+  }
+
+  .ly--center{
+    justify-content: center;  
+  }
+  .ly--right{
+    justify-content: end;  
+  }
+  .ly--justify{
+    justify-content: space-between;  
+  }
+  
+  .ly--multi-line{
+    grid-template-rows: 50px 50px 50px;
+  }
+  .ly--fill{
+    grid-template-columns: 50px 50px 1fr;
+  }
+
+  .ly--middle{
+    align-items: center;
+  }
+
+  </style>
+
+  <div>
+  <h2>默认</h2>
+  <div class="ly">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+  <h2>水平居中对齐</h2>
+  <div class="ly ly--center">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+  <h2>靠右对齐</h2>
+  <div class="ly ly--right">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+  <h2>两端对齐</h2>
+  <div class="ly ly--justify">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+
+  <h2>多行两端对齐</h2>
+  <div class="ly ly--multi-line  ly--justify">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+  <h2>充满剩余部分</h2>
+  <div class="ly ly--fill">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+
+  <h2>垂直居中</h2>
+  <div class="ly ly--middle" style="height: 200px;background: #ddd;">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+
+  <h2>完全居中</h2>
+  <div class="ly ly--center ly--middle" style="height: 200px;background: #ddd;">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+</div>
+</body>
+</html>
