@@ -119,7 +119,15 @@ $el.offset({
   top: 10,
   left: 20px
 })
+$el.scrollTop(20) //滚动条滚动20px
 ```
+
+### 父元素滚动到指定子元素的位置
+```
+$wrap.scrollTop($child.position().top)
+```
+
+注意：父元素需要是定位元素（position 不为 static）。
 
 ## 显示隐藏
 ```
