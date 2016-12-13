@@ -49,6 +49,7 @@
 ## 原型
 * [Framerjs](http://framerjs.com/) 用 Coding 的方式画原型。
 * [墨刀](https://modao.cc/)
+* [Demoo](http://isux.us/demoo/index.php) 腾讯出品。更简单、更快捷地呈现手机app Demo原型。
 
 ## 其他
 * [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)

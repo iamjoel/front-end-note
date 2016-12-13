@@ -120,5 +120,6 @@ console.log('1+2 = %d', 3)
 var person = {name: 'Joel', gender: '男'}
 console.log('名字：%s，性别：%s', person.name, person.gender)
 
+console.trace() // 代码在堆栈中的调用路径
 ```
 

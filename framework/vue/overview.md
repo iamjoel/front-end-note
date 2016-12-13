@@ -222,6 +222,8 @@ Vue.filter('wrap', function (value, begin, end) {
 
 ```
 
+`this.$options.filters.filter名称` 可以获取到具体的 filter
+
 
 ## 生命周期相关的钩子函数
 ```
@@ -501,8 +503,7 @@ Vue.http.post('/someUrl', [optinos])
 
 ```
 
-## 其他
-`vm.$options.filters.filter名称` 可以获取到具体的 filter
+
 
 
 
