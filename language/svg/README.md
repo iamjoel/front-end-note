@@ -30,7 +30,7 @@ Firefox， chrome， IE9+， 以及大部分手机浏览器。
 
 ## 学习资源
 * 《SVG 精粹》
-* [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG) MDN
+* [MDN SVG 教程](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)
 * [svg in w3schools](http://www.w3cschool.cc/svg/svg-intro.html)
 * [svg in webplatform](http://docs.webplatform.org/wiki/svg/tutorials)
 * [svg动画](http://css-tricks.com/guide-svg-animations-smil/)
