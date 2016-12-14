@@ -11,6 +11,11 @@
 Firefox， chrome， IE9+， 以及大部分手机浏览器。
 更加见[Can I use](http://caniuse.com/#feat=svg)
 
+## 注意点
+* SVG的元素和属性必须按标准格式书写，因为XML是区分大小写的（这一点和html不同）
+* SVG里的属性值必须用引号引起来，就算是数值也必须这样做。
+
+
 ## 内容
 * 形状
 * 路径

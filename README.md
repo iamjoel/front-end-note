@@ -7,7 +7,7 @@
 
 ## 关于 Web 前端
 ## [语言](https://github.com/iamjoel/front-end-note/blob/master/language/)
-* [HTML](https://github.com/iamjoel/front-end-note/blob/master/language/html)
+* [HTML](https://github.com/iamjoel/front-end-note/blob/master/language/html) [SVG](https://github.com/iamjoel/front-end-note/blob/master/language/svg)
 * [CSS](https://github.com/iamjoel/front-end-note/blob/master/language/css) [Sass](https://github.com/iamjoel/front-end-note/blob/master/language/sass)
 * [JavaScript](https://github.com/iamjoel/front-end-note/blob/master/language/js)
 
