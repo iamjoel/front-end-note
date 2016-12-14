@@ -17,8 +17,9 @@ Firefox， chrome， IE9+， 以及大部分手机浏览器。
 
 
 ## 内容
-* 形状
-* 路径
+* [常见属性](overview/attr.md)
+* [形状](overview/shape.md)
+* [路径](overview/path.md)
 * 文本
 * 图案和渐变
 * 裁剪和mask

@@ -45,7 +45,7 @@ CSS
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px; /* 这边以 3 列为例子 */
+  grid-template-rows: 50px 50px 50px; /* 这边以 3 行为例 */
   justify-content: space-between;
 }
 ```
