@@ -19,14 +19,14 @@
 
     <h2>矩形</h2>
     <!-- 貌似作为属性和放style里是一样的 -->
-    <svg class="demo-item" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg class="demo-item">
         <rect x="10" y="0" width="300" height="40" fill="#f00" stroke="pink" stroke-width="5"></rect>
         透明度，圆角
         <rect x="10" y="100" width="300" height="40" fill="#f00" stroke="blue" stroke-width="5" rx="20" ry="20" style="fill-opacity:0.6;stroke-opacity:0.9;"></rect>
     </svg>
 
     <h2>圆</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <circle cx="200" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
     </svg>
 
@@ -35,22 +35,22 @@
 CY属性定义的椭圆中心的y坐标
 RX属性定义的水平半径
 RY属性定义的垂直半径 -->
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <ellipse cx="80" cy="120" rx="100" ry="50" style="fill:yellow;stroke:purple;stroke-width:2" />
     </svg>
 
     <h2>直线</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
     </svg>
 
     <h2>多边形</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <polygon points="200,10 250,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
     </svg>
 
     <h2>折线</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <polyline points="20,20 40,25 60,40 80,120 120,140 200,180" style="fill:none;stroke:black;stroke-width:3" />
     </svg>
 
@@ -58,13 +58,13 @@ RY属性定义的垂直半径 -->
     <!-- M = moveto L = lineto H = horizontal lineto V = vertical lineto C = curveto S = smooth curveto Q = quadratic Bézier curve T = smooth quadratic Bézier curveto A = elliptical Arc Z = closepath
  -->
     <h2>路径</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <path d="M150 0 L75 200 L225 200 Z" />
     </svg>
 
 
     <h2>文本</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg>
         <text x="0" y="15" fill="red">I love SVG</text>
     </svg>
 

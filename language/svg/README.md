@@ -11,6 +11,16 @@
 Firefox， chrome， IE9+， 以及大部分手机浏览器。
 更加见[Can I use](http://caniuse.com/#feat=svg)
 
+## 内容
+* 形状
+* 路径
+* 文本
+* 图案和渐变
+* 裁剪和mask
+* 滤镜
+* 座标系转化（transform）
+* 动画
+
 ## 形状的通用属性
 * fill 填充
 * stroke 边的颜色
@@ -19,6 +29,8 @@ Firefox， chrome， IE9+， 以及大部分手机浏览器。
 * opacity: 内容的透明度
 
 ## 学习资源
+* 《SVG 精粹》
+* [SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG) MDN
 * [svg in w3schools](http://www.w3cschool.cc/svg/svg-intro.html)
 * [svg in webplatform](http://docs.webplatform.org/wiki/svg/tutorials)
 * [svg动画](http://css-tricks.com/guide-svg-animations-smil/)
