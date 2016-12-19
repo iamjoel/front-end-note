@@ -1,13 +1,13 @@
 # 第三届 CSS 开发者大会笔记
-这次大会于2016年12月17日在广州的天虹酒店举办。演讲嘉宾有 大漠，勾三股四等一些业界大牛们。特邀嘉宾有 Andrey Sitnik（PostCSS 的作者）和 Hax（贺师俊）。
+这次大会于 2016 年 12 月 17 日在广州的天虹酒店举办。演讲嘉宾有大漠，勾三股四等一些业界大牛们。特邀嘉宾有 Andrey Sitnik（PostCSS 的作者）和 Hax（贺师俊）。
 
 主持人是[裕波](http://weibo.com/itchina100)。他的主持风格很有特色~
 
-在会议的开头，特地播放了CSS之父Håkon Wium Lie录制的一段视频，其简单提及了CSS的发展历史和现状，并对CSS的未来有更多期许。
+在会议的开头，特地播放了 CSS之父 Håkon Wium Lie录制的一段视频，其简单提及了CSS的发展历史和现状，并对CSS的未来有更多期许。
 
-[官网](https://css.w3ctech.com/)
+[官网](https://css.w3ctech.com/)。
 
-## 3.14 Things I Didn’t Know About CSS
+## 第一场：3.14 Things I Didn’t Know About CSS
 ### 演讲者信息
 Mathias Bynens。一个喜欢 HTML, CSS, JavaScript, Unicode, 性能 和安全的家伙。来自比利时。[Github](https://github.com/mathiasbynens)。
 
@@ -36,7 +36,7 @@ Mathias Bynens。一个喜欢 HTML, CSS, JavaScript, Unicode, 性能 和安全�
 }
 ```
 
-不推荐这么写。因为这么写后，别的地方就覆盖不了。小技巧是可以写
+不推荐这么写。因为这么写后，别的地方就覆盖不了。可以这样写
 ```
 .bar.bar{
   background: green;
@@ -80,14 +80,16 @@ CSS 中
 
 有一些让页面样式变得很搓的 payload，见 [evil.css](https://github.com/tlrobinson/evil.css)。
 
-## CSS Grid Layout
+***
+
+##  第二场：CSS Grid Layout
 ### 演讲者信息
 大漠。CSS专家、阿里巴巴前端技术专家。“不会JS的CSS专家”（玩笑~）,说着一口“胡建”普通话XD。
 
 ### 主要内容
 用 Grid 来进行布局的介绍。
 
-### Grid Layout历程
+#### Grid Layout历程
 * 2010年微软提出，并且在IE10实现
 * 2015.3.2，chrome支持
 * 2016.9.29成为w3c候选标准
@@ -95,20 +97,22 @@ CSS 中
 
 目前(2017.3前)使用 Grid 来进行布局，浏览器要启用实验特性的 flag。在实际项目中使用 Grid 来布局还需要一段时间（可能是 2 到 3年）。
 
-### Grid 术语
+#### Grid 术语
 网格容器,网格项目,网格线,网格轨道（Grid Tracks）,网格单元,网格区域,网格间距。
 
-### Grid 和 Flex 比较
+#### Grid 和 Flex 比较
 Grid 定义两个维度， 更适合大模块的排布布局。Flex 定义一个维度， 更适合内部内容布局。 在做一些布局时，可以同时使用 Grid 和 Flex。如 做类似瀑布流的卡片。卡片的布局用 Grid，卡片内部的布局 Flex。
 
-### 相关资源
+#### 相关资源
 * 大漠演示的一些DEMO
   * [Define a Grid](http://codepen.io/airen/pen/ENQZLx)
   * [Grid 实现网格系统](http://codepen.io/airen/pen/WoMRVL)
 * [CSS Grid Layout Example](https://github.com/airen/grid-layout)
 * [Grid 教程](http://www.w3cplus.com/blog/tags/355.html)
 
-## 闪电分享
+***
+
+##  第三场：闪电分享
 ### 演讲者信息
 勾三股四。阿里前端开发专家。
 
@@ -121,7 +125,9 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 
 个人还是挺看好 weex 的。
 
-## Sass & CSS Design Pattern
+***
+
+## 第四场：Sass & CSS Design Pattern
 ### 演讲者信息
 廖洧杰。台湾六角学院的校长，台湾国立高雄大学资讯管理学系前端兼任讲師、业界讲师。
 
@@ -130,7 +136,9 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 
 他建议我们要丰富自己的代码片段库和工具。
 
-## 微信网页重构实践 && SVG工程化与动画实践
+***
+
+## 第五场：微信网页重构实践 && SVG工程化与动画实践
 ### 演讲者信息
 罗正烨、方潇仪，倪栩生。他们都是微信前端工程师。
 
@@ -174,26 +182,38 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 #### 微信网页重构实践
 信息和网页的关系，网页是信息上下文的情景重现等。
 
-## 从矩阵走入 WebGL 世界
+***
+
+## 第六场：从矩阵走入 WebGL 世界
 ### 演讲者信息
 陈剑鑫。阿里移动事业群 - UC RED设计中心 高级前端工程师。
 
 ### 主要内容
 所有的变换都可以用矩阵表示。展示了一大堆酷炫，屌炸天的 demo。
 
-## CSS animation && CSS: The secret drawing tool
+***
+
+## 第七场：CSS animation && CSS: The secret drawing tool
 ### 演讲者信息
 Wenting Zhang。CSS ICON && underline.js作者、工作于 Adobe Typekit。同时会设计和前端的女神。
 
 ### 主要内容
-用 live coding 的方式给我们现场展示了如何用一个 div 与 CSS 实现一个胡子可爱的胡子。然后通过 JS 修改 CSS 变量的值，来让胡子做一些动画。这也就是 CSS 变量相比 Sass 变量的一个优势：Sass 变量的值不能通过JS来修改。
+用 Live Coding 的方式给我们现场展示了如何用一个 div 与 CSS 实现一个胡子可爱的胡子。然后通过 JS 修改 CSS 变量的值，来让胡子做一些动画。这也就是 CSS 变量相比 Sass 变量的一个优势：Sass 变量的值不能通过JS来修改。
 
 
-她推荐可以通过画图标来提高 CSS 水平。她在拖延症犯的时候，就画个图标。目前已经画了 512 个图标，见 [CSS ICON](http://cssicon.space/)
+她推荐可以通过画图标来提高 CSS 水平。她在拖延症犯的时候，就画个图标。目前已经画了 512 个图标，见 [CSS ICON](http://cssicon.space/)。
 
-我很喜欢她设计的适合 CSS 的字体: [CSS-Mono](https://github.com/wentin/CSS-Mono)。
+
+![ Live Coding 的胡子](http://upload-images.jianshu.io/upload_images/16777-3f39092ce2bae70b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+我很喜欢她设计的适合 CSS 的字体: [CSS-Mono](https://github.com/wentin/CSS-Mono)。上图中的 CSS 字体就是 CSS-Mono。
 
 ## 其他
-* [参加2016年12月17日广州第三届 CSS Conf 大会是个什么样的体验？](https://www.zhihu.com/question/53068799/answer/136491905)
+* [参加2016年12月17日广州第三届 CSS Conf 大会是个什么样的体验？](
+![css大会.jpg](http://upload-images.jianshu.io/upload_images/16777-67b42b2dd21c955d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+)
 * PPT 站位
 
+最后，放张合影。
+
+![css大会合影](http://upload-images.jianshu.io/upload_images/16777-5b6c12a9ca0271f1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
