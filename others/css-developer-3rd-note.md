@@ -1,6 +1,12 @@
 # 第三届 CSS 开发者大会笔记
 这次大会于2016年12月17日在广州的天虹酒店举办。演讲嘉宾有 大漠，勾三股四等一些业界大牛们。特邀嘉宾有 Andrey Sitnik（PostCSS 的作者）和 Hax（贺师俊）。
 
+主持人是[裕波](http://weibo.com/itchina100)。他的主持风格很有特色~
+
+在会议的开头，特地播放了CSS之父Håkon Wium Lie录制的一段视频，其简单提及了CSS的发展历史和现状，并对CSS的未来有更多期许。
+
+[官网](https://css.w3ctech.com/)
+
 ## 3.14 Things I Didn’t Know About CSS
 ### 演讲者信息
 Mathias Bynens。一个喜欢 HTML, CSS, JavaScript, Unicode, 性能 和安全的家伙。来自比利时。[Github](https://github.com/mathiasbynens)。
@@ -74,48 +80,120 @@ CSS 中
 
 有一些让页面样式变得很搓的 payload，见 [evil.css](https://github.com/tlrobinson/evil.css)。
 
-
 ## CSS Grid Layout
 ### 演讲者信息
-大漠。CSS专家、阿里巴巴前端技术专家。说着一口“胡建”普通话XD。
+大漠。CSS专家、阿里巴巴前端技术专家。“不会JS的CSS专家”（玩笑~）,说着一口“胡建”普通话XD。
 
 ### 主要内容
+用 Grid 来进行布局的介绍。
 
+### Grid Layout历程
+* 2010年微软提出，并且在IE10实现
+* 2015.3.2，chrome支持
+* 2016.9.29成为w3c候选标准
+* 2017.3将会被各大主流浏览器支持
+
+目前(2017.3前)使用 Grid 来进行布局，浏览器要启用实验特性的 flag。在实际项目中使用 Grid 来布局还需要一段时间（可能是 2 到 3年）。
+
+### Grid 术语
+网格容器,网格项目,网格线,网格轨道（Grid Tracks）,网格单元,网格区域,网格间距。
+
+### Grid 和 Flex 比较
+Grid 定义两个维度， 更适合大模块的排布布局。Flex 定义一个维度， 更适合内部内容布局。 在做一些布局时，可以同时使用 Grid 和 Flex。如 做类似瀑布流的卡片。卡片的布局用 Grid，卡片内部的布局 Flex。
+
+### 相关资源
+* 大漠演示的一些DEMO
+  * [Define a Grid](http://codepen.io/airen/pen/ENQZLx)
+  * [Grid 实现网格系统](http://codepen.io/airen/pen/WoMRVL)
+* [CSS Grid Layout Example](https://github.com/airen/grid-layout)
+* [Grid 教程](http://www.w3cplus.com/blog/tags/355.html)
 
 ## 闪电分享
 ### 演讲者信息
 勾三股四。阿里前端开发专家。
 
 ### 主要内容
+介绍了 [weex](https://github.com/alibaba/weex) 的工作原理，在 CSS 方面的支持和weex的优势。
+
+需要注意的是 weex不支持 CSS 的继承(CSS 是否需要继承，存在争议)。
+
+weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使其开发流程更规范。尤雨溪做为顾问加入了 weex 的开发。
+
+个人还是挺看好 weex 的。
 
 ## Sass & CSS Design Pattern
 ### 演讲者信息
 廖洧杰。台湾六角学院的校长，台湾国立高雄大学资讯管理学系前端兼任讲師、业界讲师。
 
 ### 主要内容
+样式的工程化，怎么利用工具，mixin库，base，reset以及模块化编写样式。不同角色和团队，眼里的职能和能力范围，团队协作需要注意的东西等。
 
+他建议我们要丰富自己的代码片段库和工具。
 
 ## 微信网页重构实践 && SVG工程化与动画实践
 ### 演讲者信息
 罗正烨、方潇仪，倪栩生。他们都是微信前端工程师。
 
-### 主要内容
+其中，倪栩生热爱漂移，他自嘲，最近去漂移了几百公里，现在能看到他站在这里就是个奇迹XD。从 PPT 可以看出，他是[神飞](https://www.qianduan.net/author/mienflying/)的好基友。
 
+### 主要内容
+#### 为什么现在可以用 SVG
+* 主流浏览器都支持 SVG
+* PhotoShop 支持导出为 SVG。要用 PhotoShop 导出为 SVG 的话，需要做图的时的一些技巧。并且，SVG 比 原图会亮（锐利）一点（原图会有一些半透明的过渡像素，SVG 的像素都是精确的）。当然，用矢量的设计工具，如 Sketch 和 AI 导出 SVG 效果比较好。
+
+对于不支持浏览器，则使用 png。
+
+#### SVG 的优势和劣势
+优势：
+* 色彩靓：1600万色
+* 质量高： 任意缩放
+* 尺寸小： 只有 png 的 1/5
+* 可以动： 很会动。SVG 可以做一些 DOM 做不了的动画。
+
+如果图片精灵用 rem 做单位，在有些情况下会出现少 1px 的情况（rem 转化为 px 时，小数的问题）。SVG 不会出现这种情况。
+
+劣势：
+渲染比 png 慢。但对于大部分情况，慢的时间可以忽略不计。路径动画，路径在 20 条以下的不会用性能问题。
+
+#### SVG 的简单用法
+常用标签的介绍。形状标签，图案填充，滤镜等。
+
+#### 一些 SVG 动画的实现细节
+包括描线动画、变形动画、路径运动、图案填充、滤镜(SVG 的滤镜比 CSS 的滤镜强大太多)。
+
+需要注意的是，要做动画的SVG，必须内联。因为 JS 只能修改内联的 SVG。
+
+#### 推荐的一些工具
+* [svgo](https://github.com/svg/svgo) 减小 SVG 文件的体积。
+* [Snap.svg](http://snapsvg.io/) 被称为 SVG界 的 jQuery。
+* [SVG Morpheus](https://github.com/alexk111/SVG-Morpheus) 做变形动画的库。
+* [Greensock 的 morphSVG](http://greensock.com/morphSVG) 更强大的做变形动画的库。收费。
+* [tmt-workflow](https://github.com/weixin/tmt-workflow) 工作流工具。
+* [WeFlow](https://github.com/weixin/WeFlow) 工作流工具。
+
+#### 微信网页重构实践
+信息和网页的关系，网页是信息上下文的情景重现等。
 
 ## 从矩阵走入 WebGL 世界
 ### 演讲者信息
 陈剑鑫。阿里移动事业群 - UC RED设计中心 高级前端工程师。
 
 ### 主要内容
+所有的变换都可以用矩阵表示。展示了一大堆酷炫，屌炸天的 demo。
 
 ## CSS animation && CSS: The secret drawing tool
 ### 演讲者信息
-Wenting Zhang。CSS ICON && underline.js作者、工作于 Adobe Typekit。同时会设计和前端的妹子。
+Wenting Zhang。CSS ICON && underline.js作者、工作于 Adobe Typekit。同时会设计和前端的女神。
 
 ### 主要内容
-live coding 了做一个胡子。
+用 live coding 的方式给我们现场展示了如何用一个 div 与 CSS 实现一个胡子可爱的胡子。然后通过 JS 修改 CSS 变量的值，来让胡子做一些动画。这也就是 CSS 变量相比 Sass 变量的一个优势：Sass 变量的值不能通过JS来修改。
 
+
+她推荐可以通过画图标来提高 CSS 水平。她在拖延症犯的时候，就画个图标。目前已经画了 512 个图标，见 [CSS ICON](http://cssicon.space/)
+
+我很喜欢她设计的适合 CSS 的字体: [CSS-Mono](https://github.com/wentin/CSS-Mono)。
 
 ## 其他
 * [参加2016年12月17日广州第三届 CSS Conf 大会是个什么样的体验？](https://www.zhihu.com/question/53068799/answer/136491905)
+* PPT 站位
 
