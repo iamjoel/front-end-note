@@ -21,7 +21,8 @@
   }
   .ly {
     display: grid;
-    grid-template-columns: 50px 50px 50px;
+    /*grid-template-columns: 50px 50px 50px;*/
+    grid-template-columns: repeat(3, 50px);
   }
 
   .ly--center{
@@ -33,9 +34,16 @@
   .ly--justify{
     justify-content: space-between;  
   }
+  .ly--autofill{
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 10px;
+    grid-auto-rows: 50px; /* 每列都是高 50px*/
+    grid-row-gap: 10px;
+  }
   
   .ly--multi-line{
-    grid-template-rows: 50px 50px 50px;
+    /*grid-template-rows: 50px 50px 50px;*/
+    grid-auto-rows: 50px; /* 每列都是高 50px*/
   }
   .ly--fill{
     grid-template-columns: 50px 50px 1fr;
@@ -73,8 +81,18 @@
     <div class="ly__item">C</div>
   </div>
 
+  <h2>一列最少宽200px。1行能放多少就放多少</h2>
+  <div class="ly ly--autofill">
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+    <div class="ly__item">A</div>
+    <div class="ly__item">B</div>
+    <div class="ly__item">C</div>
+  </div>
+
   <h2>多行两端对齐</h2>
-  <div class="ly ly--multi-line  ly--justify">
+  <div class="ly ly--multi-line ly--justify">
     <div class="ly__item">A</div>
     <div class="ly__item">B</div>
     <div class="ly__item">C</div>
@@ -101,6 +119,50 @@
     <div class="ly__item">A</div>
     <div class="ly__item">B</div>
     <div class="ly__item">C</div>
+  </div>
+
+  <h2>栅格</h2>
+  <style>
+    .container{
+      width: 80%;
+      margin: 0 auto;
+    }
+    .row{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-column-gap: 10px;
+    }
+    [class^=col-]{
+      height: 20px;
+      background-color: #f60;
+    }
+    .col-1 {
+      grid-column: span 1;
+    }
+    .col-2 {
+      grid-column: span 2;
+    }
+    .col-8 {
+      grid-column: span 8;
+    }
+    @media screen and (max-width: 768px) {
+      .col-1,.col-2,.col-8 {
+        grid-column: span 12;
+      }
+    }
+     
+  </style>
+  <!-- 
+  1. 定义多少行，多少列。
+  2. 一个元素占几行，几列
+  3. 元素的对齐方式。包括所有元素的对齐方式和单个的对齐方式 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-8"></div>
+      <div class="col-2"></div>
+    </div>
   </div>
 </div>
 </body>
