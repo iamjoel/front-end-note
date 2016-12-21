@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>从简到难</title>
+  <title>入门小demo</title>
   <style>
   .demo {
     margin-bottom: 10px;
@@ -13,7 +13,7 @@
   .item {
     box-sizing: border-box;
     min-width: 50px;
-    height: 50px;
+    min-height: 50px;
     background-color: #f60;
     border: 2px solid #1abc9c;
   }
@@ -21,6 +21,7 @@
 </head>
 
 <body>
+  <!-- chrome://flags 开启 实验性网络平台功能 。 #enable-experimental-web-platform-features-->
   <h2>一行有三个宽度100px的元素</h2>
   <style>
   .demo--1 {
@@ -162,10 +163,6 @@
     margin: 0 auto;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-  }
-  
-  .demo--11 .item {
-    height: auto;
   }
   
   .demo--11 .item-1 {
