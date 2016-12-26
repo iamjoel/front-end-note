@@ -95,6 +95,14 @@
 			<td>香吉士</td>
 			<td>男</td>
 		</tr>
+		<tr>
+			<!-- 跨两列 -->
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<!-- 跨两行 -->
+			<td rowspan="2"></td>
+		</tr>
 	</tbody>
 </table>
 ```
