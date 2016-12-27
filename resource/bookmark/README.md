@@ -29,7 +29,8 @@
 * [邮件订阅](mail-subscribe.md)
 * [博客](blog.md)
 * [播客](podcast.md)
-* Web 前端会议
+* Web 前端聚会&行业交流
+    * [D2前端技术论坛](http://d2forum.alibaba-inc.com/) 简称D2。为国内前端开发者和网站设计师提供一个交流的机会，一起分享技术的乐趣，探讨行业的发展，以技术会友。
     * [前端圈](http://fequan.com/) 为广州web前端人员量身打造一个良好的生态圈
     * [HTML 5峰会](http://www.html5dw.com/)
     * [Web Rebuild](http://www.webrebuild.org/)
