@@ -45,6 +45,7 @@
 * [W3school](http://www.w3school.com.cn/) 简单易懂的Web技术教程
 * [WebPlatform.org](http://docs.webplatform.org/) 上面有对最新的Web技术的介绍；有丰富的文档。你也可以为完善文档出一份力。
 * [MDN](https://developer.mozilla.org/en-US/) 和[WebPlatform.org](http://docs.webplatform.org/)类似
+* [奇舞团前端特训营视频](http://cloud.live.360vcloud.net/theater/vod)
 * [HTML 5 书签](http://html5bookmarks.com/) 关于 HTML5 的库，插件，书等资源
 * [Javascript API－overapi.com](http://overapi.com/javascript/) Javascript API
 * [HTML 5 JavaScript API](http://html5index.org/)
