@@ -1,34 +1,47 @@
-# 学习资源
-* [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
-* [饥人谷 前端学习课件](http://book.jirengu.com/fe/index.html) [Samaritan 做的类似的东东](http://samaritan89.github.io/f2e/index.html)
-* [慕课网 HTML + CSS基础课程](http://www.imooc.com/learn/9)
-* [HTML基本知识](http://www.jianshu.com/notebooks/536331/latest) 一个叫[实验楼](http://www.shiyanlou.com/)的培训机构做的
-* [极客学院 HTML5相关知识](http://www.jikexueyuan.com/path/html5/)
-* [JavaScript深入浅出(视频) - 慕课网](http://www.imooc.com/learn/277)
-* [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
-* [JavaScript简易教程 v0.3.0 - 颜海镜](http://yanhaijing.com/basejs/) 我所知道最完整最简洁的JavaScript基础教程
-* [JavaScript Tutorial](http://javascript.info/) JavaScript基础教程。知识介绍以及习题。
-* [30 Days to Learn jQuery](http://code.tutsplus.com/courses/30-days-to-learn-jquery)
-* [dive into html5](http://diveintohtml5.info/table-of-contents.html)
-* [不只是CSS的CSS学习笔记](http://segmentfault.com/bookmark/1230000002426520)
-* [CSS 各种规则的参考](http://tympanus.net/codrops/css_reference/)
-* [学习布局](http://zh.learnlayout.com/)
-* [一些标准的命名规范](http://www.html-js.com/article/JS-rookie-in-the-rookie-began-to-learn-some-standard-naming-conventions-to-fly)
+# 前端学习资源精选
+## 教程
+* 综合
+  * [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html) 对前端做了整体的介绍。
+  * [饥人谷 前端学习课件](http://book.jirengu.com/fe/index.html) 内容深入浅出。适合初学者。
+  * [MDN](https://developer.mozilla.org/zh-CN/docs/Web)   这网站上内容比 [W3school](http://www.w3school.com.cn/) 上的详细。
+* CSS
+  * [CSS 规则参考](http://tympanus.net/codrops/css_reference/)
+  * [学习 CSS 布局](http://zh.learnlayout.com/)
+* JavaScript
+  * [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
+  * [JavaScript简易教程 v0.3.0 - 颜海镜](http://yanhaijing.com/basejs/) 我所知的最完整最简洁的 JavaScript 基础教程。
 
-## 书籍推荐
-* [书籍推荐](../books)
-
-## 通过练习的方式学习
-* [FreeCodeCamp](https://freecodecamp.cn/)
-* [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，提交代码让他人评论你的代码以提高。
-* [Codewars](http://www.codewars.com/)
+## 练习
+* [Free Code Camp](https://freecodecamp.cn/)
+* [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，通过让他人看你提交代码来提高。
 * [百度前端技术学院:任务列表](http://ife.baidu.com/task/all)
 
-## 其他
-* [在线工具](bookmark/tool.md)
-* [前端工具](https://github.com/codylindley/frontend-tools)
-* [前端现代工具手册](https://github.com/tooling/book-of-modern-frontend-tooling)
-* [sitthetest(英)](https://sitthetest.com/tests) HTML,CSS,JS的测试
-* [我的收藏夹](bookmark/)
-* [A Baseline for Front-End [JS] Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
-* [A Baseline for Front-End Developers(2012)](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
+## 资讯
+* 技术站
+  * [Div.IO](http://div.io/#/welcome)
+  * [前端乱炖](http://www.html-js.com/)
+  * [W3C plus](http://www.w3cplus.com/) 
+  * [CSS-TRICKS](https://css-tricks.com/) 虽然内容是英文的，但内容特别赞。
+* 内容聚合
+  * [掘金](http://gold.xitu.io)
+  * [开发者头条](http://toutiao.io/)
+* 邮件订阅：每周收一封相关内容的邮件。
+  * [CSS Weekly](http://css-weekly.com/)
+  * [HTML5 Weekly](http://html5weekly.com/)
+  * [JavaScript Weekly](http://javascriptweekly.com/)
+
+如何与最新的前端技术保存同步的方法，点[这里](http://uptodate.frontendrescue.org/)。
+
+## 在线代码编辑器
+* [Dabblet](http://dabblet.com/) 演示 CSS 的比较好，会自动加浏览器前缀。对JS的支持比较弱。
+* [CodePen](http://codepen.io/)
+* [Jsfiddle](http://jsfiddle.net/)
+
+一般用在线代码编辑器写一些准备分享给别人看的 Demo 。
+
+
+## 视频教程
+* [HTML + CSS基础课程](http://www.imooc.com/learn/9)
+* [JavaScript 深入浅出](http://www.imooc.com/learn/277)
+
+看视频学技术的缺点是学习效率比较低，优点是对初学者更友好。前端入门后，不推荐看视频。
