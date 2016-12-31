@@ -1,4 +1,6 @@
 # Web前端网站收藏
+[学习资源](learn-resource.md)
+
 ## API 速查
 * [HTML5标签](http://websitesetup.org/html5-cheat-sheet/) HTML5 标签的语义，帮助我们写出语义化的HTML
 * [Markdown](http://warpedvisions.org/projects/markdown-cheat-sheet)

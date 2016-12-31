@@ -8,8 +8,9 @@
   * [CSS 规则参考](http://tympanus.net/codrops/css_reference/)
   * [学习 CSS 布局](http://zh.learnlayout.com/)
 * JavaScript
-  * [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
   * [JavaScript简易教程 v0.3.0 - 颜海镜](http://yanhaijing.com/basejs/) 我所知的最完整最简洁的 JavaScript 基础教程。
+  * [JavaScript The Right Way 中文版](http://jstherightway.org/zh-cn/)
+  * [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
 
 ## 练习
 * [Free Code Camp](https://freecodecamp.cn/)
