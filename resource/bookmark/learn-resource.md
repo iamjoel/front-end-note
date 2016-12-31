@@ -18,7 +18,7 @@
 * [百度前端技术学院:任务列表](http://ife.baidu.com/task/all)
 
 ## 资讯
-* 技术站
+* 网站
   * [Div.IO](http://div.io/#/welcome)
   * [前端乱炖](http://www.html-js.com/)
   * [W3C plus](http://www.w3cplus.com/) 
