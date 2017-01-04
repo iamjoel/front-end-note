@@ -22,6 +22,8 @@
   * https://css-tricks.com/almanac/properties/c/clip/
 * Post CSS
   * http://webdesign.tutsplus.com/tutorials/using-postcss-for-cross-browser-compatibility--cms-24567
+* Sass
+  * [Sass & Susy教學手冊](https://github.com/gonsakon/Learn-Sass-in-90-days) Learn Sass in 90 days
 
 
 ### 酷炫效果

@@ -7,7 +7,7 @@
 
 [官网](https://css.w3ctech.com/)。
 
-## 第一场：3.14 Things I Didn’t Know About CSS
+## 第一场：[4.20 Things I Didn’t Know About CSS](https://img.w3ctech.com/slide/4.20%20things%20I%20didn%E2%80%99t%20know%20about%20CSS.pdf)
 ### 演讲者信息
 Mathias Bynens。一个喜欢 HTML, CSS, JavaScript, Unicode, 性能 和安全的家伙。来自比利时。[Github](https://github.com/mathiasbynens)。
 
@@ -82,7 +82,7 @@ CSS 中
 
 ***
 
-##  第二场：CSS Grid Layout
+##  第二场：[CSS Grid Layout](https://img.w3ctech.com/slide/CSS-Grid-Layout.pptx)
 ### 演讲者信息
 大漠。CSS专家、阿里巴巴前端技术专家。“不会JS的CSS专家”（玩笑~）,说着一口“胡建”普通话XD。
 
@@ -112,7 +112,7 @@ Grid 定义两个维度， 更适合大模块的排布布局。Flex 定义一个
 
 ***
 
-##  第三场：闪电分享
+##  第三场：[闪电分享](https://img.w3ctech.com/slide/CSS%20in%20Native%20-%20CSSConf%20Guangzhou%202016.pdf)
 ### 演讲者信息
 勾三股四。阿里前端开发专家。
 
@@ -127,7 +127,7 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 
 ***
 
-## 第四场：Sass & CSS Design Pattern
+## 第四场： [Sass & CSS Design Pattern](https://img.w3ctech.com/slide/SASS-china.pdf)
 ### 演讲者信息
 廖洧杰。台湾六角学院的校长，台湾国立高雄大学资讯管理学系前端兼任讲師、业界讲师。
 
@@ -138,8 +138,7 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 
 ***
 
-## 第五场：微信网页重构实践 && SVG工程化与动画实践
-### 演讲者信息
+## 第五场：[微信网页重构实践](https://img.w3ctech.com/slide/tlakaboutwebmessage.pptx) &&[SVG工程化](http://weixin.github.io/resources/slide/cssconf2016/doubleluo/index.html#/)  && [SVG动画实践](http://weixin.github.io/resources/slide/cssconf2016/nikki/html/slides.html)
 罗正烨、方潇仪，倪栩生。他们都是微信前端工程师。
 
 其中，倪栩生热爱漂移，他自嘲，最近去漂移了几百公里，现在能看到他站在这里就是个奇迹XD。从 PPT 可以看出，他是[神飞](https://www.qianduan.net/author/mienflying/)的好基友。
@@ -184,7 +183,7 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 
 ***
 
-## 第六场：从矩阵走入 WebGL 世界
+## 第六场：[从矩阵走入 WebGL 世界](https://jasonchen1982.github.io/web-ppt/cf2-sharing/#/)
 ### 演讲者信息
 陈剑鑫。阿里移动事业群 - UC RED设计中心 高级前端工程师。
 
@@ -193,7 +192,7 @@ weex 目前已经捐给了 apache 基金会。其希望受基金会管理，使�
 
 ***
 
-## 第七场：CSS animation && CSS: The secret drawing tool
+## 第七场：[CSS的隐藏绘画功能和交互动画技巧](https://img.w3ctech.com/slide/cssicon-wentin.pdf)
 ### 演讲者信息
 Wenting Zhang。CSS ICON && underline.js作者、工作于 Adobe Typekit。同时会设计和前端的女神。
 
@@ -209,10 +208,9 @@ Wenting Zhang。CSS ICON && underline.js作者、工作于 Adobe Typekit。同�
 我很喜欢她设计的适合 CSS 的字体: [CSS-Mono](https://github.com/wentin/CSS-Mono)。上图中的 CSS 字体就是 CSS-Mono。
 
 ## 其他
-* [参加2016年12月17日广州第三届 CSS Conf 大会是个什么样的体验？](
+* [知乎：参加2016年12月17日广州第三届 CSS Conf 大会是个什么样的体验？](
 ![css大会.jpg](http://upload-images.jianshu.io/upload_images/16777-67b42b2dd21c955d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 )
-* PPT 站位
 
 最后，放张合影。
 
