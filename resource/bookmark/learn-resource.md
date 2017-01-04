@@ -14,14 +14,15 @@
 
 ## 练习
 * [Free Code Camp](https://freecodecamp.cn/)
-* [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，通过让他人看你提交代码来提高。
+* [LeetCode Online Judge](https://leetcode.com/) 很多算法题。
 * [百度前端技术学院:任务列表](http://ife.baidu.com/task/all)
+* [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，通过让他人看你提交代码来提高。
 
 ## 资讯
 * 网站
   * [Div.IO](http://div.io/#/welcome)
   * [前端乱炖](http://www.html-js.com/)
-  * [W3C plus](http://www.w3cplus.com/) 
+  * [W3C plus](http://www.w3cplus.com/)
   * [CSS-TRICKS](https://css-tricks.com/) 虽然内容是英文的，但内容特别赞。
 * 内容聚合
   * [掘金](http://gold.xitu.io)
