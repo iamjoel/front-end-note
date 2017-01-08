@@ -2,6 +2,7 @@
 ## HTML
 * [Battling BEM – 5 common problems and how to avoid them](https://medium.com/fed-or-dead/battling-bem-5-common-problems-and-how-to-avoid-them-5bbd23dee319#.6jkw93axf)
 	* 如嵌套太深 用新的组件
+* [前端 Meta 用法大汇总](http://www.jianshu.com/p/850d2a209ba8)
 
 ## CSS
 * [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/?from=timeline&isappinstalled=0)
