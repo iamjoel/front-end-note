@@ -155,7 +155,6 @@ Connection: Closed
 [HTTPie](https://github.com/jkbrzt/httpie) 类似 cURL，但其 api 相比 cURL 更友好。
 ![HTTPie 示例](https://raw.githubusercontent.com/jkbrzt/httpie/master/httpie.png)
 
-
 ## 参考链接
 * [HTTP 引入](http://www.ituring.com.cn/article/209130)
 * [HTTP 协议解析](http://yuez.me/http-xie-yi-jie-xi/)
