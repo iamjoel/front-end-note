@@ -21,15 +21,20 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 * 提交改动代码 `git commit -m filePath "注释"` 注意:注释是必填的
 * 提交所有改动代码 `git commit -am "注释"`
 * 查看当前项目代码的状态 `git status`
-* 将改动推送到服务器 `git push`
+* 将改动推送到服务器 `git push`。
 * 将文件的内容替换成上次提交时候的内容 `git checkout filePath`
 * 将还没提交的内容保存起来，所有的文件内容变成上次提交时的样子 `git stash`
 * 回复上次`git stash`的内容，并与当前代码进行合并 `git stash pop`
 * 分支操作
 	* 切换到某分支 `git checkout branchName`
-	* 创建并切换到某分支 `git checkout -b branchName`
+	* 创建并切换到某分支 `git checkout -b branchName`。以当前分支的代码做为基础。获取远程分支并切换到该分支 `git checkout -b branchName origin/branchName`
 	* 将某分支的改动推送到服务器 `git push origin branchName`
+    * 删除本地分支 `git branch -d branchName`
+    * 查看本分支列表 `git branch`。查看远程分支列表 `git branch -r`
+    * 将 a 分支的内容合并到 b 分支。`git checkout b`,`git merge a`。
 * 发生冲突时，文件中会用 `>>>>` 和 `<<<<` 来标明冲突的地方。合并好后，`git add 这个冲突的文件`。 然后再commit,push
+* 给历史记录中的某个重要的一点打上标签 `it tag -a 标签名`
+
 
 ![git使用demo](git-imgs/git-use-example.jpg)
 
@@ -106,6 +111,7 @@ https://github.com/miroadamy/miroadamy-dot-com/wiki/Difference-between-matching-
 
 ## 拓展阅读
 * [猴子都能懂的Git入门](http://backlogtool.com/git-guide/cn/)
+* [Git 参考手册](http://gitref.justjavac.com/) 迷度过出品。
 * [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki) 高质量的Git中文教程
 * [Git 及托管商 Github 的使用](https://github.com/xirong/my-git)
 * [版本控制入门插图教程](http://www.ruanyifeng.com/blog/2008/12/a_visual_guide_to_version_control.html)
