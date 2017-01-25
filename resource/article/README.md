@@ -5,6 +5,7 @@
 * 标签和属性
   * [选择合适的块级HTML标签流程图](http://www.jianshu.com/p/c6dd30081358)
   * [手机页面的一些有用的meta](http://www.jianshu.com/p/a7943a969a19)
+  * [前端 Meta 用法大汇总](http://www.jianshu.com/p/850d2a209ba8)
 * 代码
   * [HTML代码片段](http://www.jianshu.com/p/2f4910883192)
 * 练习
@@ -33,6 +34,7 @@
   * inline-block 布局
     * [inline-block 布局写法示例](http://www.jianshu.com/p/eaa1578eddb2)
   * [Grid 布局 写法示例](http://www.jianshu.com/p/482990c1f395)
+  * [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
 * 属性值
   * 文本
     * [不简单的 white-space 属性](http://www.jianshu.com/p/1f451fc21b37)
@@ -43,20 +45,34 @@
     * [选择合适的动画缓动函数](http://www.jianshu.com/p/9b6824f7af51)
   * 阴影
     * [CSS Box Shadow除了做阴影效果还能做啥](http://www.jianshu.com/p/49fcb3c90e1f)
+  * 滤镜
+    * [Advanced CSS filters](http://iamvdo.me/en/blog/advanced-css-filters) 滤镜的 Demo
+  * [Blending Modes in CSS: Color Theory and Practical Application](http://webdesign.tutsplus.com/tutorials/blending-modes-in-css-color-theory-and-practical-application--cms-25201) 混合模式的不同值的颜色值算法。
+  * [Masking in the Browser with CSS and SVG](http://www.sitepoint.com/masking-in-the-browser-with-css-and-svg/)
 * 浏览器兼容性
   * [CSS hack总结](http://www.jianshu.com/p/1bce60dffc97)
 * 代码
   * [CSS代码片段](http://www.jianshu.com/p/9ef8e1e8e1c2)
   * [用CSS来找出两张图的差异](http://www.jianshu.com/p/00af744f52d1)
   * [用 CSS 3 来做个平安果吧~](http://www.jianshu.com/p/fae1b8a48c71)
+  * [Star Wars 文字动画](https://cssanimation.rocks/starwars/)
+  * [Water In A Bubble](https://codepen.io/gingerdude/pen/JXwgdK)
+  * [CSS 来做 Checkbox](http://www.xiumu.org/technology/style-checkboxes-with-css.shtml)
+  * [利用jQuery和CSS实现环形进度条](http://www.w3cplus.com/css3/create-radial-progress-bar-with-jQuery-and-css3.html)
+  * [12 Little-Known CSS Facts (The Sequel)](http://www.sitepoint.com/12-little-known-css-facts-the-sequel/)
 * 提高代码质量
   * BEM
     * [BEM 写法示例](http://www.jianshu.com/p/98829369a8d6)
     * [BEM 简介](http://www.jianshu.com/p/49023c3f242c)
+    * [Battling BEM – 5 common problems and how to avoid them](https://medium.com/fed-or-dead/battling-bem-5-common-problems-and-how-to-avoid-them-5bbd23dee319#.6jkw93axf) 避免出现 `a__b__c--d__e` 这种。
 * 提高效率
   * Sass
     * [CSS拓展语言：Sass介绍](http://www.jianshu.com/p/63acb3e8f83c)
     * [Sass 写法示例](http://www.jianshu.com/p/963c6eee2855)
+    * [Sass & Susy教學手冊](https://github.com/gonsakon/Learn-Sass-in-90-days) Learn Sass in 90 days
+  * PostCSS
+    * [是时候学习Postcss了](http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/)
+  * [The CSS at…](https://css-tricks.com/css/) 一些大公司是对待处理 CSS：预译器，前缀，代码风格等
   * [用 Compass 分分钟地做图片精灵](http://www.jianshu.comhttp://www.jianshu.com/p/92409acd609a)
   * [compass生成基于rem的图片精灵](http://www.jianshu.com/p/b3c15f304227)
 
@@ -64,6 +80,7 @@
 ## JavaScript
 * 基础概念
   * [给新手的 JavaScript 介绍](http://www.jianshu.com/p/8c8e1a5d8e69)
+  * [重新介绍 JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 * 数据类型
   * [JavaScript 的变量和数据类型](http://www.jianshu.com/p/a951a360566f)
   * 数字
@@ -78,6 +95,7 @@
     * [JavaScript 数组常用方法介绍](http://www.jianshu.com/p/741009fda86b)
     * [JavaScript 数组练习题](http://www.jianshu.com/p/4f40599c7174)
     * [JavaScript 数组练习题之实现](http://www.jianshu.com/p/fbc2ac1533be)
+    * [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
   * 日期
     * [时间标准：GMT，UTC 以及DST](http://www.jianshu.com/p/e29f596dc8e0)
     * [JavaScript 日期之某天的下一天是哪天](http://www.jianshu.com/p/38bc5d1ef9ad)
@@ -93,6 +111,7 @@
   * [BOM 操作写法示例](http://www.jianshu.com/p/60e1f275455a)
   * [escape,encodeURI,encodeURIComponent](http://www.jianshu.com/p/87b601297041)
   * [location 对象详解](http://www.jianshu.com/p/25466c519525)
+  * [UserAgent的历史变迁](http://article.yeeyan.org/view/heart5/19211) 每个浏览器都宣称自己是其他浏览器的乱象的由来
   * [HanSON是个什么鬼](http://www.jianshu.com/p/6a05a987ded3)
   * [Web存储(Web Storage)介绍](http://www.jianshu.com/p/81e471968d9d)
   * 动画
@@ -102,11 +121,16 @@
   * [JavaScript 严格模式介绍](http://www.jianshu.com/p/08d1b6c6514a)
   * [JS模式 之通用模式（译）](http://www.jianshu.com/p/82c1b04d9da6)
   * [ESLint 介绍](http://www.jianshu.com/p/9724ad299ff6)
+  * [Superhero.js](http://superherojs.com/) 关于如何创建一个可维护的大型 JS 项目的一系列优秀文章
+  * [refactoring tales](http://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html) 一些案例，应该如何重构
 * 提高性能
   * [耗时函数被短时间频繁调用时，防浏览器卡死的方法](http://www.jianshu.com/p/2bb13c439c72)
   * [web workers介绍](http://www.jianshu.com/p/55448bc08961)
+  * [JS 做后台任务](http://www.sitepoint.com/how-to-schedule-background-tasks-in-javascript/)
+用 requestIdleCallback。 这个方法会在浏览器空闲时做一些事情。
 * 提高效率
   * [前端模拟ajax接口](http://www.jianshu.com/p/bb3856da2546)
+  * [张云龙的前端工程系列文章](https://github.com/fouber/blog/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B)
   * 异步流程控制
     * [Promise 写法示例](http://www.jianshu.com/p/8d0fe30cb873)
     * [async/await 写法示例](http://www.jianshu.com/p/d84154b05703)
@@ -122,10 +146,19 @@
   * [生成不重复值的几种方法](http://www.jianshu.com/p/0ef8cb359185)
   * [滑动到底部无限加载的实现](http://www.jianshu.com/p/5e93a2cf6671)
   * [一起来写js标准库的学习测试用例吧](http://www.jianshu.com/p/b68db6ba2eca)
+  * [如何使用JavaScript生成lowpoly风格图像？](https://www.zhihu.com/question/29856775)
+  * [7 Essential JavaScript Functions](https://davidwalsh.name/essential-javascript-functions)
+* 调试
+  * [The Art of Debugging(调试的艺术)](https://remysharp.com/2015/10/14/the-art-of-debugging)
+    * 重现 Bug
+    * 理解 Bug 是如何产生的
+    * 解决 Bug
 * 资源
   * [了解 JS 最新动态， 听听 FiveJS 吧](http://www.jianshu.com/p/0b80151c7b82)
 * 练习
   * [随机获奖名单](http://www.jianshu.com/p/65085c2f4d45)
+* 测试
+  * [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95#.hbilswjcl)
 * 框架
   * [Vanilla JS——世界上最轻量的JavaScript框架](http://www.jianshu.com/p/99de1da0a570)
   * jQuery
@@ -191,6 +224,8 @@
 * 技能点
   * [初级 Web 前端核心技能点](http://www.jianshu.com/p/4c1a1c673b00)
   * [CSS 核心技能点](http://www.jianshu.com/p/2173792fbec5)
+* 浏览器
+  * [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/?from=timeline&isappinstalled=0)
 
 ### Node.js
 * [Node.js概要](http://www.jianshu.com/p/8be19a24399e)
@@ -205,6 +240,7 @@
 * [管理用hexo写的博客的内容源码（md）](http://www.jianshu.com/p/e6b2fbcfa05e)
 * [开源许可协议介绍](http://www.jianshu.com/p/3b8b59b8114d)
 * [glob 介绍](http://www.jianshu.com/p/ce7cf53274bb)
+* [程序员的自我修养](http://wiki.jikexueyuan.com/project/a-programmer-prepares/)
 
 ## For Fun
 * [搞死 IE6](http://www.jianshu.com/p/326240a0ca98)
