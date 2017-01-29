@@ -33,7 +33,7 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
     * 查看本分支列表 `git branch`。查看远程分支列表 `git branch -r`
     * 将 a 分支的内容合并到 b 分支。`git checkout b`,`git merge a`。
 * 发生冲突时，文件中会用 `>>>>` 和 `<<<<` 来标明冲突的地方。合并好后，`git add 这个冲突的文件`。 然后再commit,push
-* 给历史记录中的某个重要的一点打上标签 `it tag -a 标签名`
+* 给历史记录中的某个重要的一点打上标签 `git tag -a 标签名`
 
 
 ![git使用demo](git-imgs/git-use-example.jpg)
@@ -90,8 +90,18 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config core.ignorecase false
 ```
 
+### 远程代码库的地址变了怎么处理
+```
+git remote rm origin
+git remote add origin 新的远程代码库的地址
+// 第一次提交时用一下代码
+git push --set-upstream origin master
+```
+
 ### Difference between matching and simple Git push
 https://github.com/miroadamy/miroadamy-dot-com/wiki/Difference-between-matching-and-simple---Git-push
+
+
 
 ## <a name="practice">练习</a>
 1. 安装[Github](https://github.com/)的客户端 [windows 版下载](https://windows.github.com/)
@@ -113,7 +123,7 @@ https://github.com/miroadamy/miroadamy-dot-com/wiki/Difference-between-matching-
 
 ## 拓展阅读
 * [猴子都能懂的Git入门](http://backlogtool.com/git-guide/cn/)
-* [Git 参考手册](http://gitref.justjavac.com/) 迷度过出品。
+* [Git 参考手册](http://gitref.justjavac.com/) 迷渡出品。
 * [git-recipes](https://github.com/geeeeeeeeek/git-recipes/wiki) 高质量的Git中文教程
 * [Git 及托管商 Github 的使用](https://github.com/xirong/my-git)
 * [版本控制入门插图教程](http://www.ruanyifeng.com/blog/2008/12/a_visual_guide_to_version_control.html)
