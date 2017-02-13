@@ -1,4 +1,4 @@
 [
-  // 按两下 vim 进入的一般模式
-  { "keys": ["j", "j"], "command": "exit_insert_mode"}
+  // 按两下f vim 进入的一般模式
+  { "keys": ["f", "f"], "command": "exit_insert_mode"}
 ]
