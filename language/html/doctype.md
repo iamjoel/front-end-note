@@ -22,8 +22,9 @@
 IE6、7和8不支持application/xhtml+xml，Mac IE5也如此。
 
 ## 查看当前的浏览器渲染模式
-* firefox中安装了webDeveloper插件后，可在webDeveloper工具条的最右边查看
-* ie中可打开开发人员工具查看（快捷键F12）
+* 在代码中可以通过 document.compatMode 的值来判断，怪异模式，值是 `BackCompat`，标准模式的值是 `CSS1Compat`。
+* firefox中安装了webDeveloper插件后，可在webDeveloper工具条的最右边查看。
+* ie中可打开开发人员工具查看（快捷键F12）。
 
 ## 何时会触发怪癖模式
 * 缺少文档声明。
