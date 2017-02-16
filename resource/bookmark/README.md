@@ -40,6 +40,7 @@
     * [wdshare 西安交流会](http://www.wdshare.org/)
     * [中国 CSS 开发者大会](http://css.w3ctech.com/)
         * [第一届视频](http://www.imooc.com/space/teacher/id/1214876?page=1)
+    * [JSConf China 2016](http://2016.jsconf.cn/#/?_k=w7qvoy)
 * [如何与最新的前端技术保存同步](http://uptodate.frontendrescue.org/)
 
 ## 教程&文档
