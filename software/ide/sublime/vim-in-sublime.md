@@ -1,4 +1,21 @@
-# Sublime 在 Vim 一般模式下的快捷键
+# 在 Sublime 中使用 Vim 指南
+> Sublime 被称为最性感的编辑。Vim 被称为编辑器之神。
+我喜欢 Sublime 的强大易用，也喜欢 Vim 的快速和掌控感（文末有展示Vim肌肉的几个例子）。
+**幸运的是，可以在 Sublime 中使用 Vim 的大部分功能。**
+
+## 让 Sublime 支持 Vim
+Sublime 中自带支持 Vim 的插件，但默认是关闭的。开启方式为:在菜单 Preferences/Settings-User 中设置
+```
+"ignored_packages": []
+```
+
+在 Sublime 中按下  Esc 键，就进入了一般模式。但 Esc 键好远，我们可以在 Key Binding 中改成自己习惯的键。 我用的是 `fj` (有点非主流，哈哈)，如下：
+```
+{ "keys": ["f", "j"], "command": "exit_insert_mode"}
+```
+
+下面是一般模式下的常用命令。
+
 ## 移动光标
 * h,j,k,l: 左，下，上，右。
 * w: 下一个词的词首。
@@ -53,11 +70,7 @@
   * d4w: 向后删除4个单词。
   * 5yy: 复制5行。
 
-## 修改进入一般模式的快捷键
-Sublime 中默认的是 Esc 键，好远啊。可以在 Key Binding 中改成自己习惯的。 我用的是 `fj` (有点非主流，哈哈)
-```
-{ "keys": ["f", "j"], "command": "exit_insert_mode"}
-```
+
 
 ## 示例
 下面的示例都是在已经进入一般模式下进行的。
