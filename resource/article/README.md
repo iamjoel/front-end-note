@@ -14,23 +14,37 @@
   * 样式生效规则
   * 样式
     * [CSS中的基本图形和路径](https://www.w3cplus.com/css/basic-shapes-path.html)
+    * 单位
+      * [长度单位](https://www.w3cplus.com/blog/tags/333.html)
   * 布局
-    * [Web布局新系统：CSS Grid,Flexbox和Box Alignment](https://www.w3cplus.com/css/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout.html)
-    * Flexbox
-      * [理解Flexbox：你需要知道的一切](https://www.w3cplus.com/css3/understanding-flexbox-everything-you-need-to-know.html)
-      * [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html) 阮一峰
-      * [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html) 阮一峰
-    * 文字围绕形状
-      * [如何在Web中使用CSS Shapes](https://www.w3cplus.com/css3/how-to-use-css-shapes-in-your-web-design.html)
-      * [CSS Exclusions:让布局变得更有意思](https://www.w3cplus.com/css/css-exclusions.html)
-    * 网格布局(Grid Layout)
-      * [通过漫画阐述CSS网格布局](https://www.w3cplus.com/css/css-grid-layout-and-comics-as-explained-by-barry-the-cat.html)
-      * [更多](https://www.w3cplus.com/blog/tags/355.html)
+    * 整体布局
+      * [Web布局新系统：CSS Grid,Flexbox和Box Alignment](https://www.w3cplus.com/css/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout.html)
+      * Flexbox
+        * [理解Flexbox：你需要知道的一切](https://www.w3cplus.com/css3/understanding-flexbox-everything-you-need-to-know.html)
+        * [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html) 阮一峰
+        * [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html) 阮一峰
+      * 文字围绕形状
+        * [如何在Web中使用CSS Shapes](https://www.w3cplus.com/css3/how-to-use-css-shapes-in-your-web-design.html)
+        * [CSS Exclusions:让布局变得更有意思](https://www.w3cplus.com/css/css-exclusions.html)
+      * 网格布局(Grid Layout)
+        * [通过漫画阐述CSS网格布局](https://www.w3cplus.com/css/css-grid-layout-and-comics-as-explained-by-barry-the-cat.html)
+        * [更多](https://www.w3cplus.com/blog/tags/355.html)
+    * 细节布局
+      * [深入了解CSS字体度量，行高和vertical-align](http://www.w3cplus.com/css/css-font-metrics-line-height-and-vertical-align.html) 行高比你想象中的复杂。
   * 效果
+    * [text-stroke实现文本描边效果](https://www.w3cplus.com/css3/text-stroke.html)
+    * 绘制图形
+      * [每天一个绘制CSS图形的小案例](https://github.com/sashatran/100-days-of-code/blob/master/log.md)
   * 常见浏览器兼容性问题和解决
   * 提高代码质量&工作效率
+    * CSS 变量
+      * [深入学习CSS自定义属性（CSS变量）](https://www.w3cplus.com/css3/css-properties-in-depth.html)
+      * [CSS变量和预处理器变量的差异](https://www.w3cplus.com/css/difference-between-types-of-css-variables.html)
+      * [CSS自定义属性制作动画](https://www.w3cplus.com/css3/create-animation-with-css-variables.html)
     * PostCSS
       * [From Sass to PostCSS](https://tylergaw.com/articles/sass-to-postcss)
+  * 优秀Demo
+    * [ 禅意花园: CSS 设计之美](http://www.csszengarden.com/tr/zh-cn/)
   * 规范
     * [CSS 规范](https://www.w3.org/Style/CSS/specs.en.html)
 * JavaScript
@@ -43,6 +57,11 @@
   * 客户端存储
   * 常见浏览器兼容性问题和解决
   * 提高代码质量&工作效率
+  * 效果
+    * Canvas
+      * [Canvas学习：Canvas入门准备](https://www.w3cplus.com/canvas/introduction-to-prepare.html)
+    * WebGL
+      * [WebGL Fundamentals（中文版）](https://github.com/W3cplus/webgl-fundamentals-zh)
   * 安全
 
 
