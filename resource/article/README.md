@@ -62,5 +62,8 @@
 * 软技能
   * 沟通
   * 团队协作
+  * 职场
+    * [职场邮件的基本礼仪](http://mp.weixin.qq.com/s/rD4XbHpgerPCYJErBxAD7w) 只发给合适的人，发送前要检查发送者列表；发给第一次接触的人，尽量第一段简短介绍一下自己，以及为什么发这篇信件。
+    * [工作第一年，你需要学到什么？](http://mp.weixin.qq.com/s/XlRFuquBH1tBNiX8Mnky_g) 关于提问，找答案，学习，邮件礼仪，职业素养等。
 
 
