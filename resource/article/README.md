@@ -22,6 +22,7 @@
     * 单位
       * [长度单位](https://www.w3cplus.com/blog/tags/333.html)
   * 布局
+    * [学习 CSS 布局](http://zh.learnlayout.com/)
     * 整体布局
       * [Web布局新系统：CSS Grid,Flexbox和Box Alignment](https://www.w3cplus.com/css/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout.html)
       * Flexbox
@@ -38,7 +39,8 @@
       * [探讨判断横竖屏的最佳实现](http://web.jobbole.com/90465/)
     * 细节布局
       * [深入了解CSS字体度量，行高和vertical-align](http://www.w3cplus.com/css/css-font-metrics-line-height-and-vertical-align.html) 行高比你想象中的复杂。
-    * 其他
+    * 综合
+      * [CSS 高级布局技巧](https://github.com/sorrycc/blog/issues/14)
       * [从Chrome源码看浏览器如何layout布局](https://zhuanlan.zhihu.com/p/25445527)
   * 效果
     * [text-stroke实现文本描边效果](https://www.w3cplus.com/css3/text-stroke.html)
