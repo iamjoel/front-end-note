@@ -13,22 +13,38 @@
     * [选择合适的块级HTML标签流程图](http://www.jianshu.com/p/c6dd30081358)
 * CSS
   * 基本概念
+    * [CSS 词汇表](http://yisibl.github.io/css-vocabulary/) 注释，语句，规则集等等。
     * [【转载】理解 CSS 属性值语法](https://www.w3cplus.com/css/understanding-the-css-property-value-syntax.html) 看懂 CSS 规范的属性值定义。
   * 选择器
     * [使用 CSS 来做素数的判定与筛选](https://zhuanlan.zhihu.com/p/24718254?hmsr=toutiao.io) `:nth-child` 的妙用。
   * 样式生效规则
   * 样式
     * [CSS中的基本图形和路径](https://www.w3cplus.com/css/basic-shapes-path.html)
+    * 字体
+      * [Typography](http://adamschwartz.co/magic-of-css/chapters/5-typography/)
     * 单位
       * [长度单位](https://www.w3cplus.com/blog/tags/333.html)
   * 布局
-    * [学习 CSS 布局](http://zh.learnlayout.com/)
+    * [学习 CSS 布局](http://zh.learnlayout.com/) 教授的是现在广泛使用于网站布局领域的CSS基础。
+    * 盒模型
+      * [The Box](http://adamschwartz.co/magic-of-css/chapters/1-the-box/)
     * 整体布局
       * [Web布局新系统：CSS Grid,Flexbox和Box Alignment](https://www.w3cplus.com/css/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout.html)
       * Flexbox
         * [理解Flexbox：你需要知道的一切](https://www.w3cplus.com/css3/understanding-flexbox-everything-you-need-to-know.html)
         * [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html) 阮一峰
         * [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html) 阮一峰
+        * [Flex 布局 写法示例](http://www.jianshu.com/p/32cc837bd47e)
+      * inline-block & table-layout
+        * [应不应该使用inline-block代替float](https://www.w3cplus.com/css/inline-blocks.html)
+        * [如何解决inline-block元素的空白间距](https://www.w3cplus.com/css/fighting-the-space-between-inline-block-elements)
+        * [inline-block 布局写法示例](http://www.jianshu.com/p/eaa1578eddb2)
+        * [table-layout](http://adamschwartz.co/magic-of-css/chapters/3-tables/)
+      * position
+        * [十步图解CSS的position](http://cdn1.w3cplus.com/blog/229.html)
+      * 居中
+        * [元素的垂直居中的方法](http://www.jianshu.com/p/b3de6c5ec834)
+        * [元素的水平居中的方法](http://www.jianshu.com/p/ada0ce755d7e)
       * 文字围绕形状
         * [如何在Web中使用CSS Shapes](https://www.w3cplus.com/css3/how-to-use-css-shapes-in-your-web-design.html)
         * [CSS Exclusions:让布局变得更有意思](https://www.w3cplus.com/css/css-exclusions.html)
@@ -60,6 +76,8 @@
     * [移动端 h5开发相关内容总结——CSS篇](http://mp.weixin.qq.com/s/Nho2DHj-Y59j2F62vpN9jQ)
   * 规范
     * [CSS 规范](https://www.w3.org/Style/CSS/specs.en.html)
+  * 查询手册
+    * [CSS参考手册](http://css.doyoe.com/)
 * JavaScript
   * 基础语法
   * 数据类型
@@ -70,6 +88,7 @@
   * 客户端存储
   * 常见浏览器兼容性问题和解决
   * 提高代码质量&工作效率
+    * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
   * 效果
     * [favico.js](http://lab.ejci.net/favico.js/) 动态修改 favico。
     * Canvas
