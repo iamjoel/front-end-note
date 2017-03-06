@@ -65,7 +65,13 @@
   * 数据类型
   * 变量的求值
   * DOM
+    * [《JavaScript 闯关记》之 DOM（上）](https://segmentfault.com/a/1190000007493449)
+    * [《JavaScript 闯关记》之 DOM（下）](https://segmentfault.com/a/1190000007566278)
+    * 事件
+      * [DOM 事件深入浅出（一）](http://www.jianshu.com/p/8c41a302bb17)
+      * [DOM 事件深入浅出（二）](http://www.jianshu.com/p/3c2e465480be)
   * BOM
+    * [《JavaScript 闯关记》之 BOM](https://segmentfault.com/a/1190000007410524)
   * 与服务器交互
   * 客户端存储
   * 常见浏览器兼容性问题和解决
@@ -94,6 +100,7 @@
     * [Weex 入坑指南：Native App 的运行与构建](https://zhuanlan.zhihu.com/p/25289806) 饿了么前端。
 * 软件
   * Photoshop
+    * [开始前端开发（PhotoShop切图）](http://www.jianshu.com/p/69b74b84e687)
     * [2017 网页设计趋势报告 | Photoshop 跌下神坛](https://zhuanlan.zhihu.com/p/25407972) 是时候要研究下 Sketch 了。
 * 软技能
   * 沟通
