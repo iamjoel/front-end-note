@@ -55,6 +55,8 @@
       * [探讨判断横竖屏的最佳实现](http://web.jobbole.com/90465/)
     * 细节布局
       * [深入了解CSS字体度量，行高和vertical-align](http://www.w3cplus.com/css/css-font-metrics-line-height-and-vertical-align.html) 行高比你想象中的复杂。
+    * 调试
+      * [一行代码调试 CSS](https://github.com/ccforward/cc/issues/3)  简单来说，就是给所有元素加个outline
     * 综合
       * [CSS 高级布局技巧](https://github.com/sorrycc/blog/issues/14)
       * [从Chrome源码看浏览器如何layout布局](https://zhuanlan.zhihu.com/p/25445527)
