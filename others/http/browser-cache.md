@@ -37,3 +37,4 @@ Cache-Control 是一个相对时间的强缓存管理 header，在配置缓存�
 ## 参考
 * [浏览器缓存知识小结及应用](http://www.cnblogs.com/lyzg/p/5125934.html)
 * [【Web缓存机制系列】2 – Web浏览器的缓存机制](http://www.alloyteam.com/2012/03/web-cache-2-browser-cache/)
+* [Nginx缓存](https://bananasusu.com/2016-6-15/cache-with-nginx/)
