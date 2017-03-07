@@ -117,6 +117,9 @@
     * 调试线上页面
   * HTTP
 * 框架
+  * Vue
+    * [Vue2.x踩坑与总结](http://mrzhang123.github.io/2017/02/07/vue2)
+    * [饿了么基于Vue 2.0的通用组件库开发之路](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484467&idx=1&sn=8643c5945adb151db9c6fe757cd6adfa&chksm=972366f1a054efe733e01069b2adb81d453a2c30bbc5329c77948e8160090294bf14918381a1#rd)
   * 移动端
     * [Weex 入坑指南：Native App 的运行与构建](https://zhuanlan.zhihu.com/p/25289806) 饿了么前端。
 * 软件

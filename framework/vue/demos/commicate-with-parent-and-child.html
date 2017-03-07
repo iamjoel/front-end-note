@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <child-component :info="'我是Joel'" @click.native="onClick" ref="child"></child-component>
+  </div>
+  <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
+  <script>
+    {
+      Vue.component('child-component', {
+        template: '<div>自我介绍: {{info}}。点我</div>',
+        props: {
+          info: String
+        },
+        data() {
+          return {
+            title: 'xxx'
+          }
+        },
+        methods: {
+          describe(title) {
+            console.log(`${title}:子组件的describe方法`)
+          }
+        }
+      })
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue!'
+        },
+        methods: {
+          onClick() {
+            // 调用子组件的方法
+            var {child} = this.$refs
+            child.describe(child.title)
+          }
+        }
+      })
+
+    }
+  </script>
+</body>
+</html>
