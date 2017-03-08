@@ -6,7 +6,7 @@
 </head>
 <body>
   <div id="app">
-    <child-component :info="'我是Joel'" @click.native="onClick" ref="child"></child-component>
+    <child-component :info="'我是Joel'" @click.native="onClick" ref="child" @somesth-happen="handlerHappen"></child-component>
   </div>
   <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
   <script>
@@ -25,6 +25,12 @@
           describe(title) {
             console.log(`${title}:子组件的describe方法`)
           }
+        },
+        mounted() {
+          var vm = this
+          setTimeout(()=> {
+            vm.$emit('somesth-happen')
+          }, 1000)
         }
       })
       var app = new Vue({
@@ -37,6 +43,9 @@
             // 调用子组件的方法
             var {child} = this.$refs
             child.describe(child.title)
+          },
+          handlerHappen() {
+            console.log('child: sth happen')
           }
         }
       })
