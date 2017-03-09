@@ -25,22 +25,27 @@ Vue.component('my-component', {
 <comp :some-prop="{a:3}"></comp>
 ```
 
-## 组件的名称和属性的名称
-根据规范，组件的名称是 kebab-case（短横线隔开）的方式。属性的名字形式会从 camelCase 转为 kebab-case。如
+## 组件命名约定
+注册组件（或者 props（））时，可以使用 kebab-case（短横线隔开），camelCase ，或 TitleCase。
 ```
-Vue.component('child', {
-  // camelCase in JavaScript
-  props: ['myMessage'],
-  template: '<span>{{ myMessage }}</span>'
-})
-```
-
-```
-<!-- kebab-case in HTML -->
-<child my-message="hello!"></child>
+components: {
+  // 使用 kebab-case 形式注册
+  'kebab-cased-component': { /* ... */ },
+  // register using camelCase
+  'camelCasedComponent': { /* ... */ },
+  // register using TitleCase
+  'TitleCasedComponent': { /* ... */ }
+}
 ```
 
-组件确认。
+在 HTML 模版中，请使用 kebab-case 形式：
+
+```
+<!-- 在HTML模版中始终使用 kebab-case -->
+<kebab-cased-component></kebab-cased-component>
+<camel-cased-component></camel-cased-component>
+<title-cased-component></title-cased-component>
+```
 
 ## native 修饰符
 在 Vue 2.0 中的自定义组件上使用 v-on 只会监听自定义事件（即组件用 $emit 触发的事件）。如果要监听原生事件，必须使用 .native 修饰符，如
