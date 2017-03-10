@@ -138,6 +138,12 @@
     * [如何面试一名前端开发工程师？](http://www.html-js.com/article/2961?from=timeline&isappinstalled=0) 反推面试该如何准备。
 * 其他
   * [什么是工程师文化？](http://coolshell.cn/articles/17497.html?from=timeline&isappinstalled=0)
+  * [如何洞悉隐性需求](http://mp.weixin.qq.com/s/rH-W9bNQ2XjCSyVxnI1UIQ) 异常流需求;内容复用需求 需要留意。
 
+
+[Lerna](https://lernajs.io/) A tool for managing JavaScript projects with multiple packages.
+
+1. 对于大项目：代码公用，将代码分成独立的一些包是用的。
+1. 修改内容跨很多个项目是很麻烦和很难追踪的，跨项目来测试很复杂。
 
 
