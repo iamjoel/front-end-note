@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>flex-grow</title>
+  <style>
+    .ly{
+      display: flex;
+      width: 400px;
+      background-color: #f00;
+    }
+    .ly>*{
+      height: 100px;
+    }
+    .ly__item--1{
+      width: 100px;
+      flex-grow: 1;
+      background-color: #0f0;
+    }
+    .ly__item--2{
+      width: 200px;
+      flex-grow: 2;
+      background-color: #00f;
+    }
+  </style>
+</head>
+<body>
+  <div class="ly">
+    <div class="ly__item--1"></div>
+    <div class="ly__item--2"></div>
+  </div>
+</body>
+</html>
