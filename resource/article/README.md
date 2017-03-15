@@ -11,6 +11,10 @@
     * [前端 Meta 用法大汇总](http://www.jianshu.com/p/850d2a209ba8)
   * 标签语意化
     * [选择合适的块级HTML标签流程图](http://www.jianshu.com/p/c6dd30081358)
+  * Web标准(Standard)
+    * [HTML Living Standard－WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/introduction.html) [WHATWG](http://en.wikipedia.org/wiki/WHATWG)维护的持续更新的HTML标准
+    * [W3C规范](http://www.w3.org/standards/)
+    * [W3C规范翻译](http://www.w3.org/html/ig/zh/wiki/%E7%BF%BB%E8%AF%91) HTML5中文小组翻译的。附[HTML5中文小组主页](http://www.w3.org/html/ig/zh/wiki/Main_Page)
 * CSS
   * 基本概念
     * [CSS 词汇表](http://yisibl.github.io/css-vocabulary/) 注释，语句，规则集等等。
@@ -76,8 +80,6 @@
     * [ 禅意花园: CSS 设计之美](http://www.csszengarden.com/tr/zh-cn/)
   * 综合
     * [移动端 h5开发相关内容总结——CSS篇](http://mp.weixin.qq.com/s/Nho2DHj-Y59j2F62vpN9jQ)
-  * 规范
-    * [CSS 规范](https://www.w3.org/Style/CSS/specs.en.html)
   * 查询手册
     * [CSS参考手册](http://css.doyoe.com/)
 * JavaScript
