@@ -128,6 +128,8 @@
       * [gulp 入门指南](https://github.com/nimojs/gulp-book)
 * 框架
   * Vue
+    * [Vue.js 组件编码规范](https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md)
+    * [awesome-vue](https://github.com/vuejs/awesome-vue) 和Vue相关的了不起的内容。
     * [Vue2.x踩坑与总结](http://mrzhang123.github.io/2017/02/07/vue2)
     * [饿了么基于Vue 2.0的通用组件库开发之路](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484467&idx=1&sn=8643c5945adb151db9c6fe757cd6adfa&chksm=972366f1a054efe733e01069b2adb81d453a2c30bbc5329c77948e8160090294bf14918381a1#rd)
   * 移动端

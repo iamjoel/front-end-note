@@ -149,6 +149,7 @@ img, .png {
 ```
 
 ## 文本溢出加省略号
+### 单行文本
 ```
   overflow:hidden;
   white-space:nowrap;
@@ -157,6 +158,18 @@ img, .png {
 ```
 
 注意这对内联元素无效。
+
+### 多行文本
+用下面的代码,要注意浏览器兼容性~
+```
+  line-height: 130%; // 可能需要
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; //显示的行数
+  -webkit-box-orient: vertical;
+```
+
+对浏览器兼容性有要求,可以用js实现 https://github.com/FrDH/jQuery.dotdotdot
 
 ## 参考
 * https://css-tricks.com/snippets/css/

@@ -6,3 +6,12 @@
 	text-overflow: ellipsis;  // IE 6+, FF 7+, Op 11+, Saf 1.3+, Chr 1+
 	-o-text-overflow: ellipsis;  // for Opera 9 & 10
 }
+// 多行
+@mixin ellipsis-multi($line:2) {
+    /*line-height: 130%;*//*可能需要行数*/
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line;
+}
