@@ -22,7 +22,8 @@
   * 选择器
     * [使用 CSS 来做素数的判定与筛选](https://zhuanlan.zhihu.com/p/24718254?hmsr=toutiao.io) `:nth-child` 的妙用。
   * 样式生效规则
-  * 样式
+  * 样式规则
+    * [CSS3 please](http://css3please.com/) 用在线改代码的方式来了解 CSS3。
     * [CSS中的基本图形和路径](https://www.w3cplus.com/css/basic-shapes-path.html)
     * 字体
       * [Typography](http://adamschwartz.co/magic-of-css/chapters/5-typography/)
@@ -68,7 +69,11 @@
     * [text-stroke实现文本描边效果](https://www.w3cplus.com/css3/text-stroke.html)
     * 绘制图形
       * [每天一个绘制CSS图形的小案例](https://github.com/sashatran/100-days-of-code/blob/master/log.md)
-  * 常见浏览器兼容性问题和解决
+  * 浏览器兼容性
+    * [Can I Use](http://caniuse.com/) HTML 5 浏览器兼容性查询。
+    * [Browserhacks](http://browserhacks.com/) 各种Brower hacks(只对特定浏览器生效的代码的写法）。
+    * [HTML 5 Please](http://html5please.com/) HTML5 与 CSS3 技术应用评估。
+    * [Compatibility overview](http://www.quirksmode.org/compatibility.html) CSS，DOM，Event，Mobile 等的兼容性概览。
   * 提高代码质量&工作效率
     * CSS 变量
       * [深入学习CSS自定义属性（CSS变量）](https://www.w3cplus.com/css3/css-properties-in-depth.html)
@@ -85,6 +90,9 @@
 * JavaScript
   * 基础语法
   * 数据类型
+    * 正则
+      * [RegExr](http://regexr.com/) 显示正则与所写文本的匹配情况的工具。
+      * [Regulex](https://jex.im/regulex/) 可以看到正则的结构。
   * 变量的求值
   * DOM
     * [《JavaScript 闯关记》之 DOM（上）](https://segmentfault.com/a/1190000007493449)
@@ -96,12 +104,15 @@
     * [《JavaScript 闯关记》之 BOM](https://segmentfault.com/a/1190000007410524)
   * 与服务器交互
   * 客户端存储
-  * 常见浏览器兼容性问题和解决
+  * 浏览器兼容性
+    * [ES5规范浏览器兼容性表格](http://kangax.github.io/compat-table/es5/)
+    * [ES6规范浏览器兼容性表格](http://kangax.github.io/compat-table/es6/)
   * 提高代码质量&工作效率
     * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
   * 效果
     * [favico.js](http://lab.ejci.net/favico.js/) 动态修改 favico。
     * Canvas
+      * [Canvas Cheat Sheet](https://websitesetup.org/wp-content/uploads/2015/11/Infopgraphic-CanvasCheatSheet-Final2.pdf)
       * [Canvas学习：Canvas入门准备](https://www.w3cplus.com/canvas/introduction-to-prepare.html)
     * WebGL
       * [WebGL Fundamentals（中文版）](https://github.com/W3cplus/webgl-fundamentals-zh)
@@ -138,6 +149,7 @@
   * Photoshop
     * [开始前端开发（PhotoShop切图）](http://www.jianshu.com/p/69b74b84e687)
     * [2017 网页设计趋势报告 | Photoshop 跌下神坛](https://zhuanlan.zhihu.com/p/25407972) 是时候要研究下 Sketch 了。
+  * [Markdown 使用参考](http://www.jianshu.com/p/67cc81003064)
 * 软技能
   * 沟通
   * 团队协作
