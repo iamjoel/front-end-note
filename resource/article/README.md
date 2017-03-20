@@ -46,6 +46,7 @@
         * [inline-block 布局写法示例](http://www.jianshu.com/p/eaa1578eddb2)
         * [table-layout](http://adamschwartz.co/magic-of-css/chapters/3-tables/)
       * position
+        * [HTML和CSS高级指南之二——定位详解](http://www.w3cplus.com/css/advanced-html-css-lesson2-detailed-css-positioning.html)
         * [十步图解CSS的position](http://cdn1.w3cplus.com/blog/229.html)
       * 居中
         * [元素的垂直居中的方法](http://www.jianshu.com/p/b3de6c5ec834)
