@@ -1,32 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CSS Please</title>
+  <style>
+  span,
+  label {
+    margin-right: 10px;
+  }
+  
+  .ff-yahei {
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+  }
+  /* 普通黑体 */
+  
+  .ff-hei {
+    font-family: tahoma, arial, "STXihei", SimHei, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+  }
+  /* 宋体 */
+  
+  .ff-song {
+    font-family: tahoma, arial, "宋体", SimSun;
+  }
+  
+  .ly-ib {
+    display: inline-block;
+    vertical-align: top;
+  }
+  </style>
 </head>
+
 <body>
   <article>
-    <h2>字</h2>
+    <h2>尺寸</h2>
     <ul>
-      <li><strong>加粗的字，<sapn>特别粗</sapn></strong></li>
-      <li><span>倾斜的字</span></li>
-      <li>font-family:<span>微软雅黑</span><span>宋体</span></li>
-      <li><span>删除线</span><span>下划线</span></li>
-      <li><span></span></li>
-      <li><span>我的字体是微软雅黑</span></li>
+      <li><label>宽，高：</label><div style="width: 50px;height: 100px;background: #f00;">宽50px，高100px </div></li>
     </ul>
   </article>
   <article>
     <h2>字体</h2>
+    <ul>
+      <li>
+        <label>字体：</label>
+        <span class="ff-hei">黑体</span>
+        <span class="ff-yahei">微软雅黑</span>
+        <span class="ff-song">宋体</span>
+      </li>
+      <li>
+        <label>字的颜色：</label>
+        <span style="color: #f00">红色 #f00</span>
+        <span style="color: rgb(0, 255, 0)">绿色 rgb(0, 255, 0)</span>
+        <span style="color: rgba(0, 255, 0, 0.5)">透明度是0.5的绿 rgba(0, 255, 0, 0.5)</span>
+      </li>
+      <label>粗细：</label>
+      <sapn style="font-weight: lighter;">很细</sapn>
+      <span>普通</span>
+      <span style="font-weight: bold;">加粗</span>
+      </li>
+      <li>
+        <label>字体修饰：</label>
+        <span style="text-decoration: line-through;">中划线</span><span style="text-decoration: underline;">下划线</span>
+      </li>
+      <li><span style="font-style: italic;">倾斜的字</span></li>
+    </ul>
   </article>
   <article>
-    <h2>字体</h2>
+    <h2>文本</h2>
+    <ul>
+      <li style="background: #eee;">
+        <label>行高：</label>
+        <sapn style="line-height: 1.5" class="ly-ib">行高是1.5</sapn>
+        <sapn style="line-height: 30px" class="ly-ib">行高是30px</sapn>
+        <sapn style="line-height: 60px" class="ly-ib">行高是60px</sapn>
+      </li>
+    </ul>
   </article>
   <article>
-    <h2>字体</h2>
+    <h2>鼠标</h2> 鼠标移动上面的文字
+    <li>
+      <span style="cursor: default;">默认</span>
+      <span style="cursor: pointer;">手形</span>
+      <span style="cursor: not-allowed;">禁用</span>
+      <span style="cursor: text;">文字选择</span>
+    </li>
   </article>
   <article>
-    <h2>字体</h2>
+    <h2>显示</h2>
+    <ul>
+      <li></li>
+    </ul>
+  </article>
+
+  <article>
+    <h2>盒模型</h2>
+    <ul>
+      <li></li>
+    </ul>
+  </article>
+  <article>
+    <h2>背景</h2>
+    <ul>
+      <li></li>
+    </ul>
+  </article>
+  <article>
+    <h2>边框相关</h2>
+    <ul>
+      <li></li>
+    </ul>
+  </article>
+  <article>
+    <h2>表格</h2>
+    <ul>
+      <li></li>
+    </ul>
+  </article>
+  <article>
+    <h2>列表</h2>
+    <ul>
+      <li></li>
+    </ul>
   </article>
 </body>
+
 </html>
