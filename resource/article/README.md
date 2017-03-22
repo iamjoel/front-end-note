@@ -27,6 +27,7 @@
     * [CSS中的基本图形和路径](https://www.w3cplus.com/css/basic-shapes-path.html)
     * 字体
       * [Typography](http://adamschwartz.co/magic-of-css/chapters/5-typography/)
+      * [CSS：7个你可能不认识的单位](http://www.jianshu.com/p/c94567f45c92) vmin, vmax, ex 和 ch 这些单位大家都知道吗~
     * 单位
       * [长度单位](https://www.w3cplus.com/blog/tags/333.html)
   * 布局
@@ -101,6 +102,7 @@
     * 事件
       * [DOM 事件深入浅出（一）](http://www.jianshu.com/p/8c41a302bb17)
       * [DOM 事件深入浅出（二）](http://www.jianshu.com/p/3c2e465480be)
+      * [详解JS中的事件机制(带实例)](http://www.jianshu.com/p/7105b81e456a) 关于事件冒泡与事件捕获。
   * BOM
     * [《JavaScript 闯关记》之 BOM](https://segmentfault.com/a/1190000007410524)
     * [浏览器 user-agent 字符串的故事](http://www.cnblogs.com/ifantastic/p/3481231.html) 浏览器互相伪装的黑历史~
@@ -118,6 +120,8 @@
       * [Canvas学习：Canvas入门准备](https://www.w3cplus.com/canvas/introduction-to-prepare.html)
     * WebGL
       * [WebGL Fundamentals（中文版）](https://github.com/W3cplus/webgl-fundamentals-zh)
+  * 调试
+    * [你不知道的 JS 错误和调用栈常识](http://www.jianshu.com/p/e9753d98fee4)
   * Node.js
     * [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/blob/master/README.md) 饿了么写的，要不要这么搞笑~
   * 安全
