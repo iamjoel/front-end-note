@@ -103,6 +103,7 @@
       * [DOM 事件深入浅出（二）](http://www.jianshu.com/p/3c2e465480be)
   * BOM
     * [《JavaScript 闯关记》之 BOM](https://segmentfault.com/a/1190000007410524)
+    * [浏览器 user-agent 字符串的故事](http://www.cnblogs.com/ifantastic/p/3481231.html) 浏览器互相伪装的黑历史~
   * 与服务器交互
   * 客户端存储
   * 浏览器兼容性
