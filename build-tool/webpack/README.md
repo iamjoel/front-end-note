@@ -33,6 +33,17 @@ CommonJS是服务器模块的规范，Node.js采用了这个规范。
 
 更详细的见 [阮一峰写的CommonJS规范](http://javascript.ruanyifeng.com/nodejs/commonjs.html)
 
+## 静态资源
+有时候，用的第三库会去加载一些本地的静态资源。不是以webpack的方式去加载。
+我们会配置 dev-server 这么写：
+```
+// dev-server 实际就是运行一个 express 的服务器。 下面调用的是express的api。
+app.use('static', express.static('./static'))
+```
+
+然后在 static 目录下放静态资源，然后就可以通过
+`/static/在static下的路径` 来访问资源。
+
 ## 学习资源
 * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
 * [Webpack傻瓜指南（二）开发和部署技巧](https://zhuanlan.zhihu.com/p/20397902)

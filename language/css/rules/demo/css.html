@@ -36,6 +36,7 @@
     <h2>尺寸</h2>
     <ul>
       <li><label>宽，高：</label><div style="width: 50px;height: 100px;background: #f00;">宽50px，高100px </div></li>
+      <li><label>最小,最大宽度，高度：</label><div style="min-width: 50px;max-width: 150px;min-height: 100px;background: #f00;">最小宽50px，最大宽150px，最小高100px </div></li>
     </ul>
   </article>
   <article>
@@ -46,6 +47,7 @@
         <span class="ff-hei">黑体</span>
         <span class="ff-yahei">微软雅黑</span>
         <span class="ff-song">宋体</span>
+        <span class="">网络字体TODO</span>
       </li>
       <li>
         <label>字的颜色：</label>
@@ -70,14 +72,31 @@
     <ul>
       <li style="background: #eee;">
         <label>行高：</label>
-        <sapn style="line-height: 1.5" class="ly-ib">行高是1.5</sapn>
-        <sapn style="line-height: 30px" class="ly-ib">行高是30px</sapn>
-        <sapn style="line-height: 60px" class="ly-ib">行高是60px</sapn>
+        <sapn style="line-height: 1.5">行高是1.5</sapn>
       </li>
+      <li style="background: #f00;">
+        <sapn style="line-height: 30px">行高是30px</sapn>
+      </li>
+      <li style="background: #0f0;">
+        <sapn style="line-height: 60px">行高是60px</sapn>
+      </li>
+      <li>
+        <label>缩进：</label>
+        <sapn style="text-indent: 2em;">缩进2个字符</sapn>
+      </li>
+      <li>
+        <label>缩进：</label>
+        <sapn style="text-indent: 2em;">缩进2个字符</sapn>
+      </li>
+      <li>
+        text-overflow
+      </li>
+      <li>word-s­pacing, letter­-sp­acing</li>
+      <li>white-­space</li>
     </ul>
   </article>
   <article>
-    <h2>鼠标</h2> 鼠标移动上面的文字
+    <h2>光标移上去时的形状</h2> 鼠标移动上面的文字
     <li>
       <span style="cursor: default;">默认</span>
       <span style="cursor: pointer;">手形</span>
@@ -88,7 +107,18 @@
   <article>
     <h2>显示</h2>
     <ul>
-      <li></li>
+      <li>
+        <span style="display: none">目标内容</span><code>display：none</code>
+      </li>
+      <li>
+        <span style="visibility: hidden;">目标内容</span><code>visibility: hidden</code>
+      </li>
+      <li>
+        <span style="opacity: 0.5;background: #f00;">透明度</span><code>opacity: 0.5</code>
+      </li>
+      <li>
+        <div style="width: 97px;height:20px;overflow: hidden;">我只能显示一部分。。。很长很长的内容很长很长的内容</div>超出内容隐藏
+      </li>
     </ul>
   </article>
 
@@ -107,7 +137,9 @@
   <article>
     <h2>边框相关</h2>
     <ul>
-      <li></li>
+      <li>
+        
+      </li>
     </ul>
   </article>
   <article>

@@ -7,5 +7,9 @@
 3. 与后端工程师配合完成数据接口对接
 4. 上线前对资源文件进行压缩合并等优化工作
 
+## 项目经验介绍
+1. 在项目中，是什么角色。Team Leader 或是负责了哪些模块。
+1. 项目用的技术栈。
+1. 取得的成绩。如做了那些优化之类。
 
 [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
