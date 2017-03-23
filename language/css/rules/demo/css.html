@@ -33,10 +33,25 @@
 
 <body>
   <article>
+    <h2>盒模型</h2>
+    <ul>
+      <li>
+        <div class="ly-ib" style="width: 60px; height: 60px;background: #f00;padding: 10px;border: 5px solid #0f0;"><code>box-sizing: content-box</code></div>
+        <div class="ly-ib" style="box-sizing: border-box;width: 60px; height: 60px;background: #f00;padding: 10px;border: 5px solid #0f0;"><code>box-sizing: border-box</code></div>
+      </li>
+    </ul>
+  </article>
+  <article>
     <h2>尺寸</h2>
     <ul>
-      <li><label>宽，高：</label><div style="width: 50px;height: 100px;background: #f00;">宽50px，高100px </div></li>
-      <li><label>最小,最大宽度，高度：</label><div style="min-width: 50px;max-width: 150px;min-height: 100px;background: #f00;">最小宽50px，最大宽150px，最小高100px </div></li>
+      <li>
+        <label>宽，高：</label>
+        <div style="width: 50px;height: 100px;background: #f00;">宽50px，高100px </div>
+      </li>
+      <li>
+        <label>最小,最大宽度，高度：</label>
+        <div style="min-width: 50px;max-width: 150px;min-height: 100px;background: #f00;">最小宽50px，最大宽150px，最小高100px </div>
+      </li>
     </ul>
   </article>
   <article>
@@ -60,10 +75,7 @@
       <span>普通</span>
       <span style="font-weight: bold;">加粗</span>
       </li>
-      <li>
-        <label>字体修饰：</label>
-        <span style="text-decoration: line-through;">中划线</span><span style="text-decoration: underline;">下划线</span>
-      </li>
+      
       <li><span style="font-style: italic;">倾斜的字</span></li>
     </ul>
   </article>
@@ -85,18 +97,19 @@
         <sapn style="text-indent: 2em;">缩进2个字符</sapn>
       </li>
       <li>
-        <label>缩进：</label>
-        <sapn style="text-indent: 2em;">缩进2个字符</sapn>
+        <label>字体修饰：</label>
+        <span style="text-decoration: line-through;">中划线</span><span style="text-decoration: underline;">下划线</span>
       </li>
       <li>
-        text-overflow
+        <div style="width: 150px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;">超出加省略号，很长很长的字，很长很长的字，</div>
       </li>
-      <li>word-s­pacing, letter­-sp­acing</li>
+      <li><span style="word-spacing: 3em;">英文单词的间距 A Fox Run。中文不存在单词，该属性对中文无效。</span></li>
+      <li><span style="letter-spacing: 1em;">字之间的间距 A Fox Run</span></li>
       <li>white-­space</li>
     </ul>
   </article>
   <article>
-    <h2>光标移上去时的形状</h2> 鼠标移动上面的文字
+    <h2>光标形状</h2> 鼠标移动上面的文字
     <li>
       <span style="cursor: default;">默认</span>
       <span style="cursor: pointer;">手形</span>
@@ -123,37 +136,145 @@
   </article>
 
   <article>
-    <h2>盒模型</h2>
-    <ul>
-      <li></li>
-    </ul>
-  </article>
-  <article>
     <h2>背景</h2>
     <ul>
-      <li></li>
+      <li>
+        <div class="ly-ib" style="width: 60px; height: 60px;background: #f00;">纯色背景</div>
+      </li>
+      <li>
+        <div class="ly-ib" style="width: 200px; height: 200px;background: url(pic.jpg);">背景图片</div>
+        <div class="ly-ib" style="width: 200px; height: 200px;background: url(pic.jpg) no-repeat;">不重复的背景</div>
+        <div class="ly-ib" style="width: 200px; height: 200px;background: url(pic.jpg) no-repeat right bottom #f00;">右下角</div>
+        <div class="ly-ib" style="width: 200px; height: 200px;background: url(pic.jpg) no-repeat center center #f00;">居中</div>
+        
+      </li>
+      <li>
+        <div class="ly-ib" style="width: 200px; height: 100px;background: url(pic.jpg) no-repeat center center ;background-size: cover;">背景撑满 cover</div>
+        <div class="ly-ib" style="width: 200px; height: 100px;background: url(pic.jpg) no-repeat center center ;background-size: contain;">背景撑满 contain</div>
+        <div class="ly-ib" style="width: 200px; height: 100px;background: url(pic.jpg) no-repeat center center ;background-size: 100% 100%;">背景撑满 100% 100%</div>
+      </li>
     </ul>
   </article>
   <article>
-    <h2>边框相关</h2>
+    <h2>边框</h2>
     <ul>
       <li>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 1px solid;">实线框</div>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 1px dashed red;">虚线框</div>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 1px dotted red;">点线框</div>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 1px dotted red;">点线框</div>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 10px groove red;">不一样的框</div>
+      </li>
+      <li>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 1px solid;">1px</div>
+        <div class="ly-ib" style="width: 60px;height: 60px;border: 5px solid;">5px</div>
+      </li>
+      <li>
+          <div class="ly-ib" style="width: 60px;height: 60px;border: 1px solid #f00;">红</div>
+          <div class="ly-ib" style="width: 60px;height: 60px;border: 1px solid #0f0;">绿</div>
+      </li>
+      <li>
+        <div class="ly-ib" style="width: 60px;height: 60px;outline: 5px solid #f00;border: 5px solid #0f0;">outline + border</div>
         
+      </li>
+    </ul>
+  </article>
+    <article>
+    <h2>列表</h2>
+    <ul>
+      <li>
+        <ul>
+          <li>aa</li>
+          <li>小</li>
+          <li style="list-style-type: square;">用过其他的样式的符号1</li>
+          <ul>
+            <li style="list-style: none;">干掉列表的符号</li>
+            <ul>
+              <li>dd</li>
+            </ul>
+          </ul>
+          <ol>
+            <li>xx1
+              <ol>
+                <li style="list-style-type: lower-alpha;">哈哈</li>
+                <li style="list-style-type: lower-alpha;">哈哈</li>
+                <li style="list-style-type: lower-alpha;">哈哈</li>
+              </ol>
+            </li>
+            <li style="list-style: none">xx2</li>
+            <li>xx3</li>
+          </ol>
+        </ul>
       </li>
     </ul>
   </article>
   <article>
     <h2>表格</h2>
     <ul>
-      <li></li>
+      <li>
+        默认表格样式
+        <table>
+          <thead>
+            <tr>
+              <th>xx</th>
+              <th>xx2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>11</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        修饰表格样式
+        <style>
+          .table {
+            border-collapse: collapse;
+          }
+          .table td, .table th{
+            border: 1px solid;
+          }
+          .table tr:nth-child(2n) {
+            background-color: #ddd;
+          }
+        </style>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>xx</th>
+              <th>xx2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>11</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
     </ul>
   </article>
-  <article>
-    <h2>列表</h2>
-    <ul>
-      <li></li>
-    </ul>
-  </article>
+
 </body>
 
 </html>
