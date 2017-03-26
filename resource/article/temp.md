@@ -172,6 +172,7 @@
   * Vue
     * [Vue.js cheatsheet](http://www.jianshu.com/p/293387d240b2)
     * [Vue.js 写法示例](http://www.jianshu.com/p/293387d240b2)
+    * [Vue2 组件通信写法总结](http://www.jianshu.com/p/c15afc211d33)
 
 ## 综合知识
 * 响应式
