@@ -10,9 +10,17 @@
   * [如何用好谷歌等搜索引擎？](https://www.zhihu.com/question/20161362/answer/14180620)
   * [话题索引：更高效地获取你想要的信息](https://zhuanlan.zhihu.com/p/23740262)
 * 沟通
+  * [有效的沟通，如忍者的最后一击！](http://zhangtielei.com/posts/blog-programmer-communication.html)
 * 团队协作
+  * [谈谈你对团队合作的理解?](https://www.zhihu.com/question/26496969) 团队合作就是 你要让对方爽， 对方也能让你爽。双赢叫合作， 单赢叫欺负。
 * 学习方法
   * [成为一个有目标的学习者](https://daimajia.com/2017/02/25/you-need-a-goal/) 为了实现目标去主动学习。学有所用才是持续学习的动力。
+* 职场
+  * [职场邮件的基本礼仪](http://mp.weixin.qq.com/s/rD4XbHpgerPCYJErBxAD7w) 只发给合适的人，发送前要检查发送者列表；发给第一次接触的人，尽量第一段简短介绍一下自己，以及为什么发这篇信件。
+  * [工作第一年，你需要学到什么？](http://mp.weixin.qq.com/s/XlRFuquBH1tBNiX8Mnky_g) 关于提问，找答案，学习，邮件礼仪，职业素养等。
+  * [分享一点“关于应届生如何写简历”的人生经验](http://weibo.com/ttarticle/p/show?id=2309404080297791597267) 写清楚基本信息；项目经历：描述项目特性，有什么困难（挑战是什么），怎样解决，学会了什么（收获）；技术名词尽量别拼错了。
+  * [2017，如何让你的简历脱颖而出？](http://mp.weixin.qq.com/s/rs-tgkYvAKOpIZtGi5JPew)
+  * [如何面试一名前端开发工程师？](http://www.html-js.com/article/2961?from=timeline&isappinstalled=0) 反推面试该如何准备。
 
 ## 练习题
   * 综合
@@ -44,6 +52,7 @@
   * 样式生效规则
   * 样式规则
     * [CSS3 please](http://css3please.com/) 用在线改代码的方式来了解 CSS3。
+    * [CSS 字体介绍](http://www.jianshu.com/p/c5a4e15b4122)
     * [CSS中的基本图形和路径](https://www.w3cplus.com/css/basic-shapes-path.html)
     * 字体
       * [Typography](http://adamschwartz.co/magic-of-css/chapters/5-typography/)
@@ -116,11 +125,16 @@
     * [CSS参考手册](http://css.doyoe.com/)
 
 ## JavaScript
-  * 基础语法
+  * 语法
+    * [Javascript继承机制的设计思想](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
+    * this 
+      * [JavaScript 之 this 详解](http://jeffjade.com/2015/08/03/2015-08-03-javascript-this/)
   * 数据类型
     * 正则
       * [RegExr](http://regexr.com/) 显示正则与所写文本的匹配情况的工具。
       * [Regulex](https://jex.im/regulex/) 可以看到正则的结构。
+  * 常用方法
+    * [toFixed的进位规则](https://github.com/SKing7/articles/issues/1) toFixed 是有些诡异的，不是简单的四舍五入哦~
   * 变量的求值
   * DOM
     * [《JavaScript 闯关记》之 DOM（上）](https://segmentfault.com/a/1190000007493449)
@@ -187,23 +201,9 @@
     * [2017 网页设计趋势报告 | Photoshop 跌下神坛](https://zhuanlan.zhihu.com/p/25407972) 是时候要研究下 Sketch 了。
   * [Markdown 使用参考](http://www.jianshu.com/p/67cc81003064)
 
-## 软技能
-  * 职场
-    * [职场邮件的基本礼仪](http://mp.weixin.qq.com/s/rD4XbHpgerPCYJErBxAD7w) 只发给合适的人，发送前要检查发送者列表；发给第一次接触的人，尽量第一段简短介绍一下自己，以及为什么发这篇信件。
-    * [工作第一年，你需要学到什么？](http://mp.weixin.qq.com/s/XlRFuquBH1tBNiX8Mnky_g) 关于提问，找答案，学习，邮件礼仪，职业素养等。
-  * 求职
-    * [分享一点“关于应届生如何写简历”的人生经验](http://weibo.com/ttarticle/p/show?id=2309404080297791597267) 写清楚基本信息；项目经历：描述项目特性，有什么困难（挑战是什么），怎样解决，学会了什么（收获）；技术名词尽量别拼错了。
-    * [2017，如何让你的简历脱颖而出？](http://mp.weixin.qq.com/s/rs-tgkYvAKOpIZtGi5JPew)
-    * [如何面试一名前端开发工程师？](http://www.html-js.com/article/2961?from=timeline&isappinstalled=0) 反推面试该如何准备。
-
 ## 其他
   * [什么是工程师文化？](http://coolshell.cn/articles/17497.html?from=timeline&isappinstalled=0)
   * [如何洞悉隐性需求](http://mp.weixin.qq.com/s/rH-W9bNQ2XjCSyVxnI1UIQ) 异常流需求;内容复用需求 需要留意。
 
-
-[Lerna](https://lernajs.io/) A tool for managing JavaScript projects with multiple packages.
-
-1. 对于大项目：代码公用，将代码分成独立的一些包是用的。
-1. 修改内容跨很多个项目是很麻烦和很难追踪的，跨项目来测试很复杂。
 
 
