@@ -2,19 +2,19 @@
 ## 说明
 我写这篇文章汇总的文章，主要是希望通过合理的分类，帮助大家和自己快速的找到想要的信息。
 
-## 目录
-* 基础技能
-  * 提问
-    * [遇到技术问题，该如何提问](http://www.jianshu.com/p/19da64cc06ab)
-    * [真的，再这样提问就没人理你了](http://mp.weixin.qq.com/s/oFHMnwR7LvJjQsjF7SiJng)
-  * 搜索
-    * [如何用好谷歌等搜索引擎？](https://www.zhihu.com/question/20161362/answer/14180620)
-    * [话题索引：更高效地获取你想要的信息](https://zhuanlan.zhihu.com/p/23740262)
-  * 沟通
-  * 团队协作
-  * 学习方法
-    * [成为一个有目标的学习者](https://daimajia.com/2017/02/25/you-need-a-goal/) 为了实现目标去主动学习。学有所用才是持续学习的动力。
-* 练习题
+## 基础技能
+* 提问
+  * [遇到技术问题，该如何提问](http://www.jianshu.com/p/19da64cc06ab)
+  * [真的，再这样提问就没人理你了](http://mp.weixin.qq.com/s/oFHMnwR7LvJjQsjF7SiJng)
+* 搜索
+  * [如何用好谷歌等搜索引擎？](https://www.zhihu.com/question/20161362/answer/14180620)
+  * [话题索引：更高效地获取你想要的信息](https://zhuanlan.zhihu.com/p/23740262)
+* 沟通
+* 团队协作
+* 学习方法
+  * [成为一个有目标的学习者](https://daimajia.com/2017/02/25/you-need-a-goal/) 为了实现目标去主动学习。学有所用才是持续学习的动力。
+
+## 练习题
   * 综合
     * [百度前端学院](http://ife.baidu.com/)
     * [Free Code Camp](https://freecodecamp.cn/)
@@ -22,7 +22,8 @@
   * JavaScript 相关的
     * [CodeWar](https://www.codewars.com/)
     * [LeetCode](https://leetcode.com/)
-* HTML
+
+## HTML
   * 标签和属性
     * [HTML标签大全](http://www.jianshu.com/p/0676fe569396)
     * [手机页面的一些有用的meta](http://www.jianshu.com/p/a7943a969a19)
@@ -33,7 +34,8 @@
     * [HTML Living Standard－WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/introduction.html) [WHATWG](http://en.wikipedia.org/wiki/WHATWG)维护的持续更新的HTML标准
     * [W3C规范](http://www.w3.org/standards/)
     * [W3C规范翻译](http://www.w3.org/html/ig/zh/wiki/%E7%BF%BB%E8%AF%91) HTML5中文小组翻译的。附[HTML5中文小组主页](http://www.w3.org/html/ig/zh/wiki/Main_Page)
-* CSS
+
+## CSS
   * 基本概念
     * [CSS 词汇表](http://yisibl.github.io/css-vocabulary/) 注释，语句，规则集等等。
     * [【转载】理解 CSS 属性值语法](https://www.w3cplus.com/css/understanding-the-css-property-value-syntax.html) 看懂 CSS 规范的属性值定义。
@@ -79,6 +81,10 @@
         * [更多](https://www.w3cplus.com/blog/tags/355.html)
     * 响应式布局
       * [探讨判断横竖屏的最佳实现](http://web.jobbole.com/90465/)
+      * ViewPort
+        * [如何做好移动端的响应式设计：Viewport控制](https://segmentfault.com/a/1190000002685485)
+        * [两个viewport的故事（第一部分）](http://weizhifeng.net/viewports.html) 设备像素和CSS像素等概念的介绍。
+        * [两个viewport的故事（第二部分）](http://weizhifeng.net/viewports2.html)
     * 细节布局
       * [深入了解CSS字体度量，行高和vertical-align](http://www.w3cplus.com/css/css-font-metrics-line-height-and-vertical-align.html) 行高比你想象中的复杂。
     * 调试
@@ -108,7 +114,8 @@
     * [移动端 h5开发相关内容总结——CSS篇](http://mp.weixin.qq.com/s/Nho2DHj-Y59j2F62vpN9jQ)
   * 查询手册
     * [CSS参考手册](http://css.doyoe.com/)
-* JavaScript
+
+## JavaScript
   * 基础语法
   * 数据类型
     * 正则
@@ -145,7 +152,8 @@
     * [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/blob/master/README.md) 饿了么写的，要不要这么搞笑~
   * 安全
     * [阿里巴巴安全第一人肖力：网络安全的五个洞见](http://m.leiphone.com/news/201702/4NzX5SLlEv5kUqLG.html)
-* 综合
+
+## 综合
   * 页面性能优化
     * 页面加载的优化
     * 代码执行速度的优化
@@ -162,6 +170,7 @@
       * [webpack examples](https://github.com/webpack/webpack/tree/master/examples)
     * Gulp.js
       * [gulp 入门指南](https://github.com/nimojs/gulp-book)
+
 * 框架
   * Vue
     * [Vue.js 组件编码规范](https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md)
@@ -170,12 +179,15 @@
     * [饿了么基于Vue 2.0的通用组件库开发之路](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484467&idx=1&sn=8643c5945adb151db9c6fe757cd6adfa&chksm=972366f1a054efe733e01069b2adb81d453a2c30bbc5329c77948e8160090294bf14918381a1#rd)
   * 移动端
     * [Weex 入坑指南：Native App 的运行与构建](https://zhuanlan.zhihu.com/p/25289806) 饿了么前端。
-* 软件
+
+
+## 软件
   * Photoshop
     * [开始前端开发（PhotoShop切图）](http://www.jianshu.com/p/69b74b84e687)
     * [2017 网页设计趋势报告 | Photoshop 跌下神坛](https://zhuanlan.zhihu.com/p/25407972) 是时候要研究下 Sketch 了。
   * [Markdown 使用参考](http://www.jianshu.com/p/67cc81003064)
-* 软技能
+
+## 软技能
   * 职场
     * [职场邮件的基本礼仪](http://mp.weixin.qq.com/s/rD4XbHpgerPCYJErBxAD7w) 只发给合适的人，发送前要检查发送者列表；发给第一次接触的人，尽量第一段简短介绍一下自己，以及为什么发这篇信件。
     * [工作第一年，你需要学到什么？](http://mp.weixin.qq.com/s/XlRFuquBH1tBNiX8Mnky_g) 关于提问，找答案，学习，邮件礼仪，职业素养等。
@@ -183,7 +195,8 @@
     * [分享一点“关于应届生如何写简历”的人生经验](http://weibo.com/ttarticle/p/show?id=2309404080297791597267) 写清楚基本信息；项目经历：描述项目特性，有什么困难（挑战是什么），怎样解决，学会了什么（收获）；技术名词尽量别拼错了。
     * [2017，如何让你的简历脱颖而出？](http://mp.weixin.qq.com/s/rs-tgkYvAKOpIZtGi5JPew)
     * [如何面试一名前端开发工程师？](http://www.html-js.com/article/2961?from=timeline&isappinstalled=0) 反推面试该如何准备。
-* 其他
+
+## 其他
   * [什么是工程师文化？](http://coolshell.cn/articles/17497.html?from=timeline&isappinstalled=0)
   * [如何洞悉隐性需求](http://mp.weixin.qq.com/s/rH-W9bNQ2XjCSyVxnI1UIQ) 异常流需求;内容复用需求 需要留意。
 
