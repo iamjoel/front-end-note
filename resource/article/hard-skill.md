@@ -20,9 +20,9 @@
 * 样式生效规则
 * 样式规则
   * [CSS3 please](http://css3please.com/) 用在线改代码的方式来了解 CSS3。
-  * [CSS 字体介绍](http://www.jianshu.com/p/c5a4e15b4122)
   * [CSS中的基本图形和路径](https://www.w3cplus.com/css/basic-shapes-path.html)
   * 字体
+    * [CSS 字体介绍](http://www.jianshu.com/p/c5a4e15b4122)
     * [Typography](http://adamschwartz.co/magic-of-css/chapters/5-typography/)
     * [CSS：7个你可能不认识的单位](http://www.jianshu.com/p/c94567f45c92) vmin, vmax, ex 和 ch 这些单位大家都知道吗~
   * 单位
@@ -94,6 +94,7 @@
 
 ## JavaScript
 * 语法
+  * [图解Javascript上下文与作用域](http://blog.rainy.im/2015/07/04/scope-chain-and-prototype-chain-in-js/)
   * [Javascript继承机制的设计思想](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
   * this 
     * [JavaScript 之 this 详解](http://jeffjade.com/2015/08/03/2015-08-03-javascript-this/)
@@ -136,6 +137,8 @@
   * [阿里巴巴安全第一人肖力：网络安全的五个洞见](http://m.leiphone.com/news/201702/4NzX5SLlEv5kUqLG.html)
 
 ## HTTP
+* [HTTP 下午茶](https://ccbikai.gitbooks.io/http-book/content/index.html)
+* [HTTP 缓存策略](http://foofish.net/blog/95/http-cache-policy)
 
 ## 综合
 * 页面性能优化
