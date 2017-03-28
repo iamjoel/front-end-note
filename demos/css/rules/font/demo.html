@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>字体</title>
+  <style>
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    display: block;
+    padding-left: 10px;
+    border-left: 3px solid #00f;
+    font-size: 22px;
+    color: #333;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  footer {
+    margin: 15px 0;
+    color: #999;
+  }
+  </style>
+</head>
+
+<body>
+  <h1>字体</h1>
+  <article>
+    <h2>字体大小</h2>
+    <p>用 <code>font-size</code> 来设置字体大小。
+    </p>
+    <h3>说明</h3>
+    <ul>
+      <li>字体大小会继承。</li>
+      <li>在所有现代浏览器中，默认的字体大小就是 16px。</li>
+      <li><mark>基于用户阅读的考虑，浏览器支持的最小的字体值是12px。</mark>即使设置小于12px的字，显示的值也是12px。</li>
+      <li>设置 <code>font-size: 0</code>，字就隐藏了。</li>
+    </ul>
+    <div class="demo">
+      <h3 class="header">示例</h3>
+      <h4>长度单位</h4>
+      <span style="font-size: 12px">12px，</span>
+      <span style="font-size: 14px">14px，</span>
+      <span style="font-size: 30px">30px</span>。
+      <h4>em和百分比</h4> 1em的值是父元素的字体值。100%的值是当前元素的字体值。
+      <div style="font-size: 12px">
+        当前元素是 12px。
+        <span style="font-size: 2em">2em也就是24px。这个元素的子元素设置<span style="font-size: 2em">2em 就是 48px</span>。</span>
+        <div style="font-size: 200%">200%也是24px。</div>
+      </div>
+      <div style="font-size: 14px">
+        当前元素是 14px。<span style="font-size: 2em">2em也就是28px。</span>
+      </div>
+      <h4>rem</h4> 1rem的值是html的字体大小。
+      <div>
+        <span style="font-size: 1rem">1rem</span>,
+        <span style="font-size: 2rem">2rem</span>。
+      </div>
+      <h4>绝对大小值</h4>
+      <span style="font-size: small;">small,</span>
+      <span style="font-size: medium">medium,</span>
+      <span style="font-size: large;">large</span> 。
+    </div>
+    <footer>
+      <h3>了解更多</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">MDN:font-size</a></li>
+        <li><a href="https://www.w3cplus.com/css/px-to-em">CSS中强大的EM</a></li>
+      </ul>
+    </footer>
+  </article>
+  <!-- <article>
+    <h2>字体大小</h2>
+    <article>
+      <h2>字体颜色</h2>
+      <p>用 <code>color</code> 来设置字体大小。</p>
+      <label>下面是Demo：</label>
+      光的三原色是 <span style="color: #f00;">红</span>,<span style="color: #0f0;">绿</span>,<span style="color: #00f;">蓝</span>。
+      <footer>
+        更多见
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">这里</a>。
+      </footer>
+    </article> -->
+</body>
+
+</html>
