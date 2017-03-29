@@ -5,6 +5,7 @@
   * [手机页面的一些有用的meta](http://www.jianshu.com/p/a7943a969a19)
   * [前端 Meta 用法大汇总](http://www.jianshu.com/p/850d2a209ba8)
 * 标签语意化
+  * [标签语意规范](https://html.spec.whatwg.org/multipage/index.html#toc-semantics) 查规范是个好习惯。The elements of HTML 这节讲了各种标签和属性的用法。
   * [选择合适的块级HTML标签流程图](http://www.jianshu.com/p/c6dd30081358)
 * Web标准(Standard)
   * [HTML Living Standard－WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/introduction.html) [WHATWG](http://en.wikipedia.org/wiki/WHATWG)维护的持续更新的HTML标准
