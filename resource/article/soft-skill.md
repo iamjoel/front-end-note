@@ -1,6 +1,7 @@
 # 软技能
 ## 提问
 * [遇到技术问题，该如何提问](http://www.jianshu.com/p/19da64cc06ab)
+* [caoz谈能力成长系列 - 提问的技术](http://mp.weixin.qq.com/s/zvGixaCSkVX64iNNkksyUw)
 * [真的，再这样提问就没人理你了](http://mp.weixin.qq.com/s/oFHMnwR7LvJjQsjF7SiJng)
 
 ## 搜索
