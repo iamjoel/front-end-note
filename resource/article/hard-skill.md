@@ -168,7 +168,9 @@
     * [Weex 入坑指南：Native App 的运行与构建](https://zhuanlan.zhihu.com/p/25289806) 饿了么前端。
 
 
-## 软件
+## 工具
+* Github
+  * [一个命令搞定在 GitHub 上展示静态页面](http://www.jianshu.com/p/f23d644d0cc6) GitHub 支持选择分支做为项目的主页（静态页面），默认是 gh-pages 分支。
 * Photoshop
   * [开始前端开发（PhotoShop切图）](http://www.jianshu.com/p/69b74b84e687)
   * [2017 网页设计趋势报告 | Photoshop 跌下神坛](https://zhuanlan.zhihu.com/p/25407972) 是时候要研究下 Sketch 了。
