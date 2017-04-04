@@ -136,6 +136,8 @@
   * [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/blob/master/README.md) 饿了么写的，要不要这么搞笑~
 * 安全
   * [阿里巴巴安全第一人肖力：网络安全的五个洞见](http://m.leiphone.com/news/201702/4NzX5SLlEv5kUqLG.html)
+* 代码质量
+  * [Design Patterns in JavaScript](https://github.com/tcorral/Design-Patterns-in-Javascript) [中文翻译](https://github.com/503945930/Design-Patterns-in-Javascript)
 
 ## HTTP
 * [HTTP 下午茶](https://ccbikai.gitbooks.io/http-book/content/index.html)
