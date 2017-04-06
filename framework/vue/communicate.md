@@ -33,7 +33,20 @@ child.方法()
 
 父组件通过 `$children` 可以获得所有直接子组件（父组件的子组件的子组件不是直接子组件）。需要注意 $children 并不保证顺序，也不是响应式的。
 
-Vue 在 V2.1.0 版本后增加了的 `Scoped Slots` 的特性。该特性支持在子组件的 `slot` 中用子组件的数据。详情见[这里](https://github.com/vuejs/vue/releases/tag/v2.1.0)。
+Vue 在 V2.1.0 版本后增加了的 `Scoped Slots` 的特性。该特性支持在子组件的 `slot` 中用子组件的数据。用法是：子组件在 `slot` 上定义传给父组件的数据，父组件通过 `scope` 属性来拿子组件数据。如
+```
+<!-- 子组件 -->
+<slot :describe="describe"></slot>
+
+<!-- 父组件 -->
+<child-component >
+  <template scope="childScope">
+    子元素传给父组件的数据：{{childScope.describe}}
+  </template>
+</child-component>
+```
+
+详情见[这里](https://github.com/vuejs/vue/releases/tag/v2.1.0)。
 
 ## 子组件传递数据给父组件
 子组件通过事件传递父组件传数据。子组件通过`$emit(eventName)`触发事件，父组件通过`$on(eventName)`监听事件。
