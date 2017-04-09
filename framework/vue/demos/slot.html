@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Demo</title>
+</head>
+
+<body>
+  <div id="app">
+    <single-slot-component></single-slot-component>
+    <single-slot-component>
+      父组件内容
+    </single-slot-component>
+    <multi-slot-component>
+      <strong slot="s1">父组件插槽内容1</strong>
+      <strong slot="s2">父组件插槽内容2</strong>
+    </multi-slot-component>
+  </div>
+
+  <p>如果要在父组件中用子组件的数据，见scoped slot。</p>
+  <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
+  <script>
+  {
+    Vue.component('single-slot-component', {
+      template: `<div>
+                    <h2>单个Slot</h2>
+                    <slot>默认值</slot>
+                  </div>`,
+      data() {
+        return {
+          describe: '我叫小呆'
+        }
+      }
+    })
+
+    Vue.component('multi-slot-component', {
+      template: `<div>
+                    <h2>多个Slot</h2>
+                    slot1:<slot name="s1">默认值1</slot><br>
+                    slot2:<slot name="s2">默认值2</slot>
+                  </div>`,
+      data() {
+        return {
+          describe: '我叫小呆'
+        }
+      }
+    })
+    var app = new Vue({
+      el: '#app'
+    })
+  }
+  </script>
+</body>
+
+</html>

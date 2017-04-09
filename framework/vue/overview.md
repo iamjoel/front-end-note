@@ -327,14 +327,17 @@ var child = new Vue.component('child', {
     'parent-msg': function (msg) {}
   }
 });
-// 子组件向父组件传消息
+// Vue 1 子组件向父组件传消息
 child.$dispatch('child-msg', child.msg);
+
+// Vue 2 子组件向父组件传消息
+child.$emit('child-msg', child.msg);
 
 // 父组件
 var parent = new Vue({
   events: {
     'child-msg': function (msg) {
-      // 父组件向所有子组件传消息
+      // 父组件向所有子组件传消息。 Vue2 中 $broadcast 已经废弃。
       this.$broadcast('parent-msg', 'received it');
     }
   }
@@ -346,6 +349,37 @@ this.$parent 访问它的父组件。
 this.$root 访问它的根组件。  
 this.$children 访问它的子组件。
 
+可以通过 `ref` 来访问组件。如
+```
+<!-- js中通过 vm.$refs.child 来访问子组件 -->
+<child-comp ref="child"></child-comp>
+```
+
+## Slot
+组件中定义用 slot 来定义插入点，可以带name来标识 slot。
+```
+Vue.component('multi-slot-component', {
+  template: `<div>
+                <h2>单个Slot</h2>
+                <slot>默认值</slot>
+                slot1:<slot name="s1">默认值1</slot><br>
+                slot2:<slot name="s2">默认值2</slot>
+              </div>`,
+  data() {
+    return {
+      describe: '我叫小呆'
+    }
+  }
+})
+```
+
+调用组件的地方用 slot 属性的值来对应插入 slot 的位置。
+```
+<multi-slot-component>
+  <strong slot="s1">父组件插槽内容1</strong>
+  <strong slot="s2">父组件插槽内容2</strong>
+</multi-slot-component>
+```
 
 ## 小技巧
 ### 渲染一个包含多个元素的块

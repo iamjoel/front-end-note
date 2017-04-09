@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped Slots</title>
+</head>
+<body>
+  <!-- Vue 在 V2.1.0 版本后增加了的 `Scoped Slots` 的特性。 -->
+  <div id="app">
+    <child-component >
+      <template scope="childScope">
+        子元素自己的描述：<strong>{{childScope.describe}}</strong>
+      </template>
+    </child-component>
+  </div>
+  <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
+  <script>
+    {
+      Vue.component('child-component', {
+        template: `<div>
+                    <h2>这是子元素内容</h2>
+                    <slot :describe="describe"></slot>
+                  </div>`,
+        data() {
+          return {
+            describe: '我叫小呆'
+          }
+        }
+      })
+      var app = new Vue({
+        el: '#app'
+      })
+
+    }
+  </script>
+</body>
+</html>
