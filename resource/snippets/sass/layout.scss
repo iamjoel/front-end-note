@@ -1,4 +1,4 @@
-$modern-browser: true !default;
+$modern-browser: false !default;
 @if $modern-browser {
   // http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
   .ly {

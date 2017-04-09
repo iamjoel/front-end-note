@@ -1,0 +1,27 @@
+@charset "utf-8";
+@mixin ff($name: 'yahei') {
+  @if $name=='yahei' {
+    // 雅黑 "STXihei" 是微软雅黑在Mac平台上的对应字体
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+  }
+  @else if $name=='hei' {
+    // 普通黑体
+    font-family: tahoma, arial, "STXihei", SimHei, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+  }
+  @else if $name=='song' {
+    // 宋体
+    font-family: 'tahoma', 'arial', "宋体", 'SimSun';
+  }
+}
+
+// .ff-yahei {
+//   @include ff('yahei');
+// }
+
+// .ff-hei {
+//   @include ff('hei');
+// }
+
+// .ff-song {
+//   @include ff('song');
+// }

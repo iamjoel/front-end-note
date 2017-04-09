@@ -1,0 +1,18 @@
+@charset "utf-8";
+// 文本尾部省略号 http://mattsnider.com/css-string-truncation-with-ellipsis/
+@mixin ellipsis() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 多行
+@mixin ellipsis-multi($line:2) {
+  /*line-height: 130%;*/
+  /*可能需要行数*/
+  overflow: hidden;
+  /*text-overflow: ellipsis;*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+}

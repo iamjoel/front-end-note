@@ -35,7 +35,7 @@
 * [uiTest](https://npmjs.org/package/uitest) 前端UI测试框架
 
 ### 工具
-* [supervisor](https://npmjs.org/package/supervisor) 监视js文件的变化，文件变化时，重启服务。在web开发是很有用。
+* [nodemon](https://github.com/remy/nodemon/) 监视js文件的变化，文件变化时，重启服务。在web开发是很有用。[supervisor](https://npmjs.org/package/supervisor) 也是这么做。
 * [anywhere](https://npmjs.org/package/anywhere) 可以在任意文件目录构建静态服务器
 * [node-exif](https://github.com/gomfunkel/node-exif) 读取图片的元信息 (很多读图片元信息的node库需要安装一些软件，这个不用)
 * [http-proxy](https://github.com/nodejitsu/node-http-proxy) 反向代理
