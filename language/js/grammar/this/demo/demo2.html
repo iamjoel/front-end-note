@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div id="tar">text content</div>
+  <script>
+    {
+      var getById = document.getElementById
+      // var elem = getById.call('tar') // Uncaught TypeError: Illegal invocation
+      var elem = getById.call(document, 'tar')
+      console.log(elem.innerHTML)
+    }
+    {
+      var getById = document.getElementById.bind(document)
+      var elem = getById('tar')
+      console.log(elem.innerHTML)
+    }
+
+  </script>
+</body>
+</html>

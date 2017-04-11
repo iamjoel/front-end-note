@@ -95,6 +95,6 @@ bar(); // 'bar'
 
 ## 参考
 * [JavaScript 之 this 详解](http://www.jeffjade.com/2015/08/03/2015-08-03-javascript-this/)
-
+* [ES6 箭头函数中的 this？你可能想多了（翻译）](http://www.cnblogs.com/vajoy/p/4902935.html)
 
 
