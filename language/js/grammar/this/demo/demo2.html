@@ -9,7 +9,7 @@
   <script>
     {
       var getById = document.getElementById
-      // var elem = getById.call('tar') // Uncaught TypeError: Illegal invocation
+      // var elem = getById('tar') // Uncaught TypeError: Illegal invocation
       var elem = getById.call(document, 'tar')
       console.log(elem.innerHTML)
     }
