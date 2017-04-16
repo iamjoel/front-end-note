@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vue2 Overview</title>
+  <style>
+  [v-cloak] {
+    display: none;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    {{ message }}
+    <span v-for="n in 10">{{ n }} </span>
+    <span>{{'abc' | capitalize}}</span>
+    <span>{{'abc' | wrap('before', 'after')}}</span>
+    <button @click="clickMe()">点击</button>
+    <input type="text" @keyup.enter=i nputA>
+    <ul>
+      <li v-for="(item, index) in items" :key="item.id"> 第{{ index }}条:{{ item.message }}</li>
+    </ul>
+  </div>
+  <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
+  <script>
+  {
+
+    Vue.filter('wrap', function(value, begin, end) {
+      return begin + value + end;
+    });
+    new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello Vue.js!',
+        items: [{
+          id: 1,
+          message: 'foo'
+        }, {
+          id: 2,
+          message: 'bar'
+        }]
+      },
+      filters: {
+        capitalize: function(value) {
+          return value.toUpperCase()
+        }
+      },
+      methods: {
+        clickMe: function() {
+          console.log('我被点击拉~')
+        },
+        inputA() {
+          console.log('输入了A')
+        }
+      }
+    })
+
+    
+  }
+  </script>
+</body>
+
+</html>

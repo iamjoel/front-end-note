@@ -1,15 +1,17 @@
-# Vue.js 写法示例
-[官网](http://vuejs.org/)
+# Vue2 写法示例
+[Vue2 官网](http://vuejs.org/)。  
+如果你用的是 Vue1，看[Vue1 写法示例](http://www.jianshu.com/p/293387d240b2)。
 
 ## Hello World
+模板：
 ```
 <div id="app">
   {{ message }}
-  <button v-on:click="clickMe()">点击</button>
-  <button v-on:click="clickMe">无参数的简写</button>
+  <button @click="clickMe()">点我</button>
 </div>
 ```
 
+Vue 实例：
 ```
 new Vue({
   el: '#app',
@@ -17,35 +19,46 @@ new Vue({
     message: 'Hello Vue.js!'
   },
   methods: {
-    clickMe: function(){}
+    clickMe: function(){
+      console.log('我被点击拉~')
+    }
   }
-});
+})
 ```
 
 ## 指令
 ### 循环
 #### 循环数组
 ```
-<!-- Vue 1 这么写 -->
-<li v-for="item in items"> 第{{ $index }}条:{{ item.message }}</li>
-<div v-for="item in items" track-by="id">
-<!-- Vue 2 这么写 -->
-<li v-for="(item, index) in items"> 第{{ index }}条:{{ item.message }}</li>
-<div v-for="item in items" v-bind:key="item.id">
+<ul>
+  <li v-for="item in items">{{ item.message }}</li>
+  <!-- 获取当前数组下标 -->
+  <li v-for="(item, index) in items"> 第{{ index }}条:{{ item.message }}</li>
+  <!-- 通过加key ，让 Vue 能跟踪节点的身份，从而提高性能。key 的值是在数组中是不能重复的。 -->
+  <li v-for="item in items" :key="item.id"> {{ item.message }}</li>
+</ul>
+```
+
+items 的结构类似这样
+```
+[{
+  id: 1,
+  message: 'foo'
+}, {
+  id: 2,
+  message: 'bar'
+}]
 ```
 
 #### 循环对象
 ```
-<!-- Vue 1 这么写 -->
-<li v-for="(key, value) in obj"></li>
-<!-- Vue 2 这么写 -->
-<li v-for="(value, key) in obj"></li>
+<li v-for="(value, key) in obj">key is {{key}}, value is {{value}}</li>
 ```
 
 #### 循环数字
 ```
+<!-- n 从 1 开始  -->
 <span v-for="n in 10">{{ n }} </span>
-<!-- Vue 1 从0开始，Vue 2从1开始  -->
 ```
 
 ### 条件
@@ -69,23 +82,30 @@ new Vue({
 <button @click.stop="doSth">点击</button>
 <!-- 阻止默认行为 -->
 <button @submit.prevent="doSth">点击</button>
+<!-- 只当事件在该元素本身（而不是子元素）触发时触发回调 -->
+<div @click.self="doThat">...</div>
 <!-- 修饰符可以串联 -->
 <a @click.stop.prevent="doThat"></a>
 <!-- 按键修饰符：回车时才会执行 -->
 <input @keyup.13="submit"><!-- 13 为 keycode -->
 <input @keyup.enter="submit">
-<!-- 支持的全部按钮为 enter, tab, delete, space, up, down, left, right 字母 -->
+<!-- 支持的按钮有 enter, tab, delete, space, up, down, left, right -->
+```
+
+给组件绑定[原生事件](https://developer.mozilla.org/zh-CN/docs/Web/Events)，需要加修饰符 `.native`。如：
+```
+<my-component @click.native="doTheThing"></my-component>
 ```
 
 ### 表单的双向绑定
 ```
 <input type="text" v-model="message">
-<!-- 自定义选中值。否则 选中为value值，不选为空 -->
+<!-- 自定义选中值。若不设置自定义选中值，选中为表单元素value属性的值，不选为空 -->
 <input
   type="checkbox"
   v-model="toggle"
-  v-bind:true-value="a"
-  v-bind:false-value="b">
+  :true-value="a"
+  :false-value="b">
 ```
 
 ### 绑定属性
@@ -95,16 +115,16 @@ new Vue({
 <!-- 简写 -->
 <div :class="{ 'class-a': isA, 'class-b': isB }"></div>
 <div :style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
-<img :src="imgSrc">
+![](imgSrc)
 <a :href="baseURL + '/path'">
 ```
 
-在 Vue 2 中，如果属性值是变量，必须用绑定属性的写法。
+如果属性值是变量，必须用绑定属性的写法。
 ```
 // wrong
-<img src="{{imgSrc}}">
+![]({{imgSrc}})
 // right
-<img :src="imgSrc">
+![](imgSrc)
 ```
 
 ### 避免闪烁： v-cloak
@@ -120,23 +140,14 @@ new Vue({
 </div>
 ```
 
-不会显示 `<div>` 的内容，直到编译结束。
-
-### 单向绑定
-单向绑定的意思是，即使绑定变量的值发生变化，显示的内容仍旧就是最初绑定时候的值。
-```
-<!-- Vue 1 这么写 -->
-<span>This will never change: {{* msg }}</span>
-<!-- Vue 2 不支持 -->
-```
+编译结束后，Vue 会删除元素上的 cloak 属性。
 
 ### 输出 HTML
 ```
-<!-- Vue 1 这么写 -->
-<div>{{{ raw_html }}}</div> <!-- {{}} 中的 HTML 内容的会转为纯文本 -->
-<!-- Vue 2 这么写 -->
 <div v-html="raw_html"></div>
 ```
+
+注意：只在可信内容上使用 v-html，永不用在用户提交的内容上，否则会导致[XSS攻击](https://en.wikipedia.org/wiki/Cross-site_scripting)。
 
 ## 计算属性
 ```
@@ -158,6 +169,7 @@ new Vue({
 ```
 
 ### 自定义指令
+定义指令：
 ```
 Vue.directive('my-directive', {
   bind: function () {
@@ -178,6 +190,7 @@ Vue.directive('my-directive', {
 })
 ```
 
+使用指令：
 ```
 <div v-my-directive="someValue"></div>
 ```
@@ -201,43 +214,45 @@ new Vue({
 {{ msg | capitalize }}// 'abc' => 'Abc'
 ```
 
-常见内置过滤器  
-capitalize, uppercase, lowercase, json, limitBy, filterBy。所有见[这里](http://cn.vuejs.org/api/#过滤器)。
-
-Vue 2 中把这些内置的过滤器都删除了。
+Vue2 没有内置的过滤器。
 
 ### 自定义过滤器
+定义全局可用的过滤器
 ```
+Vue.filter('capitalize', function (value) {
+  return value.toUpperCase()
+});
+
 Vue.filter('wrap', function (value, begin, end) {
   return begin + value + end;
 });
 ```
 
+定义只能在具体组件上用的过滤器
 ```
-<!-- 'hello' => 'before hello after' -->
-<!-- Vue 1 这么写 -->
-<span v-text="message | wrap 'before' 'after'"></span>
-<!-- Vue 2 这么写 -->
-<span v-text="message | wrap('before', 'after')"></span>
-
+Vue.component('my-comp', {
+  filters: {
+    capitalize: function(value) {
+      return value.toUpperCase()
+    }
+  }
+}
+<!-- `this.$options.filters.filter名称` 可以获取到具体的 filter -->
 ```
 
-`this.$options.filters.filter名称` 可以获取到具体的 filter
+在模板中调用：
+```
+<!-- 不带参数的 -->
+<span>{{'abc' | capitalize}}</span>
+<!-- 带参数 -->
+<span v-text="'abc' | wrap('before', 'after')"></span>
+```
+
+注意，Vue2 的过滤器只能在mustache绑定中使用。如果需要在属性中实现相同的功能，请使用计算属性或方法。
 
 
 ## 生命周期相关的钩子函数
 ```
-// Vue 1
-new Vue({
-  created: function(){},
-  beforeCompile: function(){},
-  compiled: function(){},
-  ready: function(){},// DOM 元素已经加入到HTML中
-  beforeDestroy: function(){},
-  destroyed: function(){}
-});
-
-// Vue 2
 new Vue({
   created: function(){},
   mounted : function(){},// 相对与 1 中的 ready
@@ -248,10 +263,7 @@ new Vue({
 
 ## 过渡效果
 ```
-<!-- Vue 1 这么写 -->
-<div v-if="show" transition="my-transition"></div>
-<!-- Vue 2 这么写 -->
-<transition v-bind:name="my-transition">
+<transition :name="my-transition">
   <!-- ... -->
 </transition>
 ```
@@ -269,16 +281,13 @@ new Vue({
 
 
 ## 组件
-Vue 2 和 Vue 1 的组件的区别有些大。
-
-#### Vue 1
 ### 定义和调用组件
 ```
 <my-comp
   prop="literal string"
-  :prop1="defaultOneWay"
-  :prop2.sync="twoWay"
-  :prop3.once="oneTime">
+  :prop1="bar"
+  :prop2="666"
+  :prop3="foo">
 </my-comp>
 ```
 
@@ -327,18 +336,16 @@ var child = new Vue.component('child', {
     'parent-msg': function (msg) {}
   }
 });
-// Vue 1 子组件向父组件传消息
-child.$dispatch('child-msg', child.msg);
 
-// Vue 2 子组件向父组件传消息
-child.$emit('child-msg', child.msg);
+// 子组件向父组件传消息
+child.$emit('child-msg', 'I need help!');
 
 // 父组件
 var parent = new Vue({
   events: {
     'child-msg': function (msg) {
-      // 父组件向所有子组件传消息。 Vue2 中 $broadcast 已经废弃。
-      this.$broadcast('parent-msg', 'received it');
+      // 父组件向所有子组件传消息。
+      console.log(`收到子组件的信息，值为 ${msg}`)
     }
   }
 });
@@ -356,7 +363,7 @@ this.$children 访问它的子组件。
 ```
 
 ## Slot
-组件中定义用 slot 来定义插入点，可以带name来标识 slot。
+组件中定义用 slot 来定义插入点，可以带 name 来标识 slot。
 ```
 Vue.component('multi-slot-component', {
   template: `<div>
@@ -381,6 +388,21 @@ Vue.component('multi-slot-component', {
 </multi-slot-component>
 ```
 
+Vue 在 V2.1.0 版本后增加了的 `Scoped Slots` 的特性。该特性支持在子组件的 `slot` 中用子组件的数据。用法是：子组件在 `slot` 上定义传给父组件的数据，父组件通过 `scope` 属性来拿子组件数据。如
+```
+<!-- 子组件 -->
+<slot :describe="describe"></slot>
+
+<!-- 父组件 -->
+<child-component >
+  <template scope="childScope">
+    子元素传给父组件的数据：{{childScope.describe}}
+  </template>
+</child-component>
+```
+
+详情见[这里](https://github.com/vuejs/vue/releases/tag/v2.1.0)。
+
 ## 小技巧
 ### 渲染一个包含多个元素的块
 ```
@@ -389,7 +411,7 @@ Vue.component('multi-slot-component', {
   <li class="divider"></li>
 </template>
 <template v-if="user">
-  <img :src="user.avatarUrl" alt="">
+  ![](user.avatarUrl)
   <div class="name">{{user.name}}</div>
 </template>
 ```
@@ -407,143 +429,5 @@ Vue.nextTick(function () {
   // DOM 更新了
 })
 ```
-Vue 在检测到数据变化时是异步更新 DOM 的。具体见 [异步更新队列](http://cn.vuejs.org/guide/reactivity.html#u5F02_u6B65_u66F4_u65B0_u961F_u5217)。vm 上也有 `this.$nextTick`。
 
-## vue 插件
-### 路由: vue-router
-[官方文档](http://router.vuejs.org/zh-cn/)
-
-#### 定义路由
-```
-var Vue = require('vue');
-var VueRouter = require('vue-router');
-
-Vue.use(VueRouter);
-router.map({
-  '/login': {component: require('login')},
-  '/user/:': {component: ...},
-  // 异步加载组件。加载器用的 webpack
-  '/another': {component: function(resolve) {
-      require.ensure([], function(require) {
-        resolve(require('...'));
-      });
-    }},
-});
-
-router.redirect({ '*': '/login' }); // 默认路由
-
-router.beforeEach(function(transition) {
-  // console.info('show loading');
-  transition.next();
-}).afterEach(function(transition) {
-  // console.info('hide loading');
-});
-
-// 启动
-router.start(Vue.extend({}), '#app');
-
-```
-
-
-#### 使用路由
-
-```
-<a v-link.literal="/a/b/c"></a>
-<a v-link="{ path: Foo }">Go to Foo</a>
-```
-
-
-```
-new Vue({
-  ready: function(){
-    this.$route.path;
-    this.$route.params;
-    this.$route.query;
-  },
-  methods: {
-    jumpUrl: function () {
-      // 代码跳转
-      this.$route.router.go('/a');
-      this.$route.router.go({
-        path: '/a',
-        replace: true // 是否产生新的历史记录
-      });
-      this.$route.router.go({
-        name: 'a', // 具名路径
-        params: {},
-        query: {}
-      });
-    }
-  }
-});
-
-```
-
-### 异步请求: vue-resource
-[官网](https://github.com/vuejs/vue-resource)
-
-```
-Vue.http.get('/someUrl', [options]).then(successCallback, errorCallback);
-Vue.http.post('/someUrl', [body], [options]).then(successCallback, errorCallback);
-```
-
-### 拦截
-```
-Vue.http.interceptors.push(function(request, next) {
-  var data = request.data;
-  // 添加 url 前缀
-  request.url = serverPrefix + request.url;
-  // 加请求参数
-  request.data.sessionid = localStorage.getItem('sessionid');
-
-  next(function (response) {
-    if(登陆超时){
-      setTimeout(function () {
-        router.go('/login');
-      });
-    } else {
-      // modify response
-      response.body = '...';
-    }
-  });
-});
-```
-
-### 支持 Promise
-例如
-```
-Vue.http.post('/someUrl', [optinos])
-  .then(function(res) {
-    var data = res.data;
-    return new Promise(function(resolve, reject) {
-      if (!data.error) {
-        reject()
-      } else {
-        resolve(data);
-      }
-    }.bind(this));
-  })
-  .then(function(res) {
-    var data = res.data;
-    return new Promise(function(resolve, reject) {
-      Vue.http.post('/someUrl', data).then(function (res) {
-        if(res.data){
-          resolve();
-        }
-      });
-    }.bind(this));
-  }, failFn)
-  .then(succFn, failFn);
-
-```
-
-
-
-
-
-
-
-
-
-
-
+Vue 在检测到数据变化时是异步更新 DOM 的。具体见 [异步更新队列](http://cn.vuejs.org/v2/guide/reactivity.html#mobile-bar)。vm 上也有 `this.$nextTick`。
