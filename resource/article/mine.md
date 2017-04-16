@@ -1,5 +1,5 @@
 # Web 前端文章导航
-更新于 2017/01/25
+更新于 2017/04/16
 
 ## HTML
 * 标签和属性
@@ -36,10 +36,13 @@
   * [Grid 布局 写法示例](http://www.jianshu.com/p/482990c1f395)
   * [CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins](https://segmentfault.com/a/1190000004625635)
 * 属性值
+  * 综合
+    * [CSS 常用属性](/p/330b2cc9d540)
+    * [加些CSS，让网站变得面目全非，你会怎么做？](/p/a37511d258cc)
   * 文本
     * [不简单的 white-space 属性](http://www.jianshu.com/p/1f451fc21b37)
     * [CSS字体](http://www.jianshu.com/p/c5a4e15b4122)
-* 效果
+ * 效果
   * 动画
     * [如何调试CSS动画](http://www.jianshu.com/p/e28873cb05d3)
     * [选择合适的动画缓动函数](http://www.jianshu.com/p/9b6824f7af51)
@@ -116,6 +119,8 @@
   * [Web存储(Web Storage)介绍](http://www.jianshu.com/p/81e471968d9d)
   * 动画
     * [requestAnimationFrame简介](http://www.jianshu.com/p/98e32000b0c9)
+* 调试
+  * [如何应对代码报错](/p/010e4b61782f)
 * 提高代码质量
   * [如何给函数取个合适的名字](http://www.jianshu.com/p/e864b4b5b8f6)
   * [JavaScript 严格模式介绍](http://www.jianshu.com/p/08d1b6c6514a)
@@ -130,7 +135,6 @@
 用 requestIdleCallback。 这个方法会在浏览器空闲时做一些事情。
 * 提高效率
   * [前端模拟ajax接口](http://www.jianshu.com/p/bb3856da2546)
-  * [张云龙的前端工程系列文章](https://github.com/fouber/blog/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B)
   * 异步流程控制
     * [Promise 写法示例](http://www.jianshu.com/p/8d0fe30cb873)
     * [async/await 写法示例](http://www.jianshu.com/p/d84154b05703)
@@ -170,9 +174,12 @@
     * [jQuery 最佳实践（译）](http://www.jianshu.com/p/f722b616c031)
     * [我们到底需不需要 jQuery](http://www.jianshu.com/p/c3f9a49e2de8)
   * Vue
-    * [Vue.js cheatsheet](http://www.jianshu.com/p/293387d240b2)
-    * [Vue.js 写法示例](http://www.jianshu.com/p/293387d240b2)
+    * [Vue1.x 写法示例](http://www.jianshu.com/p/293387d240b2)
+    * [Vue2.x 写法示例](http://www.jianshu.com/p/a2efd179b9c3)
     * [Vue2 组件通信写法总结](http://www.jianshu.com/p/c15afc211d33)
+    * [单向数据流 和 Vuex 简介](http://www.jianshu.com/p/2fa10b29488d)
+  * webpack
+    * [Webpack 加载模块的规则](http://www.jianshu.com/p/336bd0cb48a3)
 
 ## 综合知识
 * 响应式
@@ -209,24 +216,30 @@
   * [我github上star的资源整理](http://www.jianshu.com/p/f6fdd6007670)
 * 工具
   * [软件推荐](http://www.jianshu.com/p/6611c04156cd)
-  * [Chrome 插件收藏](http://www.jianshu.com/p/a1844644268d)
-  * [Markdown 使用参考](http://www.jianshu.com/p/67cc81003064)
-  * [Sublime 常用快捷键](http://www.jianshu.com/p/66aaa80466b6)
-  * [使用 Sublime-snippet 来快速做前端页面](http://www.jianshu.com/p/219de00c8343)
-  * [前端开发利器：Emmet 介绍 ](http://www.jianshu.com/p/54e5033808fd)
-  * [Sublime-evernote：支持用 Markdown 写印象笔记(Evernote)](http://www.jianshu.com/p/0add426fdd26)
+  * IDE
+    * [Sublime 常用快捷键](http://www.jianshu.com/p/66aaa80466b6)
+    * [使用 Sublime-snippet 来快速做前端页面](http://www.jianshu.com/p/219de00c8343)
+    * [前端开发利器：Emmet 介绍 ](http://www.jianshu.com/p/54e5033808fd)
+    * [Sublime-evernote：支持用 Markdown 写印象笔记(Evernote)](http://www.jianshu.com/p/0add426fdd26)
+    * [在 Sublime 中使用 Vim 指南](/p/2dea4c1f6878)
+  * GitHub
+    * [用 GitHub 展示静态页面的几种方法](/p/f23d644d0cc6)
+    * [Github 表情符(Emoji)](http://www.jianshu.com/p/72a4214764e4)
+    * [玩转 Github 徽章](http://www.jianshu.com/p/afba6e33e48e)
   * [远程调试手机页面工具：Weinre介绍](http://www.jianshu.com/p/eb10b55da0e9)
   * [CanIUse 命令行工具介绍](http://www.jianshu.com/p/61ab19b627a1)
   * [使用 Firefox 小技巧](http://www.jianshu.com/p/qDuvBQ)
   * [网页 PPT： reveal.js 介绍](http://www.jianshu.com/p/e78cce9d5af0)
+  * [Chrome 插件收藏](http://www.jianshu.com/p/a1844644268d)
+  * [Markdown 使用参考](http://www.jianshu.com/p/67cc81003064)
+
 * 方法
   * [听说你想学前端？--非同寻常的前端入门法](http://www.jianshu.com/p/068d469c0346)
   * [学习方法总结](http://www.jianshu.com/p/a1fe8023fcc9)
 * 技能点
   * [初级 Web 前端核心技能点](http://www.jianshu.com/p/4c1a1c673b00)
   * [CSS 核心技能点](http://www.jianshu.com/p/2173792fbec5)
-* 浏览器
-  * [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/?from=timeline&isappinstalled=0)
+
 
 ### Node.js
 * [Node.js概要](http://www.jianshu.com/p/8be19a24399e)
@@ -246,7 +259,5 @@
 ## For Fun
 * [搞死 IE6](http://www.jianshu.com/p/326240a0ca98)
 * [佛祖保佑，永无bug(仅供娱乐)](http://www.jianshu.com/p/23024c8e1417)
-* [Github 表情符(Emoji)](http://www.jianshu.com/p/72a4214764e4)
-* [玩转 Github 徽章](http://www.jianshu.com/p/afba6e33e48e)
 
 生成列表工具,见 [浏览器控制台生成简书文集的Markdown格式的列表](http://www.jianshu.com/p/77ac79e42d90)

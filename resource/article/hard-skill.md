@@ -190,6 +190,7 @@
 ## 其他
   * [什么是工程师文化？](http://coolshell.cn/articles/17497.html?from=timeline&isappinstalled=0)
   * [如何洞悉隐性需求](http://mp.weixin.qq.com/s/rH-W9bNQ2XjCSyVxnI1UIQ) 异常流需求;内容复用需求 需要留意。
+  * [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/?from=timeline&isappinstalled=0)
 
 
 
