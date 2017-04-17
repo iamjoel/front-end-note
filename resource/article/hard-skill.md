@@ -153,7 +153,7 @@
 * 调试线上页面
 * 项目构建工具
 * Webpack
-  * [Webpack 加载模块的规则](http://www.jianshu.com/p/336bd0cb48a3)
+  * [搜罗一切webpack的好文章好工具](https://github.com/webpack-china/awesome-webpack-cn)
   * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
   * [Webpack傻瓜指南（二）开发和部署技巧](https://zhuanlan.zhihu.com/p/20397902)
   * [Webpack 初學者教學課程](https://github.com/neighborhood999/WebpackTutorial/tree/master/zh-TW/)
