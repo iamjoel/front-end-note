@@ -65,10 +65,9 @@
   * [12 Little-Known CSS Facts (The Sequel)](http://www.sitepoint.com/12-little-known-css-facts-the-sequel/)
 * 提高代码质量
   * BEM
-    * [BEM 写法示例](http://www.jianshu.com/p/98829369a8d6)
     * [BEM 简介](http://www.jianshu.com/p/49023c3f242c)
-    * [Battling BEM – 5 common problems and how to avoid them](https://medium.com/fed-or-dead/battling-bem-5-common-problems-and-how-to-avoid-them-5bbd23dee319#.6jkw93axf) 避免出现 `a__b__c--d__e` 这种。
-* 提高效率
+    * [BEM 写法示例](http://www.jianshu.com/p/98829369a8d6)
+ * 提高效率
   * Sass
     * [CSS拓展语言：Sass介绍](http://www.jianshu.com/p/63acb3e8f83c)
     * [Sass 写法示例](http://www.jianshu.com/p/963c6eee2855)
