@@ -22,6 +22,8 @@
     <ul>
       <li v-for="(item, index) in items" :key="item.id"> 第{{ index }}条:{{ item.message }}</li>
     </ul>
+    <div v-html="html"></div>
+    <div>{{html}}</div>
   </div>
   <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
   <script>
@@ -40,7 +42,8 @@
         }, {
           id: 2,
           message: 'bar'
-        }]
+        }],
+        html: '<div style="color:red">aaa</div>'
       },
       filters: {
         capitalize: function(value) {

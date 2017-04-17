@@ -153,6 +153,7 @@
 * 调试线上页面
 * 项目构建工具
 * Webpack
+  * [Webpack 加载模块的规则](http://www.jianshu.com/p/336bd0cb48a3)
   * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
   * [Webpack傻瓜指南（二）开发和部署技巧](https://zhuanlan.zhihu.com/p/20397902)
   * [Webpack 初學者教學課程](https://github.com/neighborhood999/WebpackTutorial/tree/master/zh-TW/)
@@ -166,6 +167,7 @@
     * [awesome-vue](https://github.com/vuejs/awesome-vue) 和Vue相关的了不起的内容。
     * [Vue2.x踩坑与总结](http://mrzhang123.github.io/2017/02/07/vue2)
     * [饿了么基于Vue 2.0的通用组件库开发之路](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484467&idx=1&sn=8643c5945adb151db9c6fe757cd6adfa&chksm=972366f1a054efe733e01069b2adb81d453a2c30bbc5329c77948e8160090294bf14918381a1#rd)
+    * [Vue cheatsheet](https://vuejs-tips.github.io/cheatsheet/)
   * 移动端
     * [Weex 入坑指南：Native App 的运行与构建](https://zhuanlan.zhihu.com/p/25289806) 饿了么前端。
 
