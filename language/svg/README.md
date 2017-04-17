@@ -34,6 +34,9 @@ Firefox， chrome， IE9+， 以及大部分手机浏览器。
 * stroke-opacity: 边的透明度
 * opacity: 内容的透明度
 
+## 库
+* [Snap.svg](http://snapsvg.io/) SVG 界的 jQuery。
+
 ## 学习资源
 * 《SVG 精粹》
 * [MDN SVG 教程](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)
