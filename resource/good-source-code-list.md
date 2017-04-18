@@ -8,6 +8,7 @@
 ## 代码片段
 * [Snippents[CSS Tricks]](https://css-tricks.com/snippets/) 几行代码片段实现一些简单常见的功能。
 * [Yon don't need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md) 能学到很多关于如何用现代浏览器原生 API 来实现 jQuery 实现的功能。
+* [blazecss](http://blazecss.com/getting-started/about/#bem-itcss)  BEM 和 Inverted Triangle 的命名转化规范。
 
 ## JS
 * [Bootstrap 的 JS 插件](https://github.com/twbs/bootstrap/tree/master/js) Bootstrap 的 JS 插件都是基于 jQuery 的，每个插件也就一两百行代码。
