@@ -114,6 +114,7 @@
     * [DOM 事件深入浅出（一）](http://www.jianshu.com/p/8c41a302bb17)
     * [DOM 事件深入浅出（二）](http://www.jianshu.com/p/3c2e465480be)
     * [详解JS中的事件机制(带实例)](http://www.jianshu.com/p/7105b81e456a) 关于事件冒泡与事件捕获。
+    * [移动端Click300毫秒点击延迟的来龙去脉(转)](http://www.linovo.me/front/webapp-300ms.html) 浏览器为了实现双击能放大页面而引入了的300ms的延迟。弹出层点击穿透也是因为这个导致的。
 * BOM
   * [《JavaScript 闯关记》之 BOM](https://segmentfault.com/a/1190000007410524)
   * [浏览器 user-agent 字符串的故事](http://www.cnblogs.com/ifantastic/p/3481231.html) 浏览器互相伪装的黑历史~
