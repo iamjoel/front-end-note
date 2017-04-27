@@ -1,5 +1,5 @@
 # vue-router2 写法示例
-做单页应用，需要客户端路由。用 Vue.js 做单页应用，一般都会用 [vue-router](https://github.com/vuejs/vue-router/)。
+做单页应用，需要客户端路由。用 Vue.js 做单页应用，一般都用 [vue-router](https://github.com/vuejs/vue-router/) 做客户端路由。文档地址点[这里](https://router.vuejs.org/zh-cn/)。
 
 注意：vue-router2 需要配合 Vue2 用。
 
@@ -11,6 +11,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 var router = new Router({
+  // 路由规则
   routes: [
     {
       path: `/login`,
@@ -56,7 +57,7 @@ HTML 要有
 <router-link :to="'/home'">Home</router-link>
 ```
 
-在 JS 中跳转
+在 JS 中这么写
 ```
 this.$router.push(url)
 ```
@@ -66,10 +67,15 @@ this.$router.push(url)
 this.$router.replace(url)
 ```
 
-## 后退
+## 前进后退
 ```
+// 后退
 this.$router.go(-1)
+// 前进
+this.$router.go(1)
 ```
+
+`router.push`、 `router.replace` 和 `router.go` 是效仿 `window.history API` 的。
 
 ## 获取参数
 ```
