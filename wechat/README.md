@@ -23,5 +23,13 @@ if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "functi
 }
 ```
 
+## 判断是否在微信
+```
+function isInweixin(){
+  var ua = navigator.userAgent.toLowerCase();
+  return ua.indexOf('micromessenger') !== -1
+}
+```
+
 ## 一些可能不知道的微信提供的功能
 预览图片（wx.uploadImage），指的是小图，点击后，到新窗口打开大图，然后可以放大，缩写查看图片。
