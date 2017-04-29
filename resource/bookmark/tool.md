@@ -10,6 +10,21 @@
 * [gradient animator](http://www.gradient-animator.com/) 生成渐变动画
 * [随机渐变生成器](http://paintbycode.github.io/gradient-generator/)
 
+## 展位图
+http://placehold.it/100。一些写法
+```
+100 * 100 的
+http://placehold.it/100
+
+200 * 100 的
+http://placehold.it/200x100
+
+背景色是红色，字的是颜色白色的
+http://placehold.it/200x100/f00/fff
+
+http://placehold.it/300?text=商品展位
+```
+
 ## 其他
 * [livetools](http://livetools.uiparade.com/index.html) 按钮，表单，丝带（Ribbon）代码生成
 * Loding

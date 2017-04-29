@@ -97,6 +97,7 @@
 ## JavaScript
 * 语法
   * [图解Javascript上下文与作用域](http://blog.rainy.im/2015/07/04/scope-chain-and-prototype-chain-in-js/)
+  * [什么是作用域和执行上下文](http://www.jianshu.com/p/dffdbfdfd09b)
   * [Javascript继承机制的设计思想](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
   * this 
     * [JavaScript 之 this 详解](http://jeffjade.com/2015/08/03/2015-08-03-javascript-this/)
