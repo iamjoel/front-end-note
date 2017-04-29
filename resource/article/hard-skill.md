@@ -124,6 +124,10 @@
 * 浏览器兼容性
   * [ES5规范浏览器兼容性表格](http://kangax.github.io/compat-table/es5/)
   * [ES6规范浏览器兼容性表格](http://kangax.github.io/compat-table/es6/)
+* ES6
+  * [ECMAScript 6 入门](http://es6.ruanyifeng.com/) 阮一峰
+  * [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
+  * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 * 提高代码质量&工作效率
   * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
 * 效果
