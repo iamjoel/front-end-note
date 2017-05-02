@@ -27,4 +27,8 @@ var Random = Mock.Random
   * `Random.character( 'lower|upper|number|symbol' )` 随机字符
   * `Random.string( pool?, min?, max? )` 随机字符串
   * `Random.boolean( 'lower|upper|number|symbol' )` 随机布尔值
-* `Random.date( format? )` 随机日期
+* `Random.date( format? )` 随机日期。如果传 `format` 则返回满足 `format` 的日期字符串。`format` 如 `yyyy-MM-dd`。
+* `Random.time( format? )` 随机时间字符串。如果传 `format` 则返回满足 `format` 的日期字符串。`format` 如 `HH:mm:ss`。
+* `Random.cword(pool?, min?, max?)` 随机中文词。
+* `Random.pick( arr )` 随机数组中的一项。
+* `Random.shuffle( arr )` 数组乱序。
