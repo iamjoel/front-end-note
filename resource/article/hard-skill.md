@@ -73,6 +73,7 @@
     * [从Chrome源码看浏览器如何layout布局](https://zhuanlan.zhihu.com/p/25445527)
 * 效果
   * [text-stroke实现文本描边效果](https://www.w3cplus.com/css3/text-stroke.html)
+  * [(Better) Tabs with Round Out Borders](https://css-tricks.com/better-tabs-with-round-out-borders/) 圆角 Tab
   * 绘制图形
     * [每天一个绘制CSS图形的小案例](https://github.com/sashatran/100-days-of-code/blob/master/log.md)
 * 浏览器兼容性
