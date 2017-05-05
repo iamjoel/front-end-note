@@ -99,3 +99,17 @@ this.$route.query.查询参数名
 ```
 this.$route.path
 ```
+
+## 在新增编辑页面离开时提示
+```
+window.addEventListener("beforeunload", function(e){
+  if(this.$route.path.indexOf('update') === -1) {
+    e.preventDefault()
+  } else {
+    var confirmationMessage = '确认离开'// 没啥用
+     e.returnValue = confirmationMessage;     // Gecko, Trident, Chrome 34+
+    // debugger
+     return confirmationMessage;              // Gecko, WebKit, Chrome <34
+  }
+}.bind(this))
+```

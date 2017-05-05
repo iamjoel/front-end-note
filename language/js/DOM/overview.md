@@ -123,6 +123,23 @@ el.getBoundingClientRect().height;
 el.addEventListener('click', function(event){
   console.log(this.innerHTML)
 })
+// 删除事件
+el.removeEventListener('click', function(event){
+  console.log(this.innerHTML)
+})
+```
+
+离开页面时的提示
+```
+window.addEventListener("beforeunload", function(e){
+  if(不需要提示的情况) {
+    e.preventDefault()
+  } else {
+    var confirmationMessage = '确认离开'// 没啥用
+     e.returnValue = confirmationMessage;     // Gecko, Trident, Chrome 34+
+     return confirmationMessage;              // Gecko, WebKit, Chrome <34
+  }
+})
 ```
 
 ## 参考

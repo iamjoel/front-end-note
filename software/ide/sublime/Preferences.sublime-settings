@@ -1,4 +1,5 @@
 {
+  // 会导致文件夹不能显示的问题。"dpi_scale": 1.0,// 解决中文文件名显示方框的问题 https://www.zhihu.com/question/24029280
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
   "draw_white_space": "all",
   "font_size": 14,
