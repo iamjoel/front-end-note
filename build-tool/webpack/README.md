@@ -44,6 +44,14 @@ app.use('static', express.static('./static'))
 然后在 static 目录下放静态资源，然后就可以通过
 `/static/在static下的路径` 来访问资源。
 
+## 遇到的坑
+### Source map 定位不准
+是因为用  
+`devtool: '#cheap-module-eval-source-map'` 导致的。但有些电脑这么设置是没有问题的。 设置这个值的原因是：`cheap-module-eval-source-map is faster for development`。
+
+修复这个问题，只需改成
+`devtool: 'source-map'`。
+
 ## 学习资源
 * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
 * [Webpack傻瓜指南（二）开发和部署技巧](https://zhuanlan.zhihu.com/p/20397902)
