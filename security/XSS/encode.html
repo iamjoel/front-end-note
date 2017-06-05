@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>编码</title>
+</head>
+<body>
+  <h2>js出现在html标签中</h2>
+  <button onclick="x='&lt;img src=@ onerror=alert(1) /&gt;';document.write(x)">点我</button>
+  <button onclick="x='&#000060img src=@ onerror=alert(2) /&#000062';document.write(x)">点我</button>
+  <button onclick="x='&#x003cimg src=@ onerror=alert(2) /&#x003e';document.write(x)">点我</button>
+
+
+</body>
+</html>
