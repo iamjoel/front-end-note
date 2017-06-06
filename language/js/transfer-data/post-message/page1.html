@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>页面1</title>
+</head>
+<body>
+  <input type="text" id="input">
+  <button>发送信息</button>
+  <script>
+  // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+    var popup = window.open('page2.html')
+    popup.postMessage('msg from page1', '*')
+  </script>
+</body>
+</html>
