@@ -6,11 +6,24 @@
 </head>
 <body>
   <input type="text" id="input">
-  <button>发送信息</button>
+  <button id="send-btn">发送信息</button>
+  <iframe src="page2.html" frameborder="0"></iframe>
   <script>
   // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+  // 能发postMessage的前提是，两个页面 同协议，端口号和host(document.domain)
     var popup = window.open('page2.html')
-    popup.postMessage('msg from page1', '*')
+    var iframe = window.frames[0]
+    var input = document.querySelector('#input')
+    document.querySelector('#send-btn').addEventListener('click', function (argument) {
+      popup.postMessage(input.value, '*')
+      iframe.postMessage('to iframe:' + input.value, '*')
+    })
+    // page2 个的数据
+    window.addEventListener("message", function(event) {
+      // if (event.origin !== "http://example.com:8080 信任的域")
+      // return;
+      console.info('页面2:' + event.data)
+    })
   </script>
 </body>
 </html>
