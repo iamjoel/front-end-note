@@ -125,3 +125,48 @@ Vue.http.post('/someUrl', [optinos])
   .then(succFn, failFn);
 
 ```
+
+## 异步请求: axios
+### 拦截
+```
+import axios from 'axios'
+import {Message} from 'element-ui'
+import {ERROR_CODE_MAP} from '@/setting'
+import router from '@/router'
+
+axios.interceptors.request.use(function (config) {
+  // 在请求上统一加上 sessionid
+  var sessionid = localStorage.getItem('sc-sessionid')
+  if(config.method === 'get') {
+    config.params = config.params || {}
+    config.params.sessionid = sessionid
+  } else { // PUT，POST，PATCH
+    config.data = config.data || {} 
+    config.data.sessionid = sessionid
+  }
+  return config;
+}, function (error) {
+  return Promise.reject(error);
+});
+
+axios.interceptors.response.use(function (response) {
+  var data = response.data
+  var config = response.config
+  var errcode = data.errcode
+  if(errcode == 13) { // session 超时，跳登录页
+    router.push('/login')
+  } else if(errcode != undefined && errcode != 0) {
+    if(!config.notShowError) { // 调用的时候设置的
+      var errmsg = ERROR_CODE_MAP[errcode] || data.errmsg
+      Message({
+        showClose: true,
+        message: errmsg,
+        type: 'error'
+      })
+    }
+  }
+  return response;
+}, function (error) {
+  return Promise.reject(error);
+});
+```
