@@ -1,7 +1,7 @@
 # 同域的页面间传递数据
 同域指页面URL的协议，端口号和host(document.domain)一样。
 
-## 用 postMessage
+## 方法1:用 postMessage
 两个页面需要如果存在如下两种关系之一，才可以用 postMessage 来传递数据。
 * 关系1: 页面1 用 `window.open` 打开 页面2
 * 关系2: 页面1 有 iframe，iframe的地址为页面2
@@ -33,7 +33,7 @@ window.addEventListener("message", function(event) {
 
 更详细的描述见[这里](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)。
 
-## 监视 window.name 的变化
+## 方法2:监视 window.name 的变化
 两个页面需要如果存在用 postMessage 一样的关系。才可以用监视 window.name 的变化来传递数据。
 
 原理是：满足上面关系的页面可以修改打开各自 window 的 name 值，通过修改 name 值来传递数据。
@@ -55,7 +55,7 @@ setInterval(function(){
 }, 2000)
 ```
 
-## 监视 webStroge 的变化
+## 方法3:监视 webStroge 的变化
 原理是，当某个页面的webStroge的值发生变化后，会触发其他页面的 `onstorage` 事件。
 
 实现如下，  
@@ -79,5 +79,5 @@ window.addEventListener('storage', function(){
 
 更详细的描述见[这里](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#Responding_to_storage_changes_with_the_StorageEvent)。
 
-## 借助服务器
+## 方法4:借助服务器
 用 WebSocket 或 通过某个接口来修改数据，通过某个接口来获得数据。
