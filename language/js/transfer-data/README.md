@@ -2,7 +2,7 @@
 同域指页面URL的协议，端口号和host(document.domain)一样。
 
 ## 用 postMessage
-两个页面需要如果存在如下两种关系之一，才可以用 postMessage
+两个页面需要如果存在如下两种关系之一，才可以用 postMessage 来传递数据。
 * 关系1: 页面1 用 `window.open` 打开 页面2
 * 关系2: 页面1 有 iframe，iframe的地址为页面2
 
@@ -76,6 +76,8 @@ window.addEventListener('storage', function(){
   localStorage.getItem('xx-item') // 收到的页面1发送的数据
 }, false)
 ```
+
+更详细的描述见[这里](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#Responding_to_storage_changes_with_the_StorageEvent)。
 
 ## 借助服务器
 用 WebSocket 或 通过某个接口来修改数据，通过某个接口来获得数据。
