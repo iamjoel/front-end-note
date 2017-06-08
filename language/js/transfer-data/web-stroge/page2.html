@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    用静态服务器打开才行。
+    <script>
+    // setInterval(()=>{
+    //   localStorage.setItem('xx-item2', Math.random())
+    // }, 5000)
+    function onStrogeChange(event) {
+        console.log('xx-item change to ' + localStorage.getItem('xx-item') )
+    }
+    window.onload = function() {
+        window.addEventListener('storage', onStrogeChange, false)
+    }
+    </script>
+</body>
+
+</html>

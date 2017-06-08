@@ -14,9 +14,13 @@
     var popup = window.open('page2.html')
     var iframe = window.frames[0]
     var input = document.querySelector('#input')
-    document.querySelector('#send-btn').addEventListener('click', function (argument) {
-      popup.postMessage(input.value, '*')
+    document.querySelector('#send-btn').addEventListener('click', function () {
+      var value = input.value
+      popup.postMessage(value, '*')
+      // 用 name 来传递
+      popup.name = value
       iframe.postMessage('to iframe:' + input.value, '*')
+      iframe.name = value
     })
     // page2 个的数据
     window.addEventListener("message", function(event) {

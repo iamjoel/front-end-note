@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>页面1</title>
+</head>
+<body>
+  用静态服务器打开才行。本页面修改 Storage 不会触发本页面的storage 事件。
+  <script>
+  // https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#Responding_to_storage_changes_with_the_StorageEvent
+  setInterval(()=>{
+    localStorage.setItem('xx-item', Math.random())
+  }, 2000)
+  
+  function onStrogeChange(event) {
+      console.log('xx-item2 change to ' + localStorage.getItem('xx-item2') )
+  }
+  window.onload = function() {
+      window.addEventListener('storage', onStrogeChange, false)
+  }
+  </script>
+</body>
+</html>

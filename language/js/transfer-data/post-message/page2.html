@@ -10,6 +10,14 @@
       // 在 file:// 下 event.origin 是 'null' ...
       event.source.postMessage('确认收到：' + event.data, '*')
     }, false)
+
+    setInterval(function(){
+      if(window.name) {
+        console.info(window.name)
+        var sourceWindow = window.opener || window.top
+        sourceWindow.name = '打开者修改：' + window.name
+      }
+    }, 2000)
   </script>
 </body>
 </html>
