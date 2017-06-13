@@ -25,6 +25,8 @@ TODO 将标签分类
 	* `/a.html`
 	* `#aaa` 页面滚动至name或id为`aaa`的地方
 	* `javascript:void(0);`
+	* `mailto:nowhere@mozilla.org` 邮件链接
+	* `tel:+491570156` 电话链接
 * `title` 提示内容
 * `target` 链接的文档在何处显示
 	* 默认在当前页显示
