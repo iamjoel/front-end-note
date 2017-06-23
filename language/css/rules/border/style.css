@@ -1,3 +1,6 @@
+body{
+  background-color: #ddd;
+}
 .block{
   width: 100px;
   height: 100px;

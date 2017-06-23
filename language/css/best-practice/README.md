@@ -34,6 +34,8 @@ background-color: expression((new Date()).getHours()%2?"#FFFFFF": "#000000" );
 [gulp-uncss](https://github.com/ben-eb/gulp-uncss) 可以删除没有用到的CSS
 
 ### 尽可能减少重复代码
+要 DRY(Don not  Repeat Yourself)，不要 WET(We Enjoy Typing)
+
 用变量的形式：
 
 用 currentColor。如，outline的颜色和字体颜色相同，可以这么写
@@ -57,7 +59,13 @@ text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
 a { color: inherit; }// 不这么设置，a 有自己的颜色
 ```
 
-用 CSS 变量。
+用 CSS 变量。如
+```
+ul { --accent-color: purple; }
+ol { --accent-color: rebeccapurple; }
+li { background: var(--accent-color); }
+
+```
 
 ## 关于响应式网页设计
 媒体查询的断点不应该由具体的设备来

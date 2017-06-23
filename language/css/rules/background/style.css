@@ -73,3 +73,13 @@ body {
   background-image: linear-gradient(90deg, #fb3 11px, transparent 0), linear-gradient(90deg, #ab4 23px, transparent 0), linear-gradient(90deg, #655 41px, transparent 0);
   background-size: 41px 100%, 61px 100%, 83px 100%;/* 都是质数 */
 }
+
+.bg-origin.bg-origin--normal {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-origin:content-box;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-image:url(http://via.placeholder.com/100x100);
+}

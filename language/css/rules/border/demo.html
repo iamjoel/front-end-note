@@ -16,5 +16,10 @@
     <div class="border-img__inner">Bacon ipsum dolor amet eu adipisicing elit tongue ground round ex fatback proident kielbasa ham hock.</div>
   </div>
   <div class="border-img-use-bg">Bacon ipsum dolor amet eu adipisicing elit tongue ground round ex fatback proident kielbasa ham hock.</div>
+  <!-- 半透明边框， background-clip: padding-box;和重要，否则背景会延伸到边框下面 -->
+  <div class="block" style="magin-top: 10px;border: 10px solid hsla(0,0%,100%,.5);
+background: red;background-clip: padding-box;"></div>
+<!-- 多重边框。2层边框可以用 boder + outline -->
+<div class="block" style="margin: 20px;box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink;"></div>
 </body>
 </html>

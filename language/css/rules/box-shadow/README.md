@@ -43,5 +43,11 @@ box shadow支持多个值,值之间用`,`分隔。例如
 }
 ```
 
+## drop-shadow
+当 当元素添加了一些伪元素或半透明的装饰之后，border-radius 会无耻地忽视透明部分。用 drop-shadow 的filter 可以做到想要的效果。如
+```
+filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+```
+
 ## 拓展阅读
 * [CSS3 制作Drop Shadow效果](http://www.w3cplus.com/css3/box-drop-down-shadow-with-css3)
