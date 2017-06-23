@@ -33,6 +33,40 @@ background-color: expression((new Date()).getHours()%2?"#FFFFFF": "#000000" );
 
 [gulp-uncss](https://github.com/ben-eb/gulp-uncss) 可以删除没有用到的CSS
 
+### 尽可能减少重复代码
+用变量的形式：
+
+用 currentColor。如，outline的颜色和字体颜色相同，可以这么写
+```
+color: red;
+outline-color: currentColor;
+```
+
+用相对值： em, %。如
+```
+font-size: 125%;
+line-height: 1.5;
+padding: .3em .8em;
+border-radius: .2em;
+box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+```
+
+用继承，如
+```
+a { color: inherit; }// 不这么设置，a 有自己的颜色
+```
+
+用 CSS 变量。
+
+## 关于响应式网页设计
+媒体查询的断点不应该由具体的设备来
+决定，而应该根据设计自身来决定。这不仅是因为我们的网站需要面向的设
+备太多了（尤其是考虑到未来的设备时），还因为一个网站在桌面端可能会
+以任意尺寸的窗口来显示。如果你有信心自己的设计在任何可能出现的视口
+尺寸下都能良好工作，谁关心这些设备的分辨率具体是多少呢？
+
+可以尝试 vw、vh、vmin 和 vmax 折现与视口相关的单位。
 
 ## 参考
 * http://web-design-weekly.com/2014/07/17/dealing-with-a-large-css-codebase
