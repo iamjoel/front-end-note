@@ -31,5 +31,10 @@ function isInweixin(){
 }
 ```
 
+## 分享
+[对外分享组件接口文档](http://open.mobile.qq.com/api/component/share) 定制微信，手机QQ，QQ空间APP内的分享内容。
+
 ## 一些可能不知道的微信提供的功能
 预览图片（wx.uploadImage），指的是小图，点击后，到新窗口打开大图，然后可以放大，缩写查看图片。
+
+
