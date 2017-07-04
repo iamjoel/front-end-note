@@ -1,0 +1,50 @@
+.ly {
+  display: table; /*For Android: Android doesn't fill in `inline-block` gaps. `display: table;` magic fills in them.*/
+  width: 100%;
+  font-size: 0 !important;/* 让空格，tab，回车之类空白的不占空间 */
+}
+
+.ly--center {
+  text-align: center;
+}
+
+.ly--right {
+  text-align: right;
+}
+
+.ly--justify {
+  display: block;
+  text-align: justify;
+}
+
+.ly--justify:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.ly--fill > .ly__item {
+  display: table-cell;
+}
+
+.ly__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  /* default font size */
+}
+
+.ly__item--fill {
+  width: 100%;
+}
+
+.ly--middle:after {
+  display: inline-block;
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+}
+
+.ly--middle > .ly__item {
+  vertical-align: middle;
+}

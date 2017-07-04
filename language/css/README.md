@@ -14,12 +14,14 @@
 * [样式的继承和层叠](inheritance-and-cascade)
   * 继承
   * 层叠
-* [布局](layout)
+* 布局
+  * [布局介绍](layout)
   * [元素类型](layout/elem-type.md)
   * [盒模型](layout/box-model)
-  * 对齐。[居中对齐](layout/center)，[两端对齐](layout/justify)。
   * 布局技术
-    * inline-block
+    * ~~float~~: 只有在文字围绕图片才用。
+    * positon
+    * [inline-block](layout/inline-block)
     * Flex
     * Grid
 * 统一浏览器的默认样式
