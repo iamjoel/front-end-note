@@ -4,7 +4,7 @@
 ## API 速查
 * [HTML5标签](http://websitesetup.org/html5-cheat-sheet/) HTML5 标签的语义，帮助我们写出语义化的HTML
 * [Markdown](http://warpedvisions.org/projects/markdown-cheat-sheet)
-* [CSS](http://overapi.com/css/)
+* [CSS 参考手册](http://css.doyoe.com/)
 * [Sass](http://aepicos.com/blog/sass-cheat-sheet/)
 * [Media Queries](http://mac-blog.org.ua/css-3-media-queries-cheat-sheet/) 媒体查询
 * [Javascript API](http://overapi.com/javascript/)

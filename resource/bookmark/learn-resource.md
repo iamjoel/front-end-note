@@ -5,7 +5,8 @@
   * [饥人谷 前端学习课件](http://book.jirengu.com/fe/index.html) 内容深入浅出。适合初学者。
   * [MDN](https://developer.mozilla.org/zh-CN/docs/Web)   这网站上内容比 [W3school](http://www.w3school.com.cn/) 上的详细。
 * CSS
-  * [CSS 规则参考](http://tympanus.net/codrops/css_reference/)
+  * [CSS 参考手册](http://css.doyoe.com/)
+  * [CSS 规则参考](http://tympanus.net/codrops/css_reference/) 英文
   * [学习 CSS 布局](http://zh.learnlayout.com/)
 * JavaScript
   * [JavaScript简易教程 v0.3.0 - 颜海镜](http://yanhaijing.com/basejs/) 我所知的最完整最简洁的 JavaScript 基础教程。
