@@ -1,0 +1,80 @@
+/* 重置样式 start */
+body,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+/* 重置样式 end */
+.container {
+  width: 830px;
+  margin: 25px auto;
+}
+.navs {
+  display: flex;
+  border-bottom: 4px solid #f2f2f2;
+}
+
+.navs__item {
+  position: relative;
+  margin-right: 42px;
+  padding-bottom: 13px;
+}
+
+.navs__item--current:before,.navs__item:hover:before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #f85959;
+}
+
+.news-list__item>a {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.news-list__summary {
+  width: 600px;
+}
+
+.news-list__title{
+  margin: 15px 0;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.news-list__detail {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.news-list__detail-img {
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.news-list__detail-item {
+  margin-right: 3px;
+  color: #666;
+}
+.news-list__detail-item:after {
+  content: '⋅';
+  margin-left: 3px;
+}
+.news-list__detail-item:last-child:after {
+  content: '';
+}
+
