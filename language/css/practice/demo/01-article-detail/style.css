@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 890px;
+}
+
+.artilce__time{
+  line-height: 36px;
+  color: #666;
+}
+
+.article__main {
+  padding: 15px 25px;
+  border: 1px solid #ddd;
+}
+
+.article__title {
+  font-size: 32px;
+  margin: 0 0 18px 0;
+}
+
+.article p {
+  margin: 30px 0;
+}
+
+.article a {
+  text-decoration: none;
+  color: #103ffb;
+}
+
+.article ol {
+  padding-left: 0;
+}
