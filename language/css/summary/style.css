@@ -1,0 +1,19 @@
+.btn {
+  margin-bottom: 10px;
+  width: 30px;
+  height: 40px;
+  background-color: red;
+}
+
+#b {
+  color: red;
+}
+.a {
+  color: green;
+}
+p {
+  color: yellow;
+}
+#b {
+  color: blue;
+}
