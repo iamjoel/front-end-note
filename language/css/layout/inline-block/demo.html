@@ -12,16 +12,16 @@
       width: 100px;
       height: 100px;
     }
-    .ly__item:nth-child(1){
+    .ly__item:nth-child(4n+1){
       background-color: rgb(114, 120, 191);
     }
-    .ly__item:nth-child(2){
+    .ly__item:nth-child(4n+2){
       background-color: rgb(187, 114, 191);
     }
-    .ly__item:nth-child(3){
+    .ly__item:nth-child(4n+3){
       background-color: rgb(114, 191, 146);
     }
-    .ly__item:nth-child(4){
+    .ly__item:nth-child(4n+4){
       background-color: rgb(114, 155, 191);
     }
   </style>
@@ -48,14 +48,30 @@
     <div class="ly__item"></div>
     <div class="ly__item"></div>
   </div>
-  <h2>多个元素在一行，某个元素占据剩余部分</h2>
+  <h2>多行的两端对齐很丑。。。</h2>
+  <div class="ly ly--justify">
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+    <div class="ly__item"></div>
+  </div>
+ <!--  <h2>多个元素在一行，某个元素占据剩余部分 用float</h2>
   <div class="ly ly--fill">
     <div class="ly__item"></div>
     <div class="ly__item"></div>
     <div class="ly__item"></div>
-    <!-- 有问题。。。。 -->
     <div class="ly__item ly__item--fill" style="width: 80%"></div>
-  </div>
+  </div> -->
   <h2>多个元素水平居右对齐</h2>
   <div class="ly ly--right">
     <div class="ly__item"></div>

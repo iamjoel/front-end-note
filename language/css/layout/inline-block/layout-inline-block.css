@@ -1,3 +1,4 @@
+/*参考 http://hiloki.github.io/kitecss/*/
 .ly {
   display: table; /*For Android: Android doesn't fill in `inline-block` gaps. `display: table;` magic fills in them.*/
   width: 100%;
@@ -15,6 +16,7 @@
 .ly--justify {
   display: block;
   text-align: justify;
+  text-justify: distribute-all-lines;
 }
 
 .ly--justify:after {
@@ -23,9 +25,7 @@
   display: inline-block;
 }
 
-.ly--fill > .ly__item {
-  display: table-cell;
-}
+
 
 .ly__item {
   display: inline-block;
@@ -34,9 +34,12 @@
   /* default font size */
 }
 
-.ly__item--fill {
-  width: 100%;
+/*.ly--fill > .ly__item {
+  float: left;
 }
+.ly__item--fill {
+  display: block;
+}*/
 
 .ly--middle:after {
   display: inline-block;
