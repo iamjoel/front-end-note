@@ -1,6 +1,6 @@
 # CSS
 ## 目录
-* [学习建议](tip.md)
+* [学习建议](tip.md) [练习](practice)
 * [概览](summary/README.md)
 * [基础](basic)
   * [CSS 介绍](basic/intro.md)
