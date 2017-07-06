@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flex 布局</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="layout-flex.css">
+    <style>
+    .ly {
+        margin-bottom: 20px;
+    }
+    
+    .ly__item {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .ly__item:nth-child(1) {
+        background-color: rgb(114, 120, 191);
+    }
+    
+    .ly__item:nth-child(2) {
+        background-color: rgb(187, 114, 191);
+    }
+    
+    .ly__item:nth-child(3) {
+        background-color: rgb(114, 191, 146);
+    }
+    
+    .ly__item:nth-child(4) {
+        background-color: rgb(114, 155, 191);
+    }
+    </style>
+</head>
+
+<body>
+    <h2>多个元素在一行</h2>
+    <div class="ly">
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+    </div>
+    <h2>多个元素水平居中对齐</h2>
+    <div class="ly ly--center">
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+    </div>
+    <h2>多个元素水平两端对齐</h2>
+    <div class="ly ly--justify">
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+    </div>
+    <h2>多个元素在一行，某个元素占据剩余部分</h2>
+    <div class="ly">
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item ly__item--fill"></div>
+    </div>
+    <h2>多个元素水平居右对齐</h2>
+    <div class="ly ly--right">
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+        <div class="ly__item"></div>
+    </div>
+    <h2>多个元素垂直居中对齐</h2>
+    <div class="ly ly--middle" style="height: 300px;background-color: rgb(188, 109, 88)">
+        <div class="ly__item"></div>
+        <div class="ly__item" style="height: 120px;"></div>
+        <div class="ly__item" style="height: 150px;"></div>
+        <div class="ly__item" style="height: 190px;"></div>
+    </div>
+</body>
+</html>
+

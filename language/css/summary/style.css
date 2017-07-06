@@ -17,3 +17,38 @@ p {
 #b {
   color: blue;
 }
+
+.ly {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.block {
+  position: relative;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(114, 120, 191);
+}
+
+.block:last-child{
+  margin-right: 0;
+  flex-grow: 1;
+}
+.block:before, .block:after {
+  position: absolute;
+  padding: 5px 10px;
+  background-color: rgb(187, 114, 191);
+  color: #fff;
+}
+.block:before {
+  content: '热';
+  top: 0;
+  left: 0;
+}
+.block:after {
+  content: '冷';
+  bottom: 0;
+  right: 0;
+}

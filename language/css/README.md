@@ -20,10 +20,10 @@
   * [元素类型](layout/elem-type.md)
   * [盒模型](layout/box-model)
   * 布局技术
+    * [positon](layout/postion)
     * ~~float~~: 只有在文字围绕图片才用。
-    * positon
     * [inline-block](layout/inline-block)
-    * Flex
+    * [Flex](layout/flex)
     * Grid
 * 统一浏览器的默认样式
   * 浏览器默认样式
