@@ -34,12 +34,12 @@
   /* default font size */
 }
 
-/*.ly--fill > .ly__item {
+.ly--fill > .ly__item:not(.ly__item--fill) {
   float: left;
 }
 .ly__item--fill {
   display: block;
-}*/
+}
 
 .ly--middle:after {
   display: inline-block;

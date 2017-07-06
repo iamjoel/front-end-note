@@ -8,7 +8,7 @@
     .ly {
       margin-bottom: 20px;
     }
-    .ly__item{
+    .ly__item:not(.ly__item--fill){
       width: 100px;
       height: 100px;
     }
@@ -65,13 +65,14 @@
     <div class="ly__item"></div>
     <div class="ly__item"></div>
   </div>
- <!--  <h2>多个元素在一行，某个元素占据剩余部分 用float</h2>
+
+  <h2>多个元素在一行，某个元素(只能是最后一个元素)占据剩余部分(用float 实现)</h2>
   <div class="ly ly--fill">
     <div class="ly__item"></div>
     <div class="ly__item"></div>
     <div class="ly__item"></div>
-    <div class="ly__item ly__item--fill" style="width: 80%"></div>
-  </div> -->
+    <div class="ly__item ly__item--fill" style="height:100px;background: red"></div>
+  </div>
   <h2>多个元素水平居右对齐</h2>
   <div class="ly ly--right">
     <div class="ly__item"></div>
