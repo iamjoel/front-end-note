@@ -11,6 +11,11 @@ npm 客户端在把依赖安装到 node_modules 目录时存在不确定性。�
 * 通过引入 lockfile（锁定文件），解决 node_modules 的不确定性问题
 * 兼容 npm 和 Bower 工作流，支持混用多种仓库类型
 
+## 常用命令
+* `yarn instll` 依据 package.json 来安装依赖
+* `yarn add packageName [--dev]`
+* `yarn remove packageName`
+
 ## 安装
 见[这里](https://yarnpkg.com/en/docs/install)。
 
