@@ -44,6 +44,22 @@ $.ajaxSetup({
 ```
 不建议
 
+## 用 JSON 的方式将数据传给后端
+```
+$.ajax({
+  url: url,
+  type: 'post',
+  'headers': { // 注意点1
+      'content-type': 'application/json'
+  },
+  data: JSON.stringify({ // 注意点2。一定要 JSON.stringify
+    key1: value1,
+    key2: value2
+  })
+})
+```
+
+
 ## jsonp
 ## promise
 * done
