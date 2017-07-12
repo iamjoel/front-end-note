@@ -47,4 +47,5 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 给几个选择器，算结果
 
 ## 参考
-https://docs.webplatform.org/wiki/tutorials/inheritance_and_cascade
+* [CSS优先级计算及应用](http://www.jianshu.com/p/1c4e639ff7d5)
+* https://docs.webplatform.org/wiki/tutorials/inheritance_and_cascade
