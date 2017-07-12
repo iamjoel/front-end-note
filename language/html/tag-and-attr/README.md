@@ -35,6 +35,13 @@ TODO 将标签分类
 
 前端在做页面写链接地址时，若不知道地址，可将href设置成`###`。若点击a不跳转页面，而是绑定点击事件,则href设置为`javascript:void(0);`。
 
+
+可以用 a 链接做下载。如下
+```
+<a href="下载资源的地址" target="_blank">下载</a>
+```
+注意，只有浏览器认为下载资源地址的Mime type类型是下载的类型，才会下载。
+
 更详细的介绍点[这里](http://w3school.com.cn/html/html_links.asp)
 
 
