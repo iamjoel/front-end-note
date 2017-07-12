@@ -15,9 +15,14 @@
 
 ## 练习
 * [Free Code Camp](https://freecodecamp.cn/)
-* [LeetCode Online Judge](https://leetcode.com/) 很多算法题。
 * [百度前端技术学院:任务列表](http://ife.baidu.com/task/all)
 * [learn-js](https://github.com/nimojs/learn-js) 一个 JavaScript 互助学习的项目。接受组件开发的挑战，通过让他人看你提交代码来提高。
+* 算法题
+  * [LeetCode](https://leetcode.com/)
+  * [Codewars](https://www.codewars.com/)
+  * [每日一道算法题](https://github.com/barretlee/daily-algorithms/issues) 每天小胡子哥都会出一道题。到目前为止（2017/7/12），已坚持 8 天。
+  * [100days](https://github.com/coells/100days) 每天一道算法题，一共一百题。
+
 
 ## 资讯
 * 网站
