@@ -34,7 +34,4 @@
 ## 其他
 * [推荐软件](https://github.com/iamjoel/front-end-note/blob/master/software)
 
-## 请我喝杯咖啡吧
-你的支持是对我最大的鼓励，支付宝扫一扫  
-<img src="alipay.png" align="center" alt="支付宝付款二维码">
 
