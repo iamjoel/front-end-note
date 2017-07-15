@@ -6,32 +6,33 @@
 **用简单明了的方式记录WEB前端知识。**
 
 ## 关于 Web 前端
-## [语言](https://github.com/iamjoel/front-end-note/blob/master/language/)
-* [HTML](https://github.com/iamjoel/front-end-note/blob/master/language/html) [SVG](https://github.com/iamjoel/front-end-note/blob/master/language/svg)
-* [CSS](https://github.com/iamjoel/front-end-note/blob/master/language/css) [Sass](https://github.com/iamjoel/front-end-note/blob/master/language/sass)
-* [JavaScript](https://github.com/iamjoel/front-end-note/blob/master/language/js)
+## [语言](language/)
+* [HTML](language/html) [SVG](language/svg)
+* [CSS](language/css) [Sass](language/sass)
+* [JavaScript](language/js)
 
-## [框架](https://github.com/iamjoel/front-end-note/blob/master/framework/)
-* [jQuery](https://github.com/iamjoel/front-end-note/blob/master/framework/jQuery)
-* [Vue.js](https://github.com/iamjoel/front-end-note/blob/master/framework/vue)
-* [cordova](https://github.com/iamjoel/front-end-note/blob/master/framework/cordova.md)
+## [框架](libs/)
+* [Vue.js](libs/vue)
+* [jQuery](libs/jQuery)
+* [cordova](libs/cordova.md)
 
-## 工具
-* [构建工具](https://github.com/iamjoel/front-end-note/blob/master/build-tool/)
-  * [webpack](https://github.com/iamjoel/front-end-note/blob/master/build-tool/webpack)
+## 前端工程化
+* [构建工具](engineering/build-tool/)
+  * [webpack](engineering/build-tool/webpack)
 * 包管理
-  * [npm](package-manage/npm)
-  * [Yarn](package-manage/yarn)
+  * [npm](engineering/package-manage/npm)
+  * [Yarn](engineering/package-manage/yarn)
+* [代码质量](engineering/build-tool/code-quality)
 
-## [资源](https://github.com/iamjoel/front-end-note/blob/master/resource/)
-* [学习资源](https://github.com/iamjoel/front-end-note/blob/master/resource/bookmark/learn-resource.md)
-* [网站收藏](https://github.com/iamjoel/front-end-note/blob/master/resource/bookmark/README.md)
+## [资源](resource/)
+* [学习资源](resource/bookmark/learn-resource.md)
+* [网站收藏](resource/bookmark/README.md)
 
-## [找工作](https://github.com/iamjoel/front-end-note/blob/master/find-jobs/)
-* [评估自己的技术](https://github.com/iamjoel/front-end-note/blob/master/find-jobs/assessment)
-* [面试问题](https://github.com/iamjoel/front-end-note/blob/master/find-jobs/question.md)
+## [找工作](find-jobs/)
+* [评估自己的技术](find-jobs/assessment)
+* [面试问题](find-jobs/question.md)
 
 ## 其他
-* [推荐软件](https://github.com/iamjoel/front-end-note/blob/master/software)
+* [推荐软件](software)
 
 
