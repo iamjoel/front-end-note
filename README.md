@@ -17,6 +17,7 @@
 * [cordova](libs/cordova.md)
 
 ## 前端工程化
+* [模块化](engineering/module)
 * [构建工具](engineering/build-tool/)
   * [webpack](engineering/build-tool/webpack)
 * 包管理
