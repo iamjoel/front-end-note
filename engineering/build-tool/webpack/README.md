@@ -52,6 +52,16 @@ app.use('static', express.static('./static'))
 修复这个问题，只需改成
 `devtool: 'source-map'`。
 
+### 不支持加载外部js
+webpack 不支持加载外部js ，但用 微信，钉钉之类的 jssdk，必须加载外部js 。可以用 [little-loader](https://github.com/walmartlabs/little-loader) 来做，如下
+```
+var load = require("little-loader");
+
+load("http://example.com/foo.js", function (err) {
+  // ... your code ...
+});
+```
+
 ## 学习资源
 * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
 * [Webpack傻瓜指南（二）开发和部署技巧](https://zhuanlan.zhihu.com/p/20397902)

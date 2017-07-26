@@ -13,5 +13,8 @@ Rime 預設輸入方案有：朙月拼音★、語句流★、倉頡★、地球
 * 导入词库
 * 皮肤
 
+## 快捷键
+* 切换全角，半角：shift + 空格
+
 ## 链接
 * [說明書](https://github.com/rime/home/wiki/UserGuide)
