@@ -14,7 +14,7 @@
 * 主栏 main
 * 侧栏 side
 * 盒容器 wrap
-* 条目 item。一般
+* 条目 item。一般和模块名一起用，如 `list-item`， `news-item`。
 
 ## 模块
 * 导航 nav

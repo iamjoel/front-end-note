@@ -5,9 +5,14 @@
 * [DOM](DOM)
 * [BOM](BOM)
 * [与服务端交互](interact-with-server)
+  * [http](interact-with-server/http)
+  * [ajax](interact-with-server/ajax)
+  * [fetch-api](interact-with-server/fetch-api)
+  * [cookie](interact-with-server/cookie.md)
+* [同域的页面间传递数据](transfer-data)
 * [ES6](ES6)
+* [ES7](ES7)
 * [函数式编程](function-programming)
-* [设计模式](pattern)
 * [Node.js](nodejs)
 
 ## 教程

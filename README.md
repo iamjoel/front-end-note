@@ -7,20 +7,22 @@
 
 ## 关于 Web 前端
 ## [语言](language/)
-* [HTML](language/html) [SVG](language/svg)
-* [CSS](language/css) [Sass](language/sass)
+* [HTML](language/html), [Markdown](language/markdown.md), [SVG](language/svg)
+* [CSS](language/css), [Sass](language/sass), [Postcss](language/postcss)
 * [JavaScript](language/js)
 
 ## [框架](libs/)
-* [Vue.js](libs/vue)
+* [Vue.js](libs/vue), [React](libs/react), [angular1](https://github.com/iamjoel/angular-learn)
 * [jQuery](libs/jQuery)
-* [cordova](libs/cordova.md)
+* [微信](libs/wechat), [cordova](libs/cordova.md)
+* [underscore&lodash](libs/underscore&lodash), [Moment.js](libs/moment-overview.md), [Mock.js](libs/mockjs)
 
-## 前端工程化
+## [前端工程化](engineering/)
 * [模块化](engineering/module)
 * [构建工具](engineering/build-tool/)
+  * [npm script](engineering/build-tool/use-npm-script.md)
   * [webpack](engineering/build-tool/webpack)
-* 包管理
+* [包管理](engineering/package-manage/)
   * [npm](engineering/package-manage/npm)
   * [Yarn](engineering/package-manage/yarn)
 * [代码质量](engineering/build-tool/code-quality)
@@ -35,5 +37,8 @@
 
 ## 其他
 * [推荐软件](software)
+
+## 导航
+* [按分类导航](nav-by-classify.md)
 
 

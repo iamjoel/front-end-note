@@ -62,6 +62,12 @@ $('.list').eq(3);
 * [.parents([选择器])](https://api.jquery.com/parents)
 * [.offsetParent()](https://api.jquery.com/offsetParent) 找最近的父级定位元素（position 不为 static 的元素）
 
+| closest       | parents       | parent |
+| ------------- |-------------|-----|
+| 从当前元素开始      | 从父级开始 | 从父级开始 |
+| 向上查找直到找到匹配的      | 向上查找直到文档的根节点 | 向上查找一层    |
+| 为执行操作的每个jQuery对象返回最多一个元素 | 为执行操作的每个jQuery对象返回0或多一个元素      |    为执行操作的每个jQuery对象返回最多一个元素 |
+
 ### 从子元素中下找
 * [.find([选择器])](https://api.jquery.com/find/)
 * [.children([选择器])](https://api.jquery.com/children/)
@@ -87,4 +93,22 @@ $(".btn")
   .filter(function(index) {
     return index > 2 && $(this).is(':visible');
 });
+```
+
+## 选中集合中添加元素
+* `add`
+
+## 自定义选择器
+例如
+```
+$.extend($.expr[':'], {
+    notEmpty: function(el,index, meta, stack) {
+    // element- DOM元素
+    // index - 堆栈中当前遍历的索引值
+    // meta - 关于你的选择器的数据元
+    // stack - 用于遍历所有元素的堆栈
+        return $(el).val() !== "";
+    }
+});
+$(':text:notEmpty') //所有值不为空的输入框
 ```

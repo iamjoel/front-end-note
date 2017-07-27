@@ -1,6 +1,5 @@
 # CSS
 ## 目录
-* [学习建议](tip.md) [练习](practice)
 * [概览](summary/README.md)
 * [基础](basic)
   * [CSS 介绍](basic/intro.md)
@@ -31,6 +30,7 @@
 * [浏览器兼容性](compatibility)
 * [调试 CSS](debug)
 * [最佳实践](best-practice)
+* [练习](practice)
 
 ## 文档
 * [CSS2.1 规范 中文版](http://www.ayqy.net/doc/css2-1/cover.html)

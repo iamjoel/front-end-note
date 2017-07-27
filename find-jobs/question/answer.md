@@ -43,7 +43,7 @@ IE6，7，8不支持，IE6，7，8支持text/html。
 * 服务器发送事件
 
 ## 请描述一下 cookies，sessionStorage 和 localStorage 的区别？
-cookies 和 ＊Storage 的区别：
+cookies 和 Storage 的区别：
 * cookies会在服务器端和客户端间传递的；sessionStorage 和 localStorage存放在客户端的，不会发送至服务器端
 * cookies的兼容主流浏览器,包括IE6+;IE6，IE7不支持sessionStorage 和 localStorage
 * sessionStorage 和 localStorage中能存的数据比cookie大

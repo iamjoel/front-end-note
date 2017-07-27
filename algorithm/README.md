@@ -6,3 +6,6 @@
   * 贪心算法
   * 背包算法
   * ...
+
+## 资源
+* [JS Patterns](http://shichuan.github.io/javascript-patterns/)
