@@ -1,9 +1,9 @@
-<h1 align="center">Web 前端开发学习笔记</h1>
+<h1 align="center">Web 前端笔记</h1>
 <p align="center">
 <a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
 </p>
 
-**用简单明了的方式记录WEB前端知识。**
+**记录 WEB 前端知识以便查阅。**
 
 ## 关于 Web 前端
 ## [语言](language/)
@@ -25,7 +25,7 @@
 * [包管理](engineering/package-manage/)
   * [npm](engineering/package-manage/npm)
   * [Yarn](engineering/package-manage/yarn)
-* [代码质量](engineering/build-tool/code-quality)
+* [代码质量](engineering/code-quality)
 
 ## [资源](resource/)
 * [学习资源](resource/bookmark/learn-resource.md)
