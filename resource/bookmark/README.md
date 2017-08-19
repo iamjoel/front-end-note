@@ -132,6 +132,7 @@
 * [Jsbin](http://jsbin.com/)
 
 ## H5页面创作工具
+* 易企秀
 * [Maka](http://www.maka.im/home/case.html) H5创作工具
 * [初夜](http://chuye.cloud7.com.cn/)
 * [兔展](http://www.rabbitpre.com) 比较屌的是，响应式做和很精细（好多内联的style啊）。如： http://www.rabbitpre.com/apps/552f638b9ad221b521343617
