@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <button id="sign-in-btn">签到</button>
+  
+  <button id="triple-click-btn">三击</button>
+
+  <input type="text" id="input">
+  
+  <script src="vendor/Rx.min.js"></script>
+  <script>
+    // 只能被点1次
+    var signInBtn = document.querySelector('#sign-in-btn')
+    Rx.Observable.fromEvent(signInBtn, 'click')
+      .take(1)
+      .subscribe(()=> {
+        signInBtn.textContent = '已签到'
+        console.log('已签到')
+      })
+
+    // 模拟三击。 500 毫秒内有3次点击。
+    var tripleClickBtn = document.querySelector('#triple-click-btn')
+   Rx.Observable.fromEvent(tripleClickBtn, 'click')
+      .bufferTime(500)
+      .filter(list => list.length === 3)
+      .subscribe(()=> {
+        console.log('三击')
+      })
+  // 触发自动填充的条件判断
+   var input = document.querySelector('#input')
+    Rx.Observable.fromEvent(input, 'keyup')
+      .debounceTime(500)
+      .filter(event => event.target.value.length >= 2)
+      .map(event => event.target.value)
+      .subscribe(val=> {
+        console.log(val)
+      })
+
+    // 找出数组中偶数的个数
+    Rx.Observable.from([1,2,3,4,5])
+      .filter(num => num % 2 === 0)
+      .count()
+      .subscribe(val => {
+        console.log(`偶数的个数有${val}个`)
+      })
+
+    // [1,2,3,4,5]
+    //   .filter(num => num % 2 === 0)
+    //   .length
+
+  </script>
+</body>
+</html>

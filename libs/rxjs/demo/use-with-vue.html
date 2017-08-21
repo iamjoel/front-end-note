@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue use Rx</title>
+</head>
+<body>
+  <!-- 也可以长尝试用 https://github.com/vuejs/vue-rx -->
+  <div id="app">
+    <button @click="clickIt">三击</button>
+  </div>
+  <script src="https://unpkg.com/vue@2.4.2"></script>
+  <script src="vendor/Rx.min.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        clickSubject: null
+      },
+      methods: {
+        clickIt($event) {
+          this.clickSubject.next()
+        }
+      },
+      mounted() {
+        this.clickSubject = new Rx.Subject()
+        this.clickSubject
+          .bufferTime(500)
+          .filter(list => list.length === 3)
+          .subscribe(()=> {
+            console.log('三击')
+          })
+      }
+    })
+  </script>
+</body>
+</html>

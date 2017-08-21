@@ -13,15 +13,18 @@
     <button id="down">down</button>
     <span id="output">0</span>
   </div>
-
+  
+  <!-- button -->
 
   <script src="vendor/Rx.min.js"></script>
   <script>
     var ob = Rx.Observable
       .of('hello world')
     
-    ob.subscribe(function(x) { console.log(x) })
-    ob.subscribe(function(x) { console.log(x + '!') })
+    ob.subscribe(x => console.log(x) )
+    ob.subscribe(x => console.log(x + '!') )
+
+    ob.toPromise().then(x => console.log(x))
 
     Rx.Observable
       .of(1, 2, 3)
@@ -30,7 +33,7 @@
     // 事件转化成流
     var searchBtn = document.querySelector('#search-btn')
     Rx.Observable.fromEvent(searchBtn, 'click')
-      .debounce(() => Rx.Observable.interval(1000)) // 1秒
+      .debounceTime(1000) // 1秒
       .subscribe(()=> {
         console.log('clicked')
       })
@@ -54,10 +57,12 @@
         Rx.Observable.fromEvent(down, 'click')
           .map(()=> -1)
       )
-      .scan((count, changeVal) => count + changeVal, 0)
-      .subscribe(count => output.innerHTML = count)
+      // .take(5)// 两个按钮，点击5次失效 呵呵
+      .scan((prevCount, changeVal) => prevCount + changeVal, 0)
+      .subscribe(count => output.textContent = count)
 
-    
+    // 5秒钟，按钮被点击了多少次，其中，被单击多少次，双击多少次
+    // ajax
   </script>
 </body>
 </html>
