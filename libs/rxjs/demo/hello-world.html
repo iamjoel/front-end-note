@@ -26,8 +26,25 @@
 
     ob.toPromise().then(x => console.log(x))
 
+    var ob2 = Rx.Observable.create(function (observer) {
+      observer.next('xxx')
+      setTimeout(()=> observer.next('xxx2'), 100)
+    })
+
+    ob2.subscribe(x => console.info(x))
+    ob2.subscribe(x => console.info(x + '!'))
+
     Rx.Observable
       .of(1, 2, 3)
+      .subscribe(function(x) { console.log(x) })
+
+    Rx.Observable
+      .of(1, 2, 3)
+      .switchMap(num => {
+        return new Promise(resolve=> {
+          resolve(10 * num)
+        })
+      })
       .subscribe(function(x) { console.log(x) })
 
     // 事件转化成流
@@ -37,6 +54,8 @@
       .subscribe(()=> {
         console.log('clicked')
       })
+
+    
     // 内容大于2才做指定操作
     var input = document.querySelector('#input')
     Rx.Observable.fromEvent(input, 'keyup')

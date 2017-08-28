@@ -34,3 +34,5 @@
 * [Adam Morse](http://mrmrs.cc/) A designer, who trying to make the web as fast as possible, highly readable, 100% responsive, and easy to navigate.
 * [可乐橙](http://colachan.com/) 上面有好多好玩的东东
 * [党建](http://www.dang-jian.com/) Web前端开发最佳实践作者
+
+更多见这里： https://github.com/FrankFang/best-chinese-front-end-blogs

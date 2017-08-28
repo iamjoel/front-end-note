@@ -1,4 +1,8 @@
 # 前端文章收藏
+## 技能树
+* [Frontend Knowledge Structure](https://github.com/JacksonTian/fks)
+* [StuQ 技能树](http://skill-map.stuq.org)
+
 ## HTML
 * 标签和属性
   * [HTML标签大全](http://www.jianshu.com/p/0676fe569396)
@@ -151,7 +155,10 @@
 * [HTTP 下午茶](https://ccbikai.gitbooks.io/http-book/content/index.html)
 * [HTTP 缓存策略](http://foofish.net/blog/95/http-cache-policy)
 
+## 工作流
 ## 综合
+* 项目规范
+  * [前端项目规范](https://github.com/wearehive/project-guidelines/blob/master/README-zh.md)
 * 页面性能优化
   * [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 * 代码执行速度的优化
@@ -169,7 +176,6 @@
     * [webpack examples](https://github.com/webpack/webpack/tree/master/examples)
   * Gulp.js
     * [gulp 入门指南](https://github.com/nimojs/gulp-book)
-
 * 框架
   * Vue
     * [Vue.js 组件编码规范](https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md)

@@ -22,3 +22,6 @@
 * [分享一点“关于应届生如何写简历”的人生经验](http://weibo.com/ttarticle/p/show?id=2309404080297791597267) 写清楚基本信息；项目经历：描述项目特性，有什么困难（挑战是什么），怎样解决，学会了什么（收获）；技术名词尽量别拼错了。
 * [2017，如何让你的简历脱颖而出？](http://mp.weixin.qq.com/s/rs-tgkYvAKOpIZtGi5JPew)
 * [如何面试一名前端开发工程师？](http://www.html-js.com/article/2961?from=timeline&isappinstalled=0) 反推面试该如何准备。
+
+## 其他
+* [从软件工程角度看大前端技术栈](https://mp.weixin.qq.com/s/fMuCKuHMfzZ50UcXMzcnsQ)
