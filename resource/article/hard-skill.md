@@ -108,8 +108,11 @@
     * [JavaScript 之 this 详解](http://jeffjade.com/2015/08/03/2015-08-03-javascript-this/)
 * 数据类型
   * 正则
+    * [简单学正则](https://github.com/zeeshanu/learn-regex/blob/master/README-cn.md)
     * [RegExr](http://regexr.com/) 显示正则与所写文本的匹配情况的工具。
     * [Regulex](https://jex.im/regulex/) 可以看到正则的结构。
+* 数据结构
+  * [前端面试必备——图](http://blog.csdn.net/owen1190/article/details/77752078)
 * 常用方法
   * [toFixed的进位规则](https://github.com/SKing7/articles/issues/1) toFixed 是有些诡异的，不是简单的四舍五入哦~
 * 变量的求值
@@ -133,8 +136,6 @@
   * [ECMAScript 6 入门](http://es6.ruanyifeng.com/) 阮一峰
   * [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
   * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
-* 提高代码质量&工作效率
-  * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
 * 效果
   * [favico.js](http://lab.ejci.net/favico.js/) 动态修改 favico。
   * Canvas
@@ -149,6 +150,8 @@
 * 安全
   * [阿里巴巴安全第一人肖力：网络安全的五个洞见](http://m.leiphone.com/news/201702/4NzX5SLlEv5kUqLG.html)
 * 代码质量
+  * [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+  * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
   * [Design Patterns in JavaScript](https://github.com/tcorral/Design-Patterns-in-Javascript) [中文翻译](https://github.com/503945930/Design-Patterns-in-Javascript)
 
 ## HTTP
