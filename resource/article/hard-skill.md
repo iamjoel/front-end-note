@@ -128,6 +128,10 @@
   * [《JavaScript 闯关记》之 BOM](https://segmentfault.com/a/1190000007410524)
   * [浏览器 user-agent 字符串的故事](http://www.cnblogs.com/ifantastic/p/3481231.html) 浏览器互相伪装的黑历史~
 * 与服务器交互
+  * HTTPS
+    * [HTTPS 的原理和 NodeJS 的实现](https://segmentfault.com/a/1190000002630688)
+    * [[译]如何用Node.js实现SSL/TLS](http://tuchangwei.github.io/2015/09/25/-%E8%AF%91-%E5%A6%82%E4%BD%95%E7%94%A8Node-js%E5%AE%9E%E7%8E%B0SSL-TLS/)
+    * [图解SSL/TLS协议](http://www.ruanyifeng.com/blog/2014/09/illustration-ssl.html)
 * 客户端存储
 * 浏览器兼容性
   * [ES5规范浏览器兼容性表格](http://kangax.github.io/compat-table/es5/)

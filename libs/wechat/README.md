@@ -1,5 +1,10 @@
 # 微信
+[微信JS-SDK 文档地址](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115)。
+
 ## 网页授权
+[文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842)。
+
+
 ```
 https://open.weixin.qq.com/connect/oauth2/authorize?appid=公众号的唯一标识&redirect_uri=真正的地址&response_type=code&scope=snsapi_base&connect_redirect=1#wechat_redirect
 ```
