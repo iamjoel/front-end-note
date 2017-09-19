@@ -52,3 +52,6 @@ components: {
 ```
 <my-component @click.native="handleClick"></my-component>
 ```
+
+## 箭头函数注意事项
+在生命周期函数，用箭头函数，不会指向 vue 示例。在 `methods` 里用箭头函数会指向 vue 示例。
