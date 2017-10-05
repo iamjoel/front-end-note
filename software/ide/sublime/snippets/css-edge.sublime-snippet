@@ -1,8 +1,0 @@
-<snippet>
-	<tabTrigger>css-edge</tabTrigger>
-	<description>edge of the css（not worked...）</description>
-	<content><![CDATA[
-/* ${1:elem name} start */
-/* ${1:elem name} end */
-]]></content>
-</snippet>
