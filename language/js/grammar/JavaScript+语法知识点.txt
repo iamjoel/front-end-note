@@ -1,0 +1,127 @@
+JavaScript 语法知识点
+	语句和表达式
+	代码块
+		{代码}
+	标识符
+		有效的标识符
+			第一个字符，可以是任意Unicode字母（包括英文字母和其他语言的字母），$ 和 _
+			第二个字符及后面的字符，除了Unicode字母、$和_，还可以用数字
+			不能是保留字。保留字有 arguments、break、case、catch、class 等
+		变量名，函数名，类名都是标识符
+	注释
+		单行注释://
+		多行注释:/* */
+	变量
+		声明变量
+			var
+				变量提升
+			let
+			const
+		给变量赋值
+		使用变量
+		作用域
+	数据类型
+		分类
+			原始类型
+				布尔
+					true
+					false
+				数字
+					整数
+					浮点数
+					NaN
+					Infinity
+				字符串
+				undefined 和 null
+			非原始类型
+				对象
+				数组
+				日期
+				正则
+		类型判断
+			typeof
+			instanceof
+		类型转化
+		值的相等判断
+	运算符
+		分类
+			字符串连接
+				+
+			算术运算符
+				+, -，* , /
+				%：取余数
+				++  和 --
+					i++ 和 ++i 的区别
+				-:负数
+			赋值运算符
+				=
+			比较运算符
+				== 和 ===
+				!= 和 !==
+				> , >=和 <, <=
+					字符串比较
+					非字符串比较
+			布尔运算符
+				&&
+				||
+				!
+				? :
+			位运算符
+				|和&
+				~
+				^
+				<<和>>
+			void 运算符
+			逗号运算符
+		优先级
+		结合性
+			左结合
+			右结合
+	流程控制
+		顺序
+		条件
+			if， else if 和 else
+			switch，case 和 break
+		循环
+			while 和 do while
+			for
+			break 和 continue
+	函数
+		声名函数
+			function
+			函数表达式
+			构造函数
+				new Function
+		参数
+			arguments
+			传值方式
+			不传参数的默认值
+		返回值
+			return
+			不包含 return
+		函数调用
+		函数名的提升
+		闭包
+		立即调用的函数表达式（IIFE）
+		eval
+	错误处理
+		捕获错误
+			try ... catch 和 finally
+			只能捕获同步代码的错误
+		抛出错误
+			throw
+		Error 对象
+			SyntaxError
+			ReferenceError
+			RangeError
+			TypeError
+			URIError
+			EvalError
+		自定义错误
+	原型(prototype)
+		原型链
+		基于原型的继承
+	this
+		this的值
+		call 和 apply
+		bind
