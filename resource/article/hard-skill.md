@@ -157,6 +157,10 @@
   * [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
   * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
   * [Design Patterns in JavaScript](https://github.com/tcorral/Design-Patterns-in-Javascript) [中文翻译](https://github.com/503945930/Design-Patterns-in-Javascript)
+* 函数式编程
+  * [JavaScript 轻量级函数式编程](https://github.com/ikcamp/Functional-Light-JS)
+* AST
+* [AST explorer](https://astexplorer.net/) 在线看 AST 解析结果的工具。
 
 ## HTTP
 * [HTTP 下午茶](https://ccbikai.gitbooks.io/http-book/content/index.html)
@@ -193,6 +197,9 @@
   * 移动端
     * [Weex 入坑指南：Native App 的运行与构建](https://zhuanlan.zhihu.com/p/25289806) 饿了么前端。
 
+## 后端
+* [《微服务：从设计到部署》中文版](https://github.com/oopsguy/microservices-from-design-to-deployment-chinese)
+
 
 ## 工具
 * Github
@@ -215,6 +222,10 @@
   * [什么是工程师文化？](http://coolshell.cn/articles/17497.html?from=timeline&isappinstalled=0)
   * [如何洞悉隐性需求](http://mp.weixin.qq.com/s/rH-W9bNQ2XjCSyVxnI1UIQ) 异常流需求;内容复用需求 需要留意。
   * [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/?from=timeline&isappinstalled=0)
+
+
+## 待整理
+* [送给你的100篇前端技术好文，收藏指数满格！](https://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484738&idx=1&sn=d0cb51543c1339222491a50bdecf5c6d&chksm=97236780a054ee962619125acdbe6917cbfcbc0627f6ad47577611c4cd5720329af75c51d54e&scene=27#wechat_redirect)
 
 
 
