@@ -72,8 +72,7 @@ a instanceof true
 
 var b = _(a)
 b._wrapped // 'content'
-b inst
-anceof true
+b instanceof true
 ```
 
 ### 不会报错的取对象上的属性或方法

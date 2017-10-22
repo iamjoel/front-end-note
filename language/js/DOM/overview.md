@@ -3,6 +3,8 @@
 ```
 document.querySelector('a') // 返回找到的第一个，不存在返回 null
 document.querySelectorAll('a') // 返回所有，类型是 NodeList。不存在返回长度为 0 的 NodeList
+document.getElementById()
+document.getElementsByTagName()
 ```
 
 ## 遍历元素
