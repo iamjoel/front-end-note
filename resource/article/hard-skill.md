@@ -160,7 +160,7 @@
 * 函数式编程
   * [JavaScript 轻量级函数式编程](https://github.com/ikcamp/Functional-Light-JS)
 * AST
-* [AST explorer](https://astexplorer.net/) 在线看 AST 解析结果的工具。
+  * [AST explorer](https://astexplorer.net/) 在线看 AST 解析结果的工具。
 
 ## HTTP
 * [HTTP 下午茶](https://ccbikai.gitbooks.io/http-book/content/index.html)
@@ -169,7 +169,9 @@
 ## 工作流
 ## 综合
 * 项目规范
-  * [前端项目规范](https://github.com/wearehive/project-guidelines/blob/master/README-zh.md)
+  * [前端项目规范](https://github.com/wearehive/project-guidelines/blob/master/README-zh.md) 推荐！！！
+  * 代码风格
+    * [我为什么推荐Prettier来统一代码风格](https://blog.fundebug.com/2017/10/23/format-code-use-Prettier/) Prettier 可以和 ESlint 一起来使用~
 * 页面性能优化
   * [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 * 代码执行速度的优化
