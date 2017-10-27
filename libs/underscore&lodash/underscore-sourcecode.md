@@ -1,7 +1,6 @@
 # underscore.js 源码解读
 [源码地址](http://underscorejs.org/docs/underscore.html)
 
-
 ## 基础
 ### 获取全局对象
 兼容浏览器和 Node.js 环境。
