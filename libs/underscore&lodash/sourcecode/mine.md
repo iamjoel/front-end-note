@@ -92,6 +92,18 @@ null.length // 报错
 undefined.length // 报错
 ```
 
+### after 函数
+```
+_.after = function(times, func) {
+  return function() {
+    if (--times < 1) {
+      return func.apply(this, arguments);
+    }
+  };
+}
+```
+
+用闭包来记录状态，实现纯函数。
 
 ## 拓展阅读
 * [underscore 的源码解读](https://github.com/hanzichi/underscore-analysis) 

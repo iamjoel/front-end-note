@@ -153,6 +153,9 @@
   * [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/blob/master/README.md) 饿了么写的，要不要这么搞笑~
 * 安全
   * [阿里巴巴安全第一人肖力：网络安全的五个洞见](http://m.leiphone.com/news/201702/4NzX5SLlEv5kUqLG.html)
+  * csrf
+    * [CSRF 攻击的应对之道](https://www.ibm.com/developerworks/cn/web/1102_niugang_csrf/)
+    * [前后端分离架构下CSRF防御机制](http://blog.csdn.net/zheng0518/article/details/68491474)
 * 代码质量
   * [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
   * [JavaScript Patterns 中文免费在线版](https://github.com/jayli/javascript-patterns)
@@ -172,6 +175,8 @@
   * [前端项目规范](https://github.com/wearehive/project-guidelines/blob/master/README-zh.md) 推荐！！！
   * 代码风格
     * [我为什么推荐Prettier来统一代码风格](https://blog.fundebug.com/2017/10/23/format-code-use-Prettier/) Prettier 可以和 ESlint 一起来使用~
+  * 前后端分离
+    * [Gracejs](https://github.com/xiongwilee/Gracejs) 基于koa v2.x的MVC+RESTful架构的前后端分离框架。
 * 页面性能优化
   * [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 * 代码执行速度的优化

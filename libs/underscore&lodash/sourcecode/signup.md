@@ -10,6 +10,6 @@
 ![](http://upload-images.jianshu.io/upload_images/7219342-faa179676753117f.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 资源
-* [源码地址](http://underscorejs.org/docs/underscore.html)
+* [带注释的源码地址](http://underscorejs.org/docs/underscore.html)
 * [如何阅读框架源代码](https://juejin.im/post/595910236fb9a06ba646398e)
 * [underscore 的源码解读](https://github.com/hanzichi/underscore-analysis)
