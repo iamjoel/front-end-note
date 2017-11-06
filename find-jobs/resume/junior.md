@@ -1,4 +1,13 @@
 # 初级前端简历
+## 基本信
+
+## 技能
+* 能做出与设计稿一致的电脑和移动端页面，并兼容主流浏览器。
+* 理解并掌握Javascript语言核心技术DOM、BOM、Ajax等。
+* 了解 ES6。
+* 能熟练使用 Bootstrap。
+* 能熟练使用 jQuery。
+* 能熟练使用 Vue。
 
 ## 项目
 ### 静态页面
@@ -15,7 +24,7 @@
 不足点是，不太擅长命名。
 
 ### 待办事宜应用(Todo List)
-用 jQuery 和 Vue 分别实现了待办事宜。用 localStroge 来保存数据，用 hash 值来应用的状态。
+用 jQuery 和 Vue 分别实现了待办事宜。用 localStroge 来保存数据，用 hash 值来记录应用的状态。
 
 通过用 jQuery 来实现待办事宜，熟悉了 jQuery 写页面的流程：选择元素，在元素上做一些操作：如绑事件，拿元素的属性，HTML等。感觉 jQuery 很优雅，用 jQuery，比用原生的DOM方法方便太多。
 
