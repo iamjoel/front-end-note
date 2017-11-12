@@ -160,7 +160,7 @@
 * [站酷](http://www.zcool.com.cn/)
 * [百设](http://shapesides.com/) UI资源
 * [Type is beautiful](http://www.typeisbeautiful.com/) 文字设计和视觉文化
-* [配色网](http://www.peise.net/tools/web/) 配色相关资源
+* [配色网](http://www.peise.net/tools/web/) 配色生成。互补搭配，三角搭配等等。
 
 ## 一些问答类的
 * [问啊](http://www.wenaaa.com/)

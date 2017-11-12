@@ -3,8 +3,9 @@
 * [JSNext.fm](http://jsnext.fm/) 前端技术中文播客节目。
 * [FiveJs](https://fivejs.codeschool.com/) JS 社区的最新的新闻。
 * ~~[IT 公论](http://www.itgonglun.com/)「IT 公论」是由李如一、李楠和 Rio 创办的科技类播客 (podcast) 节目~~ 已停播
-* [内核恐慌](http://ipn.li/kernelpanic/) 由 IPN 出品、吴涛和 Rio 做的播客。号称硬核，可也没什么干货。想听的人听，不想听的人就别听。
+* [内核恐慌](https://kernelpanic.fm/) ~~由 IPN 出品、吴涛和 Rio 做的播客。~~ 已脱离IPN。号称硬核，可也没什么干货。想听的人听，不想听的人就别听。
 * [代码时间](http://codetimecn.com/) 代码时间是@肖曦主播的一个面向程序员的中文播客节目, 致力于通过语音的方式传播程序员的正能量。
+* [IT 乱谈](http://itluantan.com/) 聊一聊IT人的生活与故事。
 * [APT](http://atp.fm/) 国外的科技类播客。由 [Marco Arment](http://www.marco.org/), [Casey Liss](http://www.caseyliss.com/) 和 [John Siracusa](http://hypercritical.co/)主持。
 
 ## 创业类

@@ -1,4 +1,8 @@
 # 找人
+1. 目标
+1. 评估标准
+1. 如何评估
+
 ## 简书上优秀前端
 * [晚晴幽草](http://www.jianshu.com/u/9aae3d8f4c3d)
 * [WangChloe](http://www.jianshu.com/u/10fc79e42608) 做一个有记性有温度不掉发的程序媛。
