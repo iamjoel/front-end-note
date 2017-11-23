@@ -42,7 +42,7 @@ app.use('static', express.static('./static'))
 ```
 
 然后在 static 目录下放静态资源，然后就可以通过
-`/static/在static下的路径` 来访问资源。
+`static/在static下的路径` 来访问资源。
 
 ## 遇到的坑
 ### Source map 定位不准
@@ -61,6 +61,31 @@ load("http://example.com/foo.js", function (err) {
   // ... your code ...
 });
 ```
+
+### 项目发布在网站非根目录下
+资源路径默认是`/` 的，导致资源找不到。
+
+解决方案
+
+1. 打开webpack.prod.conf.js。找到output：增加 publicPath: './', 即可。
+1. config 文件夹下的index.js中修改 assetsPublicPath: './'
+1. 在页面中引用静态资源，路径不要用 `/` 开头。
+
+在 CSS 中用的图片的相对路径，需要改build文件夹下的utils.js代码。加
+```
+if (options.extract) {
+  return ExtractTextPlugin.extract({
+    publicPath: '../../', // 这行是新增的
+    use: loaders,
+    fallback: 'vue-style-loader'
+  })
+} else {
+  return ['vue-style-loader'].concat(loaders)
+}
+```
+
+具体见[webpack+vuecli打包生成资源相对引用路径与背景图片的正确引用](http://www.cnblogs.com/moqiutao/p/7496718.html)。
+
 
 ## 学习资源
 * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
