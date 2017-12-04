@@ -75,6 +75,7 @@
   * 综合
     * [CSS 高级布局技巧](https://github.com/sorrycc/blog/issues/14)
     * [从Chrome源码看浏览器如何layout布局](https://zhuanlan.zhihu.com/p/25445527)
+    * [15个必须知道的chrome开发者技巧](https://github.com/dwqs/blog/issues/29)
 * 效果
   * [text-stroke实现文本描边效果](https://www.w3cplus.com/css3/text-stroke.html)
   * [(Better) Tabs with Round Out Borders](https://css-tricks.com/better-tabs-with-round-out-borders/) 圆角 Tab
@@ -194,6 +195,8 @@
     * [webpack examples](https://github.com/webpack/webpack/tree/master/examples)
   * Gulp.js
     * [gulp 入门指南](https://github.com/nimojs/gulp-book)
+* 持续集成
+  * [前端工程师的CI进阶之路](https://mp.weixin.qq.com/s/Qh5_wu7IevszpIRbvuVAUQ) 基于 Docker 的 Drone。
 * 框架
   * Vue
     * [Vue.js 组件编码规范](https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md)
