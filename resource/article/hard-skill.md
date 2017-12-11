@@ -141,6 +141,7 @@
   * [ECMAScript 6 入门](http://es6.ruanyifeng.com/) 阮一峰
   * [ES6 新特性预览以及与 ES5 的比较](http://es6-features.org/)
   * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
+  * [技术胖带你玩转ES6视频教程](http://jspang.com/2017/06/03/es6/)
 * 效果
   * [favico.js](http://lab.ejci.net/favico.js/) 动态修改 favico。
   * Canvas

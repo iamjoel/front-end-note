@@ -79,6 +79,9 @@ HTML5语法高亮
 
 ### [GitGutter](https://github.com/jisaacks/GitGutter) 在文件的行号旁边显示文件的修改状态
 
+### [SFTP](https://wbond.net/sublime_packages/sftp)
+SFTP。
+
 ### [sublime-TortoiseSVN](https://github.com/dexbol/sublime-TortoiseSVN)
 在sublime中的左侧文件树中可以做SVN的操作。  
 
