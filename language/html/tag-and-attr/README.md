@@ -150,6 +150,9 @@ TODO 将标签分类
 	* `placeholder`
 	* `value`
 	* `maxlength` 最大长度IE9(不包括)以下不支持
+* 文件选择 `type="file"`
+	* `accept` 。支持的文件类型。这么写 `image/*` 或具体的几个格式`image/png, image/jpg,image/jpeg, image/gif`
+	* `capture` 用什么设备获取文件。设置该值后，不会出现在文件中选择的选型。值支持： camera：相机，microphone 录音。兼容性不好。
 * 单选框 `<input type="radio" name="gendar">` 。其中`name`的值一样的单选框只有一个能被选中
 * 复选框 `<input type="checkbox" name="gendar">`
 * 下拉选择框 `<select><option value="1">苹果</option><option value="2">橘子</option></select>`

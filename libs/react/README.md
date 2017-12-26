@@ -1,6 +1,17 @@
 # React学习
 React 仅仅是 VIEW 层。
 
+## 创建组件
+用三种方式。
+
+方式1:用 Class 来继承 React.Component 。
+
+
+## 生命周期
+* constructor
+* componentDidMount
+* componentWillUnmount
+
 ## React.render
 React.render 是 React 的最基本方法，用于将模板转为 HTML 语言，并插入指定的 DOM 节点。如
 ```
@@ -45,7 +56,27 @@ JSX 与 HTML 非常相似，但是有些关键区别要注意。如
 
 详细见[JSX 陷阱](http://facebook.github.io/react/docs/jsx-gotchas-zh-CN.html)
 
-需要注意的是，JSX的内容必须是在一个闭合元素里
+需要注意的是，
+* JSX的内容必须是在一个闭合元素里。
+* 用到 class 时，必须用 className
+
+## 比较酷的库的代码片段
+```
+const attrs = {
+  href: 'http://example.org',
+  target: '_blank',
+};
+<a {...attrs}>Hello</a>
+```
+
+相当于
+```
+const attrs = {
+  href: 'http://example.org',
+  target: '_blank',
+};
+<a href={attrs.href} target={attrs.target}>Hello</a>
+```
 
 ## 组件
 React 应用都是构建在组件之上。
@@ -65,6 +96,7 @@ React.render(
 );
 ```
 
+
 ## 选取真实的DOM元素(非虚拟DOM)
 通过 `React.findDOMNode(this.refs.元素的ref属性的值)`
 
@@ -79,6 +111,12 @@ React.render(
 ## 关于Flux
 * [图解 Flux](http://zhuanlan.zhihu.com/FrontendMagazine/20263396)
 * [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
+
+## 相关插件
+* [dva](https://github.com/dvajs/dva/blob/master/README_zh-CN.md) 基于 redux、redux-saga 和 react-router 的轻量级前端框架。阿里出品。
+  * [ppt](http://slides.com/sorrycc/dva#/)
+  * [dva-knowledgemap](https://github.com/dvajs/dva-knowledgemap)
+* [Ant Design Pro](https://preview.pro.ant.design/) 是基于 dva 实现的。阿里出品。
 
 ## 服务器端渲染
 [玩转 React 服务器端渲染](https://blog.coding.net/blog/React-server-rendering)
