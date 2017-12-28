@@ -135,6 +135,14 @@ npm run start
 npm run build
 ```
 
+## 设置代码提交前要做些事情
+可以用：
+```
+"precommit": "npm run lint"
+```
+
+上面代码或执行 lint 命令（一般是做代码格式验证）。如果不通过，就没法提交代码。
+
 Happy Coding~
 
 ## 参考链接
