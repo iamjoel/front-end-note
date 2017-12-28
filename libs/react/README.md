@@ -53,12 +53,28 @@ React.render(
 JSX 与 HTML 非常相似，但是有些关键区别要注意。如
 * 代码中输出的内容会被转义。如`<div>sth</div>`中的`<`和被`>`会变成`&lt;`和`&gt;`
 * 如果往原生 HTML 元素里传入 HTML 规范里不存在的属性，React 不会显示它们。如果需要使用自定义属性，要加 data- 前缀。以 aria- 开头的 [网络无障碍] 属性可以正常使用。
+* 创建标签 直接用类似 `<h1>xxx</h1>`。 加字符串包含会被转义。
 
 详细见[JSX 陷阱](http://facebook.github.io/react/docs/jsx-gotchas-zh-CN.html)
 
 需要注意的是，
-* JSX的内容必须是在一个闭合元素里。
+* JSX的内容必须是在一个闭合元素里。 如：`<input type="text" />` 而不能写 `<input type="text" >`。
 * 用到 class 时，必须用 className
+* 在JSX 中的绑定事件时，回调里的 this 默认是underfined。 解决这个问题除了用bind外，还可以用
+```
+<button onClick={this.handleClick}>
+...
+
+// public class fields syntax
+handleClick = () => {
+  console.log('this is:', this);
+}
+// this undefined
+handleClick() {
+  console.log('this is:', this);
+}
+
+```
 
 ## 比较酷的库的代码片段
 ```
