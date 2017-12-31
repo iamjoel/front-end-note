@@ -22,6 +22,11 @@
 ### 原生应用
 * [Weex](libs/weex)
 * React Native
+* [Cordova](libs/cordova)
+
+### 桌面应用
+* [Electron](libs/electron)
+* [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
 
 ### AR/VR
 
