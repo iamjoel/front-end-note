@@ -32,6 +32,9 @@ React.render(
 ```
 是合法的。
 
+## state
+组件的外部数据用 props，内部数据用 state。 修改内部数据用 setState。当 state 发生变化，render 函数会被调用。
+
 
 ## JSX
 JSX 的基本语法规则：遇到 HTML 标签（以 < 开头），就用 HTML 规则解析；遇到代码块（以 { 开头），就用 JavaScript 规则解析。例如
