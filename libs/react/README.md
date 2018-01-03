@@ -2,17 +2,47 @@
 React 仅仅是 VIEW 层。
 
 ## 创建组件
-用三种方式。
+React 应用都是构建在组件之上。
 
-方式1:用 Class 来继承 React.Component 。
+### 用纯函数
+```
+function Clock(props) {
+  return (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {props.date.toLocaleTimeString()}.</h2>
+    </div>
+  );
+}
 
+function tick() {
+  ReactDOM.render(
+    <Clock date={new Date()} />,
+    document.getElementById('root')
+  );
+}
+```
 
-## 生命周期
-* constructor
-* componentDidMount
-* componentWillUnmount
+比较简单的组件用上面的写法。这样的组件没有 state。函数名就是组件名。
 
-## React.render
+### 用 Class
+```
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    // this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>It is {this.props.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
+  }
+}
+```
+
 React.render 是 React 的最基本方法，用于将模板转为 HTML 语言，并插入指定的 DOM 节点。如
 ```
 React.render(
@@ -20,21 +50,38 @@ React.render(
   document.getElementById('example')
 );
 ```
-需要注意的是，模板的内容必须是在一个标签中的，如
-```
-'<h1>Hello, world!</h1>'
-```
-是非法的。
-```
-<div>
-{'<h1>Hello, world!</h1>'}
-</div>
-```
-是合法的。
 
-## state
-组件的外部数据用 props，内部数据用 state。 修改内部数据用 setState。当 state 发生变化，render 函数会被调用。
+需要注意的是，模板的内容必须是在一个标签中的。
 
+**注意**
+* 组件名必须大写
+
+## 生命周期
+* constructor
+* componentDidMount
+* componentWillUnmount
+
+## state 和 props
+组件的外部数据用 props，内部数据用 state。 
+
+修改 state 用 setState。props 不能被修改的。
+
+当 state 或 props 发生变化时，render 函数会被调用。
+
+属性上的一些等效代码
+
+```
+<MyComponent message="hello world" />
+
+<MyComponent message={'hello world'} />
+```
+
+属性的默认值是true
+```
+<MyTextBox autocomplete />
+
+<MyTextBox autocomplete={true} />
+```
 
 ## JSX
 JSX 的基本语法规则：遇到 HTML 标签（以 < 开头），就用 HTML 规则解析；遇到代码块（以 { 开头），就用 JavaScript 规则解析。例如
@@ -97,22 +144,23 @@ const attrs = {
 <a href={attrs.href} target={attrs.target}>Hello</a>
 ```
 
-## 组件
-React 应用都是构建在组件之上。
-
-React.createClass 方法就用于生成一个组件。如，
-
+将一堆组件移到子组件上
 ```
-var HelloMessage = React.createClass({
-  render: function() {
-    return <h1>Hello {this.props.name}</h1>;
-  }
-});
+const Button = props => {
+  const { kind, ...other } = props;
+  const className = kind === "primary" ? "PrimaryButton" : "SecondaryButton";
+  return <button className={className} {...other} />;
+};
 
-React.render(
-  <HelloMessage name="John" />,
-  document.getElementById('example')
-);
+const App = () => {
+  return (
+    <div>
+      <Button kind="primary" onClick={() => console.log("clicked!")}>
+        Hello World!
+      </Button>
+    </div>
+  );
+}
 ```
 
 
