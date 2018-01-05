@@ -42,7 +42,7 @@ export default {
 </script>
 ```
 
-劣势是要学一些模板语言的语法，v-for,v-if 等。优势是，支持自定义指令(@keyup.enter="xxx")，过滤器等高级特性。
+劣势是要学一些模板语言的语法，v-for,v-if, v-model 等。优势是，支持自定义指令(@keyup.enter="xxx")，过滤器等高级特性。
 
 ### 生态
 React 的新鲜玩意比较多。

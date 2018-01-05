@@ -28,6 +28,9 @@
 * [Electron](libs/electron)
 * [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
 
+### 其他
+* [GraphQL](https://github.com/facebook/graphql) 前端决定数据内容。
+
 ### AR/VR
 
 ## [前端工程化](engineering/)

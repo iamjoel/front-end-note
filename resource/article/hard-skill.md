@@ -219,6 +219,8 @@
   * [开始前端开发（PhotoShop切图）](http://www.jianshu.com/p/69b74b84e687)
   * [2017 网页设计趋势报告 | Photoshop 跌下神坛](https://zhuanlan.zhihu.com/p/25407972) 是时候要研究下 Sketch 了。
 * [Markdown 使用参考](http://www.jianshu.com/p/67cc81003064)
+* GraphQL
+  * [如何为老板节省几个亿之graphql介绍](https://xiaomingplus.com/full-stack/graphql-intro/)
 
 ## 练习题
 * 综合
