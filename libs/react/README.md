@@ -195,6 +195,7 @@ const App = () => {
 * [百度母婴技术团队—基于Reactjs实现webapp](https://github.com/my-fe/wiki/issues/1)
 
 ## 学习资源
+* [如何学习React](https://github.com/petehunt/react-howto/blob/master/README-zh.md) 一个概览。
 * [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html) 阮一峰
 * [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/) 比阮一峰的详细
 * [ReactJS 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
@@ -202,6 +203,10 @@ const App = () => {
 * [React Mixin 的前世今生](http://zhuanlan.zhihu.com/purerender/20361937)
 * [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
 * [React Router 中文文档](https://github.com/react-guide/react-router-cn) React Router 是完整的 React 路由解决方案
+
+## 工具
+* [Babel Sublime](https://packagecontrol.io/packages/Babel) 支持ES6, React.js, jsx 代码高亮。安装后设置下。
+
 
 ## 好文
 * [React.js生态系统概览 [译]](http://www.inkpaper.io/blog/post/2015/10/18/navigating-the-react-ecosystem.html)
