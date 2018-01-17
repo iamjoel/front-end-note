@@ -1,4 +1,7 @@
 # redux
+在react 中，redux一般和 react-redux 一起用。 react-redux 通过高阶组件的方式，让每个组件都能获取到全局的state，以及将全局的 state (mapStateToProps) 和 dispatch的函数(mapDispatchToProps) 挂到组件的属性上。
+
+
 ## 创建
 ```
 import { combineReducers, createStore } from 'redux'
@@ -38,6 +41,11 @@ function visibilityFilter(state = 'SHOW_ALL', action) {
 ```
 
 获得状态 `store.getState()`
+
+## 最佳实践
+* 在 reduce.js 改状态。
+* 在 actions.js 里写 dispatch 的内容。组件触发 都用的这边。
+* 在 constants.js 定义 action 的名称。一般是 `app/组件名/行为`。只有 reduce.js 和 actions.js 会用 constants.js。
 
 ## 文档
 * redux

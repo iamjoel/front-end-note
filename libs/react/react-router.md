@@ -32,6 +32,31 @@ import { browserHistory } from 'react-router'
 browserHistory.push(path)
 ```
 
+
+如果用了 `react-router-redux` 可以这么写
+```
+<a onClick={this.props.toListPage}>跳转至list页</a>
+
+import { push } from 'react-router-redux'
+import { connect } from 'react-redux';
+import { compose } from 'redux';
+
+function mapDispatchToProps(dispatch) {
+  return {
+    toListPage: ()=> {
+      dispatch(push('/list'))
+    },
+  };
+}
+
+const withConnect = connect(null, mapDispatchToProps)
+
+export default compose(
+  withConnect
+)(组件名)
+
+```
+
 ### 获得组件中的参数
 ```
 <Route path="xxx/:id" component={Child}/>
@@ -40,6 +65,10 @@ const Child = ({ match }) => (
     <h3>ID: {match.params.id}</h3>
   </div>
 )
+```
+
+```
+// this.props.match.params
 ```
 
 ### 生命周期函数
@@ -78,6 +107,9 @@ const Home = withRouter(
   })
 )
 ```
+
+## 问题
+Route 上的`exact` 是什么意思。
 
 ## 链接
 * [文档](https://reacttraining.com/react-router/web/guides/philosophy)
