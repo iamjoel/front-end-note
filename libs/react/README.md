@@ -204,8 +204,20 @@ const App = () => {
 * [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
 * [React Router 中文文档](https://github.com/react-guide/react-router-cn) React Router 是完整的 React 路由解决方案
 
-## 工具
+## 工具与环境设置
 * [Babel Sublime](https://packagecontrol.io/packages/Babel) 支持ES6, React.js, jsx 代码高亮。安装后设置下。
+* 在Sublime 中，让 Emmet 能在 js 中起作用。在key binding 中加
+```
+{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+  [
+      { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+      { "match_all": true, "key": "selection_empty" },
+      { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+      { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+      { "match_all": true, "key": "is_abbreviation" }
+  ]
+}
+```
 
 
 ## 好文
