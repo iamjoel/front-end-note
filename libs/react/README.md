@@ -60,6 +60,7 @@ React.render(
 * constructor
 * componentDidMount
 * componentWillUnmount
+* componentWillReceiveProps 当 props 变化时会触发。里面的第一个参数值为最新的props。 在该方法中的，用 this.props 的值还没更新。
 
 ## state 和 props
 组件的外部数据用 props，内部数据用 state。 
