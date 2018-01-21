@@ -43,7 +43,9 @@ class Clock extends React.Component {
 }
 ```
 
-React.render 是 React 的最基本方法，用于将模板转为 HTML 语言，并插入指定的 DOM 节点。如
+考虑性能，可以用 React.PureComponent 。PureComponent的自动为我们添加的shouldComponentUpate函数，只是对props和state进行浅比较(shadow comparison)，当 props 或者 state 本身是嵌套对象或数组等时，浅比较并不能得到预期的结果，这会导致实际的props和state发生了变化，但组件却没有更新的问题。
+
+React.render 是 React 的最基本方法，用于将模板转为 HTML 语言，并插入指定的 DOM 节点。 当 props 或者 state 变化时，会被自动调用。如
 ```
 React.render(
   <h1>Hello, world!</h1>,
@@ -226,3 +228,7 @@ const App = () => {
 * [React源码剖析系列 － 生命周期的管理艺术](http://zhuanlan.zhihu.com/purerender/20312691)
 * [React 组件之间如何交流](http://www.60sky.com/2015/09/03/2015-07-19-react-component-communicate/)
 * [React 编程风格指南](http://segmentfault.com/a/1190000003899845)
+
+## 组件库
+* [Awesome React Components & Libraries](https://github.com/brillout/awesome-react-components)
+* [jmui](https://github.com/choujimmy/jmui) Mobile UI React Components
