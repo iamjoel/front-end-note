@@ -129,6 +129,14 @@ handleClick() {
 
 ```
 
+阻止事件冒泡
+```
+event.stopPropagation()
+event.nativeEvent.stopImmediatePropagation()
+```
+
+
+
 ## 比较酷的库的代码片段
 ```
 const attrs = {
