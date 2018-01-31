@@ -53,6 +53,9 @@
 * [墨刀](https://modao.cc/)
 * [Demoo](http://isux.us/demoo/index.php) 腾讯出品。更简单、更快捷地呈现手机app Demo原型。
 
+## 代码片段
+* [SnippetsLab](https://www.renfei.org/snippets-lab/) Mac 上管理代码片段的付费软件。
+
 ## 其他
 * [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
 * [WoX](https://github.com/Wox-launcher/Wox) Windows 的启动器。类似 Mac 上的 Alfred。
