@@ -55,6 +55,7 @@
 
 ## 代码片段
 * [SnippetsLab](https://www.renfei.org/snippets-lab/) Mac 上管理代码片段的付费软件。
+* Dash Mac 上的。可以查文档和管理代码片段。
 
 ## 其他
 * [鼠须管](http://rime.im/) [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
