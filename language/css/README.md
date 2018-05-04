@@ -36,5 +36,6 @@
 * [CSS2.1 规范 中文版](http://www.ayqy.net/doc/css2-1/cover.html)
 
 ## 概览
-![CSS Layout](detail/layout/layout.md)
+![CSS Layout](detail/layout/layout.png)
+![CSS Rules](detail/rules/rules.png)
 
