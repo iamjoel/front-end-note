@@ -40,7 +40,10 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 * 给历史记录中的某个重要的一点打上标签 `git tag -a 标签名`
 * 远程仓库
     * 查看该仓库远程 repo `git remote`
-    * 添加其他远程仓库 `git remote add origin_online git地址` 。如果fork的别人的代码，要pull request 前，最好同步下别人最新的代码 `git pull origin_online master`。 提交 `git push origin master`
+    * 添加其他远程仓库 `git remote add upstream xxx.git`。查看下仓库: `git remote -v` 。如果fork的别人的代码，要pull request 前，最好同步下别人最新的代码 ：
+        * `git fetch upstream`
+        * `git merge upstream/master`
+
 
 
 
