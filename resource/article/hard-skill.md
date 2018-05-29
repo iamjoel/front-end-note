@@ -151,6 +151,8 @@
     * [WebGL Fundamentals（中文版）](https://github.com/W3cplus/webgl-fundamentals-zh)
 * 调试
   * [你不知道的 JS 错误和调用栈常识](http://www.jianshu.com/p/e9753d98fee4)
+* 算法
+  * [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 * Node.js
   * [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/blob/master/README.md) 饿了么写的，要不要这么搞笑~
 * 安全
