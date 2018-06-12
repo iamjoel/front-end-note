@@ -113,6 +113,13 @@ git push --set-upstream origin master
 https://github.com/miroadamy/miroadamy-dot-com/wiki/Difference-between-matching-and-simple---Git-push
 
 
+## 如何配置Git支持大小写敏感和修改文件名中大小写字母呢
+1 设置Git大小写敏感
+```
+git config core.ignorecase false
+```
+
+2 先删除文件，再添加进去
 
 ## <a name="practice">练习</a>
 1. 安装[Github](https://github.com/)的客户端 [windows 版下载](https://windows.github.com/)
