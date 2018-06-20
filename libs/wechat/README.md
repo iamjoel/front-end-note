@@ -39,6 +39,34 @@ function isInweixin(){
 ## 分享
 [对外分享组件接口文档](http://open.mobile.qq.com/api/component/share) 定制微信，手机QQ，QQ空间APP内的分享内容。
 
+分享的地址，如果需要拿用户信息的，用如下方式来做
+
+1 分享地址带跳转地址的参数，如 
+```
+link: `${location.href.split('#')[0]}?path=${encodeURIComponent('/shop-detail/' + this.$route.params.id)}`
+```
+这边不能用 `oauth2` 地址。如果用了，会调默认的分享行为
+
+2 在首页判断，如果没有 `code`，则跳转到 `oauth2` 地址。
+```
+var shareURLTemplate = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appId}&redirect_uri=${encodeURIComponent(location.origin + location.pathname + '#')}{path}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect`
+
+var queryObject = getQueryObject()
+var code = queryObject.code
+var state = queryObject.state
+
+if(!code && process.env.NODE_ENV !== 'development') {
+  let jumpUrl = shareURLTemplate.replace('{path}',  queryObject.path ? queryObject.path : '')
+  location.href = jumpUrl
+  return
+} else if(code) {
+  // 拿用户信息等正常操作
+} else {
+  // 开发环境
+}
+
+```
+
 ## 一些可能不知道的微信提供的功能
 预览图片（wx.uploadImage），指的是小图，点击后，到新窗口打开大图，然后可以放大，缩写查看图片。
 
