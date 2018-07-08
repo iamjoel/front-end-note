@@ -42,6 +42,9 @@
   * [npm](engineering/package-manage/npm)
   * [Yarn](engineering/package-manage/yarn)
 * [代码质量](engineering/code-quality)
+  * [代码风格](engineering/code-quality/code-style)
+  * [做页面自查列表](engineering/code-quality/write-page-checklist.md)
+  * [代码Review](engineering/code-quality/code-review.md)
 
 ## [资源](resource/)
 * [学习资源](resource/bookmark/learn-resource.md)
