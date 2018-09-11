@@ -79,14 +79,41 @@ arr;// [1, "a", "b", "c", 4]
 });
 // 输出 'a' 0  'b' 1 'c' 2
 ```
-* [array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - 从数组中找出所有符合指定条件的元素。
+* [array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - 从数组中找出所有符合指定条件的元素。没找到，返回空数组。
 ```
 // 找出所有正数
 var res = [3, 4, -1].filter(function(each){
 	return each > 0;
 });
 res; //[3,4]
+
+var res = [3, 4, -1].find(function(each){
+	return each > 99999;
+});
+res; // []
 ```
+
+* [array.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - 从数组中找出第一个符合指定条件的元素。没找到，则返回 undefined。
+```
+var res = [3, 4, -1].find(function(each){
+	return each > 0;
+});
+res; // 3
+
+var res = [3, 4, -1].find(function(each){
+	return each > 99999;
+});
+res; // undefined
+```
+
+* [array.includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - 数组是否包含某元素。
+```
+var pets = ['cat', 'dog', 'bat'];
+pets.includes('cat') // true
+pets.includes('ca') // false
+
+```
+
 * [array.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) - 数组中是否每个元素都满足指定的条件。
 ```
 // 是否都为正数
