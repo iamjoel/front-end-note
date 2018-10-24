@@ -30,7 +30,7 @@
 
 ### 其他
 * [GraphQL](https://github.com/facebook/graphql) 前端决定服务器端返回的数据形状。
-* [WebRTC](other/webRTC)
+* [WebRTC](other/webRTC.md)
 
 ### AR/VR
 
