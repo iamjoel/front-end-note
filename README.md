@@ -29,7 +29,8 @@
 * [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
 
 ### 其他
-* [GraphQL](https://github.com/facebook/graphql) 前端决定数据内容。
+* [GraphQL](https://github.com/facebook/graphql) 前端决定服务器端返回的数据形状。
+* [WebRTC](other/webRTC)
 
 ### AR/VR
 
