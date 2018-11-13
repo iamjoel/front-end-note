@@ -10,4 +10,5 @@ WebRTC (Web Real-Time Communications) 是一项实时通讯技术，它允许网
 * [WebRTC samples](https://webrtc.github.io/samples/)
 
 ## 框架
+* [EasyRTC](https://github.com/priologic/easyrtc)
 * [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
