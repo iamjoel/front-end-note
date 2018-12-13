@@ -4,6 +4,7 @@
 * [语法](grammar)
 * [DOM](DOM)
 * [BOM](BOM)
+* [Canvas](canvas)
 * [与服务端交互](interact-with-server)
   * [http](interact-with-server/http)
   * [ajax](interact-with-server/ajax)
