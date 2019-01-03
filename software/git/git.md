@@ -44,10 +44,15 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
         * `git fetch upstream`
         * `git merge upstream/master`
 
-
+* rebase。 合并多次提交；分支合并。
+  * [彻底搞懂 Git-Rebase](http://jartto.wang/2018/12/11/git-rebase)
 
 
 ![git使用demo](git-imgs/git-use-example.jpg)
+
+## git 提交规范
+* [你可能会忽略的 Git 提交规范](http://jartto.wang/2018/07/08/git-commit/)
+* [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
 ## .gitignore
 如果项目想让某些文件的版本不受Git管理，可以在项目的根路径创建个文件，名称为 `.gitignore`。内容为不受Git管理的文件名。 如

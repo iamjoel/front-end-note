@@ -102,6 +102,20 @@
 ## content-scripts
 是Chrome插件中向页面注入脚本的一种形式。 content-scripts 能访问 DOM，但 不能访问绝大部分 `chrome.xxx.api`。 
 
+在 content-script 中的 CSS，用图片的方式
+
+1 在 Mainfast 中，将图片的路径设置在访问的插件资源列表中，例如
+```
+  "web_accessible_resources": ["images/*"],
+```
+
+2 CSS 中用 `url(chrome-extension://__MSG_@@extension_id__/图片的路径)` 来写。如:
+```
+  background-image: url(chrome-extension://__MSG_@@extension_id__/images/xx.png)
+```
+
+当然，也可用 base64 的方式来做。
+
 ## 动态注入资源
 ### 注入 JS
 bacground 和 popup 的 js 不能直接访问 DOM。当通过在 bacground 或 popup 中 注入js，动态注入的js可以访问 DOM。 
@@ -204,6 +218,25 @@ chrome.runtime.sendMessage({
 
 ## content-script主动发消息给后台
 chrome.runtime.sendMessage
+
+## 本地存储
+推荐用`chrome.storage`而不是普通的`localStorage`。最重要的2点区别是：
+
+* chrome.storage是针对插件全局的，即使你在background中保存的数据，在content-script也能获取到；
+* chrome.storage.sync可以跟随当前登录用户自动同步，这台电脑修改的设置会自动同步到其它电脑，很方便，如果没有登录或者未联网则先保存到本地，等登录了再同步至网络；
+
+需要声明storage权限，有chrome.storage.sync和chrome.storage.local2种方式可供选择，使用示例如下：
+
+```
+// 读取数据，第一个参数是指定要读取的key以及设置默认值
+chrome.storage.sync.get({color: 'red', age: 18}, function(items) {
+  console.log(items.color, items.age);
+});
+// 保存数据
+chrome.storage.sync.set({color: 'blue'}, function() {
+  console.log('保存成功！');
+})
+```
 
 ## 资源
 * [官方开发者文档](https://developers.chrome.com/extensions/api_index)
