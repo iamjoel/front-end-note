@@ -216,6 +216,8 @@ chrome.runtime.sendMessage({
 })
 ```
 
+要注意的是：**chrome.runtime.sendMessage的回调函数默认是同步的，而且超时后直接执行，返回undefined，如果要异步执行，必须在处理函数中return true。**
+
 ## content-script主动发消息给后台
 chrome.runtime.sendMessage
 
