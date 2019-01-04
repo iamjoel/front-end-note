@@ -240,6 +240,11 @@ chrome.storage.sync.set({color: 'blue'}, function() {
 })
 ```
 
+## 打包和发布
+在插件管理页有一个打包按钮，然后会生成 .crx 文件。npm 上也有打包的包。
+
+花5个$注册成为开发者，上传到应用商店。
+
 ## 资源
 * [官方开发者文档](https://developers.chrome.com/extensions/api_index)
 * [Chrome插件开发全攻略](https://github.com/sxei/chrome-plugin-demo)
