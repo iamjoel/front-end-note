@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <script src="https://unpkg.com/vue@2.2.1/dist/vue.js"></script>
+    
+</head>
+
+<body>
+    <div id="app">
+      <div ref="tar">{{a}}</div>
+    </div>
+    <script>
+    {
+      var app = new Vue({
+          el: '#app',
+          data: {
+              a: 'old'
+          },
+          mounted() {
+              this.change()
+          },
+          methods: {
+              change() {
+                  this.a = 'new'
+                  console.log(this.$refs.tar.innerHTML) // old
+                  this.$nextTick(() => {
+                      console.log(this.$refs.tar.innerHTML) // new
+                  })
+              }
+          }
+      })
+    }
+    </script>
+</body>
+
+</html>

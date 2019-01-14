@@ -95,19 +95,26 @@ changeName(index, name) {
 ```
 
 ```
-data: {
-  a: 'old'
-},
-mounted() {
-  this.change()
-},
-methods: {
-  change() {
-    this.a = 'new'
-    this.$ref.tar.innerHTML // old
-    this.$nextTicker(()=>{
-      this.$ref.tar.innerHTML // new
-    })
+<template>
+  <div ref="tar">{{a}}</div>
+</template>
+<script>
+</script>
+export default {
+  data: {
+    a: 'old'
+  },
+  mounted() {
+    this.change()
+  },
+  methods: {
+    change() {
+        this.a = 'new'
+        console.log(this.$refs.tar.innerHTML) // old
+        this.$nextTick(() => {
+            console.log(this.$refs.tar.innerHTML) // new
+        })
+    }
   }
 }
 
@@ -342,7 +349,6 @@ vue-cli 1:
 ```
 vue init [项目模板名|git地址|项目模板路径]
 ```
-
 
 自定义 vue-cli 的项目模板
 从 [官方模板库](https://github.com/vuejs-templates) Fork 一份，在上面做修改。
