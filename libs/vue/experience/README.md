@@ -25,19 +25,94 @@
 ## 介绍
 数据变化时，对应的UI也发生变化。
 
-Object.defineProperty 来检测到数据变化时，会通知 Visual DOM， Visual DOM 决定更新哪些UI。
+Object.defineProperty 来检测到数据变化时，通知到 watcher，会通知 Visual DOM， Visual DOM 决定更新哪些UI。
 
 Vue3 用 Proxy 来检测数据变化的。
 
 ## 数据变化后，对应UI不会变的原因及解决方案
 没有检测到数据变化。可能的原因
-* 动态新增的属性。 => 在 data 中声名，或用 `this.$set(this.someObject,'b',2)`
-* 改的数组内部的值。
+* 动态新增的属性。
+* 改的数组内部的值。 
+
+```js
+var vm = new Vue({
+  data:{
+    a:1
+  }
+})
+
+// `vm.a` 是响应的
+
+vm.b = 2
+// `vm.b` 是非响应的
+```
+
+在 data 中声名，或用 `$set(object, key, value)`
+```js
+var vm = new Vue({
+  data:{
+    a:1,
+    b:2,
+    c: {}
+  }
+})
+
+// `vm.a`,`vm.b` 是响应的
+vm.$set(vm.c,'d', 2) // vm.c.d
+```
+
+注意，$set的第一个参数不能写 vm。
+
+改变数组中，下标为 index 的数据的`name`值：
+```
+changeName(index, name) {
+  this.list[index].name = name
+}
+```
+
+改为：
+```
+changeName(index, name) {
+  this.list = this.list.map((item, i) => {
+    if (index === i) {
+      return {
+        ...item,
+        name: name
+      }
+    } else {
+      return item
+    }
+  })
+}
+
+```
 
 ## 异步更新队列会导致的问题及解决方案
 数据变化后，对应的UI并不是立刻变化的。
+```
+<div ref="tar">{{a}}</div>
 
-异步更新队列会导致的问题:数据改变后，立刻获取对应的 DOM 的内容并没有变化。
+```
+
+```
+data: {
+  a: 'old'
+},
+mounted() {
+  this.change()
+},
+mothods: {
+  change() {
+    this.a = 'new'
+    this.$ref.tar.innerHTML // old
+    this.$nextTicker(()=>{
+      this.$ref.tar.innerHTML // new
+    })
+  }
+}
+
+```
+
 解决方案：
 ``` 
 this.$nextTicker(()=>{
@@ -52,9 +127,44 @@ this.$nextTicker(()=>{
 只在当前项目中用的组件:
 
 定义：
+`ComponentA`：
+
+```
+<template>
+  <div class="main">
+  </div>
+</template>
+
+<script>
+export default {
+  props: {},
+  data() {
+    return {
+
+    }  
+  },
+  methods: {
+    
+  }
+}
+</script>
+
+<style scoped></style>
+```
 
 使用：
+```
+import ComponentA from './ComponentA'
 
+export default {
+  components: {
+    ComponentA,
+  },
+  // ...
+}
+```
+
+跨组件
 
 ## 组件间的通信
 # 通用的报错处理
