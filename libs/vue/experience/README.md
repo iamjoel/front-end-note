@@ -101,7 +101,7 @@ data: {
 mounted() {
   this.change()
 },
-mothods: {
+methods: {
   change() {
     this.a = 'new'
     this.$ref.tar.innerHTML // old
@@ -122,6 +122,7 @@ this.$nextTicker(()=>{
 
 # 组件
 ## 介绍
+方便代码的复用。引入组件，可以将组件对应的 HTML，JS，CSS 都引入。
 
 ## 创建组件
 只在当前项目中用的组件:
@@ -140,11 +141,9 @@ export default {
   props: {},
   data() {
     return {
-
     }  
   },
   methods: {
-    
   }
 }
 </script>
@@ -164,9 +163,115 @@ export default {
 }
 ```
 
-跨组件
+在多个项目中用的组件
+```js
+// 组件定义
+import Index from './components/Index.vue'
+
+export function install (Vue) {
+  Vue.component('lj-list', Index) // 注册组件名
+}
+
+export {
+  Index,
+}
+
+const plugin = {
+  version: VERSION,
+  install,
+}
+
+export default plugin
+
+// Auto-install
+let GlobalVue = null
+if (typeof window !== 'undefined') {
+  GlobalVue = window.Vue
+} else if (typeof global !== 'undefined') {
+  GlobalVue = global.Vue
+}
+if (GlobalVue) {
+  GlobalVue.use(plugin)
+}
+```
+
+使用
+```
+npm install --save xxx
+
+```
+
+```
+<template>
+<ul>
+  <lj-list 
+    url="/singer/list"
+  >
+    <template slot-scope="scope" v-if="scope.data">
+      <li>{{scope.data.name}}</li>
+    </template>
+  </lj-list>
+</ul>
+
+<script>
+import Vue from 'vue'
+import List from '@lucky-joel/vue-list'
+Vue.use(List)
+</script>
+```
+
+详细加 https://github.com/iamjoel/vue-list
 
 ## 组件间的通信
+### 父子组件之间
+父组件传递数据给子组件
+```
+<child-component :prop1="父组件的数据1" :prop2="父组件的数据2"></child-component>
+```
+
+父组件调用子组件属性或方法
+```
+<child-component ref="aName"></child-component>
+
+```
+
+父组件中通过 `$refs.组件名` 来获得子组件，也就可以调用子组件的属性和方法了。
+```
+var child = this.$refs.aName
+child.属性
+child.方法()
+```
+
+子组件传递数据给父组件,子组件通过`$emit(eventName)`触发事件，父组件通过`$on(eventName)`监听事件。
+```
+<child-component @somesth-happen="handlerHappen"></child-component>
+```
+
+`somesth-happen` 是事件名称，`handlerHappen` 是触发后，父组件的处理函数。
+
+### 子组件调用父组件属性或方法
+子组件通过 `$parent` 获得父组件，通过 `$root` 获得最上层的组件。
+
+## 兄弟组件间通信
+方法1:  
+用事件的发布订阅来做。
+```
+var bus = new Vue()
+
+// 组件 A 中触发事件
+bus.$emit('id-selected', 1);
+
+// 在组件 B 中监听事件
+bus.$on('id-selected', function (id) {
+// ...
+})
+```
+
+方法2:  
+用 [vuex](https://github.com/vuejs/vuex) 来做兄弟组件间的通信。
+
+不推荐的方式：兄弟组件通过父组件来通信。这样做代码的耦合性比较高。
+
 # 通用的报错处理
 ```
 window.onerror = function(error, url, line) {
@@ -193,6 +298,8 @@ function formatComponentName(vm) {
   return (name ? 'component <' + name + '>' : 'anonymous component') + (vm._isVue && vm.$options && vm.$options.__file ? ' at ' + (vm.$options && vm.$options.__file) : '');
 }
 ```
+
+推荐 [FunDebug](https://www.fundebug.com/) : 专业的应用错误监控平台。
 
 ```
 import axios from 'axios'
@@ -231,11 +338,16 @@ axios.interceptors.response.use(response => {
 
 # 创建项目
 
-vue-cli1:
+vue-cli 1:
 ```
-vue init ...
+vue init [项目模板名|git地址|项目模板路径]
 ```
 
+
+自定义 vue-cli 的项目模板
+从 [官方模板库](https://github.com/vuejs-templates) Fork 一份，在上面做修改。
+
+详细 [如何自定义自己的vue-cli模板](https://juejin.im/post/5a0d03e86fb9a044ff3102be)
 
 # Vue 相关优秀资源推荐
 * 资源库
