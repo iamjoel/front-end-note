@@ -89,10 +89,6 @@ changeName(index, name) {
 
 ## 异步更新队列会导致的问题及解决方案
 数据变化后，对应的UI并不是立刻变化的。
-```
-<div ref="tar">{{a}}</div>
-
-```
 
 ```
 <template>
@@ -117,12 +113,11 @@ export default {
     }
   }
 }
-
 ```
 
 解决方案：
 ``` 
-this.$nextTicker(()=>{
+this.$nextTick(()=>{
   // 操作DOM，比如 初始化一些基于 DOM 的组件。
 })
 ```
