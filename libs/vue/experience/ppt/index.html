@@ -1,92 +1,92 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+    <title>reveal.js - The HTML Presentation Framework</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-	<body>
+  <body>
 
-		<div class="reveal">
+    <div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Vue2 实用技巧</h1>
-				</section>
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>Vue2 实用技巧</h1>
+        </section>
 
-				<section>
-					<section><h2>自我介绍</h2></section>
-					<section>
-						<ul style="text-align: left;">
-							<li>金伟强</li>
-							<li>爱 Coding 的前端工程师</li>
-						</ul>
-					</section>
-					<section>
-						<img src="imgs/Github.jpg" alt="">
-					</section>
-					<section>
-						<img src="imgs/jianshu.jpg" alt="">
-					</section>
-				</section>
+        <section>
+          <section><h2>自我介绍</h2></section>
+          <section>
+            <ul style="text-align: left;">
+              <li>金伟强</li>
+              <li>爱 Coding 的前端工程师</li>
+            </ul>
+          </section>
+          <section>
+            <a href="https://github.com/iamjoel" target="_blank"><img src="imgs/Github.jpg" alt=""></a>
+          </section>
+          <section>
+            <a href="https://www.jianshu.com/u/EhUmA3" target="_blank"><img src="imgs/jianshu.jpg" alt=""></a>
+          </section>
+        </section>
 
-				<section>
-					<h2>目录</h2>
-					<ul>
-						<li>响应式原理</li>
-						<li>组件</li>
-						<li>通用错误的处理</li>
-						<li>创建项目</li>
-						<li>Vue 相关优秀资源推荐</li>
-					</ul>
-				</section>
+        <section>
+          <h2>目录</h2>
+          <ul>
+            <li>响应式原理</li>
+            <li>组件</li>
+            <li>通用错误的处理</li>
+            <li>创建项目</li>
+            <li>Vue 相关优秀资源推荐</li>
+          </ul>
+        </section>
 
-				<section>
-					<section>
-						<h1>响应式原理</h1>
-						<p class="fragment">数据变化时，对应的UI也发生变化。</p>
-					</section>
-					<section>
-						<img src="imgs/res-rule.png" alt="">
-					</section>
-					<section>
-						<h2>数据变化后，对应UI不会变的原因</h2>
-					</section>
-					<section>
-						<div>情况1:对象上动态新增的属性。</div>
-						<pre><code>
+        <section>
+          <section>
+            <h1>响应式原理</h1>
+            <p class="fragment">数据变化时，对应的UI也发生变化。</p>
+          </section>
+          <section>
+            <img src="imgs/res-rule.png" alt="">
+          </section>
+          <section>
+            <h2>数据变化后，对应UI不会变的原因</h2>
+          </section>
+          <section>
+            <div>情况1:对象上动态新增的属性。</div>
+            <pre><code>
 var vm = new Vue({
   data:{
     a:1
@@ -97,37 +97,39 @@ var vm = new Vue({
 
 vm.b = 2
 // `vm.b` 是非响应的
-						</code></pre>
-					</section>
-					<section>
-						<pre><code>
-	var vm = new Vue({
-	  data:{
-	    a:1,
-	    b:2,
-	    c: {}
-	  }
-	})
+            </code></pre>
+          </section>
+          <section>
+            <div>解决方案</div>
+            <pre><code>
+  var vm = new Vue({
+    data:{
+      a:1,
+      b:2,
+      c: {}
+    }
+  })
 
-	// `vm.a`,`vm.b` 是响应的
-	vm.$set(vm.c,'d', 2) // vm.c.d 是响应式的
-						</code></pre>
-						<div style="text-align: left;"><strong>注意：</strong>$set的第一个参数不能写 vm</div>
-					</section>
-					<section>
-						<div>情况2:改的数组内部的值。</div>
-					<pre>
-						<code>
+  // `vm.a`,`vm.b` 是响应的
+  vm.$set(vm.c,'d', 2) // vm.c.d 是响应式的
+            </code></pre>
+            <div style="text-align: left;"><strong>注意：</strong>$set的第一个参数不能写 vm</div>
+          </section>
+          <section>
+            <div>情况2:改的数组内部的值。</div>
+          <pre>
+            <code>
 // 改变数组中，下标为 index 的数据的`name`值
 changeName(index, name) {
   this.list[index].name = name
 }
-						</code>
-					</pre>
-				</section>	
-				
-				<section>
-					<pre>
+            </code>
+          </pre>
+        </section>  
+        
+        <section>
+          <div>解决方案</div>
+          <pre>
             <code>
 changeName(index, name) {
   this.list = this.list.map((item, i) => {
@@ -141,12 +143,12 @@ changeName(index, name) {
     }
   })
 }
-	            </code>
-	          </pre>
-					</section>
-					<section><h2>异步更新队列会导致的问题及解决方案</h2></section>	
-					<section>
-						<pre><code>
+              </code>
+            </pre>
+          </section>
+          <section><h2>异步更新队列会导致的问题及解决方案</h2></section> 
+          <section>
+            <pre><code>
 <template>
   <div ref="tar">{{a}}</div>
 </template>
@@ -170,25 +172,193 @@ export default {
 }
 </script>
 
-						</code></pre>
-					</section>	
-				</section>
+            </code></pre>
+          </section>  
+        </section>
 
-				<section>
-					<section><h1>组件</h1></section>
-					<section></section>	
-					<section></section>	
-					<section></section>	
-					<section></section>
-				</section>
-				
-				<section>
-					<section>
-						<h1>通用的报错处理</h1>
-						<p>推荐 <a href="https://www.fundebug.com/" target="_blank">FunDebug</a>: 专业的应用错误监控平台</p>
-					</section>
-					<section>
-						<pre><code>
+        <section>
+          <section>
+            <h1>组件</h1>
+            <p class="fragment">方便代码复用。</p>
+          </section>
+          <section>
+            <div>创建组件</div>
+            <pre><code>
+<template>
+  <div class="main">
+  </div>
+</template>
+
+<script>
+export default {
+  props: {},
+  data() {...},
+  methods: {...}
+}
+</script>
+
+<style scoped></style>              
+            </code></pre>
+          </section>
+          <section>
+            <div>使用组件</div>
+            <pre><code>
+<template>
+  <component-a></component-a>
+</template>
+<script>
+import ComponentA from './ComponentA'
+
+export default {
+  components: {
+    ComponentA,
+  },
+  // ...
+}
+</script>             
+            </code></pre>
+          </section>  
+          <section>
+            <div>在多个项目中用的组件(做成 npm 的包)</div>
+            <pre><code>
+// 组件定义
+import Index from './components/Index.vue'
+
+export function install (Vue) {
+  Vue.component('lj-list', Index) // 注册组件
+}
+
+export {
+  Index,
+}
+
+const plugin = {
+  version: VERSION,
+  install,
+}
+
+export default plugin
+
+// Auto-install
+let GlobalVue = null
+if (typeof window !== 'undefined') {
+  GlobalVue = window.Vue
+} else if (typeof global !== 'undefined') {
+  GlobalVue = global.Vue
+}
+if (GlobalVue) {
+  GlobalVue.use(plugin)
+}             
+            </code></pre>
+          </section>  
+          <section>
+            <div>使用</div>
+            <pre><code>npm install --save @lucky-joel/vue-list</pre></code>
+            <pre><code>
+<template>
+<ul>
+  <lj-list 
+    url="/singer/list"
+  >
+    <template slot-scope="scope" v-if="scope.data">
+      <li>{{scope.data.name}}</li>
+    </template>
+  </lj-list>
+</ul>
+</template>
+<script>
+import Vue from 'vue'
+import List from '@lucky-joel/vue-list'
+Vue.use(List)
+</script>           
+            </code></pre>
+          </section> 
+          <section>
+            <h2>组件间的通信</h2>
+          </section>
+          <section>
+            <div>父组件传递数据给子组件</div>
+            <pre><code>
+<child-component :prop1="父组件的数据1" :prop2="父组件的数据2"></child-component>
+            </code></pre>
+          </section>
+          <section>
+            <div>父组件中通过 `$refs.组件名` 来获得子组件，也就可以调用子组件的属性和方法了。</div>
+            <pre><code>
+<template>
+  <child-component ref="aName"></child-component>
+</template>
+<script>
+  export default {
+    //...
+    mounted() {
+      var child = this.$refs.aName
+      child.属性
+      child.方法()
+    }
+  }
+</script>
+            </code></pre>
+          </section>
+          <section>
+            <div>子组件传递数据给父组件,子组件通过`$emit(eventName)`触发事件，父组件通过`$on(eventName)`监听事件。</div>
+            <pre><code>
+<template>
+  <child-component @somesth-happen="handlerHappen"></child-component>
+</template>
+<script>
+  export default {
+    //...
+    methods: {
+      handlerHappen() {
+      
+      }
+    }
+    
+  }
+</script>             
+            </code></pre>
+          </section>
+          <section>
+            <div>子组件调用父组件属性或方法</div>
+            <div>子组件通过 `$parent` 获得父组件，通过 `$root` 获得最上层的组件。</div>
+          </section>
+          <section>
+            <h3>兄弟,祖先与子组件间通信</h3>
+            
+          </section>
+          <section>
+            <div>方法1:用事件的发布订阅来做(Event Bus)。</div>
+            <pre><code>
+var bus = new Vue()
+
+// 组件 A 中触发事件
+bus.$emit('id-selected', 1);
+
+// 在组件 B 中监听事件
+bus.$on('id-selected', function (id) {
+// ...
+})
+            </code></pre>
+          </section>
+
+          <section>
+            <div>方法2:用 <a href="https://github.com/vuejs/vuex">vuex</a></div>
+          </section>
+          <section>
+            <div>方法3:通过父组件。</div>
+            <div>不推荐：会造成代码的藕和。</div>
+          </section>
+        </section>
+        
+        <section>
+          <section>
+            <h1>通用的报错处理</h1>
+            <p>推荐 <a href="https://www.fundebug.com/" target="_blank">FunDebug</a>: 专业的应用错误监控平台</p>
+          </section>
+          <section>
+            <div>vm 中报错的处理</div>
+            <pre><code>
 import Vue from 'vue'
 import {Toast} from 'vant'
 
@@ -206,17 +376,19 @@ function formatComponentName(vm) {
   var name = vm._isVue ? (vm.$options && vm.$options.name) || (vm.$options && vm.$options._componentTag) : vm.name;
   return (name ? 'component <' + name + '>' : 'anonymous component') + (vm._isVue && vm.$options && vm.$options.__file ? ' at ' + (vm.$options && vm.$options.__file) : '');
 }
-						</code></pre>
-					</section>
-					<section>
-						<pre><code>
+            </code></pre>
+          </section>
+          <section>
+            <div>vm 外的报错的处理</div>
+            <pre><code>
 window.onerror = function(error, url, line) {
   console.error(`文件: ${url}第${line}行: ${error}`)
 }
-						</code></pre>
-					</section>
-					<section>
-						<pre><code>
+            </code></pre>
+          </section>
+          <section>
+            <div>接口报错的通用处理</div>
+            <pre><code>
 import axios from 'axios'
 import { Toast } from 'vant'
 
@@ -249,93 +421,93 @@ axios.interceptors.response.use(response => {
   Toast(errorMessage)
   return Promise.reject(error)
 })
-						</code></pre>
-					</section>
-				</section>
-				<section>
-					<section><h1>创建项目</h1></section>
-					<section>
-						<p>vue-cli 1</p>
-						<pre><code>
+            </code></pre>
+          </section>
+        </section>
+        <section>
+          <section><h1>创建项目</h1></section>
+          <section>
+            <p>vue-cli 1</p>
+            <pre><code>
 vue init [项目模板名|git地址|项目模板路径]
-						</code></pre>
-					</section>
-					<section style="text-align: left;">
-					<p>自定义 vue-cli 的项目模板
-					从 <a href="https://github.com/vuejs-templates">官方模板库</a> Fork 一份，在上面做修改。
-					</p>
-					详细说明:<a href="https://juejin.im/post/5a0d03e86fb9a044ff3102be">如何自定义自己的vue-cli模板</a>。
-					</section>
-				</section>
-				<section>
-					<section><h1>Vue 相关优秀资源推荐</h1></section>
-					<section>
-						<ul>
-							<li>
-								<div>资源库</div>
-								<ul>
-									<li><a href="https://github.com/vuejs/awesome-vue">Awesome Vue.js</a></li>
-								</ul>
-							</li>
-							<li>
-								<div>管理后台框架</div>
-								<ul>
-									<li><a href="https://github.com/ElemeFE/element">Element UI</a> 饿了么出品。</li>
-									<li><a href="https://www.iviewui.com">iView</a> Talking Data 出品。</li>
-								</ul>
-							</li>
-							<li>
-								<div>移动端框架</div>
-								<ul>
-									<li><a href="https://www.youzanyun.com/zanui/vue#/zh-CN/component/quickstart">Vant</a> 有赞出品。</li>
-									<li><a href="https://github.com/aidenZou/vue-weui">vue-weui</a>weui 的 Vue 实现。</li>
-								</ul>
-							</li>
-						</ul>
-					</section>	
-					
-				</section>
-				<section>
-					<h1>Q&A</h1>
-				</section>
-				<section>
-					<img src="imgs/wechat.jpg" alt="">
-				</section>
-				<section><h1>谢谢！</h1></section>
-		</div>
+            </code></pre>
+          </section>
+          <section style="text-align: left;">
+          <p>自定义 vue-cli 的项目模板
+          从 <a href="https://github.com/vuejs-templates">官方模板库</a> Fork 一份，在上面做修改。
+          </p>
+          详细说明:<a href="https://juejin.im/post/5a0d03e86fb9a044ff3102be">如何自定义自己的vue-cli模板</a>。
+          </section>
+        </section>
+        <section>
+          <section><h1>Vue 相关优秀资源推荐</h1></section>
+          <section>
+            <ul>
+              <li>
+                <div>资源库</div>
+                <ul>
+                  <li><a href="https://github.com/vuejs/awesome-vue">Awesome Vue.js</a></li>
+                </ul>
+              </li>
+              <li>
+                <div>管理后台框架</div>
+                <ul>
+                  <li><a href="https://github.com/ElemeFE/element">Element UI</a> 饿了么出品。</li>
+                  <li><a href="https://www.iviewui.com">iView</a> Talking Data 出品。</li>
+                </ul>
+              </li>
+              <li>
+                <div>移动端框架</div>
+                <ul>
+                  <li><a href="https://www.youzanyun.com/zanui/vue#/zh-CN/component/quickstart">Vant</a> 有赞出品。</li>
+                  <li><a href="https://github.com/aidenZou/vue-weui">vue-weui</a>weui 的 Vue 实现。</li>
+                </ul>
+              </li>
+            </ul>
+          </section>  
+          
+        </section>
+        <section>
+          <h1>Q&A</h1>
+        </section>
+        <section>
+          <img src="imgs/wechat.jpg" alt="">
+        </section>
+        <section><h1>谢谢！</h1></section>
+    </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
 
-		<script>
+    <script>
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
 
-		</script>
+    </script>
 
-	</body>
+  </body>
 </html>
