@@ -1,5 +1,6 @@
 # 常见浏览器bug及处理
 ## 目录
+* [ios 上因为内容太多，滚动条滚动生涩的问题](#ios-scroll-bug)
 * [双边距](#double-margin)
 * [`overflow:hidden`失效](#double-margin)
 * [滚动条bug](#double-margin)
@@ -13,6 +14,10 @@
 * [移动端与border-radius有关的bug](http://makaiqian.com/yu-border-radiusyou-guan-de-bug/)
 * [`<img>`元素底部为何有空白？](https://www.zhihu.com/question/21558138) 去除方法 `img{display:block;}` 或 `img { vertical-align:top/bottom/middle; }`
 
+## <a name="ios-scroll-bug">ios 上因为内容太多，滚动条滚动生涩的问题</a>
+```
+-webkit-overflow-scrolling: touch; 
+```
 
 ## <a name="double-margin">双边距</a>
 IE6下,一个div盒子如果设置了margin和浮动，便会产生双边距问题。    
