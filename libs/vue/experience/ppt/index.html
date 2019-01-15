@@ -148,6 +148,7 @@ changeName(index, name) {
           </section>
           <section><h2>异步更新队列会导致的问题及解决方案</h2></section> 
           <section>
+            <div>数据变化后，对应的UI并不是立刻变化的。</div>
             <pre><code>
 <template>
   <div ref="tar">{{a}}</div>
@@ -191,7 +192,7 @@ export default {
 
 <script>
 export default {
-  props: {},
+  props: {}, // 唯一和普通页面写法不同的地方
   data() {...},
   methods: {...}
 }
@@ -343,7 +344,7 @@ bus.$on('id-selected', function (id) {
           </section>
 
           <section>
-            <div>方法2:用 <a href="https://github.com/vuejs/vuex">Vuex</a></div>
+            <div>方法2:用 <a href="https://github.com/vuejs/vuex">Vuex</a>：单向数据流</div>
             <img src="imgs/vuex.png" alt="">
           </section>
           <section>
