@@ -86,6 +86,22 @@ if (options.extract) {
 
 具体见[webpack+vuecli打包生成资源相对引用路径与背景图片的正确引用](http://www.cnblogs.com/moqiutao/p/7496718.html)。
 
+### 开发时代理请求
+解决开发时解决跨域的问题。
+
+在 `webpack.dev.conf.js` 中的配置中加
+
+```
+proxy: {
+  '/api': {
+    target: 'http://sth.com/',
+    pathRewrite: {'^/api' : '/other/xxx'},
+    changeOrigin: true
+  }
+}
+```
+
+调用接口 `/api/sth`  实际访问的路径是 `http://sth.com/other/xxx/sth`
 
 ## 学习资源
 * [Webpack傻瓜式指南（一）](https://zhuanlan.zhihu.com/p/20367175)
