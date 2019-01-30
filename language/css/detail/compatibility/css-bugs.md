@@ -14,6 +14,7 @@
 * [移动端与border-radius有关的bug](http://makaiqian.com/yu-border-radiusyou-guan-de-bug/)
 * [`<img>`元素底部为何有空白？](https://www.zhihu.com/question/21558138) 去除方法 `img{display:block;}` 或 `img { vertical-align:top/bottom/middle; }`
 * ios keyup 事件不触发
+* ipad 滚动元素内的 positon:fixed 元素超出会被隐藏
 
 ## <a name="ios-scroll-bug">ios 上因为内容太多，滚动条滚动生涩的问题</a>
 ```
@@ -70,5 +71,8 @@ border:none;padding:0;
 ```
 
 ## ios keyup 事件不触发
-用 input 事件 而不用 keyup 事件。
+解决方案：用 input 事件 而不用 keyup 事件。
+
+## ipad 滚动元素内的 positon:fixed 元素超出会被隐藏
+解决方案：将 positon:fixed 的元素移动到滚动元素外面。
 
