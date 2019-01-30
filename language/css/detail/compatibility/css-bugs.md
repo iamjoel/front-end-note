@@ -13,6 +13,7 @@
 * [用 -webkit-mask-image 解决 border-radius 元素对应用了 transform 的子元素 overflow:hidden 失败的 BUG (WebKit).](http://www.html-js.com/article/Mczone-CSS-to-solve-the-element-borderradius-for-child-elements-of-the-overflowhidden-transform-applications-of-the-failure-of-BUG-with-webkitmaskimage)
 * [移动端与border-radius有关的bug](http://makaiqian.com/yu-border-radiusyou-guan-de-bug/)
 * [`<img>`元素底部为何有空白？](https://www.zhihu.com/question/21558138) 去除方法 `img{display:block;}` 或 `img { vertical-align:top/bottom/middle; }`
+* ios keyup 事件不触发
 
 ## <a name="ios-scroll-bug">ios 上因为内容太多，滚动条滚动生涩的问题</a>
 ```
@@ -67,4 +68,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner{
 border:none;padding:0;
 }
 ```
+
+## ios keyup 事件不触发
+用 input 事件 而不用 keyup 事件。
 
