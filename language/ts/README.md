@@ -47,6 +47,14 @@ tsc 文件名.ts
     * 返回值类型。 参数类别后声名。如 `function sum(x: number, y: number): number {...}`
     * 可选参数。参数名称后加`?`。`lastName?: string`。可选参数放最后。
     * 剩余参数。`...items: any[]`
+  * 类型断言。手动指定一个的类型。写法 `<类型>值` 或 `值 as 类型`。 用在 联合类型 中将变量指定为一个更加具体的类型。
+  * 声名文件。当使用第三方库时，我们需要引用它的声明文件。推荐用 `@types` 来管理，见 [这里](https://github.com/DefinitelyTyped/DefinitelyTyped)。
+  * 内置对象。
+    * ECMAScript 的内置对象有：Boolean, Error, Date, RegExp。
+    * DOM 和 BOM 的内置对象有：Document、HTMLElement、Event、NodeList 等。
+    * 如果想用 TypeScript 写 Node.js，则需要引入第三方声明文件。 `npm install @types/node --save-dev`。
+  * 类型别名。 `type 名称 = 类型`。 如 `type Name = string; var b: Name`
+
 
 ## 资源
 * [官网](http://www.typescriptlang.org/)
