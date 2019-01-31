@@ -54,6 +54,12 @@ tsc 文件名.ts
     * DOM 和 BOM 的内置对象有：Document、HTMLElement、Event、NodeList 等。
     * 如果想用 TypeScript 写 Node.js，则需要引入第三方声明文件。 `npm install @types/node --save-dev`。
   * 类型别名。 `type 名称 = 类型`。 如 `type Name = string; var b: Name`
+  * 字符串字面量类型。字符串字面量类型用来约束取值只能是某几个字符串中的一个。 如 `type EventNames = 'click' | 'scroll' | 'mousemove'`。
+  * 元组。数组合并了相同类型的对象，而元组（Tuple）合并了不同类型的对象。如: `let xcatliu: [string, number] = ['Xcat Liu', 25]`。
+  * 枚举。
+  * 类
+  * 类和接口。接口（Interfaces）可以用于对「对象的形状（Shape）」进行描述。还可以定义方法，让类来实现。
+  * 泛型。
 
 
 ## 资源
