@@ -10,6 +10,7 @@
 * [HTML](language/html), [Markdown](language/markdown.md), [SVG](language/svg)
 * [CSS](language/css), [Sass](language/sass), [Postcss](language/postcss)
 * [JavaScript](language/js)
+* [TypeScript](language/typescript)
 
 ## [框架](libs/)
 ### 常规 Web

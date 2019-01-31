@@ -1,4 +1,4 @@
-# JS
+# JavaScript
 ## 目录
 * [介绍](intro)
 * [语法](grammar)
