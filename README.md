@@ -55,7 +55,7 @@
 
 ## [找工作](find-jobs/)
 * [评估自己的技术](find-jobs/assessment)
-* [面试问题](find-jobs/question.md)
+* [面试问题](find-jobs/question)
 
 ## 其他
 * [推荐软件](software)
