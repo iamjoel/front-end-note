@@ -1,4 +1,4 @@
-# 微信
+# 微信公众号
 [微信JS-SDK 文档地址](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115)。
 
 ## 网页授权

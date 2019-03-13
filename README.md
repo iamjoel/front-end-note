@@ -19,22 +19,32 @@
 ### 数据可视化
 * [D3](libs/d3)
 
-### 原生应用
-* [Flutter](https://flutter.io/)
-* [Weex](libs/weex)
-* React Native
-* [Cordova](libs/cordova)
-
-### 桌面应用
-* [Electron](libs/electron)
-* [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
-
 ### 其他
 * [GraphQL](https://github.com/facebook/graphql) 前端决定服务器端返回的数据形状。
 * [WebRTC](other/webRTC.md)
 * [Chrome 插件开发](other/chrome-plugins.md)
 
+## [场景](scene)
+### 微信
+* [微信公众号](scene/wechat/jssdk.md)
+* [小程序](scene/wechat/miniprogram.md)
+* 小游戏
+
+### 原生应用
+* [Flutter](https://flutter.io/)
+* [Weex](scene/app/weex)
+* React Native
+* [Cordova](scene/app/cordova.md)
+
+### 桌面应用
+* [Electron](scene/desktop/electron)
+* [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
+
+### 插件
+* Chrome 插件开发
+
 ### AR/VR
+TODO
 
 ## [前端工程化](engineering/)
 * [模块化](engineering/module)
