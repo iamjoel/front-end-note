@@ -57,7 +57,7 @@ TODO
   * [Yarn](engineering/package-manage/yarn)
 * [代码质量](engineering/code-quality)
   * [代码风格](engineering/code-quality/code-style)
-    * [Prettier](engineering/code-quality/code-style/prittier)
+    * [Prettier](engineering/code-quality/code-style/prettier)
     * [ESLint](engineering/code-quality/code-style/eslint)
   * [做页面自查列表](engineering/code-quality/write-page-checklist.md)
   * [代码Review](engineering/code-quality/code-review.md)
