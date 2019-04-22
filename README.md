@@ -1,7 +1,10 @@
 <h1 align="center">Web 前端笔记</h1>
 <p align="center">
-<a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+<a href="https://gitter.im/iamjoel/front-end-note">
+  <img src="https://badges.gitter.im/Join Chat.svg"></a>
+<a href="https://github.com/prettier/prettier">
+  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier">
+</a>
 </p>
 
 **记录 WEB 前端知识以便查阅。**
