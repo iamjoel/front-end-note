@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "use pritter demo",
+  "main": "index.js",
+  "scripts": {
+    "prettier-watch": "onchange '**/*.js' -- prettier-standard '**/*.js'"
+  },
+  "keywords": [
+    "pritter"
+  ],
+  "author": "Joel",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.17.0",
+    "prettier-standard": "^9.1.1",
+    "onchange": "^5.2.0"
+  }
+}

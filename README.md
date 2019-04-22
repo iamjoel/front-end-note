@@ -1,6 +1,7 @@
 <h1 align="center">Web 前端笔记</h1>
 <p align="center">
 <a href="https://gitter.im/iamjoel/front-end-note"><img src="https://badges.gitter.im/Join Chat.svg"></a>
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 </p>
 
 **记录 WEB 前端知识以便查阅。**
@@ -56,6 +57,8 @@ TODO
   * [Yarn](engineering/package-manage/yarn)
 * [代码质量](engineering/code-quality)
   * [代码风格](engineering/code-quality/code-style)
+    * [Prettier](engineering/code-quality/code-style/prittier)
+    * [ESLint](engineering/code-quality/code-style/eslint)
   * [做页面自查列表](engineering/code-quality/write-page-checklist.md)
   * [代码Review](engineering/code-quality/code-review.md)
 
