@@ -24,7 +24,7 @@
 * [D3](libs/d3)
 
 ### 其他
-* [GraphQL](https://github.com/facebook/graphql) 前端决定服务器端返回的数据形状。
+* [GraphQL](libs/graphql) 前端决定服务器端返回的数据形状。
 * [WebRTC](other/webRTC.md)
 * [Chrome 插件开发](other/chrome-plugins.md)
 
