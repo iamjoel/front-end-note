@@ -6,6 +6,7 @@ npm 的全称是 Node Package Manager，是随同NodeJS一起安装的包管理�
   * `-g`
   * `--save` 保存到 `package.json`
   * `-dev`
+  * `exact` 指定版本。
 * `npm init` 初始化项目的 `package.json`
 * `npm run 命令` 执行定义在 `package.json` 中定义的 scripts
 * `npm root` 查看当前包的安装路径

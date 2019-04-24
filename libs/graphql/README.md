@@ -18,7 +18,7 @@ type User {
   name: String!,
   gender: Gender
   friends: [User],
-  other(query: String): Int
+  other(query: String): Int   // 传参的写法
 }
 ```
 
