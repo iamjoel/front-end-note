@@ -12,4 +12,5 @@
   * ...
 
 ## 资源
+* [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 * [JS Patterns](http://shichuan.github.io/javascript-patterns/)

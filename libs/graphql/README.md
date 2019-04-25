@@ -31,4 +31,5 @@ type User {
 ## 资源
 * [Getting Started With GraphQL.js](https://graphql.org/graphql-js/)
 * [GraphQL tools](https://www.apollographql.com/docs/graphql-tools/) Apollo。
+* [《解析 GraphQL 的查询语法》【译】](https://zhuanlan.zhihu.com/p/40418866)
 
