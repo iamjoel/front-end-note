@@ -64,6 +64,7 @@ TODO
     * [ESLint](engineering/code-quality/code-style/eslint)
   * [做页面自查列表](engineering/code-quality/write-page-checklist.md)
   * [代码Review](engineering/code-quality/code-review.md)
+* [调试&日志](engineering/debug)
 
 ## [资源](resource/)
 * [学习资源](resource/bookmark/learn-resource.md)
