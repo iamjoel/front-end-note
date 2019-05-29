@@ -105,6 +105,10 @@ wx.getSetting({ // 获取用户当前的授权状态。
 
 bindcontact 事件回调获取到用户所点消息的页面路径 path 和对应的参数 query
 
+## 尺寸单位
+rpx（responsive pixel）: 屏幕的宽度是 750rpx。会自动做响应式的处理。
+
+
 ### 打开 App
 比较复杂。和场景值有关。
 
