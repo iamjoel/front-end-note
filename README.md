@@ -26,7 +26,6 @@
 ### 其他
 * [GraphQL](libs/graphql) 前端决定服务器端返回的数据形状。
 * [WebRTC](other/webRTC.md)
-* [Chrome 插件开发](other/chrome-plugins.md)
 
 ## [场景](scene)
 ### 微信
@@ -45,7 +44,7 @@
 * [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
 
 ### 插件
-* Chrome 插件开发
+* [Chrome 插件开发](scene/chrome-plugin/README.md)
 
 ### AR/VR
 TODO
