@@ -26,6 +26,7 @@
 ### 其他
 * [GraphQL](libs/graphql) 前端决定服务器端返回的数据形状。
 * [WebRTC](other/webRTC.md)
+* [七牛图片上传](other/qiniu.md)
 
 ## [场景](scene)
 ### 微信
