@@ -16,13 +16,15 @@
   * 层叠
 * 布局
   * [布局介绍](detail/layout)
-  * [元素类型](detail/layout/elem-type.md)
-  * [盒模型](detail/layout/box-model)
+  * [元素类型](detail/layout/detail/elem-type.md)
+  * [盒模型](detail/layout/detail/box-model)
   * 布局技术
-    * [positon](detail/layout/postion)
-    * [~~float~~](detail/layout/float): 只有在文字围绕图片才用。
-    * [inline-block](detail/layout/inline-block)
-    * [Flex](detail/layout/flex)
+    * [positon](detail/layout/detail/postion)
+    * [~~float~~](detail/layout/detail/float): 只有在文字围绕图片才用。
+    * [inline-block](detail/layout/detail/inline-block)
+    * 媒体查询(Media Queries)
+    * rem，vw 和 vh
+    * [Flex](detail/layout/detail/flex)
     * Grid
 * 统一浏览器的默认样式
   * 浏览器默认样式
