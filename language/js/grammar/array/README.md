@@ -194,6 +194,18 @@ Array.isArray([]); // true
 ['a', 'b', 'c', 'd'].lastIndexOf('g'); // -1
 ```
 
+## 其他技巧
+### 数值是基础类型的数组的去重
+用 Set 来做。
+```
+Array.from(new Set([1,2,1,3]))
+```
+
+### 确保数组有值
+```
+Array(5).fill('') // ["", "", "", "", ""]
+```
+
 ## 参考
 * [D3.js 的数组 Wiki](https://github.com/mbostock/d3/wiki/%E6%95%B0%E7%BB%84)
 * [avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
