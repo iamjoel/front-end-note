@@ -14,6 +14,12 @@
 * errMsg 错误信息，如果调用成功返回 ${apiName}:ok。
 * errCode 错误码，仅部分 API 支持。
 
+### 生命周期
+TODO。
+
+### 事件
+要传一些额外的数据到事件回调上要通过在元素上设置 `data-xx`。 在回调中通过 `event.target.dataset` 来拿值。
+
 ### 常用 API
 #### 路由
 * wx.redirectTo 关闭当前页面，跳转到应用内的某个页面
@@ -36,7 +42,14 @@
 * wx.removeStorageSync(string key)
 
 ### 获取用户信息
-wx.getUserInfo({success(userInfo) => {}})。 需要授权。 UseInfo 包括 昵称，头像，性别，所在国家，省，市。不包括 openid。
+获取用户信息必须通过按钮的方式：
+```
+<button open-type="getUserInfo" bindgetuserinfo=""></button>
+```
+事件回调中的 `event.detail.userInfo` 是用户信息。
+
+
+通过 `wx.getUserInfo({success(userInfo) => {}})` 已被废除。  UseInfo 包括 昵称，头像，性别，所在国家，省，市。不包括 openid。
 
 登录：  
 wx.login({success({code}) => {}}) 。拿到 code 后，调用服务器端代码，服务器拿 code 去换 openid, session_key。
@@ -67,6 +80,8 @@ wx.checkSession({
 
 #### 页面滚动
 * wx.pageScrollTo({scrollTop: 100 /*单位px*/, duration: 200 /*单位毫秒*/})
+
+组件 `scrollView` 中有 属性 `scroll-into-view`，将 `scrollView` 滚动到指定元素的位置。
 
 #### 背景音频
 * wx.getBackgroundAudioManager()
@@ -119,6 +134,11 @@ rpx（responsive pixel）: 屏幕的宽度是 750rpx。会自动做响应式的�
 
 ## 真机调试
 点击开发者工具的工具栏上 “远程调试” 按钮。工具会将本地代码进行处理打包并上传，就绪之后，使用手机客户端扫描二维码即可弹出调试窗口，开始远程调试。
+
+## 一些坑
+在 js 中拿 `data` 中的属性，要用 `this.data.xxx` 而不是直接 `this.xxx`。写惯了 Vue 的不习惯。
+
+将页面保存为发朋友圈的图片，只能用 canvas 画，然后用 canvas 导出图片到本地，然后调用 download 的api。用 canvas 来画页面，有很多坑，比如画图片是网络图片，必须先把图片下载下来再画，并且在设置小程序管理后台设置 download 域名白名单，包含要下载的图片的域名。 超长文字和多行文字缩略问题。可以用库 [Painter](https://github.com/Kujiale-Mobile/Painter)。 用这个库要注意的是， 画文字时，如果要设置居中，文件的居中线是 left 的值。 可以看下[轻松生成小程序分享海报](https://juejin.im/post/5b7e48566fb9a01a1059543f)
 
 ## 其他资源
 * [微信小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/index.html)
