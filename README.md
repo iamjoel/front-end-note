@@ -31,7 +31,7 @@
 ## [场景](scene)
 ### 微信
 * [微信公众号](scene/wechat/jssdk.md)
-* [小程序](scene/wechat/miniprogram.md)
+* [小程序](scene/wechat/miniprogram)
 * 小游戏
 
 ### 原生应用
