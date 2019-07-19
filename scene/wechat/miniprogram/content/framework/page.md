@@ -60,22 +60,3 @@ Page({
 * 不要尝试修改页面栈，会导致路由以及页面状态错误。
 * 不要在 App.onLaunch 的时候调用 getCurrentPages()，此时 page 还没有生成。
 
-小程序最多打开10个页面，超过10个页面后，就不能再打开页面了。
-```
- var pages = getCurrentPages();
-console.log("pages:" + pages.length);
-if (pages.length == 10) {
-  wx.showToast({
-    title: "页面打开太多，请回退关闭几个页面",
-    icon: 'none',
-    duration: 2000
-  })
-  setTimeout(() => {
-    wx.navigateBack({
-
-    })
-  }, 2000)
-  return;
-}
-```
-

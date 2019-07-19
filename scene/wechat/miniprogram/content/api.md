@@ -24,6 +24,7 @@ TODO。
 * wx.navigateToMiniProgram({appId, path, extraData}) 打开另一个小程序。 navigator 组件也可以完成该功能。
 * wx.reLaunch({url: '', success: ...}) 关闭所有页面，打开到应用内的某个页面。
 * wx.navigateBack({delta: 1}) 关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages 获取当前的页面栈，决定需要返回几层。
+* wx.switchTab({url: ''}) 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面。
 
 #### 显示信息
 * wx.showToast({title, icon: 'none|success|...', image, mask, duration})|wx.hideToast 信息提示
