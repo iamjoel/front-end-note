@@ -20,13 +20,15 @@ TODO。
 ### 常用 API
 #### 路由
 * wx.redirectTo 关闭当前页面，跳转到应用内的某个页面
-* wx.navigateTo 保留当前页面，跳转到应用内的某个页面。小程序最多打开10个页面，超过10个页面后，就不能再打开新页面了。
+* wx.navigateTo 保留当前页面，跳转到应用内的某个页面。小程序最多打开5个页面，页面数量为 5，这个api就没用了。 合理用 `wx.navigateBack` 和 `wx.reLaunch` 来规避这个问题。
 * wx.navigateToMiniProgram({appId, path, extraData}) 打开另一个小程序。 navigator 组件也可以完成该功能。
+* wx.reLaunch({url: '', success: ...}) 关闭所有页面，打开到应用内的某个页面。
+* wx.navigateBack({delta: 1}) 关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages 获取当前的页面栈，决定需要返回几层。
 
 #### 显示信息
-* wx.showToast|wx.hideToast 信息提示
+* wx.showToast({title, icon: 'none|success|...', image, mask, duration})|wx.hideToast 信息提示
 * wx.showModal 模态框
-* wx.showLoading|wx.hideLoading
+* wx.showLoading({title, mask: true})|wx.hideLoading
 * wx.showActionSheet 显示操作菜单
 
 #### 导航
