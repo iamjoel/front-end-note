@@ -1,4 +1,4 @@
-# 配置
+# 小程序配置
 配置包括：全局配置，页面配置 和 sitemap 配置。
 
 ## 全局配置
@@ -43,10 +43,13 @@ tabBar 的配置。 tabBar 只能配置最少 2 个、最多 5 个 tab。
 navigateToMiniProgramAppIdList: []
 ```
 
-#### 其他
+### 其他
 * usingComponents 全局自定义组件配置。
 * plugins 使用到的插件。
 * networkTimeout 网络超时时间。
 * debug 是否开启 debug 模式，默认关闭。
 * requiredBackgroundModes 需要在后台使用的能力，如「音乐播放」。
 * functionalPages 是否启用插件功能页，默认关闭
+
+
+## 页面配置
