@@ -20,7 +20,7 @@ TODO。
 ### 常用 API
 #### 路由
 * wx.redirectTo 关闭当前页面，跳转到应用内的某个页面
-* wx.navigateTo 保留当前页面，跳转到应用内的某个页面
+* wx.navigateTo 保留当前页面，跳转到应用内的某个页面。小程序最多打开10个页面，超过10个页面后，就不能再打开新页面了。
 * wx.navigateToMiniProgram({appId, path, extraData}) 打开另一个小程序。 navigator 组件也可以完成该功能。
 
 #### 显示信息
