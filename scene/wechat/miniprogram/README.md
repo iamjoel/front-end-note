@@ -1,7 +1,12 @@
 # 小程序
 ## 文档
 * [开发者文档](https://developers.weixin.qq.com/miniprogram/dev/index.html?t=19031317)
+* [配置](config.md)
+* [授权](authorize.md)
+* 兼容处理
+* 更新机制
 * [场景码值](scene-list.md)
+* 插件
 * 审核
   * [小程序评测常见问题](http://kf.qq.com/faq/190108BJnmUN190108RrEnqE.html) 小程序评测综合评定为达标，则开发者能享受极速审核：提交小程序审核将在2小时内审核完毕。工作时间：周一到周五，9点-21点；周六周日，9点-19点。
 
