@@ -7,6 +7,7 @@
   * [小程序配置](content/framework/config.md)
   * [App](content/framework/app.md)
   * [页面](content/framework/page.md) [生命周期](content/framework/life-cycle.md)
+  * [事件](content/framework/event.md)
   * [自定义组件](content/framework/component.md)
   * [语法](content/framework/grammar.md)
   * [场景码值](content/framework/scene-list.md)
