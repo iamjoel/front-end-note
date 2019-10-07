@@ -15,7 +15,7 @@
 TODO。
 
 ### 事件
-要传一些额外的数据到事件回调上要通过在元素上设置 `data-xx`。 在回调中通过 `event.target.dataset` 来拿值。
+要传一些额外的数据到事件回调上要通过在元素上设置 `data-xx`。 在回调中通过 `event.currentTarget.dataset` 来拿值。
 
 ### 常用 API
 #### 路由

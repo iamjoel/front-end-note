@@ -86,6 +86,8 @@ if (options.extract) {
 
 具体见[webpack+vuecli打包生成资源相对引用路径与背景图片的正确引用](http://www.cnblogs.com/moqiutao/p/7496718.html)。
 
+如果是用的 Vue-cli@3.x 的，将 `vue.config.js` 中的 `publicPath` 改成 './', 其他的改动不知怎么处理，构建出的项目
+
 ### 开发时代理请求
 解决开发时解决跨域的问题。
 
