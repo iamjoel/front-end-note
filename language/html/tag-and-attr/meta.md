@@ -1,7 +1,7 @@
 # 常用meta标签
 ## 声明文档使用的字符编码
 ```
-<meta charset='utf-8'>
+<meta charset="utf-8">
 ```
 
 ## 用IE浏览页面时，让浏览器用本机上最新的IE渲染引擎
@@ -44,6 +44,18 @@ content 参数：
 * user-scalable 是否允许用户缩放(yes/no)
 * minimal-ui iOS 7.1 beta 2 中新增属性（注意：iOS8 中已经删除），可以在页面加载时最小化上下状态栏。这是一个布尔值，可以直接这样写：`<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">`
 
+## 外观
+设置工具条的颜色
+```
+<meta name="theme-color" content="#db5945">
+```
+
+设置该网页支持哪些颜色主题
+```
+<meta name="color-scheme" content="dark light">
+```
+
 ## 拓展阅读
+* [MDN `<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 * [所有meta标签列表](http://code.lancepollard.com/complete-list-of-html-meta-tags/)
 * [常用的 HTML 头部标签](https://github.com/yisibl/blog/issues/1)
