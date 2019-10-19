@@ -29,6 +29,8 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 * 将还没提交的内容保存起来，所有的文件内容变成上次提交时的样子 `git stash`
 * 回复上次`git stash`的内容，并与当前代码进行合并 `git stash pop`
 * 回滚代码到指定版本： `git reset --hard 提交ID`
+* 查看提交记录 `git log [最近几条]`
+* 查看改动的内容 `git show commitId`
 * 分支操作
 	* 切换到某分支 `git checkout branchName`
 	* 创建并切换到某分支 `git checkout -b branchName`。以当前分支的代码做为基础。获取远程分支并切换到该分支 `git checkout -b branchName origin/branchName`
