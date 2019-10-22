@@ -70,6 +70,17 @@ Desktop.ini
 
 [用对 gitignore](http://www.barretlee.com/blog/2015/09/06/set-gitignore-after-add-file/)。[更多gitignore规则](https://git-scm.com/docs/gitignore)
 
+注意：如果文件一旦在版本库里已经存在的文件，`.gitignore` 新增对该文件的规则会失效。这时要忽略该文件的改动，要用
+```
+git update-index --assume-unchanged 文件路径
+```
+
+取消忽略
+```
+git update-index --no-assume-unchanged 文件路径
+```
+
+
 ## 配置别名
 ```
 git config --global alias.st status
