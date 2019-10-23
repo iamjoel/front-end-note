@@ -431,3 +431,12 @@ Vue.nextTick(function () {
 ```
 
 Vue 在检测到数据变化时是异步更新 DOM 的。具体见 [异步更新队列](http://cn.vuejs.org/v2/guide/reactivity.html#mobile-bar)。vm 上也有 `this.$nextTick`。
+
+### keep-alive
+在组件切换过程中将状态保留在内存中，防止重复渲染DOM。
+
+`keep-alive` 生命周期钩子函数：`activated`、`deactivated`。
+
+推荐文章
+* [vue实现前进刷新，后退不刷新](https://juejin.im/post/5a69894a518825733b0f12f2)
+* [vue-navigation](https://github.com/zack24q/vue-navigation/blob/master/README_CN.md)
