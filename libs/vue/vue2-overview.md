@@ -90,6 +90,11 @@ items 的结构类似这样
 <input @keyup.13="submit"><!-- 13 为 keycode -->
 <input @keyup.enter="submit">
 <!-- 支持的按钮有 enter, tab, delete, space, up, down, left, right -->
+<!-- 获取自定义事件中的数据 $event -->
+<div v-for="(item, i) in list" :key="i">
+  <!-- $event 为自定义事件的数据 -->
+  <some-comp @change="handleChange($event, i)"/>
+</div
 ```
 
 给组件绑定[原生事件](https://developer.mozilla.org/zh-CN/docs/Web/Events)，需要加修饰符 `.native`。如：
