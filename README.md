@@ -27,6 +27,7 @@
 * [GraphQL](libs/graphql) 前端决定服务器端返回的数据形状。
 * [WebRTC](other/webRTC.md)
 * [七牛图片上传](other/qiniu.md)
+* 阿里云 OSS。
 
 ## [场景](scene)
 ### 微信
@@ -55,21 +56,13 @@ TODO
   * [百度统计](marketing/baidu/tongji.md)
 
 ## [前端工程化](engineering/)
-* [模块化](engineering/module)
-* [构建工具](engineering/build-tool/)
-  * [npm script](engineering/build-tool/use-npm-script.md)
-  * [webpack](engineering/build-tool/webpack)
-* [包管理](engineering/package-manage/)
-  * [npm](engineering/package-manage/npm)
-  * [Yarn](engineering/package-manage/yarn)
-* [代码质量](engineering/code-quality)
-  * [做页面流程](engineering/code-quality/page-flow.md)
-  * [代码风格](engineering/code-quality/code-style)
-    * [Prettier](engineering/code-quality/code-style/prettier)
-    * [ESLint](engineering/code-quality/code-style/eslint)
-  * [代码Review](engineering/code-quality/code-review.md)
-  * [测试](https://github.com/iamjoel/front-end-test-case)
-* [调试&日志](engineering/debug)
+前端工程化的目标：
+* 提高开发效率
+* 提升代码质量
+
+做法：
+* 提高开发效率：[模块化](engineering/module)，[构建工具](engineering/build-tool/)，[包管理](engineering/package-manage/)等。
+* [提升代码质量](engineering/code-quality) 代码规范，测试，codeReveiw。
 
 ## [资源](resource/)
 * [学习资源](resource/bookmark/learn-resource.md)
