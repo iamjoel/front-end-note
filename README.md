@@ -43,7 +43,7 @@
 
 ### 桌面应用
 * [Electron](scene/desktop/electron)
-* [NW.js](https://github.com/nwjs/nw.js) 原名 node-webkit。
+* [NW.js](scene/desktop/nw) 原名 node-webkit。
 
 ### 插件
 * [Chrome 插件开发](scene/chrome-plugin/README.md)
