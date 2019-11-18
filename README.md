@@ -63,14 +63,12 @@ TODO
   * [npm](engineering/package-manage/npm)
   * [Yarn](engineering/package-manage/yarn)
 * [代码质量](engineering/code-quality)
+  * [做页面流程](engineering/code-quality/page-flow.md)
   * [代码风格](engineering/code-quality/code-style)
     * [Prettier](engineering/code-quality/code-style/prettier)
     * [ESLint](engineering/code-quality/code-style/eslint)
-  * [做页面自查列表](engineering/code-quality/page-flow.md)
   * [代码Review](engineering/code-quality/code-review.md)
-* [测试](engineering/test)
-  * JS 测试
-  * [端到端测试](engineering/test/end-to-end-test)
+  * [测试](https://github.com/iamjoel/front-end-test-case)
 * [调试&日志](engineering/debug)
 
 ## [资源](resource/)
