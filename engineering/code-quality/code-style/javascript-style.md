@@ -1,4 +1,4 @@
-# javascript代码风格
+# JavaScript 代码风格
 ## <a name='TOC'>目录</a>
 1. [文件命名](#fileNameDefine)
 1. [变量命名](#varDefine)

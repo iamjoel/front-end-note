@@ -1,4 +1,4 @@
-# html代码风格
+# HTML 代码风格
 ## <a name='TOC'>目录</a>
 1. [缩进](#indent)
 1. [Doctype](#doctype)

@@ -1,5 +1,5 @@
 # CSS 类名命名汇总
-### 状态
+## 状态
 * collapsed 收拢的
 * expanded 展开的
 * current 当前
