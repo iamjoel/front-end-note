@@ -1,88 +1,33 @@
 <h1 align="center">Web 前端笔记</h1>
 <p align="center">
-<a href="https://gitter.im/iamjoel/front-end-note">
-  <img src="https://badges.gitter.im/Join Chat.svg"></a>
-<a href="https://github.com/prettier/prettier">
-  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier">
-</a>
+  <a href="https://gitter.im/iamjoel/front-end-note">
+    <img src="https://badges.gitter.im/Join Chat.svg"></a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier">
+  </a>
 </p>
 
-**记录 WEB 前端知识以便查阅。**
+成为专业前端开发笔记。
 
-## 关于 Web 前端
-## [语言](language/)
-* [HTML](language/html), [Markdown](language/markdown.md), [SVG](language/svg)
-* [CSS](language/css), [Sass](language/sass), [Postcss](language/postcss)
-* [JavaScript](language/js), [TypeScript](language/ts), [Dart](language/dart)
+## 内容组织形式
+之前只整理记录前端的一个个知识点，存在以下的不足：
+* 缺少目的性。不知道整理某知识点是为了解决什么问题。
+* 缺少关联性。没有体现各知识点间在不同场景下的关联性。
 
-## [框架](libs/)
-### 常规 Web
-* [Vue.js](libs/vue), [React](libs/react), [angular1](https://github.com/iamjoel/angular-learn)
-* [jQuery](libs/jQuery)
+我这边用若干主题将知识点串起来，来解决上面的不足。
 
-### 服务器端渲染
-* [Nuxt.js](libs/nuxt)
+## 主题
+* 如何算是专业的前端。
+  * 能实现需求。功能要求，时间要求（估时可控），性能要求。
+  * 让其他人很舒服。 甲方爸爸，产品，UI，后端，测试等等。
+* 专业前端进阶之路。
+  * 技术能力提升。获取知识，模仿，练习，形成自己的体系。
+  * 写做能力的提升。
+  * 沟通能力的提升。
+  * 情商的提升。
+* 团队管理。
+  * 团队协作模式。
+  * 提升团队的整体的能力。反脆弱，学习成长的能力。
 
-### 数据可视化
-* [D3](libs/d3)
-
-### 其他
-* [GraphQL](libs/graphql) 前端决定服务器端返回的数据形状。
-* [WebRTC](other/webRTC.md)
-* [七牛图片上传](other/qiniu.md)
-* 阿里云 OSS。
-* 工具库
-  * [Underscore&lodash](libs/underscore&lodash)
-  * [Moment](libs/moment-overview.md)
-
-## [场景](scene)
-### 微信
-* [微信公众号](scene/wechat/jssdk.md)
-* [小程序](scene/wechat/miniprogram)
-* 小游戏
-
-### 原生应用
-* [Flutter](https://flutter.io/)
-* [Weex](scene/app/weex)
-* React Native
-* [Cordova](scene/app/cordova.md)
-
-### 桌面应用
-* [Electron](scene/desktop/electron)
-* [NW.js](scene/desktop/nw) 原名 node-webkit。
-
-### 插件
-* [Chrome 插件开发](scene/chrome-plugin/README.md)
-
-### AR/VR
-TODO
-
-## 运营
-* 数据统计
-  * [百度统计](marketing/baidu/tongji.md)
-
-## [前端工程化](engineering/)
-前端工程化的目标：
-* 提高开发效率
-* 提升代码质量
-
-做法：
-* 提高开发效率：[模块化](engineering/module)，[构建工具](engineering/build-tool/)，[包管理](engineering/package-manage/)等。
-* [提升代码质量](engineering/code-quality) 代码规范，测试，codeReveiw。
-
-## [资源](resource/)
-* [学习资源](resource/bookmark/learn-resource.md)
-* [网站收藏](resource/bookmark/README.md)
-
-## [找工作](find-jobs/)
-* [评估自己的技术](find-jobs/assessment)
-* [面试技巧&问题](find-jobs/question)
-
-## 其他
-* [推荐软件](software)
-
-## 导航
-* [按分类导航](nav-by-classify.md)
-
-
-
+## 链接
+* [知识点](point.md)
