@@ -20,6 +20,9 @@
 * [Vue.js](libs/vue), [React](libs/react), [angular1](https://github.com/iamjoel/angular-learn)
 * [jQuery](libs/jQuery)
 
+### 服务器端渲染
+* [Nuxt.js](libs/nuxt)
+
 ### 数据可视化
 * [D3](libs/d3)
 
@@ -28,6 +31,9 @@
 * [WebRTC](other/webRTC.md)
 * [七牛图片上传](other/qiniu.md)
 * 阿里云 OSS。
+* 工具库
+  * [Underscore&lodash](libs/underscore&lodash)
+  * [Moment](libs/moment-overview.md)
 
 ## [场景](scene)
 ### 微信
