@@ -16,7 +16,7 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 
 ###  常用命令
 * 检出仓库 `git clone /path/to/repository`
-* 获取更新，并与本地代码进行合并 `git pull`
+* 获取更新，并与本地代码进行合并 `git pull`。 `git pull --all` 拿所有分支的代码。
 * 将文件添加到版本控制系统 `git add filePath`
 	* `git add .` 添加当前目录下的所有文件
 	* `git add -A` 添加当前目录下的所有文件，如有重命名的文件，会对重命名前的文件进行删除。`git add .`不会
@@ -84,7 +84,7 @@ git update-index --no-assume-unchanged 文件路径
 ## 配置别名
 ```
 git config --global alias.st status
-git config --global alias.pl pull
+git config --global alias.pl pull --all
 git config --global alias.aa 'add -A'
 git config --global alias.ci commit
 git config --global alias.ca 'commit -am'
