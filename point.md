@@ -44,6 +44,11 @@
 ### 插件
 * [Chrome 插件开发](scene/chrome-plugin/README.md)
 
+### 控制浏览器
+> 写爬虫，自动化测试等等
+
+* [Puppeteer](scene/ctrl-browser/puppeteer)
+
 ### AR/VR
 TODO
 
