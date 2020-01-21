@@ -80,6 +80,11 @@ git update-index --assume-unchanged 文件路径
 git update-index --no-assume-unchanged 文件路径
 ```
 
+## 本地代码关联到远程 git 库
+1. `git init`
+1. `git remote add origin xxx.git`
+1. `git pull origin master --allow-unrelated-histories`
+1. add，commit，push
 
 ## 配置别名
 ```
