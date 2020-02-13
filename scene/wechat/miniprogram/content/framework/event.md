@@ -14,9 +14,9 @@
 
 用 `bind` 或 `catch` 跟 事件名来绑定事件。 bind事件绑定不会阻止冒泡事件向上冒泡，catch事件绑定可以阻止冒泡事件向上冒泡。如：
 ```
-<view id="outer" bind:touchstart="handleTap1" capture-bind:touchstart="handleTap2">
+<view id="outer" bind:touchstart="handleTap1" catch:touchstart="handleTap2">
   outer view
-  <view id="inner" bind:touchstart="handleTap3" capture-bind:touchstart="handleTap4">
+  <view id="inner" bind:touchstart="handleTap3" catch-bind:touchstart="handleTap4">
     inner view
   </view>
 </view>
