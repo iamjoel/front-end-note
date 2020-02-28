@@ -249,12 +249,24 @@ line-height: 25px;
 多行文本的垂直居中可以用 "场景12 多个元素的垂直居中" 中的方法。
 
 ### 场景09 多个块级元素的在一行或多行中显示
-这里的块级元素指能宽，高的元素，并不是只是指 `display: block` 没有关系。
+用 Flex 布局可以实现多个块级元素的在一行或多行中显示。Flex 布局的 Flex项目，会在一行中显示。多行显示的方法是，在 Flex 容器上设置 `flex-wrap: wrap`。完整代码: 
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
 
+用 inline-block, float 等技术也可以实现多个元素在一行中显示。这边就不介绍了。
 
 ### 场景10 多个元素的水平居中
-
-flex
+用 Flex 布局可以实现多个元素的水平居中。代码：
+```css
+.container {
+  display: flex;
+  justify-content: center;
+}
+```
 
 如果是一个固定宽度元素的水平居中，可以用 
 ```css
@@ -264,12 +276,46 @@ margin-right: auto;
 ```
 
 ### 场景11 多个元素的水平两端对齐
+用 Flex 布局可以实现多个元素的水平两端对齐。代码：
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+```
+
+还有2个分配多个元素间的方式，也可以了解下：
+* `justify-content: space-around`: 每行上均匀分配弹性元素。相邻元素间距离相同。每行第一个元素到行首的距离和每行最后一个元素到行尾的距离将会是相邻元素之间距离的一半。
+* `justify-content: space-evenly`: 每行上均匀分配弹性元素。相邻元素间距离，第一个元素距行首的间距，最后一个元素距行尾的间距均相同。注意：IE 不支持该样式。
+
 
 ### 场景12 多个元素的垂直居中
+用 Flex 布局可以实现多个元素的垂直居中。代码：
+```css
+.container {
+  display: flex;
+  align-items: center;
+}
+```
 
-### 场景13 始终位于父元素右上角
+### 场景13 元素始终位于父元素右上角
+可以用 绝对定位 来实现元素始终位于父元素右上角。
 
-### 场景14 始终位于页面的右下角
+用绝对定位我们先了解position的相关知识。 CSS 的position属性用于指定一个元素在文档中的定位方式。top，right，bottom 和 left 属性则决定了该元素的最终位置。常见的定位类型有：
+* 定位元素（positioned element）是其position的值不为static的元素。position的默认值为static。
+* 相对定位元素（relatively positioned element）是position的值为 relative 的元素。
+* 绝对定位元素（absolutely positioned element）是position的值为 absolute 或 fixed 的元素。
+* 粘性定位元素（stickily positioned element）是position的值为 sticky 的元素。
+
+实现元素始终位于父元素右上角的做法：将父元素设置为定位元素，子元素设置为绝对定位元素即可。代码：
+HTML:
+```html
+```
+
+```css
+```
+
+### 场景14 元素始终位于页面的右下角
 PC 的返回顶部。 `positon: fixed`。
 
 ### 场景15 绝对定位元素的水平居中
@@ -284,11 +330,7 @@ PC 的返回顶部。 `positon: fixed`。
 掌握CSS布局，要掌握以下几点重点：
 * boxing-sizing的值为 border-box 和 content-box 对应的空间计算规则是怎样的。
 * 给行内元素设置宽高值不会生效。
-* 实现单行文字的垂直居中，只需设置高度等于行高。如
-```css
-height: 25px;
-line-height: 25px;
-```。
+* 实现单行文字的垂直居中，只需设置高度等于行高。
 * 多个元素占一行(或列)或多行(或列)，居中对齐，居右对齐，弹性的宽度或高度。可以用Flex布局来实现。旧浏览器可以用inline-block来实现。
 * 元素相对父元素定位或相对页面定位。可以用Position来实现。
 * 实现宽高和设备宽度有关。可以用 js 配合 rem 实现。
