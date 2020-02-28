@@ -1,10 +1,10 @@
 # 17个场景，带你掌握CSS布局
-CSS 布局本质就是控制元素的位置和大小。比如这样的布局：元素宽960px，水平居中。水平居中是位置。宽960px是大小。又如这样的布局：两个元素在一行，左侧元素固定宽200px，右侧元素撑满剩余空间。两个元素在一行是位置。固定宽200px，撑满剩余空间是大小。
+CSS 布局本质就是控制元素的位置和大小。比如这样的布局：元素宽960px，水平居中。宽960px是大小。水平居中是位置。又如这样的布局：两个元素在一行，左侧元素固定宽200px，右侧元素撑满剩余空间。固定宽200px，撑满剩余空间是大小。两个元素在一行是位置。
 
-下面，我们从位置和大小两个方面，结合场景来看CSS布局。
+下面，我们从大小和位置两个方面，结合场景来看CSS布局。
 
 ## 大小
-大小指元素的占的空间。空间包含水平空间和垂直空间。大部分情况下，
+大小指元素的占的空间。空间包含水平空间和垂直空间。大部分情况下(注1)，
 * 所占水平空间 = width值 + 左右padding值 + 左右border宽度值
 * 所占垂直空间 = height值 + 上下padding值 + 上下border宽度值
 
@@ -19,7 +19,7 @@ CSS 布局本质就是控制元素的位置和大小。比如这样的布局：�
 }
 ```
 
-`box-sizing` 设置的是元素的盒模型(Box Model)。页面上的每个元素都被描绘成矩形盒子，用这个盒子通过一个模型来描述其占用空间，这个模型称为盒模型。盒模型由 4 部分组成，从内到外分别是 内容(content)，内边距(padding)，边框(border)和外边框(margin)。
+`box-sizing` 设置的是元素的盒模型(Box Model)。页面上的每个元素都被描绘成矩形盒子，用这个盒子来描述其占用空间，这个模型称为盒模型。盒模型由 4 部分组成，从内到外分别是 内容(content)，内边距(padding)，边框(border)和外边框(margin)。
 
 ![盒模型](images/box-model.png)
 
@@ -43,8 +43,9 @@ height: 100px;
 
 **注意**：给行内元素设置宽高值不会生效。常见的行内元素有`a`,`strong`,`span`。给元素设置样式：`display: inline`，会将该元素变为行内元素。因此，当发现给元素设置宽高无效时，检查这元素是否是行内元素。
 
+
 ### 场景02 全屏：元素宽高与浏览器可视区域大小一致
-可以用单位 vw 和 vh 实现。1vw 等于浏览器可视区域宽度的1%，1vh 等于浏览器可视区域高度的1%。因此，实现全屏只需要这么写：
+可以用单位 vw 和 vh 实现元素宽高与浏览器可视区域大小一致。1vw 等于浏览器可视区域宽度的1%，1vh 等于浏览器可视区域高度的1%。因此，实现全屏只需要这么写：
 ```css
 {
   width: 100vw;
@@ -63,7 +64,7 @@ height: 100px;
 #### 方法1 Flex 布局
 可以用 Flex 布局中的 `flex-grow` 来实现宽度撑满父元素的剩余部分。
 
-我们先来简单介绍下 Flex 布局。Flex 是 Flexible Box 的缩写，意为"弹性布局"。该布局能为盒模型提供最大的灵活性，是目前主流的布局技术。
+我们先来简单了解下 Flex 布局。Flex 是 Flexible Box 的缩写，意为"弹性布局"。该布局能为盒模型提供最大的灵活性，是目前主流的布局技术。
 
 采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。将元素设置为 Flex 容器，只需设置样式`display: flex;`或`display: inline-flex;`。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
 
@@ -91,6 +92,8 @@ CSS
 ```
 
 垂直方向，如果要实现撑满父元素的剩余可用高度，只需在Flex容器上加样式`flex-direction: column`，并设置好高度。撑满父元素的剩余可用高度元素上加样式`flex-grow: 1`。是不是很容易~
+
+想了解更多关于Flex布局的内容，推荐阅读阮一峰老师写的[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)。
 
 #### 方法2 table 布局
 table元素中的 td，如果没有设置宽度，其宽度是弹性的：table的宽度大，td的宽度也变大；table的宽度小，td的宽度也变小。用 table 这特性，正好可以实现我们的场景。但table 的语义是来展示二维数据的，而我们展示的并不是二维数据。幸运的是，CSS 支持模拟 table 的这特性。做法：在父元素上设置`display:table`，子元素设置 `display:table-cell`。 
@@ -301,7 +304,7 @@ margin-right: auto;
 ### 场景13 元素始终位于父元素右上角
 可以用 绝对定位 来实现元素始终位于父元素右上角。
 
-用绝对定位我们先了解position的相关知识。 CSS 的position属性用于指定一个元素在文档中的定位方式。top，right，bottom 和 left 属性则决定了该元素的最终位置。常见的定位类型有：
+使用绝对定位前，我们要先了解position的知识。 CSS 的position属性用于指定一个元素在文档中的定位方式。top，right，bottom 和 left 属性则决定了该元素的最终位置。常见的定位类型有：
 * 定位元素（positioned element）是其position的值不为static的元素。position的默认值为static。
 * 相对定位元素（relatively positioned element）是position的值为 relative 的元素。
 * 绝对定位元素（absolutely positioned element）是position的值为 absolute 或 fixed 的元素。
@@ -310,30 +313,83 @@ margin-right: auto;
 实现元素始终位于父元素右上角的做法：将父元素设置为定位元素，子元素设置为绝对定位元素即可。代码：
 HTML:
 ```html
+<div class="container">
+  <a class="child">关闭按钮</a>
+</div>
 ```
 
 ```css
+.container {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 ```
 
+
 ### 场景14 元素始终位于页面的右下角
-PC 的返回顶部。 `positon: fixed`。
+可以用 固定定位 来实现元素始终位于页面的右下角。给元素设置样式 `position: fixed`，来实现固定定位。用 top，right，bottom 和 left 来控制该元素的最终位置。下面代码实现了返回顶部的按钮样式：
+
+HTML:
+```html
+<a href="javascript:void(0);" class="back-to-top">返回顶部</a>
+```
+
+CSS:
+```css
+.back-to-top {
+  position: fixed;
+  right: calc(50vw - 480px - 100px); /* 480px 是主体内容宽度的一半 ，100px 按钮宽度加修正值。
+  bottom: 100px;
+}
+```
 
 ### 场景15 绝对定位元素的水平居中
+用left和transform可以实现绝对定位元素的水平居中。绝对定位元素水平居中时，距定位元素左侧的值为 50%\*定位元素宽度 - 50%\*元素宽度。50%\*定位元素宽度的值为`left: 50%`，-50%\*元素宽度的值为 `transform: translateX(-50%)`。如下图所示:
+![绝对定位元素的水平居中原理](images/pos-center.jpg)。
+
+实现代码：
+```css
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+```
 
 ### 场景16 绝对定位元素的垂直居中
+该场景和上个场景很类似。用top和transform实现绝对定位元素的垂直居中。实现代码:
+```css
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+```
 
 ### 场景17 文字环绕图片
-浮动 `float`。
+用浮动(float)可以实现文字环绕图片的效果。
 
+图片在左边，文字在右边。给图片设置 `float:left`。
+![图片在左边，文字在右边效果](images/float-l.jpg)
+
+图片在右边，文字在左边。给图片设置 `float:right`。
+![图片在右边，文字在左边](images/float-l.jpg)
+
+在 IE6 流行的年代，浮动是主流的布局技术。后来 inline-block 成了主流的布局技术。现在，Flex 成了主流布局技术。未来，主流的布局技术会是更强大的 网格(grid) 布局(目前的浏览器兼容性还不好)。各种技术在历史舞台上轮转，一代“新人”换“旧人”，莫名的伤感。。。
 
 ## 总结一下
 掌握CSS布局，要掌握以下几点重点：
 * boxing-sizing的值为 border-box 和 content-box 对应的空间计算规则是怎样的。
 * 给行内元素设置宽高值不会生效。
 * 实现单行文字的垂直居中，只需设置高度等于行高。
-* 多个元素占一行(或列)或多行(或列)，居中对齐，居右对齐，弹性的宽度或高度。可以用Flex布局来实现。旧浏览器可以用inline-block来实现。
+* 一个固定宽度元素的水平居中，只需设置宽度值和左右margin值为auto。
+* Flex布局是目前主流的布局技术。多个元素占一行(或列)或多行(或列)，居中对齐，居右对齐，弹性的宽度或高度。都可以用Flex布局来实现。
 * 元素相对父元素定位或相对页面定位。可以用Position来实现。
 * 实现宽高和设备宽度有关。可以用 js 配合 rem 实现。
+
+## 注
+* 注1: 大部分情况之外的情况包括： Flex 布局中，如果项目的的 flex-grow 或 flex-shirk 的值不为0，则Flex项目的大小不由是CSS设置的width和height决定。
 
 ## 参考&推荐阅读
 * [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
