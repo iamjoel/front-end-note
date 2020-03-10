@@ -18,12 +18,9 @@ Bug少的代码。有利于提高目标用户的满意度。这也是开发人�
 * 清晰明了的提交信息。
 
 ### 统一的代码风格(Code Style)
-代码风格指对代码的缩进，空格，命名等方面的约定。统一的代码风格能减少团队成员的理解成本。
+代码风格指对代码的缩进，空格，命名等方面的约定。统一的代码风格能减少团队成员的理解成本。下面，我们分别从 HTML，CSS 和 JavaScript 来说。
 
-#### 代码风格
-我们分别从 HTML，CSS 和 JavaScript 来说。
-
-##### HTML
+#### HTML
 1 HTML 是要满足W3C标准的。  
 以下是几个比较重要的：
 * HTML文档必须有文档类型定义(DTD)。规范推荐使用:`<!DOCTYPE html>`。
@@ -48,8 +45,8 @@ Bug少的代码。有利于提高目标用户的满意度。这也是开发人�
 
 尽量不用 div 和 span 这2个没有实际意义的标签。
 
-##### CSS
-1 CSS的类名用BEM命名法  
+#### CSS
+**1 CSS的类名用BEM命名法**  
 [BEM](http://getbem.com/) 是由Yandex公司推出的一套CSS命名规范。BEM 的名称来源于该方法学的三个组成部分的英文首字母，分别是块（Block）、元素（Element）和修饰符（Modifier）。
 
 CSS 的样式应用是全局性的，没有作用域可言。 BEM 通过元素的命名遵循遵循 block-name__element-name–-modifier-name 来保证命名的唯一性。因此，BEM 能够帮助你在前端开发中实现可复用的组件和代码共享。
@@ -79,7 +76,7 @@ BEM写法示例：
 
 更多错误用法及纠正：[Battling BEM (Extended Edition): 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)。
 
-2 语义化CSS的类名  
+**2 语义化CSS的类名**  
 根据模块的功能来命名，而不是根据样式来命名。如：给红色的提示文字起类名。类名可以叫 `tip`，不应该叫 `color-red`。如果类名是`color-red`，那以后提示文字要改成绿色，类名也要改，用功能来命名不会出现这种问题。
 
 下面是常见类名：
@@ -87,16 +84,16 @@ BEM写法示例：
 * 模块: nav(导航), subnav(子导航), breadcrumb(面包屑), menu(菜单), tab(选项卡), title(标题), list(列表), content(内容), table(表格), form(表单), hot(热点), top(排行), login(登录), log(标志), search(搜索), slide(幻灯), tip(提示), help(帮助), news(新闻), download(下载), regist(注册), vote(投票), copyright(版权), result(结果), button(按钮), input(输入), avatar(用户头像), badge(徽章), tag(标签)。
 * 状态: collapsed(收拢的), expanded(展开的), current(当前), selected(选中的), active(活跃的), enabled(可用), disabled(不可用)。
 
-3 CSS属性的书写顺序  
+**3 CSS属性的书写顺序**  
 我的CSS属性的书写顺序规则是：先写布局类的，再写细节类；从外到内，从上到下，从左到右。
 
 按照这个规则，常见的CSS属性的书写顺序是： display, position, top, bottom, left, right, z-index, margin, border,border-radius,box-shadow, padding, width, height, line-height, background, text-align, font-size, font-family, color, transition, animation。
 
-4 其他  
+**4 其他**  
 * 类名用驼峰。类名要优先用BEM命名，再用驼峰。如 `info-box--header`。
 * 给 js 用到的类名，以 `js-` 开头。
 
-##### JavaScript
+#### JavaScript
 主流的 JavaScript 代码风格有 [JavaScript 标准代码风格(JavaScript Standard Style)](https://github.com/standard/standard/blob/master/docs/README-zhcn.md) 和 [Airbnb JavaScript 代码风格](https://github.com/airbnb/javascript)。
 
 我的项目常用[JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md)。可以用 [Prettier](https://github.com/prettier/prettier) 和 [Prettier-standard](https://github.com/sheerun/prettier-standard) 来格式化代码。除此之外，还会用 [ESLint](http://eslint.cn/) 来补充验证JavaScript 标准代码风格中没有涉及，但我觉得需要遵守的[额外规则](https://github.com/iamjoel/front-end-team-guide/blob/master/doc/code-style/demo/.eslintrc.js)。
@@ -104,41 +101,41 @@ BEM写法示例：
 ### 合理的代码设计
 合理的代码设计，往往符合下面的一些原则。
 
-### 简单的，容易理解的
+#### 简单的，容易理解的
 单一职责。一个函数只做一件事。单一职责的优点：
 * 降低代码的复杂度。因为做的事少了，分支判断就少了，也就变简单了。
 * 有利于代码复用。
 
 KISS原则。KISS原则是英语 Keep It Simple, Stupid 的首字母缩写。在设计当中应当注重简约的原则。
 
-### DRY原则：减少重复代码
+#### DRY原则：减少重复代码
 DRY 是 Don't repeat yourself 的简称。
 
 大量重复代码会导致的问题是：如果修改某重复的代码出了问题，就要修改所有的包含该有问题的代码。增加维护成本。
 
 同样的代码出现了三次，就应该考虑去消除这些重复代码。
 
-### 高内聚低耦合
+#### 高内聚低耦合
 高内聚指模块内的代码是紧密联系的。低内聚的模块设计的坏处有：模块的职责不明确，比较松散；更有甚者是完成不相关的功能。
 
 低耦合指模块间的依赖尽可能低。高耦合的代码很脆弱。比如一个模块直接读取另一个模块的内部数据，那么当内部数据变了，调用模块就不能工作了。
 
 配置与逻辑分离能降低耦合。配置与逻辑分离指把配置代码从逻辑代码中抽出来。
 
-### 约定优于配置(convention over configuration)
+#### 约定优于配置(convention over configuration)
 约定优于配置，也称作按约定编程。指通过命名规则之类的约束来减少程序中的配置，旨在减少软件开发人员需要做决定的数量，获得简单的好处，而又不失灵活性。
 
 在写组件的，可以用约定优于配置的做法。
 
-### 健壮性
-健壮性是指软件对于规范要求以外的输入情况的处理能力。健壮的系统是指对于规范要求以外的输入能够判断出这个输入不符合规范要求，并能有合理的处理方式。
+#### 健壮性
+健壮性是指软件对要求以外输入情况的处理能力。健壮的系统是指对要求以外的输入能够判断出这个输入不符合要求，并能有合理的处理方式。
 
-健壮的代码，就是考虑的全面。具体来说：当写 switch 语句时，是否有 default 分支；当接口报错时，代码是否能正确处理；用户填表单的非法输入，是否会让程序奔溃；当用户输错网址，是否会跳404页面等等。
+健壮的代码，就是考虑的全面。具体来说：异常代码，是否捕获；写 switch 语句时，是否有 default 分支；当接口报错时，代码是否能正确处理；用户填表单的非法输入，是否会让程序奔溃；当用户输错网址，是否会跳404页面等等。
 
 ### 如何提升设计代码的能力
 * 多读优秀源码。
 * 了解[设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)（Design pattern）。设计模式代表了最佳的实践，通常被有经验的面向对象的软件开发人员所采用。
-* 多写。
+* 多写。用心的写。同时经常回顾自己过去写的代码。
 
 #### 易于管理的项目版本号
 [语义化版本规范](https://semver.org/lang/zh-CN/)让项目版本号变得易于管理。通过这个规范，用户可以了解版本变更的影响范围。 版本格式：`主版本号.次版本号.修订号`，版本号递增规则如下：
@@ -152,27 +149,57 @@ DRY 是 Don't repeat yourself 的简称。
 #### 清晰明了的提交信息
 我采用的提交信息的格式为： `提交类型: 任务id或备注`。如：`fix: 1432`。注意：不要忘写列冒号和空格。提交类型包括：
 * feature: 新功能。
-* fix:  改bug。
-* perf:  优化。 如： 代码写法优化，性能优化等。
-* ver： 版本升级。
-* doc：添加文档。
-* test:  添加测试。
+* fix: 改bug。
+* perf: 优化。 如： 代码写法优化，性能优化等。
+* ver:  版本升级。
+* doc: 添加文档。
+* test: 添加测试。
 
 可以用[commitlint](https://commitlint.js.org/)和[husky](https://github.com/typicode/husky) 来验证提交信息符合提交信息规范。
 
 ## 如何写出Bug少的代码
-通过：错误处理，代码测试，代码review，结对编程可以减少代码的Bug。
-
-### 错误处理
-错误监控[FunDebug](https://www.fundebug.com/)。
+上面提到的：合理的代码设计可以降低Bug率。除此之外，还可以通过：代码评审，代码review和结对编程。
 
 ### 代码测试
-根据需求，给代码写测试。每次代码提交前，所有测试用例必须童工。
+通过代码测试，可以验证代码的正确性。这边指的代码测试，是指用代码来测试代码。
 
-### 代码review
+要求团队每次代码提交前，所有测试用例必须通过。测试用例覆盖的代码的bug不会太多。
 
-### 结对编程
+设计和编写测试用例很耗时间。因此，只对必要的代码做代码测试。代码测试的适用场景：
+* 长期项目。
+* 重要的代码。如常用的组件和涉及到钱的业务逻辑。
+* 业务变动慢的代码。
 
+我目前测试框架用的是 [Jest](https://jestjs.io/zh-Hans/)，断言库用的是 [power-asset](https://github.com/power-assert-js/power-assert)。端对端的测试框架推荐等我玩得溜后再推荐。
 
+### 代码评审(Code Reveiw)
+代码评审是指通过阅读代码来检查源代码与编码标准的符合性以及代码质量的活动。代码评审可以是一个人 Review 其他人的代码，也可以是一群人一起 Review 代码。
 
+代码评审的好处：
+* 在项目的早期发现缺陷，将损失降至最低。
+* 评审的过程也是重新梳理思路的过程，双方都加深了对系统的理解。
+* 促进团队沟通、促进知识共享、共同提高。
+
+### 结对编程(Pair Programming)
+结对编程是一种敏捷软件开发的方法，两个程序员在一个计算机上共同工作。一个人输入代码，而另一个人审查他输入的每一行代码。输入代码的人称作驾驶员，审查代码的人称作观察员（或导航员）。两个程序员经常互换角色。
+
+结对编程的好处：
+* 提高代码质量。
+* 提升工作时的专注度。
+* 互相学习。
+* 加深团队成员之间的互相了解。
+
+坏处：可能会出现一些争执。争执时间超过10分钟还没结果的，可以找Leader。
+
+我们团队做结对编程时的要求：
+* 结对编程会按单个任务来，预约好时间，至少提前十五分钟。
+* 结对编程 适合 1个小时以上的任务。
+* 结对编程前，参与者双方都要了解任务的需求。
+* 驾驶员列出需求描述，实现步骤，测试内容。
+* 结对编程的过程中，双方保持交流。
+
+## 参考资料&推荐阅读
+* [《代码整洁之道》](https://book.douban.com/subject/4199741/)
+* [《重构》](https://book.douban.com/subject/4262627/)
+* [if 我是前端团队 Leader，怎么制定前端协作规范?](https://juejin.im/post/5d3a7134f265da1b5d57f1ed)
 
