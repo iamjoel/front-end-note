@@ -11,7 +11,7 @@
 Bug少的代码。有利于提高目标用户的满意度。这也是开发人员的职责所在。
 
 ## 如何写出易于维护的代码
-在我看来，易于维护的代码是
+在我看来，易于维护的代码：
 * 有统一的代码风格(Code Style)。
 * 合理的代码设计。
 * 易于管理的项目版本号。
@@ -99,22 +99,46 @@ BEM写法示例：
 ##### JavaScript
 主流的 JavaScript 代码风格有 [JavaScript 标准代码风格(JavaScript Standard Style)](https://github.com/standard/standard/blob/master/docs/README-zhcn.md) 和 [Airbnb JavaScript 代码风格](https://github.com/airbnb/javascript)。
 
-我的项目常用[JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md)。用 [Prettier](https://github.com/prettier/prettier) 和 [Prettier-standard](https://github.com/sheerun/prettier-standard) 来格式化代码。除此之外，还会用 [ESLint](http://eslint.cn/) 来补充验证JavaScript 标准代码风格中没有涉及，但我觉得需要遵守的[额外规则](https://github.com/iamjoel/front-end-team-guide/blob/master/doc/code-style/demo/.eslintrc.js)。
+我的项目常用[JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md)。可以用 [Prettier](https://github.com/prettier/prettier) 和 [Prettier-standard](https://github.com/sheerun/prettier-standard) 来格式化代码。除此之外，还会用 [ESLint](http://eslint.cn/) 来补充验证JavaScript 标准代码风格中没有涉及，但我觉得需要遵守的[额外规则](https://github.com/iamjoel/front-end-team-guide/blob/master/doc/code-style/demo/.eslintrc.js)。
 
 ### 合理的代码设计
-合理的代码设计，往往符合下面的原则。
+合理的代码设计，往往符合下面的一些原则。
 
-## 简单的，容易理解的
+### 简单的，容易理解的
 单一职责。一个函数只做一件事。单一职责的优点：
-* 降低代码的复杂度。
+* 降低代码的复杂度。因为做的事少了，分支判断就少了，也就变简单了。
 * 有利于代码复用。
 
 KISS原则。KISS原则是英语 Keep It Simple, Stupid 的首字母缩写。在设计当中应当注重简约的原则。
 
-## 高内聚，低耦合
+### DRY原则：减少重复代码
+DRY 是 Don't repeat yourself 的简称。
 
-## 健壮的
+大量重复代码会导致的问题是：如果修改某重复的代码出了问题，就要修改所有的包含该有问题的代码。增加维护成本。
 
+同样的代码出现了三次，就应该考虑去消除这些重复代码。
+
+### 高内聚低耦合
+高内聚指模块内的代码是紧密联系的。低内聚的模块设计的坏处有：模块的职责不明确，比较松散；更有甚者是完成不相关的功能。
+
+低耦合指模块间的依赖尽可能低。高耦合的代码很脆弱。比如一个模块直接读取另一个模块的内部数据，那么当内部数据变了，调用模块就不能工作了。
+
+配置与逻辑分离能降低耦合。配置与逻辑分离指把配置代码从逻辑代码中抽出来。
+
+### 约定优于配置(convention over configuration)
+约定优于配置，也称作按约定编程。指通过命名规则之类的约束来减少程序中的配置，旨在减少软件开发人员需要做决定的数量，获得简单的好处，而又不失灵活性。
+
+在写组件的，可以用约定优于配置的做法。
+
+### 健壮性
+健壮性是指软件对于规范要求以外的输入情况的处理能力。健壮的系统是指对于规范要求以外的输入能够判断出这个输入不符合规范要求，并能有合理的处理方式。
+
+健壮的代码，就是考虑的全面。具体来说：当写 switch 语句时，是否有 default 分支；当接口报错时，代码是否能正确处理；用户填表单的非法输入，是否会让程序奔溃；当用户输错网址，是否会跳404页面等等。
+
+### 如何提升设计代码的能力
+* 多读优秀源码。
+* 了解[设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)（Design pattern）。设计模式代表了最佳的实践，通常被有经验的面向对象的软件开发人员所采用。
+* 多写。
 
 #### 易于管理的项目版本号
 [语义化版本规范](https://semver.org/lang/zh-CN/)让项目版本号变得易于管理。通过这个规范，用户可以了解版本变更的影响范围。 版本格式：`主版本号.次版本号.修订号`，版本号递增规则如下：
@@ -143,7 +167,7 @@ KISS原则。KISS原则是英语 Keep It Simple, Stupid 的首字母缩写。在
 错误监控[FunDebug](https://www.fundebug.com/)。
 
 ### 代码测试
-代码测试单元测试，功能测试。
+根据需求，给代码写测试。每次代码提交前，所有测试用例必须童工。
 
 ### 代码review
 
