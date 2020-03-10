@@ -11,16 +11,29 @@
 Bug少的代码。有利于提高目标用户的满意度。这也是开发人员的职责所在。
 
 ## 如何写出易于维护的代码
-在我看来，易于维护的代码是风格统一的，设计过的代码。
+在我看来，易于维护的代码是风格统一，经过合理设计的代码。
 
-### 统一的代码风格
-代码风格
+### 统一的代码风格(Code Style)
+代码风格指对代码的缩进，空格，命名等方面的约定。统一的代码风格能减少团队成员的理解成本。下面，我从代码风格和提交信息两个方面来说。
 
-代码风格及验证。提交信息的验证。
+#### 代码风格
+我们分别从 HTML，CSS 和 JavaScript 来说。
 
-其他靠 代码review。
+##### HTML
+1 HTML 是要满足W3C标准的。
+以下是几个比较重要的：
+* HTML文档必须有文档类型定义(DTD)。规范推荐使用:`<!DOCTYPE html>`。
+* 要定义网页的编码。 推荐: `<meta charset="UTF-8">`
+* 标签中的字母必须是小写字母。
+* 标签必须闭合。自闭合标签，以 / 闭合标签，如 `<input type="text" />`。
+* 标签属性值用双引号包起来。
+* 属性名称中的字母必须是小写字母。
+* 自定义属性名，以 `data-` 开头。
+* img 标签的 alt 属性必填。图片加载失败时，会显示 alt 属性的值。
 
-#### 能熟练使用语义化(Semantic)标签
+可以用[HTML标准验证工具](https://validator.w3.org/unicorn/)检查，HTML 是否符合W3C标准。
+
+2 选择语义化(Semantic)的HTML标签。
 标签语义化(Semantic)指根据内容的语义，去选择与之匹配的标签。
 
 使用语义化标签的原因：
@@ -31,17 +44,80 @@ Bug少的代码。有利于提高目标用户的满意度。这也是开发人�
 
 尽量不用 div 和 span 这2个没有实际意义的标签。
 
-## 合适的命名
-两件难事，
+##### CSS
+1 CSS的类名用BEM命名法
+[BEM](http://getbem.com/) 是由Yandex公司推出的一套CSS命名规范。BEM 的名称来源于该方法学的三个组成部分的英文首字母，分别是块（Block）、元素（Element）和修饰符（Modifier）。
 
-### BEM命名法
+CSS 的样式应用是全局性的，没有作用域可言。 BEM 通过元素的命名遵循遵循 block-name__element-name–-modifier-name 来保证命名的唯一性。因此，BEM 能够帮助你在前端开发中实现可复用的组件和代码共享。
 
-### 合理的代码设计
+BEM写法示例：
+```html
+<div class="box">
+  <div class="box__header">
+    <h2 class="box__title">标题</h2>
+  </div>
+  <div class="box__body">
+    <div class="box__content">
+      内容。
+    </div>
+    <button class="button button--state-danger">
+      Danger button
+    </button>
+  </div>
+</div>
+```
 
-设计模式：旧近原则，单一职责；鲁棒性；Kiss 原则；封闭开发。
-报错处理。前端监控平台。
+错误用法：
+* `__` 只能有一个。`block__elem1__elem2__elem3` 要改成 `block__elem3` 或 `block3__elem3`。
+* 修饰符中不能有`__`。 `block--xmas__btn` 要改成
+  * 在 block 上加类名: `block--xmas`。
+  * `block--xmas__btn` 改成: `block__btn`。
+
+更多错误用法及纠正：[Battling BEM (Extended Edition): 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)。
+
+
+2 语义化CSS的类名
+根据模块的功能来命名，而不是根据样式来命名。如：给红色的提示文字起类名。类名可以叫 `tip`，不应该叫 `color-red`。如果类名是`color-red`，那以后提示文字要改成绿色，类名也要改，用功能来命名不会出现这种问题。
+
+下面是常见类名：
+* 布局: header(头部), footer(尾部), main(主栏),side(侧栏), wrap(盒容器), item(条目)。
+* 模块: nav(导航), subnav(子导航), breadcrumb(面包屑), menu(菜单), tab(选项卡), title(标题), list(列表), content(内容), table(表格), form(表单), hot(热点), top(排行), login(登录), log(标志), search(搜索), slide(幻灯), tip(提示), help(帮助), news(新闻), download(下载), regist(注册), vote(投票), copyright(版权), result(结果), button(按钮), input(输入), avatar(用户头像), badge(徽章), tag(标签)。
+* 状态: collapsed(收拢的), expanded(展开的), current(当前), selected(选中的), active(活跃的), enabled(可用), disabled(不可用)。
+
+3 CSS属性的书写顺序
+我的CSS属性的书写顺序规则是：先写布局类的，再写细节类；从外到内，从上到下，从左到右。
+
+按照这个规则，常见的CSS属性的书写顺序是： display, position, top, bottom, left, right, z-index, margin, border,border-radius,box-shadow, padding, width, height, line-height, background, text-align, font-size, font-family, color, transition, animation。
+
+4 其他
+* 类名用驼峰。类名要优先用BEM命名，再用驼峰。如 `info-box--header`。
+* 给 js 用到的类名，以 `js-` 开头。
+
+##### JavaScript
+主流的 JavaScript 代码风格有 [JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md) 和 [Airbnb JavaScript 代码风格](https://github.com/airbnb/javascript)。
+
+我的项目常用[JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md)。用 [Prettier](https://github.com/prettier/prettier) 和 [Prettier-standard](https://github.com/sheerun/prettier-standard) 来格式化代码。
+
+除此之外，还会用 [ESLint](http://eslint.cn/) 来验证[这些额外规则](https://github.com/iamjoel/front-end-team-guide/blob/master/doc/code-style/demo/.eslintrc.js)。
+
+#### 提交信息
 
 
 ## 如何写出Bug少的代码
-测试：单元测试，功能测试。
-代码review。结对编程。
+### 合理的代码设计
+合理的代码设计，往往符合下面的原则：
+* 简单的，容易理解的。
+  * 单一职责。
+  * Kiss 原则。
+* 高内聚，低耦合。
+* 健壮的。
+
+### 代码测试
+代码测试单元测试，功能测试。
+
+### 错误监控
+[FunDebug](https://www.fundebug.com/)。
+
+### 代码review
+
+### 结对编程
