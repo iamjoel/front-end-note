@@ -173,6 +173,8 @@ DRY 是 Don't repeat yourself 的简称。
 我目前测试框架用的是 [Jest](https://jestjs.io/zh-Hans/)，断言库用的是 [power-asset](https://github.com/power-assert-js/power-assert)。端对端的测试框架推荐等我玩得溜后再推荐。
 
 ### 代码评审(Code Reveiw)
+> 代码审查一般可以找到及移除约65%的错误，最高可以到85%。
+
 代码评审是指通过阅读代码来检查源代码与编码标准的符合性以及代码质量的活动。代码评审可以是一个人 Review 其他人的代码，也可以是一群人一起 Review 代码。
 
 代码评审的好处：
@@ -203,3 +205,7 @@ DRY 是 Don't repeat yourself 的简称。
 * [《重构》](https://book.douban.com/subject/4262627/)
 * [if 我是前端团队 Leader，怎么制定前端协作规范?](https://juejin.im/post/5d3a7134f265da1b5d57f1ed)
 
+## 工具
+* [Sonar](https://www.sonarqube.org/) 代码质量管理工具。Your teammate for
+Code Quality and Security。
+* [Phabricator](http://phabricator.org/) Facebook 出品的任务管理软件。里面包含代码审查工具，任务管理，bug 追踪等功能。
