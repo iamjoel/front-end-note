@@ -21,7 +21,7 @@ Bug少的代码。有利于提高目标用户的满意度。这也是开发人�
 代码风格指对代码的缩进，空格，命名等方面的约定。统一的代码风格能减少团队成员的理解成本。下面，我们分别从 HTML，CSS 和 JavaScript 来说。
 
 #### HTML
-1 HTML 是要满足W3C标准的。  
+**1 HTML 是要满足W3C标准。**  
 以下是几个比较重要的：
 * HTML文档必须有文档类型定义(DTD)。规范推荐使用:`<!DOCTYPE html>`。
 * 要定义网页的编码。 推荐: `<meta charset="UTF-8">`
@@ -34,7 +34,7 @@ Bug少的代码。有利于提高目标用户的满意度。这也是开发人�
 
 可以用[HTML标准验证工具](https://validator.w3.org/unicorn/)检查，HTML 是否符合W3C标准。
 
-2 选择语义化(Semantic)的HTML标签。  
+**2 选择语义化(Semantic)的HTML标签。**  
 标签语义化(Semantic)指根据内容的语义，去选择与之匹配的标签。
 
 使用语义化标签的原因：
@@ -43,7 +43,7 @@ Bug少的代码。有利于提高目标用户的满意度。这也是开发人�
 
 常用的语义化标签有：header, footer, aside, article, section, hgroup, h1\~h6, nav, strong, small。推荐通读下[HTML Living Standard](https://html.spec.whatwg.org/multipage/)。
 
-尽量不用 div 和 span 这2个没有实际意义的标签。
+**尽量不用 div 和 span 这2个没有实际意义的标签。**
 
 #### CSS
 **1 CSS的类名用BEM命名法**  
@@ -96,7 +96,7 @@ BEM写法示例：
 #### JavaScript
 主流的 JavaScript 代码风格有 [JavaScript 标准代码风格(JavaScript Standard Style)](https://github.com/standard/standard/blob/master/docs/README-zhcn.md) 和 [Airbnb JavaScript 代码风格](https://github.com/airbnb/javascript)。
 
-我的项目常用[JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md)。可以用 [Prettier](https://github.com/prettier/prettier) 和 [Prettier-standard](https://github.com/sheerun/prettier-standard) 来格式化代码。除此之外，还会用 [ESLint](http://eslint.cn/) 来补充验证JavaScript 标准代码风格中没有涉及，但我觉得需要遵守的[额外规则](https://github.com/iamjoel/front-end-team-guide/blob/master/doc/code-style/demo/.eslintrc.js)。
+我的项目常用[JavaScript 标准代码风格](https://github.com/standard/standard/blob/master/docs/README-zhcn.md)。可以用 [Prettier](https://github.com/prettier/prettier) 和 [Prettier-standard](https://github.com/sheerun/prettier-standard) 来格式化代码。除此之外，JavaScript 标准代码风格中没有涉及的规则，但我觉得要验证的。可以用 [ESLint](http://eslint.cn/) 来补充验证。我觉得需要遵守的规则，见[这里](https://github.com/iamjoel/front-end-team-guide/blob/master/doc/code-style/demo/.eslintrc.js)。
 
 ### 合理的代码设计
 合理的代码设计，往往符合下面的一些原则。
@@ -109,23 +109,19 @@ BEM写法示例：
 KISS原则。KISS原则是英语 Keep It Simple, Stupid 的首字母缩写。在设计当中应当注重简约的原则。
 
 #### DRY原则：减少重复代码
-DRY 是 Don't repeat yourself 的简称。
-
-大量重复代码会导致的问题是：如果修改某重复的代码出了问题，就要修改所有的包含该有问题的代码。增加维护成本。
+DRY 是 Don't repeat yourself 的简称。大量重复代码会导致的问题是：如果修改某重复的代码出了问题，就要修改所有的包含该有问题的代码。增加维护成本。
 
 同样的代码出现了三次，就应该考虑去消除这些重复代码。
 
 #### 高内聚低耦合
 高内聚指模块内的代码是紧密联系的。低内聚的模块设计的坏处有：模块的职责不明确，比较松散；更有甚者是完成不相关的功能。
 
-低耦合指模块间的依赖尽可能低。高耦合的代码很脆弱。比如一个模块直接读取另一个模块的内部数据，那么当内部数据变了，调用模块就不能工作了。
-
-配置与逻辑分离能降低耦合。配置与逻辑分离指把配置代码从逻辑代码中抽出来。
+低耦合指模块间的依赖尽可能低。高耦合的代码很脆弱。比如一个模块直接读取另一个模块的内部数据，那么当内部数据变了，调用模块就不能工作了。配置与逻辑分离能降低耦合。配置与逻辑分离指把配置代码从逻辑代码中抽出来。
 
 #### 约定优于配置(convention over configuration)
 约定优于配置，也称作按约定编程。指通过命名规则之类的约束来减少程序中的配置，旨在减少软件开发人员需要做决定的数量，获得简单的好处，而又不失灵活性。
 
-在写组件的，可以用约定优于配置的做法。
+写组件时，对属性的设计，可以用约定优于配置的做法。
 
 #### 健壮性
 健壮性是指软件对要求以外输入情况的处理能力。健壮的系统是指对要求以外的输入能够判断出这个输入不符合要求，并能有合理的处理方式。
