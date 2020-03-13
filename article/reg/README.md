@@ -1,4 +1,6 @@
 # 正则表达式好难学!9个易懂的例子，轻松入门JavaScript正则
+![](https://upload-images.jianshu.io/upload_images/16777-135b4af3b8243503.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 正则表达式是用来描述字符模式的对象。它被用来在文本中执行模式匹配(pattern-matching)以及”查找-替换”(search-and-replace)的任务。
 
 前端开发中，我们常常会在这些地方看到正则：
@@ -83,7 +85,7 @@ function validPhone(phone) {
 
 用 `[指定范围]` 来匹配指定范围内字符。 用 `[^指定范围]` 来匹配不在指定范围内的字符。如：`/[^a-z]/` 匹配非小写字母。
 
-### 例子4: 匹配重复字符
+### 例子4: 匹配重复
 查找文本中是否包含5个a。蛮干版，代码实现如下:
 ```js
 /aaaaa/.test('aaaaa') // true
