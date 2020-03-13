@@ -78,6 +78,8 @@ function validPhone(phone) {
 /[ab12]/.test('1') // true
 /[ab12]/.test('2') // true
 ```
+![](https://upload-images.jianshu.io/upload_images/16777-1709cdf70e62feb0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 用 `[指定范围]` 来匹配指定范围内字符。 用 `[^指定范围]` 来匹配不在指定范围内的字符。如：`/[^a-z]/` 匹配非小写字母。
 
@@ -91,6 +93,7 @@ function validPhone(phone) {
 ```
 /a{5}/.test('aaaaa') // true
 ```
+![](https://upload-images.jianshu.io/upload_images/16777-70502cd5c7887824.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 查找文本中是否包含3个ab。代码实现如下:
 ```js
@@ -119,6 +122,7 @@ function validPhone(phone) {
 ```js
 /^[a-zA-Z].*\d$/.test('ab1') // true
 ```
+![](https://upload-images.jianshu.io/upload_images/16777-8cd424c6a0825d33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 `^`用来匹配输入字符串的开始位置。`$`用来匹配输入字符串的结束位置。
 
@@ -128,6 +132,7 @@ function validPhone(phone) {
 /(138|159)/.test('138') // true
 /(138|159)/.test('159') // true
 ```
+![](https://upload-images.jianshu.io/upload_images/16777-5b4c2be2ac3abfb1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 `|`用来匹配多种情况。注意，情况包含的字符数量超过一个，要用括号包起来。反例：
 ```js
@@ -160,6 +165,7 @@ function validPhone(phone) {
 /(\S+?)(\d*)/.exec('a123') // ["a123", "a", "123"]
 // 这种写法，会尽可能多的匹配非空白字符：/(\S+)(\d*)/.exec('a123') // ["a123", "a123", ""]
 ```
+![](https://upload-images.jianshu.io/upload_images/16777-6edab1efc6c0a74a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 当正则表达式中包重复的限定符(\*+,?, {n}, {n,}, {n,m})时，匹配模式是贪婪的：匹配尽可能多的字符。在重复的限定符后加?，会将匹配模式改成非贪婪的：匹配尽可能少的字符。
 
@@ -194,7 +200,7 @@ console.log(res) // 运行结果 cat,dog,cat
 
 ### [Regulex](https://jex.im/regulex/) 
 JavaScript 正则可视化工具。展示效果:
-![Regulex运行结果](regulex-demo.png)
+![Regulex运行结果](https://upload-images.jianshu.io/upload_images/16777-fea567a5bf875ddc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 总结
 熟练掌握正则表达式，能极大的提升开发文本的查找替换功能的开发效率。大家有必要去认真学一下。
