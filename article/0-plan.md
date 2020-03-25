@@ -8,7 +8,8 @@
 * 前端知识梳理:CSS篇
 * 前端知识梳理:JavaScript
 * 异步的处理
-* Vue2 知识
+* Vue2 知识点梳理
+* React 知识点梳理
 * 组件通信
 * React 知识
 * HTTP相关
