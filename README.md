@@ -28,5 +28,6 @@ Web 前端的四大关注点：代码质量，开发效率，性能和安全。
 ## 核心知识
 * CSS
   * [17个场景，带你掌握CSS布局](key-point/css/layout)
-
+* JavaScript
+  * [正则表达式好难学!9个易懂的例子，轻松入门JavaScript正则](key-point/js/reg)
 
