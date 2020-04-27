@@ -15,6 +15,7 @@ Web 前端的四大关注点：代码质量，开发效率，性能和安全。
 * 代码质量
   * [Web前端进阶之路: 提升代码质量篇](focus-point/quality)
 * 开发效率
+  * [Web前端进阶之路：提升前端开发效率篇](focus-point/effective)
 * 性能
   * [Web 前端性能优化](focus-point/performance)
 * 安全
