@@ -135,7 +135,7 @@ CSS
 
 想了解这代码的原理，可以阅读[在移动浏览器中使用viewport元标签控制布局](https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag)。
 
-### 方法1: js配合rem
+#### 方法1: js配合rem
 rem 是尺寸单位。 1rem = 根元素（即html元素）的字体大小值。当根元素的字体大小变化，1rem的大小也会跟着变。如果元素的宽高值用rem做单位，用js获取当前设备的宽度来设置根元素的字体大小，那么，就能实现元素的宽高和设备的大小有关。
 
 为了能将设计稿中的 px 方便的转换为页面中 rem，我设置 1rem 为 宽度为 750px 的设计稿中的 100px。代码如下:
@@ -374,7 +374,7 @@ transform: translateY(-50%);
 ![图片在左边，文字在右边效果](images/float-l.jpg)
 
 图片在右边，文字在左边。给图片设置 `float:right`。
-![图片在右边，文字在左边](images/float-l.jpg)
+![图片在右边，文字在左边](images/float-r.jpg)
 
 在 IE6 流行的年代，浮动是主流的布局技术。后来 inline-block 成了主流的布局技术。现在，Flex 成了主流布局技术。未来，主流的布局技术会是更强大的 网格(grid) 布局(目前的浏览器兼容性还不好)。各种技术在历史舞台上轮转，一代“新人”换“旧人”，莫名的伤感。。。
 
