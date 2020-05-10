@@ -18,12 +18,15 @@ Web 前端的四大关注点：代码质量，开发效率，性能和安全。
   * [Web前端进阶之路：提升前端开发效率篇](focus-point/effective)
 * 性能
   * [Web 前端性能优化](focus-point/performance)
+  * [截流函数和防抖函数](focus-point/performance/throttle.md)
 * 安全
 
 ## 技术雷达
 * 原则
   * 如何选择框架？
 * 框架测评
+  * Vue，React，Angular
+  * 服务器端渲染
 
 ## 核心知识
 * CSS
