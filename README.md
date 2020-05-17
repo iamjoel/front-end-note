@@ -12,10 +12,16 @@
 ## 四大关注点
 Web 前端的四大关注点：代码质量，开发效率，性能和安全。
 
-* 代码质量
+* 代码质量&稳定性
   * [Web前端进阶之路: 提升代码质量篇](focus-point/quality)
+  * 前端监控
+  * 组件设计的思考
+    * 职责分离的利弊：以容器组件和展示组件为例。
+    * 全局管理状态数据的利弊。
 * 开发效率
   * [Web前端进阶之路：提升前端开发效率篇](focus-point/effective)
+  * 工具
+    * 熟练使用IDE：以VSCode和Sublime为例。
 * 性能
   * [Web 前端性能优化](focus-point/performance)
   * [截流函数和防抖函数](focus-point/performance/throttle.md)
@@ -34,7 +40,7 @@ Web 前端的四大关注点：代码质量，开发效率，性能和安全。
   * 浏览器兼容性
 * JavaScript
   * [正则表达式好难学!9个易懂的例子，轻松入门JavaScript正则](key-point/js/reg)
-  * 闭包
+  * [闭包](key-point/js/closure.md)
   * this
   * 异步流程
 * Vue
