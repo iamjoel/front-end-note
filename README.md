@@ -21,7 +21,7 @@ Web 前端的四大关注点：代码质量，开发效率，性能和安全。
 * 开发效率
   * [Web前端进阶之路：提升前端开发效率篇](focus-point/effective)
   * 工具
-    * 熟练使用IDE：以VSCode和Sublime为例。
+    * 熟练使用IDE 之 VSCode和Sublime
 * 性能
   * [Web 前端性能优化](focus-point/performance)
   * [截流函数和防抖函数](focus-point/performance/throttle.md)
