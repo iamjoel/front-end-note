@@ -7,6 +7,14 @@
 * 其他：代码高亮。
 
 ## 查找
-## 
+### 在指定文件夹中查找
+Sublime： Sidebar Enchanme 中支持。
+
+VSCode：？
+
+
+## 新增
+### 代码片段
+VSCode: Code > Preferences > User Snippents
 
 ## 

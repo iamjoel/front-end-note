@@ -90,9 +90,11 @@ git update-index --no-assume-unchanged 文件路径
 ```
 git config --global alias.st status
 git config --global alias.pl pull --all
+git config --global alias.plr pull --rebase
 git config --global alias.aa 'add -A'
 git config --global alias.ci commit
 git config --global alias.ca 'commit -am'
+git config --global alias.caa 'commit -am "just add"'
 git config --global alias.ph push
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --date=relative -20"
 
