@@ -7,11 +7,28 @@
 * 其他：代码高亮。
 
 ## 查找
-### 在指定文件夹中查找
-Sublime： Sidebar Enchanme 中支持。
+### 快速打开文件
+Sublime和VSCode 都是： `cmd + p`。
 
-VSCode：？
+### 在指定文件夹中查看
+Sublime： 插件 Sidebar Enchanme 中支持。 Reveal in Finder。
 
+VSCode： 打开命令面板：`cmd + shift + p`，输入 `File:reveal in Finder`。
+
+### 在 Side Bar 中定位打开的文件
+Sublime： 插件 Sidebar Enchanme 中支持。 Reveal in Side Bar。
+
+VSCode： 自动能定位。
+
+### 显示控制台
+Sublime: cmd + \~。
+
+VSCode: cmd + shift + y。 在头部也有 Terminal 打开的入口。
+
+### 按方法名搜索
+Sublime: `cmd + r`
+
+VSCode: `cmd + shift + o`
 
 ## 新增
 ### 代码片段
