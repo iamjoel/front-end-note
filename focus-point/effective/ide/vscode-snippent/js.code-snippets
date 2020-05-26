@@ -1,0 +1,37 @@
+{
+	"event-stopPropagation": {
+		"prefix": "eventstopPropagation",
+		"description": "事件冒泡",
+		"body": [
+			"event.stopPropagation()"
+		]
+	},
+	"json-stringify": {
+		"prefix": "jsonStringify",
+		"description": "JSON.stringify",
+		"body": [
+			"JSON.stringify($1)"
+		]
+	},
+	"json-parse": {
+		"prefix": "jsonParse",
+		"description": "JSON.parse",
+		"body": [
+			"JSON.parse($1)"
+		]
+	},
+	"localStorage-get": {
+		"prefix": "localStorageGet",
+		"description": "localStorage.getItem",
+		"body": [
+			"JSON.parse(localStorage.getItem($1))"
+		]
+	},
+	"localStorage-set": {
+		"prefix": "localStorageSet",
+		"description": "localStorage.setItem",
+		"body": [
+			"localStorage.setItem(JSON.stringify($1))"
+		]
+	},
+}

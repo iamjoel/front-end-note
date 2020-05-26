@@ -1,0 +1,9 @@
+{
+	"placehoder-img": {
+		"prefix": "imgplaceholder",
+		"body": [
+			"<img src=\"http://via.placeholder.com/200x100\" alt=\"\"/>",
+		],
+		"description": "img placehoder"
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"taro-component-template": {
+		"prefix": "taroct",
+		"description": "组件模板",
+		"body": [
+			"import React from 'react'",
+			"import Taro from '@tarojs/taro'",
+			"import {View, Text, Image} from '@tarojs/components'",
+			"",
+			"import s from './index.scss'",
+			"",
+			"export interface $1Props {",
+			"  name: string",
+			"  type?: number",
+			"}",
+			"",
+			"export interface $1State {",
+			"  name: string",
+			"}",
+			"",
+			"export default class $1 extends React.Component<$1Props, $1State> {",
+			"  static defaultProps: $1Props",
+			"  static defaultState: $1State",
+			"",
+			"  constructor(props: $1Props) {",
+			"    super(props)",
+			"    this.state = {",
+			"      name: ''",
+			"    }",
+			"  }",
+			"",
+			"  componentDidMount () {}",
+			"  componentDidShow () {}",
+			"  componentDidHide () {}",
+			"  componentDidCatchError () {}",
+			"  componentDidNotFound () {}",
+			"",
+			"  render() {",
+			"    return (",
+			"      <View >",
+			"        ",
+			"      </View>",
+			"    )",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"taro-import": {
+		"prefix": "taroi",
+		"description": "引入taro",
+		"body": [
+			"import Taro from '@tarojs/taro'"
+		]
+	},
+	"taro-toast": {
+		"prefix": "tarotoast",
+		"description": "toast",
+		"body": [
+			"Taro.showToast({",
+			"  icon: '${1:none}',",
+			"  title: '$2'",
+			"})",
+		]
+	},
+	"taro-redirtTo": {
+		"prefix": "taroredirt",
+		"description": "页面跳转。关闭当前页面",
+		"body": [
+			"Taro.redirectTo({",
+			"  url: '/pages/$1/$1'",
+			"})",
+		]
+	},
+	"taro-reLaunch": {
+		"prefix": "tarorelaunch",
+		"description": "页面跳转。关闭所有页面",
+		"body": [
+			"Taro.reLaunch({",
+			"  url: '/pages/$1/$1'",
+			"})",
+		]
+	},
+	"taro-navigateBack": {
+		"prefix": "taronavigateback",
+		"description": "页面返回。",
+		"body": [
+			"Taro.navigateBack({",
+			"  delta: ${1:2}",
+			"})",
+		]
+	},
+}

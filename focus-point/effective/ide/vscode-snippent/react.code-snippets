@@ -1,0 +1,35 @@
+{
+	
+	"setState": {
+		"prefix": "reactSetState",
+		"body": [
+			"this.setState({",
+			"  $1: $2",
+			"})"
+		],
+		"description": "react set state"
+	},
+	"setStateFn": {
+		"prefix": "reactSetStateFn",
+		"body": [
+			"this.setState((state) => {",
+			"  return {",
+			"    $1: $2",
+			"  }",
+			"})"
+		],
+		"description": "react set state"
+	},
+	"setStateCB": {
+		"prefix": "reactSetStateCB",
+		"body": [
+			"this.setState({",
+			"  $1: $2",
+			"},",
+			"() => {",
+			"  ",
+			"})"
+		],
+		"description": "react set state callback"
+	}
+}

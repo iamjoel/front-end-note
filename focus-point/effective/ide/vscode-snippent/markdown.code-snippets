@@ -1,0 +1,30 @@
+{
+	"li": {
+		"prefix": "mdl",
+		"body": [
+			"* "
+		],
+		"description": "li标签"
+	},
+	"a": {
+		"prefix": "mda",
+		"body": [
+			"[$1]($2)"
+		],
+		"description": "a标签"
+	},
+	"lia": {
+		"prefix": "mdla",
+		"body": [
+			"* [$1]($2)"
+		],
+		"description": "li中的a标签"
+	},
+	"mdi": {
+		"prefix": "mdi",
+		"body": [
+			"![$1]($2)"
+		],
+		"description": "img标签"
+	}
+}

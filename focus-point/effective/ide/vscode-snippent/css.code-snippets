@@ -1,0 +1,37 @@
+{
+	"display flex": {
+		"prefix": "ly",
+		"body": [
+			"display: flex;",
+		],
+		"description": "display flex"
+	},
+	"flex row center": {
+		"prefix": "ly-c",
+		"body": [
+			"justify-content: center;",
+		],
+		"description": "flex row center"
+	},
+	"flex row justify": {
+		"prefix": "ly-j",
+		"body": [
+			"justify-content: space-between;",
+		],
+		"description": "flex row justify"
+	},
+	"flex column center": {
+		"prefix": "ly-m",
+		"body": [
+			"align-items: center;",
+		],
+		"description": "flex column center"
+	},
+	"flex row multi": {
+		"prefix": "ly-multi",
+		"body": [
+			"flex-wrap: wrap;",
+		],
+		"description": "flex row multi"
+	},
+}
