@@ -1,5 +1,5 @@
 # React 核心知识点
-JSX，事件，组件相关的，Hooks， ContextAPI。
+JSX，事件，组件（propTypes， props.children），Hooks， ContextAPI。
 
 ## 工具
 * [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)
@@ -10,4 +10,5 @@ JSX，事件，组件相关的，Hooks， ContextAPI。
 ## 推荐阅读
 * [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 * [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+* [React 未来之函数式 setState](https://juejin.im/post/58cfcf6e44d9040068478fc6)
 * [5 分钟理解 snapshot testing](https://egghead.io/lessons/javascript-use-jest-s-snapshot-testing-feature)
