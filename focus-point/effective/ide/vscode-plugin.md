@@ -3,7 +3,7 @@
 * 配色(Color Theme): Monokai。 VScode 内置。
 * 文件类型图标: [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
 
-所有外观配置
+所有配置。 在 `setting.json`。
 ```json
 {
     "explorer.confirmDragAndDrop": false,
@@ -12,6 +12,7 @@
     "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true, // 开启连字
     "workbench.colorTheme": "Monokai",
+    "npm.enableScriptExplorer": true, // 能
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all"// 画空格
 }
