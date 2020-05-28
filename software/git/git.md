@@ -33,6 +33,7 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 * 查看改动的内容 `git show commitId`
 * 分支操作
 	* 切换到某分支 `git checkout branchName`
+    * 查看远程分支 `git branch -r`
 	* 创建并切换到某分支 `git checkout -b branchName`。以当前分支的代码做为基础。获取远程分支并切换到该分支 `git checkout -b branchName origin/branchName`
 	* 将某分支的改动推送到服务器 `git push origin branchName`
     * 将当前分支设置为提交的默认分支 `git config push.default current`。也可以设置为全局的 `git config --global push.default current`。
