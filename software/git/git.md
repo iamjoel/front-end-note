@@ -88,10 +88,9 @@ git update-index --no-assume-unchanged 文件路径
 1. add，commit，push
 
 ## 配置别名
-```
+```bash
 git config --global alias.st status
-git config --global alias.pl pull --all
-git config --global alias.plr pull --rebase
+git config --global alias.pl 'pull --all --rebase' # 用 rebase 来合并代码
 git config --global alias.aa 'add -A'
 git config --global alias.ci commit
 git config --global alias.ca 'commit -am'
