@@ -2,6 +2,7 @@
 ## 外观
 * 配色(Color Theme): Monokai。 VScode 内置。
 * 文件类型图标: [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
+* [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
 
 所有配置。 在 `setting.json`。
 ```json
