@@ -1,5 +1,21 @@
 # React 核心知识点
-JSX，事件，组件（propTypes， props.children），Hooks， ContextAPI。
+## JSX
+
+## 事件
+### bind this
+```js
+this.doSth.bind(this, otherParam) // 最后一个参数是 event。
+JSX
+
+## 组件
+### propTypes
+设置组件属性的类型。
+
+### 获取组件下的内容
+类似 Vue 中的 slot。 写法：
+```js
+props.children
+```
 
 ## 工具
 * [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)
