@@ -26,5 +26,8 @@ props.children
 ## 推荐阅读
 * [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 * [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+* [组合 vs 继承](https://zh-hans.reactjs.org/docs/composition-vs-inheritance.html)
 * [React 未来之函数式 setState](https://juejin.im/post/58cfcf6e44d9040068478fc6)
 * [5 分钟理解 snapshot testing](https://egghead.io/lessons/javascript-use-jest-s-snapshot-testing-feature)
+* [Refs and the DOM](https://zh-hans.reactjs.org/docs/refs-and-the-dom.html)
+* [Portals](https://zh-hans.reactjs.org/docs/portals.html)
