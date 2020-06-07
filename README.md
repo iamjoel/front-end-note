@@ -14,12 +14,15 @@ Web 前端的四大关注点：代码质量，开发效率，性能和安全。
 
 * 代码质量&稳定性
   * [Web前端进阶之路: 提升代码质量篇](focus-point/quality)
-  * git的 merge 和 rebase
-  * 前端监控
   * [层级很深的组件 获取 最外层组件的数据 - React 和 Vue 的解决方案](focus-point/quality/resolve-prop-drilling)
+  * 用 TS 来提高代码质量
   * 组件设计的思考
     * 职责分离的利弊：以容器组件和展示组件为例。
     * 全局管理状态数据的利弊。
+  * 前端监控
+  * 工具
+    * eslint
+    * git的 merge 和 rebase
 * 开发效率
   * [Web前端进阶之路：提升前端开发效率篇](focus-point/effective)
   * 工具
